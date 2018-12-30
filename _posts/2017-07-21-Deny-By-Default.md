@@ -35,3 +35,30 @@ subtle mention, because the point of the article is about using
 dispatch not decorators. If the Ethereum author had used a
 pattern-match for allow instead of a pattern match for deny
 ("internal"), this problem would not have occurred.
+
+Here's what we do in [what we do in Sirepo](http://n99.us/agw) for
+method dispatch in the server:
+
+```py
+def func_for_api(api_name, api_module):
+    res = getattr(api_module, _FUNC_PREFIX + api_name, None)
+    # Be very restrictive for this since we are calling arbitrary code
+    assert res and isinstance(res, types.FunctionType), \
+        '{}: unknown api in {}'.format(api_name, api_module.__name__)
+    return res
+```
+
+The pattern here is FUNC_PREFIX, which is "api_" so only methods that
+begin with "api_" would be called. That's the "whitelist" that the
+article's author talks about. You don't need a whitelist as that has
+to be maintained and audited. What you want is a name that identifies
+the function as a dispatch item. There are some subtleties in choosing
+the name. It contains an underscore so that it doesn't collide with
+builtins in Python. It doesn't begin with an underscore so we know it
+is a public method. Note also that "func_for_api" asserts the object
+is a function (not some other callable). And, if the method has some
+bug, it'll not dispatch (return the method) by default. That's pointed
+out in the CERT article as well.
+
+Dispatch is common programming nowadays. Just make sure it requires
+the programmer to state explicitly that the dispatch is allowed.
