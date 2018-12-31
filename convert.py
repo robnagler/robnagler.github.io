@@ -20,6 +20,8 @@ _SIG_RE = re.compile('Via_Rob (07)/(21)/(2017)')
 
 _A_RE = re.compile('@a href=(\S+) (.+)')
 
+_H1_RE = re.compile('@a\s+(.+)')
+
 _PRETTY_RE = re.compile(r'@code.prettyprint.lang-(\w+)')
 
 def main(argv):
@@ -38,6 +40,14 @@ def _parse(wiki_name, wiki):
             res.title = next(lines)
             next(lines)
             continue
+        if l.startswith('@blockquote'):
+            t.append(pkcollections.Dict(blockquote=l))
+            continue
+        if l.startswith('@/blockquote'):
+            t.append(pkcollections.Dict(blockquote=None))
+            continue
+        if l.startswith(('@em', '@/em')):
+            continue
         m = _SIG_RE.search(l)
         if m:
             res.date = '{}-{}-{}'.format(m.group(3), m.group(1), m.group(2))
@@ -45,7 +55,7 @@ def _parse(wiki_name, wiki):
             continue
         m = _A_RE.search(l)
         if m:
-            t.append(pkcollections.Dict(href=m.group(1), text=m.group(2)))
+            t.append(pkcollections.Dict(href=m.group(1), text=_parse_text(m.group(2))))
             continue
         m = _PRETTY_RE.search(l)
         if m:
@@ -53,13 +63,21 @@ def _parse(wiki_name, wiki):
             for l in lines:
                 if '@/code' in l:
                     break
-                x.text.append(l)
+                x.text.append(_parse_text(l))
             t.append(x)
             continue
-        # die if @
+        t.append(_parse_text(l))
     res.text = t
     return res
 
+
+def _parse_text(text):
+    text = text.replace('@&mdash', '--')
+    text = text.replace('@&#8202;', ' ')
+    assert '@' not in text, \
+        '@ found {}'.format(text)
+
+    return text
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
