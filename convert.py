@@ -16,17 +16,31 @@ _SRC_D = pkio.py_path('~/tmp/viarob')
 
 _DST_D = pkio.py_path('~/src/robnagler/robnagler/_posts')
 
-_SIG_RE = re.compile('Via_Rob (07)/(21)/(2017)')
+_SIG_RE = re.compile(r'Via_Rob (\d+)/(\d+)/(\d+)')
 
 _A_RE = re.compile('@a href=(\S+) (.+)')
 
-_H1_RE = re.compile('@a\s+(.+)')
+_H1_RE = re.compile('@h1\s+(.+)')
+
+_H3_RE = re.compile('@h3\s+(.+)')
+
+_IMG_RE = re.compile('@img src=(\S+) alt="(.+)"')
 
 _PRETTY_RE = re.compile(r'@code.prettyprint.lang-(\w+)')
 
 def main(argv):
     for f in argv:
-        pkdp(_parse(f, pkio.read_text(_SRC_D.join(f))))
+        _gen(_parse(f, pkio.read_text(_SRC_D.join(f))))
+
+
+def _gen(tree):
+    t = '''---
+layout: post
+title: {title}
+date: {date}T12:00:00Z
+---
+'''.format(**tree)
+    pkio.write_text(tree.dst, t)
 
 
 def _parse(wiki_name, wiki):
@@ -37,11 +51,22 @@ def _parse(wiki_name, wiki):
     prefix = ''
     for l in lines:
         if l == '@h1':
+            assert not 'title' in res
             res.title = next(lines)
             next(lines)
             continue
+        m = _H1_RE.search(l)
+        if m:
+            assert not 'title' in res
+            res.title = _parse_text(m.group(1))
+            continue
+        m = _H3_RE.search(l)
+        if m:
+            t.append(pkcollections.Dict(section_head=True, text=_parse_text(m.group(1))))
+            continue
         if l.startswith('@blockquote'):
-            t.append(pkcollections.Dict(blockquote=l))
+            l = l.split('.')
+            t.append(pkcollections.Dict(blockquote=l[1] if len(l) > 1 else True))
             continue
         if l.startswith('@/blockquote'):
             t.append(pkcollections.Dict(blockquote=None))
@@ -50,12 +75,19 @@ def _parse(wiki_name, wiki):
             continue
         m = _SIG_RE.search(l)
         if m:
-            res.date = '{}-{}-{}'.format(m.group(3), m.group(1), m.group(2))
+            y = int(m.group(3))
+            if y < 100:
+                y += 2000
+            res.date = '{}-{}-{}'.format(y, m.group(1), m.group(2))
             res.dst = _DST_D.join('{}-{}.md'.format(res.date, fn))
             continue
         m = _A_RE.search(l)
         if m:
             t.append(pkcollections.Dict(href=m.group(1), text=_parse_text(m.group(2))))
+            continue
+        m = _IMG_RE.search(l)
+        if m:
+            t.append(pkcollections.Dict(img=m.group(1), alt=_parse_text(m.group(2))))
             continue
         m = _PRETTY_RE.search(l)
         if m:
@@ -76,7 +108,6 @@ def _parse_text(text):
     text = text.replace('@&#8202;', ' ')
     assert '@' not in text, \
         '@ found {}'.format(text)
-
     return text
 
 if __name__ == '__main__':
