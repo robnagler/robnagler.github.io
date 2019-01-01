@@ -21,17 +21,21 @@ _SIG_RE = re.compile(r'Via_Rob (\d+)/(\d+)/(\d+)')
 
 _A_RE = re.compile('@a href=(\S+) (.+)')
 
+_A_BLOCK_RE = re.compile('^@a href=(\S+)$')
+
 _H1_RE = re.compile('@h1\s+(.+)')
 
 _H3_RE = re.compile('@h3\s+(.+)')
 
-_IMG_RE = re.compile('@img src=(\S+) alt="(.+)"')
+_IMG_RE = re.compile('@img src=(?:/my/file/Public/WikiData/|^)(\S+) alt="(.+)"')
+
+_CODE_RE = re.compile(r'^@code\s+(.+)')
 
 _PRETTY_RE = re.compile(r'@code.prettyprint.lang-(\w+)')
 
 page_map = pkcollections.Dict(
     Deny_by_Default='/2017/07/21/Deny-by-Default.html',
-    Dispatch_Do_not_Decorate='/2016/07/27/Password-Management.html',
+    Dispatch_Do_not_Decorate='/2015/08/24/Dispatch-Do-not-Decorate.html',
 )
 
 def main(argv):
@@ -54,7 +58,7 @@ def _gen(text, prefix=''):
         if isinstance(x, pkconfig.STRING_TYPES):
             res += prefix + x + '\n'
         elif x.get('section_head'):
-            res += _gen([next(text)], '## ')
+            res += _gen([x.text], '## ')
         elif x.get('blockquote'):
             for l in text:
                 if 'blockquote' in l:
@@ -67,7 +71,12 @@ def _gen(text, prefix=''):
         elif x.get('lang'):
             res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
         elif x.get('img'):
-            res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
+            res += '![{}]({})\n'.format(
+                _gen([x.alt]).rstrip(),
+                '/assets/i/' + x.img,
+            )
+        elif x.get('code'):
+            res += ' `{}` '.format(_gen([x.code]).rstrip())
         else:
             raise AssertionError('unknown token: {}'.format(x))
     return res
@@ -94,6 +103,16 @@ def _parse(wiki_name, wiki):
         if m:
             t.append(pkcollections.Dict(section_head=True, text=_parse_text(m.group(1))))
             continue
+        if l.startswith('@b-html'):
+            l = next(lines)
+            if not l.startswith('<script'):
+                assert l.startswith('<iframe'), \
+                    '@b-html is not expected: {}'.format(l)
+                t.append(l)
+            l = next(lines)
+            assert l.startswith('@/b-html'), \
+                'expecting @/b-html: {}'.format(l)
+            continue
         if l.startswith('@blockquote'):
             l = l.split('.')
             t.append('')
@@ -117,6 +136,14 @@ def _parse(wiki_name, wiki):
         if m:
             t.append(pkcollections.Dict(href=m.group(1), text=_parse_text(m.group(2))))
             continue
+        m = _A_BLOCK_RE.search(l)
+        if m:
+            x = pkcollections.Dict(href=m.group(1), text=_parse_text(next(lines)))
+            l = next(lines)
+            assert '@/a' == l, \
+                'expecting @/a: {}'.format(l)
+            t.append(x)
+            continue
         m = _IMG_RE.search(l)
         if m:
             t.append(pkcollections.Dict(img=m.group(1), alt=_parse_text(m.group(2))))
@@ -127,7 +154,7 @@ def _parse(wiki_name, wiki):
             for l in lines:
                 if '@/code' in l:
                     break
-                x.text.append(_parse_text(l))
+                x.text.append(l.replace('@@', '@'))
             t.append(x)
             continue
         t.append(_parse_text(l))
@@ -138,9 +165,17 @@ def _parse(wiki_name, wiki):
 def _parse_text(text):
     text = text.replace('@&mdash', '--')
     text = text.replace('@&#8202;', ' ')
-    assert '@' not in text, \
+    m = _CODE_RE.search(text)
+    if m:
+        return pkcollections.Dict(code=m.group(1).replace('@@', '@'))
+    if '@' not in text:
+        return text
+    n = text.count('@')
+    t = text.replace('@@', '@')
+    assert t.count('@') * 2 == n, \
         '@ found {}'.format(text)
-    return text
+    return t
+
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
