@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SecurityTip: Deny by Default"
-date: 2018-12-29T22:23:39Z
+date: 2017-07-21T12:00:00Z
 ---
 
 > Around 12:00 PST, an unknown attacker exploited a critical flaw in
