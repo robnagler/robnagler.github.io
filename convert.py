@@ -5,8 +5,9 @@ u"""?
 :license: http://www.apache.org/licenses/LICENSE-2.0.html
 """
 from __future__ import absolute_import, division, print_function
-from pykern import pkio
 from pykern import pkcollections
+from pykern import pkconfig
+from pykern import pkio
 from pykern.pkdebug import pkdp
 import re
 import sys
@@ -28,19 +29,48 @@ _IMG_RE = re.compile('@img src=(\S+) alt="(.+)"')
 
 _PRETTY_RE = re.compile(r'@code.prettyprint.lang-(\w+)')
 
+page_map = pkcollections.Dict(
+    Deny_by_Default='/2017/07/21/Deny-by-Default.html',
+    Dispatch_Do_not_Decorate='/2016/07/27/Password-Management.html',
+)
+
 def main(argv):
     for f in argv:
-        _gen(_parse(f, pkio.read_text(_SRC_D.join(f))))
-
-
-def _gen(tree):
-    t = '''---
+        tree = _parse(f, pkio.read_text(_SRC_D.join(f)))
+        t = '''---
 layout: post
-title: {title}
+title: "{title}"
 date: {date}T12:00:00Z
 ---
-'''.format(**tree)
-    pkio.write_text(tree.dst, t)
+'''.format(**tree) + _gen(iter(tree.text))
+        pkdp(t)
+        pkio.write_text(tree.dst, t)
+
+
+def _gen(text, prefix=''):
+    res = ''
+    text = iter(text)
+    for x in text:
+        if isinstance(x, pkconfig.STRING_TYPES):
+            res += prefix + x + '\n'
+        elif x.get('section_head'):
+            res += _gen([next(text)], '## ')
+        elif x.get('blockquote'):
+            for l in text:
+                if 'blockquote' in l:
+                    assert not l.blockquote
+                    break
+                res += _gen([l], '> ')
+        elif x.get('href'):
+            h = page_map[x.href[1:]] if x.href.startswith('^') else x.href
+            res += '[{}]({})'.format(_gen([x.text]).rstrip(), h)
+        elif x.get('lang'):
+            res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
+        elif x.get('img'):
+            res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
+        else:
+            raise AssertionError('unknown token: {}'.format(x))
+    return res
 
 
 def _parse(wiki_name, wiki):
@@ -66,10 +96,12 @@ def _parse(wiki_name, wiki):
             continue
         if l.startswith('@blockquote'):
             l = l.split('.')
+            t.append('')
             t.append(pkcollections.Dict(blockquote=l[1] if len(l) > 1 else True))
             continue
         if l.startswith('@/blockquote'):
             t.append(pkcollections.Dict(blockquote=None))
+            t.append('')
             continue
         if l.startswith(('@em', '@/em')):
             continue
