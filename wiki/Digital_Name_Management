@@ -1,0 +1,69 @@
+@h1
+Digital Name Management: Own Your Name Space
+@/h1
+
+@blockquote
+@em
+As of October 3, 2016, you can no longer use shared links to render HTML content in a web browser. If you created a website that directly displays HTML content from your Dropbox, it will no longer render in the browser. @&mdash
+@a href=https://www.dropbox.com/help/16 Dropbox, Inc.
+@/em
+@/blockquote
+
+Take ownership of your digital names. That's the lesson of Dropbox's
+@a href=https://www.dropbox.com/help/16 recent announcement
+ and
+@a href=https://www.dropboxforum.com/t5/Sharing-and-collaboration/Ending-support-of-public-folder/m-p/197906#M11718 subsequent uproar
+.
+
+I own viarob.com. This is true legal ownership. I can move viarob.com to any
+service I like. I can control what links are public. It's mine, all mine, to do with
+as I please.
+
+I don't own
+@a href=https://about.me/robnagler https://about.me/robnagler
+. I did claim it, but I don't put anything there. It just refers back to viarob.com.
+If about.me were to disappear tomorrow, my digital identity would be intact,
+and all my digital assets on viarob.com would still be accessible by known URLs
+that I've given.
+
+I don't own my Twitter handle, my Google Mail address, or my Facebook page link.
+I don't care about Twitter and Facebook, but email is my major form of communication
+so I *never* give out
+my gmail address. I use an email address of a domain name that I own and
+redirect all email from that domain to my gmail account. It gives me control
+over my digital identity and assets.
+I also back up all my email to a server that I control so that if Google decides
+to extort me some day, I can move to another email service easily.
+
+Twitter, Facebook, LinkedIn, etc. all have the right to my name, not me. They
+@a href=https://medium.com/@N/how-i-lost-my-50-000-twitter-username-24eb09e026dd can take it away in a blink of an eye
+, and there's nothing I can do about it. Users have no legal recourse. Consider
+this:
+@blockquote
+@em
+@a href=http://www.mediapost.com/publications/article/289344/google-users-lose-access-to-gmail-photos-docs-fo.html
+Hundreds of Google users have lost access to their accounts -- including access to Gmail, photos and documents stored in Google's cloud -- for allegedly violating Google's terms of service by re-selling Pixel phones.
+@/a
+@/em
+@/blockquote
+
+Google had every right to do this, and you have no legal recourse.  Moreover,
+if these users relied on Gmail (or Facebook, Twitter, etc.) as their
+@a href=http://lifehacker.com/5918086/understanding-oauth-what-happens-when-you-log-into-a-site-with-google-twitter-or-facebook OAuth login credentials
+ for other sites, they would be even more screwed.
+
+Do not be at the mercy and whim of other people's digital name management:
+Own Your Name Space. Get a personal domain name you can use for email addresses.
+It's very easy. I use
+@a href=https://www.namecheap.com Namecheap
+, but most any domain name service provider will do.
+Just make sure the service
+@a href=https://www.namecheap.com/hosting/email.aspx provides an email service
+, too.
+This has the added advantage of allowing you to use
+@a href=^Password_Management a different email address
+ for every web site
+@a href=^Nuclear_Deterrence_For_Your_Cloud to protect your digital assets
+ even more.
+
+@div.sig ^Via_Rob 12/17/2016

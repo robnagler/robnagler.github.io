@@ -1,0 +1,20 @@
+@h1 BookReview: Extreme Programming Explained
+@div.bib by Kent Beck, Addison Wesley, 2000
+ Kent Beck is briliant.  This little book contains an immense
+amount of wisdom.  I am still trying to absorb the lessons it contains.
+
+@blockquote
+[p61] Finally, the standard
+must be adopted voluntarily by the whole team.
+@/blockquote
+
+@blockquote
+[p117] You should test things that might break.
+@/blockquote
+
+@blockquote
+[p115] Now, a testing person would look at XP testing and snicker.
+
+@/blockquote
+
+@div.sig ^Via_Rob 2001

@@ -1,0 +1,38 @@
+@h1 BookReview: Text, ConText, and HyperText
+@div.bib by Edward Barret, ed., The MIT Press, 1989
+
+A collections of essays about writing with the computer and
+using computers.
+
+@blockquote
+[p176] Essay by Edmond H. Weiss, Usability: Stereotypes and Traps [...]
+First, testing a manual only after it is a complete draft is much
+too late in the life of the publication.  By the time a book has
+reached the draft, its most serious failings are deeply
+ingrained--``wired in.''  It is much too late, and probably much too
+expensive, to correct them.
+@/blockquote
+
+@blockquote
+Second, testing the pieces or ``modules'' of a larger publication
+does little to assuer the usability of the publications as a whole.
+In just the way that succesful ``unit tests'' of a computer program
+do not betoken an installed, functional system, neither do succesful
+tests of the parts of a manual prove that the book will be usable.
+@/blockquote
+
+@blockquote
+If we pursue usability as thought it were an abstract, technical
+imperative, then we confuse usability with perfection--the same
+mistake many quality enthusiasts make.  Because there cannot be a
+``perfectly usable manual,'' we soon see that what is really meant by
+a usable manual is one usable eenought to meet our business or
+management objectives. And a while later, when costs become an issue,
+usable enough to please readers and customers we most wish to please.
+@/blockquote
+
+ "The On-line Environment and In-House Training" by Barrett and
+Paradis, is a good article.
+
+
+@div.sig ^Via_Rob 1990

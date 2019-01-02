@@ -1,0 +1,151 @@
+@h1 BookReview: The Logic of Scientific Discovery
+@div.bib by Karl Popper, Routledge, March 29, 2002, 978-0415278447
+
+This book introduces Karl Popper's theory of how science advances.
+Published in the original German in 1934, with the English edition
+arriving in 1958.  Popper's writing style is probably the most clear
+and interesting of any philosopher I have read.  I understand his
+books almost completely -- except his mathematical proofs, which are
+beyond me no matter who writes them.  The book is thick (544 pages),
+but I read it through.  While the concepts are extremely simple, the
+argumentation is quite intense.
+
+The detail was overwhelming at times.  It's not a casual philosphy
+book.
+
+Popper is a philosopher of grand theories.  At the start of the
+preface, he claims that "all science is cosmology".  I can relate,
+because I think it is all software, or as John Wheeler says, "it's a
+bit".  While I do not pretend to understand the first thing about the
+cosmology of the Universe, I do think there's a cosmology of Software
+(*all* software).  Therefore, I think there are many lessons to be
+learned from Popper.  What disappoints me is that my computer science
+curriculum did not include a discussion of Popper's Logic of
+Scientific Discovery.  I guess I would have been to young and
+impatient to understand such a course, anyway.
+
+@blockquote
+[p10] It should be noticed that a positive decision can only
+temporarily support the theory, for subsequent negative decisions may
+always overthrow it. So long as theory withstands detailed and severe
+tests and is not superseded by another theory in the course of
+scientific progress, we may say that it has 'proved its mettle' orrhat
+it is 'corroborated' by past experience.
+@/blockquote
+
+@blockquote
+Nothing resembling inductive logic appears in the procedure here
+outlined. I never assume that we can argue from the truth of singular
+statements to the truth of theories. I never assume that by force of
+'verified' conclusions, theories can be established as 'true', or even
+as merely 'probable'.
+@/blockquote
+
+ The problem with any epistemology is that it cannot prove itself.
+Some people think that Popper claims that his proposals are provable,
+and he argues with such forcefulness that he seems certain they are
+true, and may have even fooled himself into their being true.
+However, I think that's true of many of the philosopher's of science,
+and this doesn't mean his theory is not useful on its own.  Popper was
+a lightning rod for criticism, and I think unfairly so.  He was so
+certain, I think, that it was easy to mock him with relativistic
+arguments ("we never know anything for certain"), which might also be
+true, but did not devalue his theories themselves as well as their
+usefulness as an approach to scientific discovery.
+
+@blockquote
+[p15] Thus I freely admit that in arriving at my proposals I have been
+guided, in the last analysis, by value judgments and
+predilections. But I hope that my proposals may be acceptable to those
+who value not only logical rigour but also freedom from dogmatism; who
+seek practical applicability, but are even more attracted by the
+adventure of science, and by discoveries which again and again
+confront us with new and unexpected questions, challenging us to
+tryout new and hitherto undreamed-of answers.
+@/blockquote
+
+@blockquote
+[p37] The empirical sciences are systems of theories. The logic of
+scientific knowledge can therefore be described as a theory of
+theories.
+@/blockquote
+
+@blockquote
+Scientific theories are universal statements. Like all linguistic
+representations they are systems of signs or symbols. Thus I do not
+think it helpful to express the difference between universal theories
+and singular statements by saying that the latter are 'concrete'
+whereas theories are merely symbolic formulae or symbolic schemata;
+for exactly the same may be said of even the most 'concrete'
+statements.
+@/blockquote
+
+@blockquote
+Theories are nets cast to catch what we call 'the world': to [p38]
+rationalize, to explain, and to master it. We endeavour to make the
+mesh ever finer and finer.
+@/blockquote
+
+ Testable software is better, because we can define how it will
+behave.  That doesn't mean we have written all the possible tests for
+the program.  Rather, we *can* write tests, and the more we write, the
+more reliable the software will be.  If we can't even think of how to
+test software, how would we know if it begins to satisify our
+customer's requirements.
+
+@blockquote
+[p128] Above all, our theory explains why simplicity is so highly
+desirable.  To understand this there is no need for us to assume a
+'principle of economy of thought' or anything of the kind. Simple
+statements, if knowledge is our object, are to be prized more highly
+than less simple ones because they tell us more; because their
+empirical content is greater; and because they are better testable.
+@/blockquote
+
+@blockquote
+[p280] The old scientific ideal of episteme--of absolutely certain,
+demonstrable knowledge-has proved to be an idol. The demand for
+scientific objectivity makes it inevitable that every scientific
+statement must remain tentative for ever. It may indeed be
+corroborated, but every corroboration is relative to other statements
+which, again, are tenative. Only in our subjective experiences of
+conviction, in our subjective faith, can we be 'absolutely certain'.
+@/blockquote
+
+@blockquote
+[p281] With the idol of certainty (including that of degrees of
+imperfect certainty or probability) there falls one of the defences of
+obscurantism which bar the way of scientific advance. For the worship
+of this idol hampers not only the boldness of our questions, but also
+the rigour and the integrity of our tests. The wrong view of science
+betrays itself in the craving to be right; for it is not his
+possession of knowledge, of irrefutable truth, that makes the man of
+science, but his persistent and recklessly critical quest for truth.
+@/blockquote
+
+@blockquote
+Has our attitude, then, to be one of resignation? Have we to say that
+science can fulfil only its biological task; that it can, at best,
+merely prove its mettle in practical applications which may
+corroborate it? Are its intellectual problems insoluble? I do not
+think so. Science never pursues the illusory aim of making its answers
+final, or even probable. Its advance is, rather, towards an infinite
+yet attainable aim: that of ever discovering new, deeper, and more
+general problems, and of subjecting our ever tentative answers to ever
+renewed and ever more rigorous tests.
+@/blockquote
+
+@blockquote
+[p282] (4) The pragmatic problem of induction solves itself: the
+practical preference for the theory which in the light of the rational
+discussion appears to be nearer to the truth is risky but rational.
+@/blockquote
+
+@blockquote
+(5) The psychological problem (why do we believe that the theory so
+chosen will continue to be worthy of our trust?) is, I suggest,
+trivial: a belief or trust is always irrational, but it may be
+important for action.
+@/blockquote
+
+@div.sig ^Via_Rob 10/31/2008

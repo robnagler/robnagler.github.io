@@ -1,0 +1,13 @@
+@h1 BookReview: Software Defect Removal
+@div.bib by Robert Dunn, McGraw-Hill, Inc., 1984
+ I enjoyed this book when I first read it in the 1980s.
+I re-read it thinking it would be helpful for my book:
+@a href=extremeperl.org Extreme Perl@
+.  However, I didn't walk away with much other than this one quote:
+
+@blockquote
+[p28] For defect removal, the most prominent attribute of a
+requirements specification is its testability[.]
+@/blockquote
+
+@div.sig ^Via_Rob 2002

@@ -1,0 +1,36 @@
+@h1 BookReview: Testing Computer Software, 2nd Ed.
+@div.bib by Cem Kaner et al, Wiley, 1999, 0-471-35846-0
+ This is an up to date version of the
+@a href=^BookExcerpt_Art_of_Software_Testing Art of Software Testing@
+. It is oriented towards waterfall development, but the technical
+discussion of testing are very good.
+
+@blockquote
+[p124] An excellent test case satisfies the following criteria:
+@ul
+@li It has a reasonable probability of catching an error.
+@li It is not redundant.
+@li It's the best of its breed.
+@li It is neither too simple nor too complex.
+@/ul
+@/blockquote
+
+@blockquote
+[p126] Here are a few recommendations for looking for equivalence
+classes:
+@ul
+@li Don't forget equivalence classes for invalid inputs.
+@li Organize your classifications into a table or an outline.
+@li Look for ranges of numbers.
+@li Look for membership in a group.
+@li Analyze responses to lists and menus.
+@li Look for variables that must be equal.
+@li Create time-determined equivalence classes.
+@li Look for variable groups that must calculate to a certain value or a range.
+@li Look for equivalent output events.
+@li Look for equivalent operating environments.
+@/ul
+
+@/blockquote
+
+@div.sig ^Via_Rob 2004

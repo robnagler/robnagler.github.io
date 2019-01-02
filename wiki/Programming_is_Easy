@@ -1,0 +1,142 @@
+@h1 Programming is Easy
+
+Programming is easy.  After a lot of trial and error, most programming
+problems are solvable, often in just a few lines of code.
+
+Here's a typical example.  I bought Joanne a digital picture frame for
+xmas, but there was no easy way to transfer the pictures from iPhoto
+to the frame.  After poking around the net for a few minutes, it was
+quite apparent that photo frames and Macs didn't get along.
+
+Joanne wanted the pictures to be displayed in a particular order.
+iPhoto is easy enough to use for this purpose.  She picks and chooses
+the pictures she wants from our digital photo library on the web, and
+drags them into iPhoto to create a Roll.  She then copies the pictures
+from a Roll into an Album, and reorders the pictures in the Album.
+
+I'm including the program here, because this is an article about
+programming.  If you aren't a programmer, just skip over it.  It's
+not important.  If you are programmer, I thought you might enjoy
+reading it:
+
+@div.b_literal
+use strict;
+use Bivio::XML::PList;
+my($album_name) = shift(@ARGV) || die("usage: $0 album-name\n");
+my($frame) = '/Volumes/PHOTOFRAME';
+my($tree) = Bivio::XML::PList->to_tree('AlbumData.xml');
+my($images) = $tree->{'Master Image List'};
+my($path) = {map(($_ => $images->{$_}->{ImagePath}), keys(%$images))};
+my($album) = grep(
+    $_->{AlbumName} eq $album_name,
+    @{$tree->{'List of Albums'}},
+);
+die($album_name, ': album not found')
+    unless $album;
+my($index) = '001';
+print(
+    join("\n",
+	 "rm -rf '$frame/'*",
+	 map("cp '$_' '$frame/" . $index++ . ".jpg'",
+	     map($path->{$_}, @{$album->{KeyList}})),
+	 "diskutil unmount $frame",
+    ),
+);
+@/div
+
+The "meat" of the program is short. The rest is bookkeeping, error
+handling, convenience code, and input/output.  I am not going to
+explain the meaning of this code.  Rather, the point I'm trying to
+make is that *programming*is*easy*.  You don't have to be a programmer
+to figure out that these few lines of code are not the making of a PhD
+thesis in computer science, or even a few bucks.  It's just some code
+that solves a little problem.
+
+Many people would agree with the statement that *programming*is*hard*.
+The program listed above probably would be considered trivial to such
+people.  Real programs solve much more complex problems.  Therefore,
+big problems require big solutions, and that's what makes programming
+hard.  I happen to disagree with this reasoning.
+
+All big programming problems can be decomposed into a few small ones,
+since programs are composed of short subprograms (aka. methods,
+functions, subroutines, and procedures).  Each subprogram is neither
+complex nor difficult to
+understand.  The art of programming is figuring out the right set of
+subprograms.  There's no algorithm we know of to figure out that set
+in advance, and for large systems, the right set is continually
+changing.
+
+Programming is a process of continual refinement.  You can think of it
+as the process of sharpening a tool.  Each stroke gets the tool a bit
+sharper.  A slight change in the angle, may produce a better cutting
+edge.  You never really know when you are done, unless you have some
+significant experience both with the sharpening and the _using_ of a
+tool.  Tool sharpening is the art of "good enough" for the sharpener
+and the user.
+
+I happen to agree with the statement "programming is hard", but
+for different reasons than you might expect.  Despite my decades of
+experience, there are times when I find it extremely difficult to
+write software.
+
+Programming is hard when my fears prevent me from using my skills most
+effectively.  My anxiety blocks out one set of skills and favors
+another.  When I am at peace, all my skills are available to me.
+
+In the photo frame example, I was at peace.  It was Christmas day.  I
+was sitting comfortably at home.  I had played with my toys and was
+not focused on completing a goal.  My wife was sitting next to me.
+The kids were playing with their toys.  Norman Rockwell would have
+been happy to paint our happy family portrait.  My peacefulness let me
+operate in my "Programming is Easy" mode.
+
+Anxiety ruins my coding skills.  Perhaps I'm running late on a
+project, and I feel like I'm going to "get in trouble" for being late.
+I start to cut corners, such as, avoiding writing tests or fudging the
+test data.  Sometimes I think I can just code the problem in one go,
+and test at the end.  I then have too many errors in too many
+unrelated subprograms to deal with.  My big bang solution forces me to
+switch my context too often, and I end up thrashing, just like a
+computer does when the problem becomes too large for its working
+memory. 
+
+My initial deadline anxiety is now compounded by a feeling of being
+overwhelmed by the problem.  Do I go forward, and try to debug the
+code, or retreat and start small again?  My answer is to go get
+something to eat or chat with my co-workers.  At this point, I'm in
+what Robert Pirsig calls a
+@a href=/my/page?search=gumption+traps Gumption Trap@
+.  It's that awful feeling when you feel trapped by a confluence of
+mistakes.  There's nothing to do but walk away and find something else
+to do which will replenish your gumption supply.
+
+Perfectionism is an extremely common gumption trap.  I'm a
+perfectionist, and I hate it.  I'm trapped between experiences.  I
+have seen my "attention to detail" work out magically.  And, the
+opposite experience of getting lost in the forest looking for the
+perfect tree.  Both skills are extremely necessary.  When I'm in
+perfectionist mode, my failure anxiety is running high.  I have to get
+it right or the world will come to an end.  My perfectionist's
+skillset looms over my "just right" skillset.  Nothing seems just
+right.  It takes me many times longer to complete the project than
+when my two skillsets balance each other out.
+
+Fortunately, I program in a team made up of smart people.  We talk
+about our fears quite a bit.  This lessens the impact fear has on the
+team as a whole.  When one person is afraid, we will
+@a href=^http://www.extremeperl.org/bk/pair-programming Pair Program
+to get help reduce fear-induced behaviors, such as, perfectionism.
+A psychologist I know calls this "loaning your frontal lobe" to 
+someone else.
+
+Programming is easy when your frontal lobe is doing its job of
+controlling your reptilian brain, which decides whether we fight,
+freeze, or take flight.  When programming is hard, you might consider
+borrowing somebody's frontal lobe.
+
+Humans are social animals.  We thrive in packs.  Fighting your fears
+alone makes programming hard.  Finding the right pack, or relearning
+your natural ability to live in a pack, makes programming easy.
+
+@div.sig ^Via_Rob 1/12/2008
