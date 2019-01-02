@@ -13,9 +13,9 @@ import re
 import sys
 
 
-_SRC_D = pkio.py_path('~/tmp/viarob')
+_SRC_D = pkio.py_path('wiki')
 
-_DST_D = pkio.py_path('~/src/robnagler/robnagler/_posts')
+_DST_D = pkio.py_path('_posts')
 
 _SIG_RE = re.compile(r'Via_Rob (\d+)/(\d+)/(\d+)')
 
