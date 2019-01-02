@@ -1,5 +1,8 @@
-@h1 Programming is Easy
-
+---
+layout: post
+title: "Programming is Easy"
+date: 2008-01-12T12:00:00Z
+---
 Programming is easy.  After a lot of trial and error, most programming
 problems are solvable, often in just a few lines of code.
 
@@ -19,7 +22,7 @@ programming.  If you aren't a programmer, just skip over it.  It's
 not important.  If you are programmer, I thought you might enjoy
 reading it:
 
-@code.prettyprint.lang-perl
+```perl
 use strict;
 use Bivio::XML::PList;
 my($album_name) = shift(@ARGV) || die("usage: $0 album-name\n");
@@ -42,7 +45,7 @@ print(
 	 "diskutil unmount $frame",
     ),
 );
-@/code
+```
 
 The "meat" of the program is short. The rest is bookkeeping, error
 handling, convenience code, and input/output.  I am not going to
@@ -106,8 +109,7 @@ overwhelmed by the problem.  Do I go forward, and try to debug the
 code, or retreat and start small again?  My answer is to go get
 something to eat or chat with my co-workers.  At this point, I'm in
 what Robert Pirsig calls a
-@a href=/my/page?search=gumption+traps Gumption Trap@
-.  It's that awful feeling when you feel trapped by a confluence of
+[Gumption Trap](/my/page?search=gumption+traps).  It's that awful feeling when you feel trapped by a confluence of
 mistakes.  There's nothing to do but walk away and find something else
 to do which will replenish your gumption supply.
 
@@ -125,7 +127,7 @@ when my two skillsets balance each other out.
 Fortunately, I program in a team made up of smart people.  We talk
 about our fears quite a bit.  This lessens the impact fear has on the
 team as a whole.  When one person is afraid, we will
-@a href=http://www.extremeperl.org/bk/pair-programming Pair Program
+[Pair Program](http://www.extremeperl.org/bk/pair-programming)
 to get help reduce fear-induced behaviors, such as, perfectionism.
 A psychologist I know calls this "loaning your frontal lobe" to
 someone else.
@@ -139,4 +141,4 @@ Humans are social animals.  We thrive in packs.  Fighting your fears
 alone makes programming hard.  Finding the right pack, or relearning
 your natural ability to live in a pack, makes programming easy.
 
-@div.sig ^Via_Rob 1/12/2008
+
