@@ -3,10 +3,8 @@ SecurityTip: Deny by Default
 @/h1
 
 @blockquote
-@em
 Around 12:00 PST, an unknown attacker exploited a critical flaw in the Parity multi-signature wallet on the Ethereum network, draining three massive wallets of over $31,000,000 worth of Ether in a matter of minutes. @&mdash
 @a href=http://n99.us/wfy A hacker stole $31M of Ether by Haseeb Qureshi
-@/em
 @/blockquote
 
 This is

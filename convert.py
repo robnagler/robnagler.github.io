@@ -42,7 +42,7 @@ def main(argv):
         pkdp(f)
         tree = _parse(f, pkio.read_text(_SRC_D.join(f)))
         if 'title' not in tree:
-            tree.title = f
+            tree.title = f.replace('_', ' ')
         page_map[f] = tree.href
         parsed.append(tree)
     for tree in parsed:
@@ -98,9 +98,14 @@ def _gen(text, prefix=''):
         elif x.get('code'):
             res += prefix + ' `{}` '.format(_gen([x.code]).rstrip())
         elif x.get('ol'):
-            assert not prefix
             for i, t2 in enumerate(x.text):
-                res += _gen([t2], '{}. '.format(i + 1))
+                res += prefix + _gen([t2], '{}. '.format(i + 1))
+        elif x.get('ul'):
+            for t2 in x.text:
+                res += prefix + _gen([t2], '* ')
+        elif x.get('pre'):
+            assert not prefix
+            res += '\n'.join(['```text'] + x.text + ['```\n'])
         else:
             raise AssertionError('unknown token: {}'.format(x))
     return res
@@ -137,6 +142,14 @@ def _parse(wiki_name, wiki):
             assert l.startswith('@/b-html'), \
                 'expecting @/b-html: {}'.format(l)
             continue
+        if l.startswith('@pre'):
+            x = pkcollections.Dict(pre=True, text=[])
+            for l in lines:
+                if '@/pre' in l:
+                    break
+                x.text.append(l)
+            t.append(x)
+            continue
         if l.startswith('@blockquote'):
             l = l.split('.')
             t.append('')
@@ -154,7 +167,18 @@ def _parse(wiki_name, wiki):
                 l2 = l.replace('@li ', '')
                 assert l != l2, \
                     '@li not found: {}'.format(l)
-                x.text.append(l2)
+                x.text.append(_parse_text(l2))
+            t.append(x)
+            continue
+        if l.startswith('@ul'):
+            x = pkcollections.Dict(ul=True, text=[])
+            for l in lines:
+                if '@/ul' in l:
+                    break
+                l2 = l.replace('@li ', '')
+                assert l != l2, \
+                    '@li not found: {}'.format(l)
+                x.text.append(_parse_text(l2))
             t.append(x)
             continue
         if l.startswith(('@em', '@/em')):
@@ -211,6 +235,7 @@ def _parse_text(text):
     text = text.replace('@&ldquo;', '"')
     text = text.replace('@&rdquo;', '"')
     text = text.replace('@&#8202;', ' ')
+    text = text.replace('@&rarr;', '&rarr;')
     m = _CODE_RE.search(text)
     if m:
         return pkcollections.Dict(code=m.group(1).replace('@@', '@'))

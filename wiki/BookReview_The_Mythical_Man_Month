@@ -107,10 +107,7 @@ the value is small, it won't catch on.
 [p268] Since we have a working system at all times:
 @ul
 @li we can begin user testing very early, and
-@li
-we can adopt a build-to-budget strategy that protects absolutely
-against schedule or budget overruns (at the cost of possible functional
-shortfall).
+@li we can adopt a build-to-budget strategy that protects absolutely against schedule or budget overruns (at the cost of possible functional shortfall).
 @/ul
 @/blockquote
 

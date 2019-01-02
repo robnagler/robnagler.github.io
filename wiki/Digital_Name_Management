@@ -3,10 +3,8 @@ Digital Name Management: Own Your Name Space
 @/h1
 
 @blockquote
-@em
 As of October 3, 2016, you can no longer use shared links to render HTML content in a web browser. If you created a website that directly displays HTML content from your Dropbox, it will no longer render in the browser. @&mdash
 @a href=https://www.dropbox.com/help/16 Dropbox, Inc.
-@/em
 @/blockquote
 
 Take ownership of your digital names. That's the lesson of Dropbox's
@@ -40,11 +38,9 @@ Twitter, Facebook, LinkedIn, etc. all have the right to my name, not me. They
 , and there's nothing I can do about it. Users have no legal recourse. Consider
 this:
 @blockquote
-@em
 @a href=http://www.mediapost.com/publications/article/289344/google-users-lose-access-to-gmail-photos-docs-fo.html
 Hundreds of Google users have lost access to their accounts -- including access to Gmail, photos and documents stored in Google's cloud -- for allegedly violating Google's terms of service by re-selling Pixel phones.
 @/a
-@/em
 @/blockquote
 
 Google had every right to do this, and you have no legal recourse.  Moreover,

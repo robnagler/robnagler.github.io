@@ -1,8 +1,10 @@
-@h1 The Psychology of Software Testing
-
+---
+layout: post
+title: "The Psychology of Software Testing"
+date: 2008-02-03T12:00:00Z
+---
 Test anxiety is number two right after number one (existential anxiety) on
-@a href=http://en.wikipedia.org/wiki/Anxiety Wikipedia's Anxiety page
-.  All kinds of tests
+[Wikipedia's Anxiety page](http://en.wikipedia.org/wiki/Anxiety).  All kinds of tests
 provoke anxiety: medical tests ("I'm gonna die!"), Rohrshach inkblot
 test ("I'm going crazy!"), and DUI tests ("I'm going to jail!").
 Our society trains us to fear tests.
@@ -18,7 +20,7 @@ closet must be challenged.  We need a new software testing ethos.  One
 in which tests are seen as collaborative tools and testing more than
 quality assurance.  Testing accelerates problem decomposition.
 
-@h3 Quality Insecurity
+## Quality Insecurity
 
 Tests are a smack in a programmer's face.  A test is a challenge to
 your knowledge, your skill as a programmer, and to some, your
@@ -30,14 +32,11 @@ break it, you get in trouble for writing shitty code.  Ugh.
 
 Even when you integrate QA in your development process as recommended
 by the
-@a href=http://www.extremeprogramming.org Extreme Programming
- gurus, you are still screwed:
+[Extreme Programming](http://www.extremeprogramming.org) gurus, you are still screwed:
 
-@ul
-@li Do the simplest thing that could possibly work (DTSTTCPW)
-@li Once and only once (OAOO)
-@li Test what is likely to break
-@/ul
+* Do the simplest thing that could possibly work (DTSTTCPW)
+* Once and only once (OAOO)
+* Test what is likely to break
 
 The first two are coding rules, which use definitives and superlatives
 to describe exactly what you are supposed to do.  There are no
@@ -45,36 +44,34 @@ questions about what you are supposed to do.  The last rule is quite
 tricky.  What do they mean by "what" and "likely"?  Way too nebulous
 for me.  The first two have acronyms (showing their pervasiveness) and
 the last one does not.  Go ahead,
-@a href=http://www.google.com/search?q=twiltb&lr=lang_en search on TWILTB
- to see what you come up with.  This page will be the 11th hit once
+[search on TWILTB](http://www.google.com/search?q=twiltb&lr=lang_en) to see what you come up with.  This page will be the 11th hit once
 Google gets to it, and it is the only page which discusses software
 testing.
 
-@h3 Software Testing Demons
+## Software Testing Demons
 
 When I searched for the term
 **Software testing ethos**, I came up with
-@a href=http://www.forsv.blogspot.com/2004_06_01_forsv_archive.html one hit@
-, which reads as follows:
+[one hit](http://www.forsv.blogspot.com/2004_06_01_forsv_archive.html), which reads as follows:
 
-@blockquote
-Readers of this site who are unfamiliar with software testing ethos or
-uncomfortable around software testers may find the following material
-objectionable, immoral and/or disturbing. Well tough. Testing isn't
-for choir girls and altar boys.. It is a demanding craft that requires
-of its practitioners: deviousness, a desire to cause harm and a
-general disdain for rules and regulations. Click the Back button to
-retreat to moral high ground.
-@/blockquote
+
+> Readers of this site who are unfamiliar with software testing ethos or
+> uncomfortable around software testers may find the following material
+> objectionable, immoral and/or disturbing. Well tough. Testing isn't
+> for choir girls and altar boys.. It is a demanding craft that requires
+> of its practitioners: deviousness, a desire to cause harm and a
+> general disdain for rules and regulations. Click the Back button to
+> retreat to moral high ground.
+
 
 Wow, that is one powerful psychological punch.  And, if that was not
 enough, the blog entry ends with:
 
-@blockquote
-"Tester's Golden Rule"
 
-Do unto others until they hate you
-@/blockquote
+> "Tester's Golden Rule"
+> 
+> Do unto others until they hate you
+
 
 This is an incredibly biased statement that in a much softer wording
 matches the ethos of many QA departments.  Confrontation is the
@@ -84,7 +81,7 @@ attacking, destructive testing, etc.  I am going to delve into this in
 greater detail to demonstrate how this becomes a psychological trap
 for programmers.
 
-@h3 Let's Get Physical
+## Let's Get Physical
 
 Software testing psychology is rooted in breaking things, because
 that is what all testing was until software was invented.  Your job as
@@ -123,7 +120,7 @@ the customer sees it.  Nothing is broken or damaged by early testing.
 On the contrary, tests help programmers -- and I argue later,
 customers -- learn what the program is supposed to do.
 
-@h3 Userless Ivory Towers
+## Userless Ivory Towers
 
 Learning is dynamic.  Requirements gathering is a give-and-take process.
 Not so in university computer science departments.  Students of
@@ -147,20 +144,15 @@ perfect programs.
 Some argue that computer science departments do not go far enough in
 teaching how to programming perfectly.  Edgar Dijkstra was a thought leader
 of this "programming is mathematics" camp.  He
-@a href=http://www.cs.utexas.edu/users/EWD/ wrote extensively
- on program proving and assuring
-@a href=http://www.cs.utexas.edu/users/EWD/ewd03xx/EWD303.PDF
-the reliability of programs
-@/a
- through the use of mathematics.  Here is a typical quote from
-@a href=http://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD641.html EWD641
-:
+[wrote extensively](http://www.cs.utexas.edu/users/EWD/) on program proving and assuring
+[the reliability of programs](http://www.cs.utexas.edu/users/EWD/ewd03xx/EWD303.PDF) through the use of mathematics.  Here is a typical quote from
+[EWD641](http://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD641.html):
 
-@blockquote
-The conclusion that competent programming required a fair amount of
-mathematical skills has been drawn on purely technical grounds and, as
-far as I know, has never been refuted.
-@/blockquote
+
+> The conclusion that competent programming required a fair amount of
+> mathematical skills has been drawn on purely technical grounds and, as
+> far as I know, has never been refuted.
+
 
 I like to think of myself as a competent programmer, but I am lousy at
 mathematics.  Dijkstra's observation disagrees with my
@@ -175,28 +167,27 @@ software from imperfect requirements.  I say this with some
 trepidation.  There is always a nagging doubt that we could do better.
 Perfectionism nags me, when I least expect it.
 
-@h3 Entrenched Perfectionism
+## Entrenched Perfectionism
 
 Dijkstra was not one to shy away from moral imperatives:
 
-@blockquote
-You must make the program in such a way that you can
-give convincing argument for its correctness.
-@/blockquote
+
+> You must make the program in such a way that you can
+> give convincing argument for its correctness.
+
 
 You also cannot prove a program correct through testing:
 
-@blockquote
-That program testing does not provide such a convincing case is well-known.
-@/blockquote
+
+> That program testing does not provide such a convincing case is well-known.
+
 
 The student's psychological trap is set: you can write perfect
 programs ("look how easy your assignments are!"). Do not waste your
 time testing your programs.  Study your code like a mathematician
 until you are sure it is perfectly correct.  Only then can the
 software be
-@a href=http://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD627.html used safely
-.
+[used safely](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD627.html).
 
 Dijkstra should not be held accountable for the psychological failings
 of the way we teach programming.  Perfectionism is entrenched in our
@@ -205,12 +196,11 @@ of perfectionism in our schools will be with us for a long time to
 come.
 
 There is hope.  Testing is in, because
-@a href=http://www.google.com/search?q=agile+software agile is in
-.  The hype has allowed programmers to try testing and to consider
+[agile is in](http://www.google.com/search?q=agile+software).  The hype has allowed programmers to try testing and to consider
 that testing is integrated quality assurance.  This is an excellent
 start.  Programmers are motivated to test.
 
-@h3 Inductive Reasoning
+## Inductive Reasoning
 
 Testing has been an integral part of my software development practices
 for my entire professional career.  After I left grad school I landed
@@ -252,7 +242,7 @@ about a program from test results -- as long as the programmer does
 not overgeneralize (overvalue) the meaning of the results.  That
 inductive reasoning does not prove anything is besides the point.
 
-@h3 Deductive Reasoning
+## Deductive Reasoning
 
 Test results are valuable _facts_.  We use facts to prove things about
 a program.  If a stove feels warm, I can reason that this particular
@@ -281,8 +271,7 @@ need to be sure the requirements we know about are satisfied.  As the
 program-theory is used by real users, the program-theory will be refuted,
 that is, bugs will be found.  To me, testability and refutability are
 important attributes, dovetailing nicely with
-@a href=http://www.stephenjaygould.org/ctrl/popper_falsification.html Karl Popper's Science as Falsification
-.  If we believe in Popper's Science, an irrefutable proof is of no value;
+[Karl Popper's Science as Falsification](http://www.stephenjaygould.org/ctrl/popper_falsification.html).  If we believe in Popper's Science, an irrefutable proof is of no value;
 proofs only confirm what we want to believe is true.  Tests (or proofs of
 contradiction) are valuable intrinsically, according to Popper, since they
 _can_refute_ a program-theory.
@@ -293,27 +282,27 @@ program-theory.  Inductive reasoning allows us to backtrack: Refutation and
 correction are the yin and yang of programming.  But this is not a
 philosophical essay!  My conjecture is that tests are valuable.
 
-@h3 Reasonable Programs and Tests
+## Reasonable Programs and Tests
 
 In order to bolster this claim, I think it
 would be useful to look at some code.  Here's one case from
 USState.bunit, which tests the bOP module Bivio::Type::USState:
 
-@pre
+```text
 unsafe_from_zip_code => [
     '06230' => 'CT',
 ],
-@/pre
+```
 
 With this case, can we conclude that the unsafe_from_zip_code method
 is correct?  No.  Consider the following implementation which
 satisfies this and any other test case whose output should be 'CT':
 
-@pre
+```text
 sub unsafe_from_zip_code {
     return 'CT';
 }
-@/pre
+```
 
 However, a _reasonable_ programmer would not implement
 unsafe_from_zip_code this way.  It would be pointless -- except,
@@ -324,7 +313,7 @@ Programmers do not cheat themselves.  If the goal is to write
 unsafe_from_zip_code, a programmer would write some reasonable test
 cases:
 
-@pre
+```text
 unsafe_from_zip_code => [
     '00100' => [undef],
     '06230' => 'CT',
@@ -343,16 +332,16 @@ unsafe_from_zip_code => [
     abc => [undef],
     [undef] => [undef],
 ],
-@/pre
+```
 
 And, would write a reasonable implementation to satisfy those cases:
 
-@pre
+```text
 sub unsafe_from_zip_code {
     my(undef, $zip) = @_;
     return $zip && $zip =~ /^(\d{3})/s ? $_MAP->[$1] : undef;
 }
-@/pre
+```
 
 She might not fill out the values of $_MAP to satisfy all cases right
 at the start.  The point would be to test the main algorithm: validate
@@ -363,22 +352,22 @@ prove this is so, but I would argue any reasonable programmer would
 conclude that the above set of test cases was sufficient to judge the
 correctness of the algorithm.
 
-@h3 Errors in Tests
+## Errors in Tests
 
 A passing test does not mean the implementation is correct.  There was
 an error in unsafe_from_zip_code when I first started this essay.
 There was _also_ an error in the test cases.  The errant test case
 was:
 
-@pre
+```text
 undef => [undef],
-@/pre
+```
 
 The correct test case is now:
 
-@pre
+```text
 [undef] => [undef],
-@/pre
+```
 
 This correct test case uncovered an annoying but non-critical bug.  A
 warning message was output when $zip was undefined.  The
@@ -386,7 +375,7 @@ implementation still produced the correct output, but I wanted to
 avoid filling up our error logs so I fixed it.  This was the
 reasonable thing to do.
 
-@h3 Unknown Unknowns
+## Unknown Unknowns
 
 Mathematicians do not like the term "reasonable".  It's imprecise.
 You cannot build mathematically proven theories using imprecise
@@ -410,7 +399,7 @@ program and its environment (programming language, application
 framework, operating system, etc.).  Tests teach us to expect the
 unexpected.
 
-@h3 What a Fool I am
+## What a Fool I am
 
 I used to have a boss who said, "we are all fools".  While this may
 be demeaning, it is true.  In one way or another, we fool ourselves
@@ -436,13 +425,13 @@ That's the way my tormentor's ego protects itself, no matter how
 uncivil this type of behavior is.  Or, in the words of the anonymous QA
 person quoted earlier:
 
-@blockquote
-Do unto others until they hate you
-@/blockquote
+
+> Do unto others until they hate you
+
 
 How uncivil, and how true.
 
-@h3 Software Testing Ethos 2.0
+## Software Testing Ethos 2.0
 
 External validation is testing.  We fear it, even when we do it in the
 privacy of our own office.  Yet it is _imperative_that_we_test_ our
@@ -453,4 +442,4 @@ between them.  A child learns how to learn by testing.
 Tests validate assumptions; tests expose us to the unknown.  Here be
 dragons.  Courage is required.
 
-@div.sig ^Via_Rob 2/3/2008
+

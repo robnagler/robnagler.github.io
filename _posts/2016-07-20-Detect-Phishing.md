@@ -1,14 +1,17 @@
-@h1 How To Detect Phishing Emails
+---
+layout: post
+title: "How To Detect Phishing Emails"
+date: 2016-07-20T12:00:00Z
+---
 
-@blockquote
-@a href=https://en.wikipedia.org/wiki/Phishing Phishing
- is the attempt to acquire sensitive information such as usernames, passwords, and credit card details (and sometimes, indirectly, money), often for malicious reasons, by masquerading as a trustworthy entity in an electronic communication. @&mdash Wikipedia
-@/blockquote
+
+> [Phishing](https://en.wikipedia.org/wiki/Phishing)>  is the attempt to acquire sensitive information such as usernames, passwords, and credit card details (and sometimes, indirectly, money), often for malicious reasons, by masquerading as a trustworthy entity in an electronic communication. -- Wikipedia
+
 
 Phishing emails are getting more difficult to detect. If you have a public email
 address, you will be approached by the general public. Here is an example:
 
-@img src=/my/file/Public/WikiData/phishing-intro-email.gif alt="Intro email"
+![Intro email](/assets/i/phishing-intro-email.gif)
 
 The target (recipient) of this phishing attack is a real estate agent so the
 email contains enough information to make the email appear legitimate. This
@@ -23,7 +26,7 @@ rude or xenophobic so you respond politely. The person already has your
 email address so you won't be giving anything away if you do so you
 reply. The response to your reply looks like this:
 
-@img src=/my/file/Public/WikiData/phishing-hover-link.gif alt="Phishing email"
+![Phishing email](/assets/i/phishing-hover-link.gif)
 
 The attacker has the target engaged, and the response might be
 legitimate in the context of a real estate transaction. However, the
@@ -35,22 +38,22 @@ to share such a small file (a letter) via Google Docs or other file
 sharing service. The goal here is to get someone to click on the link,
 which is illegitimate.
 
-@h3 Hover over links
+## Hover over links
 
 How do you know the link is dangerous? When you hover your mouse
 over the link, it shows an address at the bottom of your browser
 window. In the image above, I've highlighted this box in red. You
 can see the web address is:
 
-@pre
+```text
 herdinitiative.org/herdinitiativetest/document/googledoc3/
-@/pre
+```
 
 If this were a link to Google Docs, the link would look something like:
 
-@pre
+```text
 docs.google.com/document/d/14JfWScOSTi...
-@/pre
+```
 
 Note that the first part of the address is *docs.google.com*. This
 is a safe address.
@@ -60,11 +63,11 @@ wouldn't click on it. Sometimes attackers will make fake names like
 *docs.goog1e.com*, which looks almost right. This is sometimes
 tricky to see so you might click on the link.
 
-@h3 Never enter information
+## Never enter information
 
 Let's assume you clicked on the link. This is what you'd see:
 
-@img src=/my/file/Public/WikiData/phishing-site.gif alt="Phishing site"
+![Phishing site](/assets/i/phishing-site.gif)
 
 Now you know for sure that this is a phishing attack: the site
 is asking for your Google login and password.
@@ -73,7 +76,7 @@ You should *never* enter information on unsolicited links or from
 someone whom you do not know. You don't know this person, and
 the person sent you a link.
 
-@h3 Verify unsolicited links and identities
+## Verify unsolicited links and identities
 
 Even if you get an email with an unsolicited
 link from someone you know, you should contact them to verify that the
@@ -87,4 +90,4 @@ That's probably the most important advice: links in emails
 should be coupled to an exchange with someone known to
 you. If not, just don't click.
 
-@div.sig ^Via_Rob 07/20/16
+
