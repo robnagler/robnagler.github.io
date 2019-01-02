@@ -33,21 +33,25 @@ _CODE_RE = re.compile(r'^@code\s+(.+)')
 
 _PRETTY_RE = re.compile(r'@code.prettyprint.lang-(\w+)')
 
-page_map = pkcollections.Dict(
-    Deny_by_Default='/2017/07/21/Deny-by-Default.html',
-    Dispatch_Do_not_Decorate='/2015/08/24/Dispatch-Do-not-Decorate.html',
-)
+page_map = pkcollections.Dict()
+
 
 def main(argv):
+    parsed = []
     for f in argv:
+        pkdp(f)
         tree = _parse(f, pkio.read_text(_SRC_D.join(f)))
+        if 'title' not in tree:
+            tree.title = f
+        page_map[f] = tree.href
+        parsed.append(tree)
+    for tree in parsed:
         t = '''---
 layout: post
 title: "{title}"
 date: {date}T12:00:00Z
 ---
 '''.format(**tree) + _gen(iter(tree.text))
-        pkdp(t)
         pkio.write_text(tree.dst, t)
 
 
@@ -59,6 +63,8 @@ def _gen(text, prefix=''):
             res += prefix + x + '\n'
         elif x.get('section_head'):
             res += _gen([x.text], '## ')
+        elif x.get('rstrip'):
+            res = res.strip()
         elif x.get('blockquote'):
             for l in text:
                 if 'blockquote' in l:
@@ -66,8 +72,16 @@ def _gen(text, prefix=''):
                     break
                 res += _gen([l], '> ')
         elif x.get('href'):
-            h = page_map[x.href[1:]] if x.href.startswith('^') else x.href
-            res += '[{}]({})'.format(_gen([x.text]).rstrip(), h)
+            h = x.href
+            if h.startswith('^'):
+                h = h[1:]
+                if h in page_map:
+                    h = page_map[h]
+                else:
+                    assert '.' in h and not h.startswith('http'), \
+                        'missing value in page_map: {}'.format(x.href)
+                    h = 'http://' + h
+            res += '[{}]({})\n'.format(_gen([x.text]).rstrip(), h)
         elif x.get('lang'):
             res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
         elif x.get('img'):
@@ -84,7 +98,7 @@ def _gen(text, prefix=''):
 
 def _parse(wiki_name, wiki):
     res = pkcollections.Dict()# wiki_name=wiki_name, wiki=wiki)
-    fn = wiki_name.replace('_', '-')
+    res.md_name = wiki_name.replace('_', '-')
     lines = iter(wiki.split('\n'))
     t = []
     prefix = ''
@@ -126,15 +140,23 @@ def _parse(wiki_name, wiki):
             continue
         m = _SIG_RE.search(l)
         if m:
-            y = int(m.group(3))
-            if y < 100:
-                y += 2000
-            res.date = '{}-{}-{}'.format(y, m.group(1), m.group(2))
-            res.dst = _DST_D.join('{}-{}.md'.format(res.date, fn))
+            yy = int(m.group(3))
+            if yy < 100:
+                yy += 2000
+            mm = '{:02d}'.format(int(m.group(1)))
+            dd = '{:02d}'.format(int(m.group(2)))
+            res.date = '{}-{}-{}'.format(yy, mm, dd)
+            res.dst = _DST_D.join('{}-{}.md'.format(res.date, res.md_name))
+            res.href = '/{}/{}/{}/{}.html'.format(yy, mm, dd, res.md_name)
             continue
         m = _A_RE.search(l)
         if m:
-            t.append(pkcollections.Dict(href=m.group(1), text=_parse_text(m.group(2))))
+            t2 = m.group(2)
+            if t2.endswith('@'):
+                t2 = t2[:-1]
+            t.append(pkcollections.Dict(href=m.group(1), text=_parse_text(t2)))
+            if m.group(2) != t2:
+                t.append(pkcollections.Dict(rstrip=True))
             continue
         m = _A_BLOCK_RE.search(l)
         if m:
@@ -156,6 +178,10 @@ def _parse(wiki_name, wiki):
                     break
                 x.text.append(l.replace('@@', '@'))
             t.append(x)
+            continue
+        l2 = l.replace('@div.bib by ', 'By ')
+        if l != l2:
+            t.append(_parse_text(l2))
             continue
         t.append(_parse_text(l))
     res.text = t
