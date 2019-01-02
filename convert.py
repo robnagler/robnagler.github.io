@@ -27,7 +27,7 @@ _H1_RE = re.compile('@h1\s+(.+)')
 
 _H3_RE = re.compile('@h3\s+(.+)')
 
-_IMG_RE = re.compile('@img src=(?:/my/file/Public/WikiData/|^)(\S+) alt="(.+)"')
+_IMG_RE = re.compile(r'@img(?:.block_center)? (?:style="[^"]+" )?src=(?:/my/file/Public/WikiData/|^)(\S+) alt="([^"]+)"')
 
 _CODE_RE = re.compile(r'^@code\s+(.+)')
 
@@ -66,11 +66,15 @@ def _gen(text, prefix=''):
         elif x.get('rstrip'):
             res = res.strip()
         elif x.get('blockquote'):
+            assert not prefix
             for l in text:
                 if 'blockquote' in l:
                     assert not l.blockquote
                     break
-                res += _gen([l], '> ')
+                if l == '--':
+                    res = res.rstrip() + ' --\n'
+                else:
+                    res += _gen([l], '> ')
         elif x.get('href'):
             h = x.href
             if h.startswith('^'):
@@ -81,16 +85,22 @@ def _gen(text, prefix=''):
                     assert '.' in h and not h.startswith('http'), \
                         'missing value in page_map: {}'.format(x.href)
                     h = 'http://' + h
-            res += '[{}]({})\n'.format(_gen([x.text]).rstrip(), h)
+            res += prefix + '[{}]({})'.format(_gen([x.text]).rstrip(), h)
         elif x.get('lang'):
+            assert not prefix
             res += '```{}\n{}```\n'.format(x.lang, _gen(x.text))
         elif x.get('img'):
+            assert not prefix
             res += '![{}]({})\n'.format(
                 _gen([x.alt]).rstrip(),
                 '/assets/i/' + x.img,
             )
         elif x.get('code'):
-            res += ' `{}` '.format(_gen([x.code]).rstrip())
+            res += prefix + ' `{}` '.format(_gen([x.code]).rstrip())
+        elif x.get('ol'):
+            assert not prefix
+            for i, t2 in enumerate(x.text):
+                res += _gen([t2], '{}. '.format(i + 1))
         else:
             raise AssertionError('unknown token: {}'.format(x))
     return res
@@ -136,6 +146,17 @@ def _parse(wiki_name, wiki):
             t.append(pkcollections.Dict(blockquote=None))
             t.append('')
             continue
+        if l.startswith('@ol'):
+            x = pkcollections.Dict(ol=True, text=[])
+            for l in lines:
+                if '@/ol' in l:
+                    break
+                l2 = l.replace('@li ', '')
+                assert l != l2, \
+                    '@li not found: {}'.format(l)
+                x.text.append(l2)
+            t.append(x)
+            continue
         if l.startswith(('@em', '@/em')):
             continue
         m = _SIG_RE.search(l)
@@ -166,10 +187,6 @@ def _parse(wiki_name, wiki):
                 'expecting @/a: {}'.format(l)
             t.append(x)
             continue
-        m = _IMG_RE.search(l)
-        if m:
-            t.append(pkcollections.Dict(img=m.group(1), alt=_parse_text(m.group(2))))
-            continue
         m = _PRETTY_RE.search(l)
         if m:
             x = pkcollections.Dict(lang=m.group(1), text=[])
@@ -189,11 +206,17 @@ def _parse(wiki_name, wiki):
 
 
 def _parse_text(text):
+    text = text.replace('@&mdash;', '--')
     text = text.replace('@&mdash', '--')
+    text = text.replace('@&ldquo;', '"')
+    text = text.replace('@&rdquo;', '"')
     text = text.replace('@&#8202;', ' ')
     m = _CODE_RE.search(text)
     if m:
         return pkcollections.Dict(code=m.group(1).replace('@@', '@'))
+    m = _IMG_RE.search(text)
+    if m:
+        return pkcollections.Dict(img=m.group(1), alt=_parse_text(m.group(2)))
     if '@' not in text:
         return text
     n = text.count('@')

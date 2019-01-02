@@ -11,12 +11,9 @@ date: 2016-07-27T12:00:00Z
 Every site these days has a password. You can't remember them all so
 what do you do?
 Use a
-[Password Manager](https://en.wikipedia.org/wiki/Password_manager)
- such as
-[LastPass](https://lastpass.com)
- or
-[1Password](https://1password.com)
-. I use LastPass. However, I take quite a few precautions, which I explain
+[Password Manager](https://en.wikipedia.org/wiki/Password_manager) such as
+[LastPass](https://lastpass.com) or
+[1Password](https://1password.com). I use LastPass. However, I take quite a few precautions, which I explain
 below.
 
 ## Use a Completely New Email Address
@@ -29,30 +26,23 @@ password for your password manager account:
 ![LastPass Recover Account](/assets/i/lastpass-recover-account.gif)
 
 If you use your regular email address,
-[it's likely it can be cracked](http://www.onlinehashcrack.com/how-to-crack-gmail-yahoo-hotmail-account-the-truth.php)
-, and with that information, your password manager account will be cracked as well.
+[it's likely it can be cracked](http://www.onlinehashcrack.com/how-to-crack-gmail-yahoo-hotmail-account-the-truth.php), and with that information, your password manager account will be cracked as well.
 
 It's very easy to create a new email address on a free email provider
 like
-[mail.com](http://mail.com)
-,
-[Hushmail,](http://hushmail.com)
-etc. Make sure this completely new email is not easily guessable. Make the password
+[mail.com](http://mail.com),
+[Hushmail,](http://hushmail.com)etc. Make sure this completely new email is not easily guessable. Make the password
 for the account long, because you won't have to use it much.  Give random answers for the secret questions so that if
 someone gets your email, they can't use information about you to crack the account.
 Write down the new email, password, and random security answers and store in a secure
 location.
 
 Even if you use
-[Two Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
-, you can
-[disable it](https://lastpass.com/support.php?cmd=showfaq&id=7066)
- with just your email address. This is why I say you should not bother with multi-factor
+[Two Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication), you can
+[disable it](https://lastpass.com/support.php?cmd=showfaq&id=7066) with just your email address. This is why I say you should not bother with multi-factor
 authentication: it's
-[Security Theater](https://en.wikipedia.org/wiki/Security_theater)
- when it can be
-[so easily circumvented](https://www.wired.com/2016/06/deray-twitter-hack-2-factor-isnt-enough/)
-.
+[Security Theater](https://en.wikipedia.org/wiki/Security_theater) when it can be
+[so easily circumvented](https://www.wired.com/2016/06/deray-twitter-hack-2-factor-isnt-enough/).
 
 ## Pick a Relatively Long Password
 
@@ -64,8 +54,7 @@ they are hard to type.
 
 Write down the password and store it in a secure place. It's very important
 that you don't lose your password, because I recommend against using a
-[Security Email](https://lastpass.com/support.php?cmd=showfaq&id=2465)
- to allow your account to be recovered. The goal is to make it so no one
+[Security Email](https://lastpass.com/support.php?cmd=showfaq&id=2465) to allow your account to be recovered. The goal is to make it so no one
 can recover your password from any email except the very secure email
 address you chose above.
 
@@ -75,23 +64,19 @@ Once you've created your account on the LastPass site, you'll want
 to download the app and the browser plugin for your laptop. You'll
 need to know how to download a browser plugin/extension. There's a long list
 so best to go to the
-[LastPass Download page](https://lastpass.com/misc_download2.php)
- to figure out how to do this.
+[LastPass Download page](https://lastpass.com/misc_download2.php) to figure out how to do this.
 
 To use LastPass on your phone, you need to pay for the Premium version.
 It's only $12 a year so just do it. Just go to your mobile device's app store.
 If you don't know how to do this, the
-[LastPass Download page](https://lastpass.com/misc_download2.php)
- covers this as well.
+[LastPass Download page](https://lastpass.com/misc_download2.php) covers this as well.
 
 ## Configure Account Settings
 
 You now need to configure these programs.
 LastPass is a weird in that there is a
-[Browser Preferences](https://helpdesk.lastpass.com/extension-preferences/)
- and a
-[Account Settings](https://helpdesk.lastpass.com/account-settings/)
-. You have to configure both. Account Settings are global to all
+[Browser Preferences](https://helpdesk.lastpass.com/extension-preferences/) and a
+[Account Settings](https://helpdesk.lastpass.com/account-settings/). You have to configure both. Account Settings are global to all
 devices. Browser Preferences are per device.
 
 To configure Account Settings, go to your LastPass Vault, which should

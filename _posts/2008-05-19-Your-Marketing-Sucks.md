@@ -1,5 +1,8 @@
-@h1 Your Marketing Sucks
-
+---
+layout: post
+title: "Your Marketing Sucks"
+date: 2008-05-19T12:00:00Z
+---
 Atlanta is a Big City.  It is the headquarters of some huge companies:
 The Home Depot, CNN, and Coca-Cola.  These big companies give
 showplace tours to the public as a means of marketing what they do and
@@ -52,8 +55,7 @@ You cannot re-enter the World of Coca-Cola once you enter the gift
 shop.  And, once you leave the gift shop, you can't go back into it,
 either.  It's one an assembly line to get you to buy an amazing array
 of Coca-Cola products before you
-@a href=http://maps.google.com/maps?f=q&hl=en&geocode=&q=226+baker,+atlanta&sll=32.794706,-96.648874&sspn=0.011147,0.023432&ie=UTF8&ll=33.763183,-84.393191&spn=0.002756,0.005858&t=h&z=18 go out to the (dry) fountains between the World of Coca-Cola and the Aquarium@
-.
+[go out to the (dry) fountains between the World of Coca-Cola and the Aquarium](http://maps.google.com/maps?f=q&hl=en&geocode=&q=226+baker,+atlanta&sll=32.794706,-96.648874&sspn=0.011147,0.023432&ie=UTF8&ll=33.763183,-84.393191&spn=0.002756,0.005858&t=h&z=18).
 
 The missing detail is that there are no bathrooms inside the gift
 shop.  Imagine a thirteen year-old boy who has just tasted 48
@@ -73,4 +75,4 @@ boy was allowed to re-enter.
 
 Details missing inside.
 
-@div.sig ^Via_Rob 5/19/2008
+

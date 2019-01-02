@@ -4,13 +4,11 @@ title: "Objectively Rich"
 date: 2009-06-13T12:00:00Z
 ---
 > Full Disclosure: The only stock my immediate family owns is
-[Berkshire Hathaway, Inc.](http://finance.yahoo.com/q/bc?t=my&l=off&z=m&q=l&p=&a=&c=^GSPC&s=brk-a)
-> and an insignificant amount of the S&P 500.
+> [Berkshire Hathaway, Inc.](http://finance.yahoo.com/q/bc?t=my&l=off&z=m&q=l&p=&a=&c=^GSPC&s=brk-a)> and an insignificant amount of the S&P 500.
 
 
 Money doesn't buy hapiness.  Really!  In
-[Stumbling on Happiness](/2009/06/14/BookReview-Stumbling-on-Happiness.html)
-Dan Gilbert refers to study after study which demonstrates this observation.
+[Stumbling on Happiness](/2009/06/14/BookReview-Stumbling-on-Happiness.html)Dan Gilbert refers to study after study which demonstrates this observation.
 Adam Smith noted this long ago in the Wealth of Nations (quoted in ibid):
 
 
@@ -26,8 +24,7 @@ deceiving ourselves about what will make us rich and/or happy.
 This article is about becoming rich, the sure way.  Most of you who
 read this will ignore my advice, as billions before you have.  That's
 too bad.  If you truly _want_ to be believe me, then you might
-[want to watch Gilbert's video](http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html)
-before reading the rest of this article.
+[want to watch Gilbert's video](http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html)before reading the rest of this article.
 
 ## I'm not rich
 
@@ -43,8 +40,7 @@ Tom's smarts do not make him any better at
 predicting the future than anybody else, even Richard Olsen, a man who
 has dedicated the last 30 years of his life at financial forecasting.
 I spent nine years working with Richard at
-[Olsen & Associates AG (O&A)](http://olsen.ch)
-trying to get rich.
+[Olsen & Associates AG (O&A)](http://olsen.ch)trying to get rich.
 
 ## Crystal Ball Society
 
@@ -60,10 +56,8 @@ O&A's main competitor was
 [The Prediction Company](http://predict.com), now a wholly owned subsidiary of the publicly traded
 [Union Bank of Switzerland](http://finance.yahoo.com/q/bc?s=UBS&t=my&l=off&z=m&q=l&c=brk-b).  Yes, you should click on that link.  UBS was the largest bank in
 Switzerland for many years, but an attack from a
-[Black Swan](/2007/08/25/BookReview-The-Black-Swan.html)
-turned the one-time behemoth into
-[the most mauled European financial player in the global credit crisis.](http://www.businessweek.com/magazine/content/08_09/b4073030425608.htm)
-Apparently, the folks at the Prediction Company failed to forecast
+[Black Swan](/2007/08/25/BookReview-The-Black-Swan.html)turned the one-time behemoth into
+[the most mauled European financial player in the global credit crisis.](http://www.businessweek.com/magazine/content/08_09/b4073030425608.htm)Apparently, the folks at the Prediction Company failed to forecast
 its owner's mauling.
 
 Like O&A, the Prediction Company, and a host of other Crystal Ball

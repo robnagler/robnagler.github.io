@@ -5,11 +5,9 @@ date: 2014-07-13T12:00:00Z
 ---
 By Scott Adams, Penguin, October 22, 2013 1591846919
 
-[Scott Adams](http://www.dilbert.com/blog/)
-likes to fail, or perhaps, accepts his failures with grace.  Anybody
+[Scott Adams](http://www.dilbert.com/blog/)likes to fail, or perhaps, accepts his failures with grace.  Anybody
 who invested in
-[WebVan](http://en.wikipedia.org/wiki/Webvan)
- must have been humbled.  He also invested in restaurants,
+[WebVan](http://en.wikipedia.org/wiki/Webvan) must have been humbled.  He also invested in restaurants,
 a burrito company, and velcro rosin bags.  None of these were successful.
 He laughs about them and more.  He offers some sage advice, too.
 

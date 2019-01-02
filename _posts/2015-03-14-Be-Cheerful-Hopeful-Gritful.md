@@ -1,55 +1,45 @@
-@h1 Be Cheerful, Hopeful, Gritful
+---
+layout: post
+title: "Be Cheerful, Hopeful, Gritful"
+date: 2015-03-14T12:00:00Z
+---
 
-@blockquote
-@&ldquo;Keep physically fit. Take sufficient rest, breathe fresh air night and day, and eat wholesome food. If you feel ill, consult your physician and be guided by his advice. Be hopeful, cheerful, gritful.This is a program of preparedness and he who is wise will "play his part" in conformity to its requirements.@&rdquo;
-@&mdash;
-@a href=http://n99.us/xjy Michigan State Board of Health, 1919
-@/blockquote
+
+> "Keep physically fit. Take sufficient rest, breathe fresh air night and day, and eat wholesome food. If you feel ill, consult your physician and be guided by his advice. Be hopeful, cheerful, gritful.This is a program of preparedness and he who is wise will "play his part" in conformity to its requirements." --
+> [Michigan State Board of Health, 1919](http://n99.us/xjy)
 
 Gandhi and Millennials have a lot in common. Passive resistance and self-destructive behavior is not futile. It's the perfect way to fight the British and Helicopter Parents.
 
 You aren't a Helicopter Parent, of course. I don't think I am. My oldest son just turned 18, and I bought him a car a few weeks ago. To my mind, he needs a safe car to get on with life. He isn't going to college so he'll need it for work. He'll have to pay for gas and insurance and pay off the loan, eventually. Yea, I am enabling him. Perhaps I'll sell it by the time I'm done with this article.
 
 People will tell you Millennials are Deluded Narcissists, or
-@a href=http://n99.us/hxk their parents made them that way
-.
+[their parents made them that way](http://n99.us/hxk).
 I don't buy that. Narcissism isn't a new problem:
 
-@blockquote
-@&ldquo;The children now love luxury; they have bad manners, contempt for authority; they show disrespect for elders and love chatter in place of exercise. Children are now tyrants, not the servants of their households. They no longer rise when elders enter the room. They contradict their parents, chatter before company, gobble up dainties at the table, cross their legs, and tyrannize their teachers.@&rdquo;
-@&mdash;
-@a href=http://n99.us/aff Socrates
-@/blockquote
+
+> "The children now love luxury; they have bad manners, contempt for authority; they show disrespect for elders and love chatter in place of exercise. Children are now tyrants, not the servants of their households. They no longer rise when elders enter the room. They contradict their parents, chatter before company, gobble up dainties at the table, cross their legs, and tyrannize their teachers." --
+> [Socrates](http://n99.us/aff)
 
 Millennials have it rough. Their grandparents are from the Greatest Generation: "When I was your age, I had to walk 10 miles to school and back and do my chores and homework before bed." The Greatest Generation put their kids through college by washing floors. Baby Boomers had to live through the Cold War, Race Riots, and Hyper-Inflation. Middle Class Millennials in the US have everything they need, but something is still wrong. Youth Suicide has been
-@a href=http://n99.us/mdh on the rise for decades
- and has been
-@a href=http://n99.us/omb for some time
-.
+[on the rise for decades](http://n99.us/mdh) and has been
+[for some time](http://n99.us/omb).
 
 The pressure on kids nowadays is intense. YouTube and Instagram show you that you can't do it better. It used to be that when you won a hockey game, you were on top of the world. Now you have to be on the Colorado Select team to be any good. Even then, you are
-@a href=http://n99.us/hxr not better than a 9 year old
-.
+[not better than a 9 year old](http://n99.us/hxr).
 The Greatest Generation didn't have to beat everybody in the world in stickball. They just has to be the best on their block.
 
 Middle Class Millennials in the US have everything they need, but what do they want? They can't know, because YouTube tells them just about anybody can do anything. I have always told my kids that I can buy them the rope, and it's their job to climb the mountain. I now realize that's too much pressure. Mohammed, Moses, and
-@a href=http://n99.us/tow this guy
- conquered mountains. And, anyway, even choosing which mountain to climb can be daunting. I have yet to climb a 14er myself, and I've lived in Colorado for 17 years. Who am I to talk about mountains?
+[this guy](http://n99.us/tow) conquered mountains. And, anyway, even choosing which mountain to climb can be daunting. I have yet to climb a 14er myself, and I've lived in Colorado for 17 years. Who am I to talk about mountains?
 
 Some say that Millenials have
-@a href=http://n99.us/uln Low Frustration Tolerance
-.
+[Low Frustration Tolerance](http://n99.us/uln).
 I do see this in my own kids have this, but
 I think a bigger issue, and more likely a cause than effect, is that dopamine release in today's society has a very low Activation Threshold. Just pick up your phone, and you can feast on any fancy. You don't need to climb a mountain to get an adrenalin rush any more, just roll-over, and turn on your Xbox. The Greatest Generation didn't have TV or video games. They had to go outside to get their daily dose of neural stimulation. However, if they did have such things, they would have been addicts just like the rest of us.
 
 To be fair to myself, Helicopter Parents have it tough, too. Murders, rapes, and abductions are happen every day, right on your phone, and there is nothing you can do about them. You have to get your kids into the right preschool. Parents are now competing (note the subject) to get their kids into college with
-@a href=http://n99.us/hiy the top students from every corner of the Earth
-.
+[the top students from every corner of the Earth](http://n99.us/hiy).
 
-@a href=http://n99.us/xga
-@img src=/my/file/Public/WikiData/get-ready-for-school.gif alt="Come On! Jump Up! And Let us Help you get ready for school"
-@/a
-
+[![Come On! Jump Up! And Let us Help you get ready for school](/assets/i/get-ready-for-school.gif)](http://n99.us/xga)
 
 I have a choice of how I want to live my life. I also have an obligation to do some important things, I believe, to support my kids without being controlling.
 I let my kids decide if they want to
@@ -62,12 +52,11 @@ I should say that I don't overdo it. Modeling healthy behavior doesn't mean bein
 
 Kids are tough, instinctively. Darwin says they will survive. My asthma made me cough as a kid, but following my doctor's advice, I survived. Children do die, and it is a tragedy for their parents. I don't want to diminish their pain in any way. However, they will survive bumps, scrapes, and the occasional emergency room visit, and
 even
-@a href=http://n99.us/rrn a loss of a limb
-.
+[a loss of a limb](http://n99.us/rrn).
 
 I have learned this and a couple of other things over the past two decades.
 My helicopter is parked most of the time. I use "No" as a complete sentence. I am setting clear boundaries in a few areas to help them develop frustration tolerance. I'm there to listen if they want to talk without offering advice. I wish I had learned these things sooner.
 
 It is never too late. My older son said to me the other day, "It feels really good to pay for everything myself." This gives me hope that he's figuring out his life, and he'll be alright. I left him that day feeling very happy.
 
-@div.sig ^Via_Rob 03/14/15
+

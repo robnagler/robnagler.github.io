@@ -12,8 +12,7 @@ floating throughout the snippets below, it's due to an incredible
 number of end notes.
 
 I first learned of
-[Gilbert in this video](http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html)
-filmed at the TED conference in Feb 2004.  It was so entertaining and
+[Gilbert in this video](http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html)filmed at the TED conference in Feb 2004.  It was so entertaining and
 shocking, I had to read his book.  The book is better than the talk,
 because I like books better, and because it covers way more than his
 short talk could ever cover.

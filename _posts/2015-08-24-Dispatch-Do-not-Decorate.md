@@ -5,8 +5,7 @@ date: 2015-08-24T12:00:00Z
 ---
 
 A typical Python web application uses decorators
-[like this](http://n99.us/sgd)
-:
+[like this](http://n99.us/sgd):
 
 ```python
 @app.route('/secrets')
@@ -20,8 +19,7 @@ The
  `@requires_auth`  syntax is known as a decorator in Python, which
 is a powerful technique to extend functionality to existing functions.
 You can
-[learn more about them](http://n99.us/kaj)
- from Jeff Knupp.
+[learn more about them](http://n99.us/kaj) from Jeff Knupp.
 
 Web frameworks make extensive use of
 decorators
@@ -34,16 +32,14 @@ dynamic dispatch instead.
 
 Python's decoration syntax is static. However, the concept of decoration is
 usually referred to in a dynamic context. From Wikipedia, for example, the
-[Decorator Pattern](http://n99.us/aay)
-"allows behavior to be added to an individual object,
+[Decorator Pattern](http://n99.us/aay)"allows behavior to be added to an individual object,
 either statically or dynamically, without affecting the behavior
 of other objects from the same class." Interestingly, the examples are
 all written in Java, which is generally thought of as a static language, which
 unlike Python, does not allow you to define decorators statically.
 
 Static decoration is problematic, because it reduces reuse. Consider
-[this example](http://n99.us/gjj)
-:
+[this example](http://n99.us/gjj):
 
 ```python
 @app.route('/')
@@ -81,8 +77,7 @@ patching
 
 A different approach to wrapping functionality around existing functions
 is with a
-[Dispatch Table](http://n99.us/igp)
-. Instead of statically binding the routes to functions, you can bind
+[Dispatch Table](http://n99.us/igp). Instead of statically binding the routes to functions, you can bind
 the functions in a dispatch table like this:
 
 ```python
@@ -99,8 +94,7 @@ without the need to load Flask.
 
 When you want to
 use Flask, use the
-[ `add_url_rule`](http://n99.us/gtc)
- method:
+[ `add_url_rule`](http://n99.us/gtc) method:
 
 ```python
 import my_module
@@ -167,8 +161,7 @@ I've purposefully
 kept out of the weeds here. Dispatches should happen without
 wrapping functions, since they
 are framework specific. In Flask, I might use a
-[signal](http://n99.us/par)
- to lookup the authorized role(s) in the dispatch table.
+[signal](http://n99.us/par) to lookup the authorized role(s) in the dispatch table.
 
 ## Dispatch with Patterns
 
@@ -177,8 +170,7 @@ a complex subject, but the more general rule is that you should
 use pattern-matching for dispatching when you can.
 
 Here's a less complex problem, implementing
-[logging with a decorator](http://n99.us/ksv)
-, which will demonstrate the dispatch using regular
+[logging with a decorator](http://n99.us/ksv), which will demonstrate the dispatch using regular
 expressions:
 
 ```python

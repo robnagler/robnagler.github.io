@@ -127,8 +127,7 @@ when my two skillsets balance each other out.
 Fortunately, I program in a team made up of smart people.  We talk
 about our fears quite a bit.  This lessens the impact fear has on the
 team as a whole.  When one person is afraid, we will
-[Pair Program](http://www.extremeperl.org/bk/pair-programming)
-to get help reduce fear-induced behaviors, such as, perfectionism.
+[Pair Program](http://www.extremeperl.org/bk/pair-programming)to get help reduce fear-induced behaviors, such as, perfectionism.
 A psychologist I know calls this "loaning your frontal lobe" to
 someone else.
 

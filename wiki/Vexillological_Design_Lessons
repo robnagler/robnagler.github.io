@@ -2,14 +2,12 @@
 Vexillological Design Lessons
 @/h1
 
-@a.vr_quote href=http://n99.us/cwo
+@blockquote
 @&ldquo;Here's a trick: if you want to design a
 kickass flag, start by drawing a one-by-one-and-a half inch rectangle
-on a piece of paper.@&rdquo;
-@span.vr_quote_author
-@&mdash;  Roman Mars, 11 Nov 2014
-@/span
-@/a
+on a piece of paper.@&rdquo; @&mdash;
+@a href=http://n99.us/cwo Roman Mars, 11 Nov 2014
+@/blockquote
 
 Design permeates everything. You care about the design of almost
 everything in your world. Sadly, you don't appreciate it
@@ -24,7 +22,7 @@ You know the drill, if you've written anything, even an email.
 @a href=http://n99.us/gyx 99% Invisible
  is A Tiny Radio Show About Design.
 Roman Mars praises the 99% invisible design in the world. Listen to
-@a href=http://n99.us/wuh his TED Talk
+@a href=http://n99.us/wuh his TED Talk@
 . Now.
 
 For the lazy or super busy, Roman summarizes
@@ -32,7 +30,7 @@ For the lazy or super busy, Roman summarizes
  from the
 @a href=http://n99.us/cmw North American Vexillogical Association's
  (NAVA)
-@a href=http://n99.us/cqr Guiding Principles on Flag Design
+@a href=http://n99.us/cqr Guiding Principles on Flag Design@
 :
 
 @ol
@@ -66,7 +64,7 @@ As I've
 We praise
 @a href=http://n99.us/qfa perfectionism
 , and laugh at
-@a href=http://n99.us/hbs fails
+@a href=http://n99.us/hbs fails@
 . We are hard on ourselves when we fail. Success is much less celebrated.
 
 The paradox is that good design requires feedback.
@@ -87,7 +85,7 @@ As I said, knowing the rules is not enough. You need to know when to stop
 and listen.
 
 I'm listening. What do
-@a href=http://n99.us/xsi you have to say
+@a href=http://n99.us/xsi you have to say@
 ? Thanks.
 
 @div.sig ^Via_Rob 06/13/15
