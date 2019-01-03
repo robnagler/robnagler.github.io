@@ -1,10 +1,10 @@
-@h1 Risk as the Fourth Variable in Extreme Programming
+---
+layout: post
+title: "Risk as the Fourth Variable in Extreme Programming"
+date: 2003-06-15T12:00:00Z
+---
 
-[@
-@a href=http://tech.groups.yahoo.com/group/extremeprogramming/message/75026
-Originally posted to Extreme Programming at Yahoo! Groups
-@/a
-]
+[[Originally posted to Extreme Programming at Yahoo! Groups](http://tech.groups.yahoo.com/group/extremeprogramming/message/75026)]
 
 This note addresses the four variables: time, scope, resources and
 quality. The fourth variable quality has been described as "strange"
@@ -72,4 +72,4 @@ cannot guarantee a particular value of MTBF and/or MTTR. If it
 could, we found the silver bullet to ensuring external quality for
 every single project, not just improving the average.
 
-@div.sig ^Via_Rob 6/15/2003
+

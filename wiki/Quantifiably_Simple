@@ -26,7 +26,7 @@ by many names, and in programming, we use the word testability.
 I am talking about testability (falsifiability) of ideas, which is not
 the same thing as software testing.  Ideas are not executable,
 and code and tests are.
-@a href=^/my/page?search=testing My other articles about testing
+@a href=https://www.google.com/search?q=site:robnagler.com+testing My other articles about testing
 focus on the process and psychology around the tests
 themselves.  In this article I discuss how testable an
 idea is. In particular I will rely on Popper's result that the degree of
@@ -47,7 +47,7 @@ Einstein put it, "everything should be made as simple as possible, but
 not simpler".  Great advice as long as we can agree on what it means
 for something to be simple.  If we adopt Popper's result that
 simplicity and falsifiability are equatable, our programming
-discussions can be built on a solid foundation.  This is why I like 
+discussions can be built on a solid foundation.  This is why I like
 the idea of Popperian Programming.
 
 There is a strong relationship between Extreme Programming and
@@ -61,7 +61,7 @@ duplication in their code -- and some programmers do!
 This asymmetry around refutability between OAOO and DTSTTCPW has
 always bothered me.  It is one of the reasons why I disagree with
 quality as one of the
-@a href=http://c2.com/cgi/wiki?FourVariables Four Variables 
+@a href=http://c2.com/cgi/wiki?FourVariables Four Variables
 of XP.  To me quality is not knowable.  We only know it when we see
 it, and two people's definition of quality is never the same.
 The rest of the Four Variables (scope, time, and resources) are
@@ -118,18 +118,12 @@ Scientific Discovery was first published in 1934.  When I started
 writing this, I thought this was an original idea.  Fortunately, there
 are many refutations to this statement:
 
-@div.references
-@a href=http://www.bossavit.com/pivot/pivot/entry.php?id=239
-Popperian Software Design
-@/a
-@a href=http://www.springerlink.com/content/n2004645x23k5657/
-Karl Popper's Critical Rationalism in Agile Software Development
-@a href=http://espresso.cs.up.ac.za/publications/MandyNorthover.pdf
-The Concept of Change in XP: Kuhn vs. Popper (PDF)
-@/a
-@a href=http://portal.acm.org/ft_gateway.cfm?id=1292504&type=pdf
-Agile Software Development: A Contemporary Philosophical Perspective (PDF)
-@/a
-@/div
+@a href=http://www.bossavit.com/pivot/pivot/entry.php?id=239 Popperian Software Design
+
+@a href=http://www.springerlink.com/content/n2004645x23k5657/ Karl Popper's Critical Rationalism in Agile Software Development
+
+@a href=http://espresso.cs.up.ac.za/publications/MandyNorthover.pdf The Concept of Change in XP: Kuhn vs. Popper (PDF)
+
+@a href=http://portal.acm.org/ft_gateway.cfm?id=1292504&type=pdf Agile Software Development: A Contemporary Philosophical Perspective (PDF)
 
 @div.sig ^Via_Rob 4/2/2008

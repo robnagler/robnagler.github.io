@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Facebook is a NOP"
+date: 2012-04-28T12:00:00Z
+---
 In the last 10 years, Apple has created an amazing amount of wealth.  The iPod,
 iPhone, and iPad are revenue generators like no other.  Apple is the largest
 company on the NASDAQ, and unlike its technological forbears, its P/E is 15.
@@ -25,8 +30,7 @@ largest site on the Internet in terms of page views.
 So what?  With a certain amount of luck and fortitude, a clever entrepreneur
 can turn mountains of cash into eyeballs and clicks.  The trick, of course, is
 turning those investments into profits.  Currently, Facebook
-@a href=http://en.wikipedia.org/wiki/NOP is a NOP
- for revenues.
+[is a NOP](http://en.wikipedia.org/wiki/NOP) for revenues.
 
 Apple increased
 revenues by 60% last quarter and generated $11.6B in profits.
@@ -46,33 +50,26 @@ But wait, there's more.  Facebook already has 2B sticky eyeballs of the world's
 7B people. Of the rest, not many need a Facebook Fix to get through their day.
 80% of the world lives on less than $10 a day,
 and while
-@a href=http://pooreconomics.com/chapters/2-billion-hungry-people Facebook may improve their lives a bit
-, it won't see much revenue from the poor of the world.
+[Facebook may improve their lives a bit](http://pooreconomics.com/chapters/2-billion-hungry-people), it won't see much revenue from the poor of the world.
 And, it's already the largest site on the Internet.
 Facebook growth in these dimensions
-@a href=http://en.wikipedia.org/wiki/NOP is a NOP
-.
+[is a NOP](http://en.wikipedia.org/wiki/NOP).
 
 Ah, social media marketing.  That's the biggest NOP of all.
 For the last couple of years, every company has added social media
 to their website.  There are
 QR Codes
-[@
-@a href=http://en.wikipedia.org/wiki/QR_code Wikipedia
-] on ketchup bottles so that I can "click" on them to get to
-@a href=http://www.facebook.com/HeinzKetchup
-my favorite ketchup company's Facebook page
-@/a
-and say brilliant things like:
-@blockquote
-*Pamela*Jane*Protheroe* Wish I could get rid of this
-Heinz ad popping up all over my fb page!
+[[Wikipedia](http://en.wikipedia.org/wiki/QR_code)] on ketchup bottles so that I can "click" on them to get to
+[my favorite ketchup company's Facebook page](http://www.facebook.com/HeinzKetchup)and say brilliant things like:
 
-*Heinz*Ketchup*Hi*Pamela,* You can hide our posts by clicking the top right corner of the Heinz post in your newsfeed. Hope this helps!
-@/blockquote
+> *Pamela*Jane*Protheroe* Wish I could get rid of this
+> Heinz ad popping up all over my fb page!
+> 
+> *Heinz*Ketchup*Hi*Pamela,* You can hide our posts by clicking the top right corner of the Heinz post in your newsfeed. Hope this helps!
+
 Woops!  I mean something like this:
 
-@img src=/my/file/Public/WikiData/20120428-fb-heinz.png alt="Heinz Ketchup lovers chatting..."
+![Heinz Ketchup lovers chatting...](/assets/i/20120428-fb-heinz.png)
 
 How does this help Heinz's revenue?  I'm sure it doesn't.  Since it probably
 doesn't
@@ -84,8 +81,7 @@ for Red Bull.  Seriously, paying somebody to answer inane
 questions on Facebook does not generate revenue so just say no!
 
 How do I know social media is worthless?  Because
-@a href=http://www.economist.com/node/21551065 Apple has a real effect on the economy
-, and Facebook doesn't.
+[Apple has a real effect on the economy](http://www.economist.com/node/21551065), and Facebook doesn't.
 The S&P has grown 10% this year due to Apple stock alone.  I predict
 Apple's revenues will be more than 1% of the US GDP in 2012.
 Facebook's revenues in 2012, of course, will be a NOP with respect to GDP.
@@ -96,8 +92,7 @@ social media.  That's 7% dumped down the drain, when it could be
 put to more productive uses.  How can I be so sure?  When every
 company is doing the same thing, there will be a causal macro-economic
 effect.  For example, during the Great Recession -- is it over yet? -- companies
-@a href=http://www.economist.com/node/21542211 laid off workers and productivity increased
-.  By that same logic, if social media is at all effective, GDP should be going
+[laid off workers and productivity increased](http://www.economist.com/node/21542211).  By that same logic, if social media is at all effective, GDP should be going
 up.  Yet, GDP is an anemic 2.3% this year.
 
 Before you say that's ridiculous, consider another prediction:
@@ -111,7 +106,7 @@ like, a NOP.
 
 Similar article: [Why Are Twitter's Revenues So Puny? Time to Grow Up by Eric Jackson, Forbes](http://www.forbes.com/sites/ericjackson/2012/01/31/why-are-twitters-revenues-so-puny-time-to-grow-up/)
 
-@h3 Addendum (7/11/2016)
+## Addendum (7/11/2016)
 
 It's been over four years since I wrote the above article, and at least five years since
 I had noticed these relationships. Despite all the promises, Facebook's revenue ($20B)
@@ -121,10 +116,9 @@ market capitalizations of these stocks. However, FB's market cap is $338B, GOOG 
 and AAPL is $533B. That doesn't make sense, especially when you add in two facts:
 AAPL is the only stock of the three that pays dividends (2%) and that is buying back its
 stock at a ferocious rate
-@a href=http://www.apple.com/pr/library/2016/04/26Apple-Reports-Second-Quarter-Results.html ($250B by 2018)
-.
+[($250B by 2018)](http://www.apple.com/pr/library/2016/04/26Apple-Reports-Second-Quarter-Results.html).
 
 Moreover, if Facebook was such a powerful economic driver, the US economy would
 be growing at a much faster pace than 1-2%, no different than four years ago.
 
-@div.sig ^Via_Rob 4/28/2012
+

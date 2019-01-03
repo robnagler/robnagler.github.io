@@ -1,0 +1,355 @@
+---
+layout: post
+title: "Snowtorturing"
+date: 2008-01-07T12:00:00Z
+---
+
+My first attempt at riding a snowboard was in Jan 1994, in a small
+town in the Vallis canton, Switzerland.  We have some good friends who
+have a house near Crans-Montana.  My second attempt at riding a
+snowboard was at the Eldora ski resort in Colorado, eleven years
+later.  By then, I was riding with my son, Benji, who was surprised at
+my skill.
+
+I'm getting ahead of myself.  First things first, as my dad used
+to say.  The first part of this article was written after my
+first experience on a snowboard.  I was reading a lot of Dave Barry
+at the time.  I follow up with a short report on my second and *last*
+attempt.
+
+## Snowtorturing (v1)
+
+I just came back from a short trip to the Vallis.  I wanted to
+get away from "it" all.  Clear my mind and body.  That sort of thing.
+I stayed in a small town near Crans-Montana, the famous ski resort.
+As a part of this mind-clearing experience, I decided I should try
+something new, something wild, something crazy, something incredibly
+stupid, so I rented a snowboard.
+
+My rather weak reasoning went as follows.  I hadn't
+downhill-skied in six years and so ordinary skiing would be as
+difficult as something totally new.  I'd heard that snowboarding was
+fun and much like skateboarding.  I used to skate a bit--FIFTEEN
+years ago--so I figured I could handle it.
+
+The night of my arrival in the Vallis, David (my host) and I had
+dinner.  Naturally, the subject got around to: What are you gonna do?
+I mentioned that I wanted to try snowboarding.  He smiled and said,
+"Es ist lustig." (Literally: "Others will find it funny.")  When I
+pressed him for details, he was vague.  He agreed that it is like
+skateboarding. (I forgot to ask him if he had ever skateboarded.)
+
+I was on vacation, so I didn't get up at the crack of dawn.
+After a leisurely breakfast, I headed up to Montana.  I entered the
+sports shop around noon and asked, "Je voudrais louer un snowboard."
+(Literally: "I want to kill myself.")  The salesman smiled and, I am
+not making this up, he said, "I think I have just the thing for you."
+All smiles, we headed over to the torture chamber, I mean, snowboard
+room.
+
+The conversation proceeded as follows:
+
+Him: This is the largest I have.
+(Placing it in front of me, it was just below my shoulders.)
+
+Me: Looks good.
+
+Him: Too short!
+
+Me: But isn't short better for learning?  I mean, you go slower.
+
+Him: It's just not good.  Here, I found something better.
+(This one touches my nose.)
+
+Me: Are you SURE this won't be too hard for me?
+
+Him: No problem.
+
+He went on to extol the virtues of snowboarding.  I asked if I
+should take a lesson.  "Maybe it's better.  It can be dangerous."
+
+The first thing you notice about a snowboard is that it is big.
+Being wider than a pair of skis means that it is more stable--on a
+flat surface, but who skis on a flat surface?  Your weight is
+distributed over a larger area, which means you go MUCH faster than
+on skis.
+
+Another nice point about snowboards is that there is only one.
+No tips to cross!  Yes, that's right, no more face plants.  Of
+course, this also means you can't snowplow.
+
+TECHNICAL NOTE: For those non-skiers, snowplowing is like
+learning to drive in a parking lot.  You can go as slow as you want.
+It's a critical step that makes skiing EASY to learn.  Learning to
+snowboard is like learning to drive on the Indianapolis Speedway.
+
+Yet another nice feature of snowboards is that you don't need ski
+poles.  This seemed like a big plus considering I have hand problems.
+
+IMPORTANT SAFETY TIP: Don't snowboard without gloves, and bring
+an extra pair, because the first pair will be soaking wet within an
+hour. 
+
+I proceeded to the top of the hill.  I was excited.  Ready to
+hang ten in the snow.  At the top, I met Bernard, the sadist, I mean,
+snowboard instructor.
+
+The first thing you do with a snowboard is watch the instructor
+struggle to get your boots into the bindings.  Well, this may have
+just been the fact that my feet are too large.  
+
+BTW, if you are tall, you aren't likely to be a good snowboarder.
+It's like surfing and skateboarding: low, compact, well-coordinated
+people do better.  I don't fall into any of these categories,
+especially the last.  
+
+The first thing you do after learning to skate is to skate out to
+a safe area.  Definition: no people within 100 m radius.  This was
+good.  I was glad I paid this guy.  He obviously had taught people
+before.  Note that this "skating" was the only part I found similar
+to skateboarding.  
+
+Once safely out of the way of trees and small children, Bernard
+bound my other foot into the board, balance became a lot trickier.
+You are either on your knees or on your butt.  Standing up was only
+achieved with Bernie's helping hands.  Nevertheless, I persevered and
+perspired.
+
+The next part was like a dancing lesson.  Bernie held my hands
+while I fell all over the place.  Eventually, we worked it out so I
+wouldn't fall so often.  We got some forward motion.  I was starting
+to feel like it wasn't so bad.  I removed my scarf.  It was getting
+quite toasty even though it was below freezing outside.  
+
+Turning.  This is the part where I noticed a unique feature of
+snowboards.  there are exactly two speeds: Mach 1 and sitting.  I
+must say that I mastered the latter.  To go Mach 1, you swivel your
+hips and point your hands downhill.  It doesn't seem to matter if you
+point a little or a lot; you always attain Mach 1 instantaneously.
+
+My stomach muscles were killing me at this point.  Most of the
+stomach work goes into making "half-turns", as Bernie called them,
+which you make at sitting speed, so you are pointing in the right
+direction before you change gears to Mach 1.
+
+To make a half-turn, you lift the board in the air.  The board
+must already be facing downhill.  This goes against the law of
+gravity.  You are heavier than the snowboard.  So to make a
+half-turn, you usually have to tip the board over your head first.
+This acrobatic process requires muscles that a typical computer
+programmer doesn't even know he has.  
+
+Turning at Mach 1 is the tricky part.  With skis, you have TWO
+edges to turn on, a snowboard only has ONE.
+
+David later told me that in powder snow, it's really like surfing
+because the whole board grabs on the turn.  I don't think I'll be
+trying this out soon, because David also said he once got caught in a
+snowboard-induced avalanche and he was under the snow with the board
+BOUND to his feet.  "Es war nicht lustig."
+
+Mach 1 turning on a snowboard requires a LEAP OF FAITH.  Bernie
+said, "Just look uphill and you'll turn eventually."  This is the
+theory, anyway.  In practice, you either lean incorrectly and crash,
+or you reach Mach 1 and run over whatever is in your way.  
+
+CULTURAL NOTE: Snowboarding is quite popular these days.  The
+slopes are just littered with snowboards, bodies attached.  At any
+given moment, there are exactly three snowboarders going Mach 1.  At
+the same moment, there are 500 snowboarders sitting on the slope.
+The distinguishing feature between the Mach 1 and sitting speeds must
+be the clothes.  To maintain your balance at Mach 1, the following
+attire seems to be required: a flannel shirt, a pair of "big" pants,
+and a baseball cap turned backwards.  Being 16 years old may also
+help.
+
+Bernie was thrilled when I actually turned.  I was too, but the
+problem is that you make this big curve and when you reach the top of
+the other side, gravity takes over again and you are going Mach 1,
+BACKWARDS.  I call this the human pendulum maneuver.
+
+Every fall was getting harder and harder.  Bernie was farther and
+farther away.  It was ever more difficult to get up.  My throat was
+parched.  My head was soaking with sweat.  I was thinking, "Are we
+having fun yet?"  
+
+We finally made it down the first run (30 minutes, but it seemed
+like 30 years).  It was time to get to the ski-lift.  Somehow, I made
+a wrong turn and ended up lower than the lift.  This was when I
+learned the graceful "monkey walk."
+
+With skis, you walk like a duck to get back uphill.  It's hard,
+but do-able.  With a snowboard, you have no poles, and only one edge,
+so you kneel down (on incredibly sore knees) and hop uphill using
+your hands.  It's sort of like a bent-over sack race.  Even Bernie
+couldn't make it look good.  What it lacks in grace, it makes up for
+in muscular wear and tear.  
+
+Getting on the lift was relatively easy.  You take your back foot
+out and skate.  Getting the board on the lift footrest was another
+story.  After getting hit on the head with the "safety" bar, Bernie
+said, "Lift your board onto the footrest."  I couldn't.  The board
+was heavy and there was only one centimeter clearance between my knee
+and the bar.  As I said, this isn't a sport for people with long
+limbs.
+
+We made one more run.  I was brimming with confidence.  I
+actually made a couple of turns without falling.  Bernie was shouting
+tip-top, soup-air, etc.  I even stopped without falling.  I was
+hanging ten!  
+
+Bernie took his 50 francs and said good-bye.
+
+ATTENTION SHOPPERS: Snowboarding is great value for the money.  I
+spent a total of 130 francs which included the lift ticket,
+snowboard, boots and torture session, I mean, one-hour lesson.  This
+may seem like a lot, but in comparison to, say, bungee jumping, you
+get much more terror for the money.  
+
+I was thirsty and there was nothing to drink at the top, so I
+decided to go down to the gondola middle station.  No sweat.  "Je
+suis un profi."
+
+After falling down the slope I already knew, I turned right past
+the lift station--this time on purpose--and fell right into a
+mogul field.  Definition: a mogul is a small mountain that springs up
+in the middle of a nice smooth slope.  I think moguls are the Ski
+God's idea of a joke.
+
+The first mogul was the launching pad, the second was the landing
+pad.  My hands were the brakes.  After a few spectacular
+launch-landings, I was sitting on a mogul contemplating my next
+launch when a nice man came up to me and said, "C'est le sport, non?"
+(Literally: I think you are very funny.)  
+
+I bounced down to a flat part, a ski road.  I worked out a method
+of skating up the side of the hill to stop.  Eventually, I landed
+near the beginning of a new slope.
+
+I pointed my hips and hands in the downward direction.  Voila, I
+was off again.  This time, I actually managed to stop without
+falling.  However, I ended up at the top of another minefield.  This
+one steeper than the first.
+
+Bernie said if I just point my hands in the direction I want to
+go, I'll go that way.  He didn't account for "fall slippage."  Each
+fall brought me farther into the steepest part of the gradient.
+(Gravity wins again.) Eventually, I just "went for it" and headed
+straight for the bottom.  "Pardonez moooooi!"
+
+At the bottom, I landed with the back of my board completely
+stuck in the snow.  All reason had left me.  It had taken me 10
+minutes to close the bindings at the top of the lift.  In the soft
+snow, I figured I'd never get them on again, so I wiggled and
+wriggled until the board came loose.  This probably took 10 minutes.
+My muscles were not very happy with me.
+
+Keep in mind that your feet are locked into this thing at a 45
+degree angle.  Your knees end up absorbing most of the angular
+difference between the board and your body.  My knees couldn't
+believe I was doing this to them.  Neither could I!  
+
+I finally arrived near the landing strip at the restaurant.  The
+surface was extremely slippery, so it was like trying to stand up on
+ice with your feet tied together.  I threw in the towel.  I took the
+board off and walked in.
+
+Walking wasn't easy after three hours of muscle wrenching, but I
+only fell once--sprawling across one of the lunch tables.  "Having
+a hard day?", the person, whose table I landed on, asked.  "Not any
+more", I replied.  I kept the snowboard well away from my feet until
+I could return it safely back to its rightful owners.
+
+A few days have passed since my little adventure.  I can almost
+walk without limping.  My bruises are fading.  I think I have gained
+some insight into the art of snowboarding.  I'm pretty sure I just
+had a bad day.  In fact, I heartily recommend you try out
+snowboarding for yourself.  I mean, after all, es ist lustig.
+
+## Snowtorturing (v2)
+
+Benji and Aidan being small, compact, and particularly
+well-coordinated took to snowboards like fish to water.  When they
+swooshed down the mountain, it *looked* so easy.  The equipment was a
+lot better: soft boots, lighter bindings, etc.  I thought to myself:
+Self, you could do this?  Not!
+
+Despite my previous experience, and being extremely height,
+coordination, and balance-challenged, I had a go.  Benji was off on a
+Friday so we headed up to Eldora after renting a board.
+
+Needless to say that I thought lessons would be silly.  I'm an
+intermediate skier, and I was wearing lots of protective gear: wrist
+guards, helmet, and knee pads.  What more protection did I need?  A
+Kevlar vest.
+
+I tried out the board on the base of Little Hawk.  It was easy to do,
+and I could skate well enough so we went up the E-Z lift and headed
+down Bunnyfair.  What fun!  It was brilliant.  Swish, swoosh, stop.
+Total control.  I'm a Snowboard God.
+
+Wham!  Unimaginable pain.  I caught an edge and flipped in the air.
+I landed on my hand and my elbow was able to separate my ribs from the
+muscles which hold them together.  This was probably the most painful
+injury in my life.
+
+I was lying in the snow, screaming in pain, thinking I was going to
+die.  I remember looking up at people on the lifts, and someone said
+help was coming.  I started to calm down, but still couldn't move.
+
+Benji was down the hill a ways.  He thought it was me doing an
+*awesome* trick.  He finally realized I was in pain so hopped up the
+hill.
+
+A broken rib or, rather, a rearranged rib is one of those injuries
+that is untreatable.  I was starting to feel a tad better after the
+ski patrol guy asked me who the first President of the U.S. was and
+how many quarters in a dollar.  At some point during the conversation
+when it became apparent I was fine, and there was nothing that could be
+done, Benji politely said he wouldn't mind riding alone while I waited
+in the car.  We all laughed, and my ribs seared with pain.
+
+The ski patrol guy had me sign something that said I was refusing
+further treatment.  I walked down the hill.  I felt pretty bad that
+this was the first run of the day so I decided to walk around a bit to
+let Benji get in a few more runs.  I think I was in shock, because I
+seriously thought about riding again.
+
+We went back to the car at lunch.  I took some naproxen sodium.  Benji
+and I ate.  I figured it wouldn't hurt to let him do a few more runs.
+He was only nine, and I'm quite proud of the way he handled himself.
+Eldora is one of those resorts you can drive right up to the lifts so
+I could see him come down at the end of each run.  He would wave to me
+at the bottom of each run before going up the lift again.
+
+The plan was to ride all day and go home so I didn't bring anything
+for entertainment.  Benji had brought an Artemis Fowl book, which
+turned out to be a surprisingly good read.  Still, after an hour or
+so, I started to feel the pain coming on.  I was worried I wouldn't
+be able to drive down the hill.  Benji agreed to leave.
+
+I got home and laid in bed for a day or so.  Any time I breathed, it
+hurt.  Sneezing was the worst, and laughing not much better.
+
+A week later I was pretty much ok, but it still hurt to sneeze.
+Joanne and I decided to go out for the evening that Saturday.  I
+brilliantly suggested going to a comedy club.  After a few rounds of
+drinks, my ribs didn't seem to hurt so much when I laughed.  The next
+day, I was back in bed for 24 hours.  Fortunately, the comedians
+weren't that funny, or I would have probably had a total relapse.
+
+## Life is good
+
+One of the fun things about having kids is that I never stop trying to
+do the things they do.  I've learned how to ice skate and even sort of
+play hockey.  We go to water parks, and I've even ridden a few
+rollercoasters, which really isn't my cup of tea.  The other day they
+got some Ripstiks from their aunt.
+
+A Ripstik is a two wheeled, articulated skateboard.  Hard to imagine,
+really, until you try it.  The kids can ripstik quite well.  Joanne
+and I tried, and I'm happy to say that I didn't fall once.  Perhaps
+after a few more tries at the Ripstik, I'll be good enough to try out
+a snowboard, again!
+
+

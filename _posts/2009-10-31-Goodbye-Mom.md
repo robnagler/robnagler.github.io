@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Goodbye, Mom"
+date: 2009-10-31T12:00:00Z
+---
+My mom passed away on October 29, 2009, on the 80th anniversary of
+Black Tuesday.  The Great Depression was ever-present in Mom's mind.
+Money, and the fear of not having enough, was a specter in her life.
+She was terrified she would run out in her old age.
+
+One of Mom's oft-repeated stories was the day my grandfather mis-timed
+his rent "game", and my mom's family was out on the street with all
+their belongings.  My mom was a very impressionable 11 years old at
+the time.  I never could quite relate to her financial angst, because
+she and my dad always provided for us.  The Great Depression is a
+story to me, but it was reality for my mom, till the day she died.
+
+My mom looms in my life.  My dad was there.  Mom was and is
+omnipresent.  She was determined for all of her children to have a
+better life, and I have.  I am successful thanks to Mom's grit and
+determination.
+
+I am very sad that Mom was never able to celebrate her success.  She
+made it, and yet she never could accept that she was financially
+secure.  I think her proud independence and deep humility helped her
+succeed and also prevented her from truly enjoying it.  She used to
+say, "have fun, get your work done".  I wish she had more fun.
+
+For Mom, work was fun, and fun was work.  She had an incredible drive,
+an inner-power, which you couldn't ignore.  She cared about
+everything.  Everything mattered, even the smallest detail.  She was
+the penultimate perfectionist.
+
+You didn't mess with Mom's kitchen.  From the roses on the birthday
+cakes so carefully crafted to the hand-ground chop liver, Mom ran the
+show.  Only later in life did I realize how much effort she put into
+the things I took for granted as a child.  Her house was always in
+order.  I need order in my life to feel comfortable.
+
+Mildred was a very private person. She was not comfortable sharing her
+personal thoughts.  I'm grateful I got to know her a bit better after
+she retired.  She became more and more open with me.  Mildred was a
+formidable woman but she was a frail human, just like me.
+
+When I was growing up, she was Supermom.  As she got older, she became
+more approachable, and we had a real friendship.  I didn't have the
+same opportunity to get to know Dad in that way.  Mom's passing makes
+me realize how much I knew about her, and I how little I knew about
+him.  I hope that my kids see my fraility now so they have more time
+to get to know me.
+
+I'm sad.  Mom was perhaps ready to die, but she was alive just two
+weeks ago, when I last saw her.  I'm sad, because she didn't want to
+die.  I don't think she was afraid.  I think she was not really
+ready.  She had a lot of drive left in her, which she showed when I
+last saw her, just two weeks before.
+
+Yet, she was starting to suffer from dementia.  She knew this, and
+entrusted me to take care of her finances and bookkeeping.  She knew
+the end was near.  She had a clue about her dementia.  Mom was proud
+but aware of her limits.  Her fierce independence gave way to her more
+powerful pragmatism.  Mom was too smart to hide from herself.
+
+Mom passed away in her home after experiencing one of the
+"magnificent" sunsets she so loved to watch from her "Manor".  All her
+children were with her either in person or on the phone.  Thank you
+Barbara for calling me so I could say goodbye.  I can think of no
+better way for her life to end.
+
+Goodbye, Mom.  You were great, and I love you.
+

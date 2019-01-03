@@ -1,128 +1,111 @@
-@h1 PythonTip: "import from" Considered Harmful
+---
+layout: post
+title: 'PythonTip: "import from" Considered Harmful'
+date: 2014-06-27T12:00:00Z
+---
 
-@a href=http://bytebaker.com/2008/07/30/python-namespaces/ Namespace pollution
- is the main argument against wildcard imports:
+[Namespace pollution](http://bytebaker.com/2008/07/30/python-namespaces/) is the main argument against wildcard imports:
 
-@code.prettyprint.lang-python
+```python
 from foo import *
-@/code
+```
 
 While explicit unqualified imports are
-@a href=https://www.python.org/dev/peps/pep-0008 considered fine
-:
-@code.prettyprint.lang-python
+[considered fine](https://www.python.org/dev/peps/pep-0008):
+```python
 from foo import bar
-@/code
+```
 
 There is, however, a harmful side-effect of unqualified imports:
 
-@code.prettyprint.lang-python.linenums
+```python
 from sys import stdout
 
 stdout = open('stdout.txt', 'w')
 print('hello')
 stdout.close()
 assert open('stdout.txt').read() == 'hello\n'
-@/code
+```
 
 The assertion fails, because the output from
-@code print
- does not go to
-@code stdout
- rather it goes to the value of
-@code sys.stdout
-.  Unqualified imports in other languages do not work this way, that is,
+ `print`  does not go to
+ `stdout`  rather it goes to the value of
+ `sys.stdout` .  Unqualified imports in other languages do not work this way, that is,
 the qualified and unqualified names are exactly the same thing.
 
 For qualified imports, the attribute's value is retrieved on every use
 so the following example works as you would expect:
 
-@code.prettyprint.lang-python.linenums
+```python
 import sys
 
 sys.stdout = open('stdout.txt', 'w')
 print('hello')
 sys.stdout.close()
 assert open('stdout.txt').read() == 'hello\n'
-@/code
+```
 
 Python imports values, not names.
 The interpreter makes a new variable in the importing
 module with the reference of the variable from the exporting module.
 When the first example assigns to
-@code stdout
-, it assigns the newly opened file to the importing module's variable,
+ `stdout` , it assigns the newly opened file to the importing module's variable,
 which happens to be called
-@code stdout
-. The
-@code as
- keyword makes this behavior explicit.
+ `stdout` . The
+ `as`  keyword makes this behavior explicit.
 
 Here's the first example rewritten with
-@code as
- to show this effect:
+ `as`  to show this effect:
 
-@code.prettyprint.lang-python.linenums
+```python
 from sys import stdout as new_stdout
 
 new_stdout = open('stdout.txt', 'w')
 print('hello')
 new_stdout.close()
 assert open('stdout.txt').read() == 'hello\n'
-@/code
+```
 
 While this is not the typical form of using the
-@code as
- keyword, it shows more clearly that
-@code new_stdout
- is a name defined in the importing module.
+ `as`  keyword, it shows more clearly that
+ `new_stdout`  is a name defined in the importing module.
 The name
-@code sys.stdout
- is easily seen to be unrelated by this
+ `sys.stdout`  is easily seen to be unrelated by this
 atypical usage of the
-@code as
-  keyword.
+ `as`   keyword.
 
 Python also creates a new variable for a module import.  All of
 these names are all "the same", that is, they are attributes, and
 you can do strange things like this:
 
-@code.prettyprint.lang-python.linenums
+```python
 import sys
 
 sys = 1
 assert sys == 1
-@/code
+```
 
 The assertion passes, because the reference to the module
-@code sys
-  is replaced by the reference to the number
-@code 1
- by the assignment.  The code on line three does
+ `sys`   is replaced by the reference to the number
+ `1`  by the assignment.  The code on line three does
 not reassign the meaning of
-@code sys
- globally, that is, another module which imports
-@code sys
- will get a copy of the module reference, not a reference to the
+ `sys`  globally, that is, another module which imports
+ `sys`  will get a copy of the module reference, not a reference to the
 number
-@code 1
-.
+ `1` .
 
-@h3 `from` impedes `reload()`
+## `from` impedes `reload()`
 
 To reload a module, you have to pass the reference of the module to the
-@code reload
- built-in function.  Reloading a module
+ `reload`  built-in function.  Reloading a module
 has to reuse the exact same reference, because every
-@code import
- makes a copy of the reference in the importing module.
+ `import`  makes a copy of the reference in the importing module.
 
 The subtle thing about reloading is that any attributes of the module which
 are imported unqualified (using
-@code from
-) do not change.  The following complex example demonstrates this problem:
+ `from` ) do not change.  The following complex example demonstrates this problem:
 
-@code.prettyprint.lang-python.linenums
+```python
 import os
 import sys
 
@@ -142,27 +125,16 @@ assert f1() == 1
 write_m1('2')
 reload(sys.modules['m1'])
 assert f1() == 2
-@/code
+```
 
 The assertion fails on line 20, because
-@code f1()
- still returns one, not two.  A qualified call
-@code m1.f1()
- would return two.
+ `f1()`  still returns one, not two.  A qualified call
+ `m1.f1()`  would return two.
 
 Reloading modules is very useful for large systems where reloading a
 single module is orders of magnitude faster than reloading the whole system.
 You can find
-@a href=https://docs.python.org/2/howto/doanddont.html#from-module-import-name1-name2 references to this problem
-, but it's not widely known.  People argue against
-@code from
- for stylistic reasons (which I strongly agree with).  I go further
+[references to this problem](https://docs.python.org/2/howto/doanddont.html#from-module-import-name1-name2), but it's not widely known.  People argue against
+ `from`  for stylistic reasons (which I strongly agree with).  I go further
 and say that
-@code from
- is harmful, and should be deprecated.
-
-@div.sig ^Via_Rob 6/27/2014
-
-@b-html
-<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-@/b-html
+ `from`  is harmful, and should be deprecated.

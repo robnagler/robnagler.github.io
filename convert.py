@@ -61,6 +61,8 @@ def _gen(text, prefix=''):
     for x in text:
         if isinstance(x, pkconfig.STRING_TYPES):
             res += prefix + x + '\n'
+        elif isinstance(x, list):
+            res += _gen(x, prefix)
         elif x.get('section_head'):
             res += _gen([x.text], '## ')
         elif x.get('rstrip'):
@@ -185,6 +187,7 @@ def _parse(wiki_name, wiki):
             continue
         m = _SIG_RE.search(l)
         if m:
+            assert 'date' not in res
             yy = int(m.group(3))
             if yy < 100:
                 yy += 2000
@@ -236,6 +239,12 @@ def _parse_text(text):
     text = text.replace('@&rdquo;', '"')
     text = text.replace('@&#8202;', ' ')
     text = text.replace('@&rarr;', '&rarr;')
+    if text.endswith('@'):
+        assert not text.endswith('@@')
+        return [
+            _parse_text(text[:-1]),
+            pkcollections.Dict(rstrip=True),
+        ]
     m = _CODE_RE.search(text)
     if m:
         return pkcollections.Dict(code=m.group(1).replace('@@', '@'))
