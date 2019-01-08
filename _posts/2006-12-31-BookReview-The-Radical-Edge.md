@@ -1,0 +1,94 @@
+---
+layout: post
+title: "BookReview: The Radical Edge: Stoke Your Business, Amp Your Life, and Change the World "
+date: 2006-12-31T12:00:00Z
+---
+By Steve Farber, Kaplan Business, April 1, 2006, 1419511319
+
+Steve Farber is a good writer.  This companion to the
+[The Radical Leap](/2005/12/31/BookReview-The-Radical-Leap.html)is almost identical in style, and just as entertaining.  The
+book is a mix of factual and fictional stories, and he does not let on
+which is which.  This is good.  The point is that you have to Love
+Your Customers to succeed in business, and, I believe, to be *happy*
+in your work life.
+
+I found the start of the book a bit slow, and a partly pedantic.  He
+is not nearly as naive as he makes himself out to be.  At the same
+time, it is a good device for the problem at hand, and it works well
+towards the end.
+
+
+> [p72] "It was nothing formal, Steve. At first, he was my
+> customer. He'd come in here with little Theodore--sorry, Edg--and our
+> friendship just developed over the years. We did a lot of talking,
+> that's all. Do enough talking, for enough years, and you're bound to
+> not only learn from each other, but also help each other out along the
+> way. He was the real genius; I just kind of goosed him along." She
+> paused for a moment, obviously lost in reverie, and then let out a
+> deep, trembling sigh. "Don't ever let anyone tell you that customers
+> are just customers. If that'd been my attitude, I'd have missed out on
+> one of my life's greatest treasures: Billy 'Pops' Maritime and his
+> little boy, Edg."
+
+
+
+> I don't know if she'd meant to, but Agnes had baited the hook, tossed
+> it into the pond, and jerked the line with perfect finesse. Cam was
+> snagged. For him, merely mentioning the Maritime name made Agnes
+> ripple with credibility; the fact that she knew Pops so well made her
+> virtually irresistible. That's pretty much how I felt, too.
+
+
+
+> [p78] Well, baby," Agnes sighed, "contrary to what the oldschool
+> bureaucrats would have you think, business is a deeply personal
+> endeavor. Whether you intend to or not, you put your stamp on every
+> bit of work you do, and you leave an indelible impression on every
+> customer and colleague you touch.  Each one of those impressions
+> speaks volumes of truth about who you are.  Business is not a mask; it
+> doesn't hide your face.  It unveils it--wrinkles, moles, warts, and
+> all." 
+
+
+
+> [p113] "The modern malady, Steve, is people living lives of quiet
+> desperation. The three of us here, and many others like us-the ones
+> who want to use their gifts to change the world for the better-prefer
+> to live lives of amplified exuberance. That's how we move mountains,
+> baby. Cam isn't ready to look deep enough into himself to find that
+> clear, inspiring voice. So, even though it's in there somewhere, he's
+> got nothing to amplify. Not yet, anyway."
+
+
+
+> [p129] "The only similarities we look for are intent and
+> conviction. We are interested in those who strive-and that's an
+> important word-to change a piece of their world for the better. We're
+> not interested in talkers; only practitioners. And there's one more
+> critical factor."
+
+
+
+> "What's that?" I asked.
+
+
+
+> "Let me put it this way: when we get together it feels much more like
+> a reunion than a work session. We love each other's company;
+> therefore, we only invite people whom we're pretty sure we're going to
+> love."
+
+
+
+> "Well. . . then I'm honored, I guess. I'm a loveable guy, that's
+> true," I mugged. "But I don't know if I qualify as a practitioner."
+
+
+
+> "We think you're underestimating yourself, but let me finish telling
+> you what we do here. Once a month we get together and compare notes
+> about what we're seeing in the world around us and what we're trying
+> to do in response to it."
+
+
+

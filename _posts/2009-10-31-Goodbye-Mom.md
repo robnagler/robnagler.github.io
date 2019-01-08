@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goodbye, Mom"
+title: "Goodbye, Mom"
 date: 2009-10-31T12:00:00Z
 ---
 My mom passed away on October 29, 2009, on the 80th anniversary of

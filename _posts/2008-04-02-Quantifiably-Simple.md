@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Quantifiably Simple"
+title: "Quantifiably Simple"
 date: 2008-04-02T12:00:00Z
 ---
+
 I'm right.  You're wrong.  Conversations between programmers often
 sound like this.  Being right is very important to most people.
 Even when we agree to disagree, it is more like a temporary ceasefire
@@ -27,7 +28,7 @@ by many names, and in programming, we use the word testability.
 I am talking about testability (falsifiability) of ideas, which is not
 the same thing as software testing.  Ideas are not executable,
 and code and tests are.
-[My other articles about testing](https://www.google.com/search?q=site:viarob.com+testing)focus on the process and psychology around the tests
+[My other articles about testing](https://www.google.com/search?q=site:robnagler.com+testing)focus on the process and psychology around the tests
 themselves.  In this article I discuss how testable an
 idea is. In particular I will rely on Popper's result that the degree of
 testability can be used to define simplicity, and therefore

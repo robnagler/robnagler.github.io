@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snowtorturing"
+title: "Snowtorturing"
 date: 2008-01-07T12:00:00Z
 ---
 

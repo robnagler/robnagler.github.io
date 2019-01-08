@@ -1,5 +1,9 @@
-@h1 BookReview: The Programmer's Apprentice
-@div.bib by Charles Rich, Richard C. Waters, ACM Press, 1990, 0-201-52425-2
+---
+layout: post
+title: "BookReview: The Programmer's Apprentice"
+date: 1990-12-31T12:00:00Z
+---
+By Charles Rich, Richard C. Waters, ACM Press, 1990, 0-201-52425-2
  The theory: a programmer needs an apprentice to help with the
 mundane tasks.  Programmers must do the higher level connections and
 the "checking up" on the apprentice while the apprentice deals with
@@ -26,4 +30,4 @@ I particularly liked the tricks with dataflow.  This relates a
 little bit to my work with G and, in a sense, justifies the data flow
 approach.
 
-@div.sig ^Via_Rob 1990
+

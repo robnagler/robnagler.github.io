@@ -117,7 +117,7 @@ wander the endless steppes.
 
 @blockquote
 One is reminded of Napoleon's mad campaign for Moscow. The Persian and
-the Frenchman are in the grips of an identical pas· sion: to seize,
+the Frenchman are in the grips of an identical passion: to seize,
 conquer, possess. Both will suffer defeat on account of having
 transgressed a fundamental Greek principle, the law of moderation:
 never to want too much, not to desire everything. But as they are
@@ -171,11 +171,12 @@ caste of the Magi. They were recently overthrown in a palace coup
 staged by a group of Persian elites, who had only just selected from
 among themselves a new king- Darius. Herodotus notes that the
 Babylonians
-@span.rob
-[Rob: I use double quotes (") in place of Kapuscinski's
-italics for Herodotus's words]
-@/span
- "were very well prepared". Clearly, he
+@/blockquote
+
+Note: I use double quotes (") in place of Kapuscinski's italics for Herodotus's words
+
+@blockquote
+"were very well prepared". Clearly, he
 writes, "they bad spent the whole troubled period of the Magus' rule
 ... getting ready for a siege, and somebow nobody had noticed that
 they were doing so."

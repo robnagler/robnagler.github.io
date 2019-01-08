@@ -17,7 +17,7 @@ _SRC_D = pkio.py_path('wiki')
 
 _DST_D = pkio.py_path('_posts')
 
-_SIG_RE = re.compile(r'Via_Rob (\d+)/(\d+)/(\d+)')
+_SIG_RE = re.compile(r'Via_Rob (\d{4}|(\d+)/(\d+)/(\d+))')
 
 _A_RE = re.compile('@a href=(\S+) (.+)')
 
@@ -40,19 +40,20 @@ def main(argv):
     parsed = []
     for f in argv:
         pkdp(f)
-        tree = _parse(f, pkio.read_text(_SRC_D.join(f)))
+        tree = _parse(f, _SRC_D.join(f).read())
         if 'title' not in tree:
             tree.title = f.replace('_', ' ')
         page_map[f] = tree.href
         parsed.append(tree)
     for tree in parsed:
+        pkdp(tree.dst.basename)
         t = '''---
 layout: post
 title: "{title}"
 date: {date}T12:00:00Z
 ---
 '''.format(**tree) + _gen(iter(tree.text))
-        pkio.write_text(tree.dst, t)
+        tree.dst.write(t, 'w')
 
 
 def _gen(text, prefix=''):
@@ -188,11 +189,16 @@ def _parse(wiki_name, wiki):
         m = _SIG_RE.search(l)
         if m:
             assert 'date' not in res
-            yy = int(m.group(3))
-            if yy < 100:
-                yy += 2000
-            mm = '{:02d}'.format(int(m.group(1)))
-            dd = '{:02d}'.format(int(m.group(2)))
+            if m.group(4):
+                yy = int(m.group(4))
+                if yy < 100:
+                    yy += 2000
+                mm = '{:02d}'.format(int(m.group(2)))
+                dd = '{:02d}'.format(int(m.group(3)))
+            else:
+                yy = m.group(1)
+                mm = '12'
+                dd = '31'
             res.date = '{}-{}-{}'.format(yy, mm, dd)
             res.dst = _DST_D.join('{}-{}.md'.format(res.date, res.md_name))
             res.href = '/{}/{}/{}/{}.html'.format(yy, mm, dd, res.md_name)

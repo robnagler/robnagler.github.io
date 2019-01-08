@@ -1,0 +1,952 @@
+---
+layout: post
+title: "BookReview: Zen and The Art of Motorcycle Maintenance"
+date: 1991-12-31T12:00:00Z
+---
+By Robert M. Pirsig, Bantam Books (originally William Morrow Apr 1974), 1989, 0-553-27747-2
+
+An incredible non-fictional auto-biographical book.  It contains
+many themes, plots, and ideas.  The book takes place during a
+cross-country trip by a man (the author) and his son (Chris).  Pirsig
+had done time in a mental institution and received involuntary
+electro-shock "therapy"--which is now illegal.  The book bounces
+between Phaedrus (his former self), the events of the trip, and his
+current philosophy.  It concludes on a positive note, but there is a
+sad afterword (written 1984).
+
+What's extremely interesting is that it was initially rejected by
+121 editors.  Pirsig has something to say and he was extremely
+determined to get it said.  It just tells you something about the
+book industry in America.
+
+Phaedrus isn't defined clearly at the beginning.  Pirsig uses this
+to peak the reader's interest--who is this guy?  It was very
+effective for me.  Phaedrus is extremely intelligent, fanatical, and
+at the end, Pirsig calls him messianic.  The author is fighting with
+his former self until the end.  He is searching for him.  The trip is
+about this search.  He goes back to the University at which he
+taught, but the search doesn't stop there.
+
+Chris was greatly affected by his father's personality makeover.
+Although the author is coherent, I think he is cold.  Chris
+continually asks: What are you thinking about?  The author doesn't
+answer.  Chris is himself having mental problems.  He gets pains
+which have no physically detectable causes.  He cries often.  He is
+stubborn.
+
+The first part of the book is the travel towards Bozeman, Montana
+where the University is.  They are traveling by motorcycle. With
+John and Sylvia (their friends) on another.  It doesn't appear that
+they all know each other well, but that's sort of irrelevant.
+
+The author fills the time with what he calls Chautauquas.  These
+were traveling tentshows [p7] "intended to edify and entertain,
+improve the mind and bring culture and enlightenment to the ears and
+thoughts of the hearer."  The Chautauqua is intermixed with current
+events.  Each day there is a different theme.  All the themes climax
+towards the end.
+
+Phaedrus is in search of a fundamental philosophy.  He is
+dissatisfied with the standard classic-romantic (object-subject)
+dualistic model.  The Chautauquas develop Phaedrus' philosophy and
+the author's current philosophy.  Phaedrus is a generalist
+(Aristotle) while the author is a detailist (Plato).  He explains
+this clearly at the end, but it is apparent.  Motorcycle Maintenance
+is tool used by Pirsig (the present) to explicate the philosophy of
+Phaedrus--also explained, but as the philosophy of another person.
+As I said, it is extremely complex.
+
+The main theme becomes Quality as the creator of both subjects and
+objects.  Phaedrus becomes obsessed by this.  The author is just as
+obsessed, but tempers it.   He speaks of craftsmanship and not the
+driving force of all we know.   It is a very effective
+technique: bouncing between the details of motorcycles and an all
+encompassing philosophy.
+
+Phaedrus had spent ten years in India studying eastern philosophy,
+hence the Zen in the title.  Pirsig hangs on to Zen thoughts.  He
+doesn't speak much at all of Judeo-Christian philosophy.  Instead of
+praying, one meditates to find inner-understanding.  The way can be
+found in anything; Pirsig uses motorcycle maintenance where others
+use Yoga, meditation, hiking (Phaedrus used this, too), etc.
+
+Pirsig meets Phaedrus at the end after a series of long Chautauquas
+which are broken by fewer and fewer real time events.  The technique
+is excellent; the climax is spectacular.  He brings it together
+without telling the whole story.  In fact he leaves out the entire
+mental hospital stay and all time up until this trip.  It is
+unnecessary, but leaves the reader curious.  According to the
+afterword, he is working on a sequel.
+
+Interesting quotes and passages.
+
+
+> [p24] While at work I was thinking about this same lake of care in
+> the digital computer manuals I was editing.  Writing and editing
+> technical manuals is what I do for a living the other eleven months
+> of the year and I knew they were full of errors, ambiguities,
+> omissions and information so completely screwed up you had to read
+> them six times to make any sense out of them.  But what stuck me for
+> the first time was the agreement of these manuals with the spectator
+> attitude [of the hack mechanic] I had seen in the shop.  These were
+> spectator manuals.  It was built into the format of them.  Implicit
+> in every line is the idea that "Here is the machine, isolated in time
+> and in space from everything else in the universe.  It has no
+> relationship to you, you have no relationship to it, other than to
+> turn certain switches, maintain voltage levels, check for error
+> conditions..." and so on.  That's it.  The mechanics in their
+> attitude toward the machine were really taking no different attitude
+> from the manual's toward the machine, or from the attitude I had when
+> I brought it in there.  We were all spectators.  And it occurred to
+> me there *is* no manual that deals with the *real* business of
+> motorcycle maintenance, the most important aspect of all.  Caring
+> about what you are doing is considered either unimportant or taken
+> for granted.
+
+
+
+> [p40] When you're stuck together like this, I figure small
+> differences in temperament are bound to show up.
+
+
+
+> [p87] To speak of certain government and establishment institutions
+> as "the system" is to speak correctly, since these organizations are
+> founded upon the same structural conceptual relationships as a
+> motorcycle.  They are sustained by structural relationships even when
+> they have lost all other meaning and purpose.  People arrive at a
+> factory and perform a totally meaningless task from eight to five
+> without question because the structure demands that it be that way.
+> There's no villain, no "mean guy" who wants them to live meaningless
+> lives, it's just that the structure, the system demands it and no one
+> is willing to take on the formidable task of changing the structure
+> just because it is meaningless.
+
+
+
+> [p88] If a revolution destroys a systematic government, but the
+> systematic patterns of thought that produced that government are left
+> intact, then those patterns will repeat themselves in the succeeding
+> government.  There's so much talk about the system.  And so little
+> understanding.
+
+
+
+> [p93] When I think of formal scientific method an image sometimes
+> comes to mind of an enormous juggernaut, a huge bulldozer--slow,
+> tedious, lumbering, laborious, but invincible.  It takes twice as
+> long, five times as long, maybe a dozen times as long as informal
+> mechanic's techniques, but you know in the end you're going to _get_
+> it.  There's no fault isolation problem in motorcycle maintenance
+> that can stand up to it.  When you've hit a really tough one, tried
+> everything, racked your brain and nothing works, and you know that
+> this time Nature has really decided to be difficult you say, "Ok,
+> Nature, that's the end of the _nice_ guy," and you crank up the
+> formal scientific method.
+
+
+NOTE: He goes on to explain a bit of how to set up a lab book and experiment.
+
+
+> [p100] [Phaedrus] coined a law intended to have the humor of
+> Parkinson's law that "The number of rational hypotheses that can
+> explain any given phenomenon is infinite."
+
+
+
+> About this Einstein had said, "Evolution has shown that at any
+> given moment out of all conceivable constructions a single one has
+> always proved itself absolutely superior to the rest," and let it go
+> at that.  But to Phaedrus that was an incredibly weak answer.  The
+> phrase "at any given moment" really shook him. Did Einstein really
+> mean to state that truth was a function of time?  To state _that_
+> would annihilate the most basic presumption of all science!
+
+
+
+> [p134] You're never dedicated to something you have complete
+> confidence in.  No one is fanatically shouting that the sun is going to
+> rise tomorrow.
+
+
+
+> [p147] In any industrial situation a machine that isn't checked out
+> is a 'down' machine and can't be sued even though it may work
+> perfectly.
+
+
+
+> [pirsig says,] "What's really angering about instructions of this
+> sort is that they imply there's only one way to put this rotisserie
+> together--_their_ way.  And the presumption wipes out all the
+> creativity.  Actually there are hundreds of ways to put the
+> rotisserie together and when they make you follow just one way
+> without showing you the overall problem the instructions become hard
+> to follow in such a way as not to make mistakes."...
+
+
+
+> "But they're from the _factory_," John says.
+
+
+
+> "_I'm_ from the factory too," I say, "and I _know" haw instructions
+> like this are put together.  You go out on the assembly line with a
+> tape recorder and the foreman sends you to talk to the guy he needs
+> the least, the biggest goof-off he's got, and whatever he tells
+> you--that's the instructions.[...]"
+
+
+
+> [p153] [Pirsig says,] "The trouble is that essays always have to
+> sound like God talking for eternity, and that isn't the way it ever
+> is.  People should see that it's never anything other than just one
+> person talking from one place in time and space and circumstance.
+> It's never been anything else, ever, but you can't get that across in
+> an essay."
+
+
+
+> [p163] Quality ... you know what it is, yet you don't know what it
+> is.  But that's self-contradictory.  But some things _are_ better
+> than others, that is, they have more quality.  But when you try to
+> say what the quality is, apart from the things that have it, it all
+> goes _poof_!  There's nothing to talk about.  But if you can't say
+> what Quality is, how do you know what it is, or how do you know that
+> it even exists?  If no one knows what it is, then for all practical
+> purposes it doesn't exist at all.  But for all practical purposes it
+> really _does_ exist. [...]  What the hell is Quality? ["]
+
+
+
+> [p187] Up to now Phaedrus had been compelled by the academic system
+> to say what he wanted, even though he knew that this forced students
+> to conform to artificial forms that destroyed their own creativity.
+> [...]
+
+
+
+> Now that that was over with.  By reversing a basic rule that all
+> things which are to be taught must first be defined, he had found a
+> way out of all this.  He was pointing to no principle, no rule of
+> good writing, no theory--but he was pointing to something,
+> nevertheless, that was very real, whose reality they couldn't deny.
+> The vacuum that had been created by the withholding of grades was
+> suddenly filled with the positive goal of Quality, and the whole
+> thing fit together.  Students, astonished, came by his office and
+> said, "I used to just _hate_ English.  Now I spend more time on it
+> than anything else."  Not just one or two.  Many.  The whole Quality
+> concept was beautiful.  It worked .  It was that mysterious,
+> individual, internal goal of each creative person, on the blackboard
+> at last.
+
+
+
+> [p189] It made the kids at camp much more enthusiastic and
+> cooperative when they had he ego goals to fulfill, I'm sure, but
+> ultimately that kind of motivation is destructive. Any effort that
+> has self-glorification has its final endpoint is bound and in
+> disaster.[...]
+
+
+
+> To the untrained eye ego-climbing  and selfless climbing may
+> appear identical.  Both kinds of climbers place one foot in front of
+> the other.  Both breathe in and out at the same rate.  Both stop when
+> tired.  Both go forward when rested.  But what a difference!  The
+> ego-climber is like an instrument that's out of adjustment.   He puts
+> his foot down an instant too soon or too late.  He's likely to miss a
+> beautiful passage of sunlight through the trees.  He goes on when the
+> sloppiness of his step shows he's tired.  He rests at odd times.  He
+> looks up the trail trying to see what's ahead even when he knows
+> what's ahead because he just looked a second before.  He goes too fast
+> or too slow for the conditions and when he talks his talk is forever
+> about somewhere else, something else.  He's here but he's not here.
+> He rejects the here, is unhappy with it, wants to be farther up the
+> trail but when he gets there will be just as unhappy because the _it_
+> will be "here."  What he's looking for, what he wants, is all around
+> him, but he doesn't want that because it _is_ all around him.  Every
+> step's an effort, both physically and spiritually, because he
+> imagines his goal to be external and distant.
+
+
+
+> [p193] I was talking about the first wave of crystallization
+> outside of rhetoric that resulted from Phaedrus' refusal to define
+> Quality.  He had to answer the questions, If you can't define it,
+> what makes you think it exists?
+
+
+
+> His answer was an old one belonging to a philosophic school that
+> called itself _realism_.  "A thing exists," he said, "if a world
+> without it can't function normally.  If we can show that a world
+> without Quality functions abnormally, then we have shown that Quality
+> exists, whether it's defined or not." He thereupon proceeded to
+> subtract Quality from a description of the world as we know it.
+
+
+
+> [...]  If you can't distinguish between good and bad in the arts
+> they disappear.  There's no point in hanging a painting on the wall
+> when the bare wall looks just as good. [And so on...]
+
+
+
+> [p224] [Phaedrus answering his colleagues at his school on the
+> question of Quality.] "Any philosophic explanation of Quality is
+> going to be both false and true precisely because it is a philosophic
+> explanation.  The process of philosophic explanation is an analytic
+> process, a process of breaking something down into subjects and
+> predicates.  What I mean (and everybody else means) by the word
+> _quality_ cannot be broken down into subjects and predicates.  This
+> is not because Quality is so mysterious but because Quality is so
+> simple, immediate and direct.
+
+
+
+> [p225] "The easiest intellectual analogue of pure Quality that people in
+> our environment can understand is that 'Quality is the response of an
+> organism to its environment' [Pirsig's brackets: he used this
+> example because his chief questioners seemed to see things in terms
+> of stimulus-response behavior theory]. An amoeba, placed on a plate
+> of water with a drip of dilute sulfuric acid placed nearby, will pull
+> away from the acid(I think).  If it could speak the amoeba, without
+> knowing anything about sulfuric acid, could say, 'This environment
+> has poor quality.'[...]
+
+
+
+> "In our highly complex organic state we advanced organisms respond
+> to our environment with an invention of many marvelous analogues.  We
+> invent earth and heavens, trees, stones and oceans, gods, music,
+> arts, language, philosophy, engineering, civilization and science.
+> We call these analogues reality.  And they _are_ reality.  We
+> mesmerize our children in the name of truth into knowing that they
+> _are_ reality.  We throw anyone who does not accept these analogues
+> into an insane asylum.  But that which causes us to invent the
+> analogues is Quality.  Quality is the continuing stimulus which our
+> environment puts upon us to create the world in which we live.  All of
+> it.  Every last bit of it.
+
+
+
+> "Now, to take that which has caused us to create the world, and
+> include it within the world we have created, is clearly impossible.
+
+
+NOTE: this is an ancient line of reasoning.
+
+
+> That is why Quality
+> cannot be defined.  If we do define it we are defining something less
+> than Quality itself."
+
+
+
+> I remember this fragment more vividly than any of the others,
+> possibly because it is the most important of all.  When he wrote it
+> he felt momentary fright and was about to strike out the words "All
+> of it.  Every last bit of it."  Madness there.  I think he saw it.
+> But he couldn't see any logical reason to strike these words out and
+> it was too late now for faintheartedness.  He ignored his warning and
+> let the words stand.  [...]
+
+
+
+> [p226] He began to see that he had shifted away from his original stand.
+> He was no longer talking about a metaphysical trinity but an absolute
+> monism.  Quality was the source and substance of everything.
+
+
+
+> [He discusses Hegel's Absolute Mind, but rejects the parallel.  He
+> then struggles with Quality as a metaphysical entity or mystical
+> entity.  The focus of the original relationship is subject-object.]
+
+
+
+> Then, on impulse, Phaedrus went over to his bookshelf and picked
+> out [...] the 2,4000-year-old _Tao_Te_Ching_ of Lao Tzu.  [...] He
+> began to read and interpret it at the same time. He read:
+
+
+
+> "The quality that can be defined is not the Absolute Quality."
+
+
+
+> That was what he had said.
+
+
+
+> [More _Tao_Te_Ching_ verse/interpretation.]
+
+
+
+> [p233] It always seemed incredible to me, and still does, I guess,
+> that Phaedrus should have traveled along a line of thought that had
+> never been traveled before. [...]  So I spent more than a year
+> reading [...]
+
+
+
+> Eventually I came to Poincar\'e.  Here again there was little
+> duplication but another kind of phenomenon.  Phaedrus follows a long
+> and tortuous path into the highest abstractions, seems about to come
+> down and then stops.  Poincar\'e starts with the  most basic
+> scientific verities, works up to the same abstractions and then
+> stops.  Both trails stop _right_at_each_other's_end!  There is
+> perfect continuity between them.  When you live in the shadow of
+> insanity, the appearance of another mind that think and talks as
+> yours does is something close to a blessed event.
+
+
+
+> [p241] What guarantees the objectivity of the world in which we
+> live is that this world is common to us with other thinking beings.
+> Through the communications that we have with other men we receive
+> from them ready-made harmonious reasonings.  We know that these
+> reasonings do not come from us and at the same time we recognize in
+> them, _because_of_their_harmony_, the work of reasonable beings like
+> ourselves.  And as these reasonings appear to fit the world of our
+> sensations, we think we may infer that these reasonable beings have
+> seen the same thing as we; thus it is that we know we haven't been
+> dreaming.  It is this harmony, this _quality_ if you will, that is the
+> sole basis for the only reality we can ever know.
+
+
+
+> Poincar\'e's contemporaries refused to acknowledge that facts are
+> preselected because they thought that to do so would destroy the
+> validity of scientific method.  They presumed that "preselected
+> facts" meant that truth is "whatever you like" and called his ideas
+> conventionalism.  They vigorously ignored the truth that their own
+> "principle of objectivity" is not itself an observable fact--and
+> therefore by their own criteria should be put in a state of suspended
+> animation.
+
+
+
+> [p250] [Pirsig wants to show negative aspects of traditional
+> maintenance.] The first is stuckness, a mental stuckness that
+> accompanies the physical stuckness of whatever it is you're working
+> on. [...]  A screw sticks, for example, on a side cover assembly. You
+> check the manual[...]
+
+
+
+> If you're experienced you'd probably apply a penetrating liquid and
+> an impact driver at this point.  But suppose you're inexperienced and
+> you attach a self-locking plier wrench to the shank of your
+> screwdriver and really twist it hard, a procedure you've had success
+> with in the past, but which this time succeeds only in tearing the
+> slot of the screw.
+
+
+
+> [p251] Your mind was already thinking ahead to what you would do
+> when the cover plate was off, and so it takes a little time to
+> realize that this irritating minor annoyance of a torn screw slot
+> isn't just irritating and minor.  You're stuck.  Stopped.
+> Terminated. [...]
+
+
+
+> This isn't a rare scene in science or technology.  This is the
+> commonest scene of all. [... This] is the worst of all moments, so
+> bad that you have avoided even thinking about it before you come to
+> it.
+
+
+
+> The book's no good to you now.  Neither is scientific reason.  You
+> don't need any scientific experiments to find out what's wrong.
+> [...]  What you need is an hypothesis for how you're going to get
+> that slotless screw out of there and scientific method doesn't
+> provide any of these hypotheses. It operates only after they're
+> around.
+
+
+
+> This is the zero moment of consciousness. [...] It's a miserable
+> experience emotionally. [...]
+
+
+
+> It's normal at this point for the fear-anger syndrome to take over
+> and make you want to hammer on that side plate with a chisel, to
+> pound it off with a sledge if necessary. [...]
+
+
+
+> What you're up against is the great unknown, the void of all
+> Western thought.  You need some ideas, some hypotheses.  Traditional
+> scientific method, unfortunately has never quite gotten around to
+> saying exactly where to pick up more of these hypotheses.  [...]
+
+
+
+> [p252] We have been looking at that screw "objectively." [...]
+> [What] we like or don't like about that screw has nothing to do with
+> our correct thinking.  [...] We should keep our mind a blank tablet
+> [...] then reason disinterestedly[.]
+
+
+
+> But when we [think] we begin to see this whole idea of
+> disinterested observation is silly.  Where _are_ those facts?  What
+> are we going to observe disinterestedly?  [...] The speedometer?  The
+> sissy bar?  As Poincar\'e would have said, there are an infinite
+> number of facts about the motorcycle, and the right ones don't dance
+> up and introduce themselves. [...] [p253] We're going to have to in
+> there _looking_ for them or we're going to be here a very long time.
+> Forever.  As Poincar\'e pointed out, there _must_ be a subliminal
+> choice of what facts we observe.
+
+
+
+> The difference between a good mechanic and a bad one, like the
+> difference between a good mathematician and a bad one, is precisely
+> this ability to _select_ the good facts from the bad ones on the
+> basis of quality.  He has to _care!_  This is an ability about which
+> formal traditional scientific method has nothing to say.  [...] I
+> think it will be found that a formal acknowledgment of the role of
+> Quality in the scientific process doesn't destroy the empirical
+> vision at all.  It expands it, strengthens it and brings it far
+> closer to actual scientific practice. [...]
+
+
+
+> By  returning our attention to Quality it is hoped that we can get
+> technological work out of the noncaring subject-object dualism and
+> back into craftsmanlike self-involved reality again, which will
+> reveal to us the facts we need when we are stuck.
+
+
+
+> [p255] One doesn't cling to old sticky ideas because one has an
+> immediate rational basis for rejecting them.  Reality isn't static
+> any more. [...] With Quality as a central undefined term, reality is,
+> in its essential nature, not static but dynamic.  And when you really
+> understand dynamic reality you never get stuck.  It has forms but the
+> forms are capable of change.
+
+
+
+> [p263] [...] stylized food in stylized kitchens in stylized house.
+> Plastic stylized toys for stylized children, who at Christmas and
+> birthdays are in style with their stylish parents. You have to be
+> awfully stylish yourself not to get sick of it once in awhile.  It's
+> the style that gets you; technological ugliness syruped over with
+> romantic phoniness in an effort to produce beauty and profit by people
+> who, though stylish, don't know where to start because no has ever
+> told them there's such a think as Quality in this world and it's
+> real, not style.  Quality isn't something you lay on top of subjects
+> and objects like tinsel on a Christmas tree.  Real Quality must be
+> the source of the subjects and objects, the cone from which the tree
+> must start.
+
+
+
+> [p264] Peace of mind isn't at all superficial to technical work.
+> It's the whole thing.  That which produces it is good work and that
+> which destroys it is bad work.  The specs, the measuring
+> instruments, the quality control, the final check-out, these are all
+> _means_ toward the end of satisfying the peace of mind of those
+> responsible for the work.  What really counts in the end is their
+> peace of mind, nothing else.  The reason for this is that peace of
+> mind is a prerequisite for a perception of that Quality which is
+> beyond romantic Quality and classic Quality and which unites the two,
+> and which must accompany the work as it proceeds.  The way to see
+> what looks good and understand the reasons it looks good, and
+> _to_be_at_one_with_this_goodness_ as the work proceeds, is to
+> cultivate an inner quietness, a peace of mind so that goodness can
+> shine through.
+
+
+
+> [p267] Programs of a political nature are important _end_products_
+> of social quality that can be effective only if the underlying
+> structure of social values is right.  The social values are right
+> only if the individual values are right.  The place to improve the
+> world is first in one's own heart and head and hands, then work
+> outward from there.  Other people can talk about how to expand the
+> destiny of mankind.  I just want to talk about how to fix a
+> motorcycle.   I think that what I have to say has more lasting value.
+
+
+
+> [p272] I like the word "gumption" because it's so homely and so
+> forlorn and so out of style it looks as if it needs a friend and
+> isn't likely to reject anyone who comes along. [...] I like it also
+> because it describes exactly what happens to someone who connects
+> with Quality.  He gets filled with gumption.
+
+
+
+> The Greeks called it _enthousiasmos_, the root of "enthusiasm," which
+> means literally "filled with _theos_," or God, or Quality.[...]
+
+
+
+> A person filled with gumption doesn't sit around dissipating and
+> stewing about things. [...]
+
+
+
+> [p273] The gumption filling-process process occurs when one is
+> quiet long enough to see and hear and feel the real universe not just
+> one's own stale opinions about it. [...]
+
+
+
+> If you're going to repair a motorcycle, an adequate supply of
+> gumption is the first and most important tool.
+
+
+
+> [p274] [A] detail that no shop manual goes into but that is common
+> to all machines and can be given here.  This is the detail of the
+> Quality relationship, the gumption relationship, between the machine
+> and the mechanic, which is just as intricate as the machine itself.
+> Throughout the process of fixing the machine things always come up,
+> low-quality things, from a dusted knuckle to an accidentally ruined
+> "irreplaceable" assembly.   These drain off gumption, destroy
+> enthusiasm and leave you so discouraged you want to forget the whole
+> business.  I call these things "gumption traps." [...]
+
+
+
+> _Gumptionology_101-An_examination_of_affective,_cognitive,_and
+> psychomotor_blocks_in_the_perception_of_Quality_relationships-3
+> cr[edits]_VII,_MWF._  I'd like to see that in a college catalog
+> somewhere. [...]
+
+
+
+> [p275] As one might guess from a definition as broad as this, the
+> field is enormous and only a beginning sketch can be attempted here.
+> [... There] are two main types of gumption traps.  The first type are
+> those in which you're thrown off the Quality track by conditions that
+> arise from external circumstances, and I call these "setbacks."   The
+> second type are traps in which you're thrown off the Quality track by
+> conditions that are primarily within yourself.  [...] I'll take up
+> [...] setbacks first.
+
+
+
+> [...] After days of work you finally have it all together except
+> for: What's this?  _A_connecting-rod_bearing_liner?!_ [...] You can
+> almost hear the gumption escaping.  Psssssssssssss.
+
+
+
+> There's nothing you can do but go back and take it all apart
+> again...after a rest period of up to a month that allows you to get
+> used to the idea. [...]
+
+
+
+> It should be inserted parenthetically that there's a school of
+> mechanical thought which says I shouldn't _be_ getting into a complex
+> assembly I don't know anything about.  I should have training or
+> leave the job to a specialist.  That's a self-serving school of
+> mechanical eliteness I'd like to see wiped out.  That was a
+> "specialist" who broke the fins on this machine.  I've edited manuals
+> written to train specialists for IBM, and what they know when they're
+> don isn't that great.  You're at a disadvantage the first time around
+> and it may cost you a little more because of parts you accidentally
+> damage, and it will almost undoubtedly take a lot more time, but the
+> next time around you're way ahead of the specialist.  You, with
+> gumption, have learned the assembly the hard way and you've a whole
+> set of good feelings about it that he's unlikely to have.
+
+
+
+> [p277] The intermittent failure setback is next.  In this the thing
+> that is wrong becomes right all of a sudden just as you start to fix
+> it.  [...They] become gumption traps when they fool you into thinking
+> you've really got the machine fixed.
+
+
+
+> [p278] [The next] most common external gumption trap is the parts
+> setback.  Here a person who does his own work can get depressed in a
+> number of ways. [...] Dealers like to keep inventories small. [...]
+
+
+
+> The pricing on parts is the second part of this gumption trap.
+> It's a well-known industrial policy to price the original equipment
+> competitively, because the customer can always go somewhere else, but
+> on parts to overprice and clean up.  The price of a part is not only
+> jacked up way beyond its new price; you get a special price because
+> you're not a commercial mechanic.
+
+
+NOTE: nice word choice; he didn't
+use professional. Too bad he doesn't see the sexism in his writing,
+too.
+
+
+> One more hurdle yet. The part may not fit. [...]
+
+
+
+> But it's always a major gumption trap to get all the way home and
+> discover that a new part won't work.
+
+
+
+> [He goes on to describe getting to know your parts dealers, look
+> for price cutters, bring the part to the dealer (+ evaluation tools),
+> and finally machine your own parts.]
+
+
+
+> [p279] Time now to consider some of the _internal_ gumption
+> traps[. Three main types are:] those that block affective
+> understanding, called "value traps"; those that block cognitive
+> understanding, called "truth traps"; and those that block psychomotor
+> behavior, called "muscle traps."  The value traps are by far the
+> largest and the most dangerous group.
+
+
+
+> Of the value traps, the most widespread and pernicious is value
+> rigidity.  This is an inability to revalue [p280] what one sees
+> because of a commitment to previous values.  In motorcycle
+> maintenance, you _must_ rediscover what you do as you go.  Rigid
+> values makes this impossible. [...]
+
+
+
+> The facts are there but you don't see them. [...]
+
+
+
+> What you have to do, [...] is slow down--you're going to have to
+> slow down anyway whether you want to or not--but slow down
+> deliberately and go over ground that you've been over before to see
+> if the things you thought were important were really important and
+> to...well...just _stare_ at the machine. [...]
+
+
+
+> [p281] [The] most striking example of value rigidity [...] is the
+> old South Indian Monkey Trap, which depends on value rigidity for its
+> effectiveness.  The trap consists of a hollowed-out coconut chained
+> to a stake.  The coconut has some rice inside which can be grabbed
+> through a small hole.  The hole is big enough so that the [p282]
+> monkey's hand can go in, but too small for his fist with the rice in
+> it to come out.  The monkey reaches in and is suddenly trapped--by
+> nothing more than his own value rigidity.  He can't revalue the rice.
+> He cannot see that freedom without rice is more valuable than capture
+> with it.  [...]
+
+
+
+> [p283] The next one is important.  It's the internal gumption trap
+> of ego.   Ego isn't entirely separate from value rigidity but one of
+> the many causes of it.
+
+
+
+> If you have a high evaluation of yourself then your ability to
+> recognize new facts is weakened.  Your ego isolates you from the
+> Quality reality. When the facts show that you've just goofed, you're
+> not as likely to admit it.  When false information makes you look
+> good, you're likely to believe it.
+
+
+
+> [p284] _Anxiety_, the next gumption trap, is sort of opposite of ego.
+> You're sure you'll do everything wrong you're afraid to do anything
+> at all.  Often this, rather than "laziness," is the real reason you
+> find it hard to get started.
+
+
+
+> [...] The best way to break this [trap], I think, is to work out
+> your anxieties on paper.  Read every book and magazine on the
+> subject. [...]
+
+
+
+> When beginning a repair job you can list everything you're going to
+> do on little slips of paper which you then organize into proper
+> sequence.  You discover that you organize and then reorganize the
+> sequence again and again as more and more ideas come to you.  The
+> time spent this way usually more than pays for itself in time saved
+> on the machine and prevents you from doing fidgety things that create
+> problems later on.
+
+
+
+> You can reduce your anxiety somewhat by facing the fact that there
+> isn't a mechanic alive that doesn't louse up a job once in a while.
+
+
+
+> [p285] _Boredom_ is the next gumption trap that comes to mind.
+> This the opposite of anxiety and commonly goes with ego problems.
+> Boredom means you're off the Quality track, you're not seeing things
+> freshly, you've lost your "beginner's mind" and your motorcycle is in
+> great danger.  Boredom means your gumption supply is low and must be
+> replenished before anything else is done.
+
+
+
+> When you are bored, _stop!_  Go to a show.  Turn on the TV.  Call
+> it a day.  Do anything but work on that machine.  If you don't stop,
+> the next thing that happens is the Big Mistake, and then all the
+> boredom plus the Big Mistake combine together in the one Sunday punch
+> to knock all the gumption out of you and you are really stopped.
+
+
+
+> My favorite cure for boredom is sleep.  [...] My next favorite is
+> coffee.
+
+
+
+> [p286] _Impatience_ is close to boredom but always results from one
+> cause: an underestimation of the amount of time the job will take.
+> [...]
+
+
+
+> Impatience is best handled by allowing an indefinite time for the
+> job, particularly new jobs that require unfamiliar techniques; by
+> doubling the allotted time when circumstances force time planning; and
+> by scaling down the scope of what you want to do.   [...]
+
+
+
+> My favorite scaling-down exercise is cleaning up nuts and bolts and
+> studs and tapped holes.[...] Another one is cleaning up tools that
+> have been used and not put away and are cluttering up the place.
+> This is a good one because one of the first warning signs of
+> impatience is frustration at not being able to lay your hand on the
+> tool you need right away.  If you stop and put tools away neatly you
+> will both find the tool and [p287] also scale down your impatience
+> without wasting time or endangering the work.
+
+
+ The end of value traps, but you're bound to discover more.
+
+
+> [p288] Truth traps are concerned with data that are apprehended and
+> are within the boxcars of the train.  For the most part these data
+> are handled by conventional dualistic logic and [scientific method.]
+> But there's one trap that isn't--the truth trap of yes-no logic. [...]
+
+
+
+> Because we're unaccustomed to it, we don't usually see that there's
+> a third possible logical term equal to yes and no which is capable of
+> expanding our understanding in an unrecognized direction.  We don't
+> even have a term for it, so I'll have to use the Japanese _mu".
+
+
+
+> _Mu_ means "no thing." Like "Quality it points outside the process
+> of dualistic discrimination.  _Mu_ simply says, "No class; not one,
+> not zero, not yes, not no."  It states that the context of the
+> questions is such that a yes or no answer is in error and should not
+> be given.  "Unmask the question" is what it says.
+
+
+
+> _Mu_ becomes appropriate when the context of the question becomes
+> too small for the truth of the answer.  When the Zen monk Joshu was
+> asked whether a dog had a Buddha nature he said "_Mu_," meaning that
+> if he answered either way he was answering incorrectly.  The Buddha
+> nature cannot be captured by yes or no questions.
+
+
+
+> That _mu_ exists in the natural world investigated by science is
+> evident.  [...]For example, it's stated over and over again that
+> computer circuits exhibit only two states, a voltage for "one" and a
+> voltage for "zero."  [...] Try to find a voltage representing one or
+> zero when the power is off! [...]
+
+
+
+> The _mu_ answer is an important one. It's told the scientist that
+> the context of his [p290] question is too small for nature's answer
+> and that he must enlarge the context of the question.  That is a very
+> _important_ answer! [...]
+
+
+
+> Time to switch to [p291] psychomotor traps. [...] Here by far the
+> most frustrating gumption trap is inadequate tools.
+
+
+NOTE: Amen
+
+
+> [...]Buy good tools as you can afford them and you'll never regret
+> it. [...]
+
+
+
+> [Bad] surroundings are a major gumption trap.  Pay attention to
+> adequate lighting. [...]  If you're too cold, for example, you'll
+> hurry and probably make mistakes. If you're too hot your anger
+> threshold gets much lower.  Avoid out-of-position work when possible.
+> [...]
+
+
+
+> There's one [trap], muscular insensitivity, which accounts for some
+> real damage.  It results in part from lack of kinesthesia, a failure
+> to realize that although the externals of a cycle are rugged, inside
+> the engine are delicate precision parts which can be easily damaged
+> by muscular insensitivity. There's what's called "mechanic's feel,"
+> which is very obvious to those who know what it is, but hard to
+> describe to those who don't; and when you see someone working on a
+> machine who doesn't have it, you tend to suffer with the machine.
+
+
+
+> [p292] It's the way you live that predisposes you to avoid the
+> traps and see the [p293] right facts.  You want to know how to paint
+> a perfect painting?  It's easy.  Make yourself perfect and then just
+> paint naturally.  [...] The making of a painting or the fixing of a
+> motorcycle isn't separate from your existence.  If you're a sloppy
+> thinker the six days of the week you aren't working on your machine,
+> what trap avoidances, what gimmicks, can make you all of a sudden
+> sharp on the seventh?  It all goes together.
+
+
+
+> But if you're a sloppy thinking six days a week and you really
+> _try_ to be sharp on the seventh, then maybe the next six days aren't
+> going to be quite as sloppy as the preceding six.  What I'm trying to
+> come up with on these gumption traps, I guess, is shortcuts to living
+> right.
+
+
+
+> The real cycle you're working on is a cycle called yourself.  The
+> machine that appears to be "out there" and the person that appears to
+> be "in here" are not two separate things.  They grow toward Quality
+> or fall away from Quality together.
+
+
+
+> [p323] My personal feeling is that this any further improvement of
+> the world will be done: by individuals making Quality decisions and
+> that's all.  [...] We've had that individual Quality in the past,
+> exploited it as a natural resource without knowing it, now it's just
+> about depleted.  Everyone's just about out of gumption.  And I think
+> it's about time to return to the rebuilding of _this_ American
+> resource--individual worth.
+> 
+
+
+

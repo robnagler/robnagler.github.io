@@ -1,4 +1,4 @@
-@h1 PythonTip: "import from" Considered Harmful
+@h1 PythonTip: 'import from' Considered Harmful
 
 @a href=http://bytebaker.com/2008/07/30/python-namespaces/ Namespace pollution
  is the main argument against wildcard imports:

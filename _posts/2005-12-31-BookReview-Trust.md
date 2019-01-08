@@ -1,0 +1,36 @@
+---
+layout: post
+title: "BookReview: Trust"
+date: 2005-12-31T12:00:00Z
+---
+By Francis Fukuyama, Free Press, 8/1/1995, 0029109760
+ The basic premise is that trust is valuable, because high-trust
+societies function more efficiently.  While there is often trust in
+families, trust doesn't develop spontaneously.  It's about cultural
+history.  America is traditionally a high-trust society, because
+although there's a lot of talk about individualism, we spend a lot of
+time volunteering and helping each other.  Japan is another high-trust
+society.  The book ends on an odd note, I thought, because it leaves
+open the question of whether we can restore trust in the U.S.  I'm not
+sure myself, but at least I understand a bit more about why trust is
+so important to effective societies.
+
+I had quite a few excerpts marked, but these are my two favorites:
+
+
+> [p47] Spontaneous sociability is critical to economic life because
+> virtually all economic activity is carried out by groups rather than
+> individuals.  Before wealth can be created, human beings have to learn
+> to work together, and if there is to be subsequent progress, new forms
+> of organization have to be developed.
+
+
+
+> [p154] In general, the more demanding the values of the community's
+> ethical system are and the higher are the qualifications for entry
+> into the community, the greater is the degree of solidarity and mutual
+> trust among those on the inside.
+> 
+
+
+

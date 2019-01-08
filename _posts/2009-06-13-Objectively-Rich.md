@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Objectively Rich"
+title: "Objectively Rich"
 date: 2009-06-13T12:00:00Z
 ---
+
+
 > Full Disclosure: The only stock my immediate family owns is
 > [Berkshire Hathaway, Inc.](http://finance.yahoo.com/q/bc?t=my&l=off&z=m&q=l&p=&a=&c=^GSPC&s=brk-a)> and an insignificant amount of the S&P 500.
 
@@ -53,8 +55,8 @@ even close to it.  Richard and a few of my colleagues are still
 working hard at Olsen Ltd.
 
 O&A's main competitor was
-[The Prediction Company](http://predict.com), now a wholly owned subsidiary of the publicly traded
-[Union Bank of Switzerland](http://finance.yahoo.com/q/bc?s=UBS&t=my&l=off&z=m&q=l&c=brk-b).  Yes, you should click on that link.  UBS was the largest bank in
+[The Prediction Company](https://en.wikipedia.org/wiki/Prediction_Company), now a wholly owned subsidiary of the publicly traded
+[Union Bank of Switzerland](https://yhoo.it/2sfGt33).  Yes, you should click on that link.  UBS was the largest bank in
 Switzerland for many years, but an attack from a
 [Black Swan](/2007/08/25/BookReview-The-Black-Swan.html)turned the one-time behemoth into
 [the most mauled European financial player in the global credit crisis.](http://www.businessweek.com/magazine/content/08_09/b4073030425608.htm)Apparently, the folks at the Prediction Company failed to forecast

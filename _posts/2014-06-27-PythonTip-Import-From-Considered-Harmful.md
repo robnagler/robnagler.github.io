@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'PythonTip: "import from" Considered Harmful'
+title: "PythonTip: 'import from' Considered Harmful"
 date: 2014-06-27T12:00:00Z
 ---
 
@@ -138,3 +138,6 @@ You can find
  `from`  for stylistic reasons (which I strongly agree with).  I go further
 and say that
  `from`  is harmful, and should be deprecated.
+
+
+
