@@ -40,10 +40,9 @@ trees, and a perfect tree to make a bear hang.
 We had a blast.  Fire is great for that.  The smoke followed vortices, which
 showed up great with a flashlight.  This picture doesn't do it justice.
 
-<div style="padding: 10px 0">
 ![Playing with fire](/assets/i/lost-creek-wilderness-flashlight.jpg)
+
 ![On top of an outcrop](/assets/i/lost-creek-wilderness-outcrop.jpg)
-</div>
 
 Aidan found the rock outcrop above, which provided a 360-degree view of
 the area.  Truly breathtaking.
@@ -58,5 +57,3 @@ slept well.  The evening chill was nice.  The morning was a bit cold, but a fres
 hot cuppa fixed it right up.
 
 I'll be getting lost there again, soon.
-
-

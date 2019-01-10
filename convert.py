@@ -54,6 +54,10 @@ date: {date}T12:00:00Z
 ---
 '''.format(**tree) + _gen(iter(tree.text))
         tree.dst.write(t, 'w')
+    x = ''
+    for k in sorted(page_map.keys()):
+        x += '/my/page/{} "https://robnagler.com{}";\n'.format(k, page_map[k])
+    pkio.py_path('viarob-map.txt').write(x)
 
 
 def _gen(text, prefix=''):
