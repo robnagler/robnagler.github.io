@@ -1,0 +1,15 @@
+---
+layout: post
+title: "BookReview: Fiasco: The American Military Adventure in Iraq"
+date: 2006-12-31T12:00:00Z
+---
+By Thomas E. Ricks, Penguin Press, July 25, 2006, 159420103X
+
+Ricks does a great job summarizing the policy blunders in the
+U.S. (mis)adventure in Iraq.  From Bremer's micro-management to
+Wolfowitz's incomprehension of the facts.  It's all there, and covered
+in detail with lots of quotes.  Indeed, there were so many interesting
+quotes, I would have to have quoted them all here, and I don't have
+that much time. :-(
+
+

@@ -1,0 +1,269 @@
+---
+layout: post
+title: "BookReview: Jurassic Park"
+date: 1991-12-31T12:00:00Z
+---
+By Michael Crichton, Ballantine Books, 1990, 0-345-37473-8
+
+Rich dinosaur freak gets paleo-DNA and genetically engineers
+modern dinosaurs off an island in Costa Rica.  He hires the best of
+the best to do the work, but a mathematician from U of T predicts
+that the experiment will end in disaster (chaos).  The entire complex
+is computer controlled.  The hacker gets away with leaving a trap
+door in the system and tries to steal some of the DNA during a storm
+by shutting off all security that controls the animals.  The animals
+get loose and chaos ensues.    The end is the destruction of the
+island by the Costa Rican National guard.
+
+
+> [p128] Conversation is about a table describing the animals.
+
+
+
+> "Grant said, `What is the right-hand column?' 
+
+
+
+> `Release version of the animals.  The most recent are
+> version 4.1 or 4.3.  We're considering going to version 4.4.'
+
+
+
+> `Version numbers? You mean like software? New releases?' 
+
+
+
+> `Well, yes,' Arnold said. `It is like software, in a way.  As we
+> discover the glitches in the DNA, Dr. Wu's labs have to make a new
+> version number.'
+
+
+
+> [p170] "Grant said, `You must feel vindicated. About your theory.'
+
+
+
+> `As a matter of fact, I'm feeling a bit of dread.  I suspect we are
+> at a very dangerous point.'
+
+
+
+> `Why?'
+
+
+
+> `Intuition.'
+
+
+
+> `Do mathematicians believe in intuition?'
+
+
+
+> `Absolutely.  Very important, intuition.  Actually, I was thinking
+> of fractals,' Malcolm said.  `You know about fractals?'
+
+
+
+> `Grant shook his head. `Not really, no.'
+
+
+
+> `Fractals are a kind of geometry, associated with a man named
+> Mandelbrot.  Unlike ordinary Euclidean geometry that everybody learns
+> in school--squares and cubes and spheres--fractal geometry appears to
+> describe real objects in the natural world.  Mountains and clouds are
+> fractal shapes.  So fractals are probably related to reality.
+> Somehow. 
+
+
+
+> `Well, Mandelbrot found a remarkable thing with his geometric
+> tools.  He found that things looked almost identical at different
+> scales.'
+
+
+
+> `At different scales?' Grant said.
+
+
+
+> `For example,' Malcolm said, `a big mountain, seen from far away,
+> has a certain rugged mountain shape. If you get closer, and examine a
+> small peak of the big mountain, it will have the same mountain shape.
+> In fact, you can go all the way down the scale to a tiny speck of
+> rock, seen under a microscope--it will have the same basic fractal
+> shape as the big mountain.'
+
+
+
+> `I don't really see why this is worrying you,' Grant said.  He
+> yawned...
+
+
+
+> `It's a way of looking at things,' Malcolm said.  `Mandelbrot found
+> a sameness from the smallest to the largest. And this sameness of
+> scale also occurs for events.'
+
+
+
+> `Events?'
+
+
+
+> `Consider cotton prices,' Malcolm said.  `There are good records of
+> cotton prices going back more than a hundred years.  When you study
+> fluctuations in cotton prices, you find that the graph of price
+> fluctuations in the couse of a day looks basically like the graph for
+> a week, which looks basically like the graph for a year, or for ten
+> years.  And that's how things are.  A day is like a whole life.  You
+> start out doing one thing, but end up doing something else, plan to
+> run an errand, but never get there.... And at the end of your life,
+> your whole existence has the same haphazard quality, too.  Your whole
+> life has the same shape as a single day.'
+
+
+
+> `I guess it's one way to look at things,' Grant said.
+
+
+
+> `No,' Malcolm said. `It's the _only_ way to look at things.  At
+> least, the only way that is true to reality.  You see, the fractal
+> idea of someness carries within it an aspect of recursion, a kind of
+> doubling back on itself, which means that events are unpredictable.
+> That they can change suddenly, and without warning.'
+
+
+
+> `Okay...'
+
+
+
+> `But we have soothed ourselves into imagining sudden change as
+> something that happens outside the normal order of things.  An
+> accident, like a car crash.  Or beyond our control, like a fatal
+> illness.  We do not conceive of sudden, radical, irrational change as
+> built into the very frabric of existence. Yet it is.  And chaos theory
+> teaches us,' Malcolm said, `that straight linearity, which we have
+> come to take for granted in everything from physics to fiction,
+> simply does not exist.  Linearity is an artificial way of viewing the
+> world.  Real life isn't a series of interconnected events occurring
+> one after another like beads strung on a necklace.  Life is actually
+> a series of encounters in which one event may change those that
+> follow in a wholly unpredictable, even devastating way.' ... `That's
+> the deap truth about the structure of our universe.  But, for some
+> reason, we insist on behaving as if it were not true.'"
+
+
+
+> [p175] "The problems with the security system were high on Jurassic
+> Park's bug list.  Nedry wondered if anybody ever imagined that it
+> wasn't a bug--that Nedry had programmed it that way.  He had built in
+> a classic trap door.  Few programmers of large computer systems could
+> resist the temptation to leave themselves a secret entrance. Partly
+> it was common sense: if inept users locked up the system--and then
+> called you for help--you always had a way to get in and repair the
+> mess. And partly it was a kind of signature: Kilroy was here."
+
+
+
+> [p200] Hammond speaking, "`Unfortunately, drugs face all kinds of
+> barriers. FDA testing alone takes five to eight years--if you're
+> lucky.  Even worse, there are forces at work in the marketplace.
+> Suppose you amke a miracle drug for cancer or heart disease--as
+> Genentech did.  Suppose you now want to charge a thousand dollars or
+> two thousand dollars a dose.  You might imagine that is your
+> plivilege.  After all, you invented the drug, you paid to develop and
+> test it; you should be able to charge whateven you wish.  But do you
+> really think that the government will let you do that?  No, Henry,
+> they will not.  Sick people aren't going to pay a thousand dollars a
+> dose for needed medication--they won't be grateful, they'll be
+> outraged.  Blue Cross isn't going to pay it.  They'll scream highway
+> robbery.  So something will happen.  Your patent application will be
+> denied.  Your permits will be delayed.  _Something_ will force you to
+> see reason--and to sell your drug at a lower cost.  From a business
+> standpoint, that makes helping mankind a very risky business.
+> Personally, I would _never_ help mankind.'
+
+
+
+> ... `Now,' Hammond said, `think how different it is when you're
+> making entertainment.  Nobody _needs_ entertainment.  That's not a
+> matter for government intervention.  If I charge five thousand
+> dollars a day for my park, who is going to stop me?  After al, nobody
+> needs to come here.  And, far from being highway robbery, a costly
+> price tag actually increases the appeal of the park.  A visit becomes
+> a status symbol, and all Americans love that.  So do the Japanese,
+> and of course they have far more money.'"
+
+
+
+> [p284] "`No. I'll tell you the problem with engineers and
+> scientists.  Scientists have an elaborate line of bullshit about how
+> they are seeking to know the truth about nature.  Which is true, but
+> that's not what drives them.  Nobody is driving by abstractions like
+> `seeking truth.'
+
+
+
+> `Scientists are actually preoccupied with accomplishment.  So they
+> are focused on whether they can do something.  They never stop to ask
+> if they _should_ do something.  They conveniently define such
+> considerations as pointless.  If they don't do it, someone else will.
+
+
+
+> Discovery, they believe, is inevitable.  So they just try to do it
+> first.  That's the game in science.  Even pure scientific discovery
+> is an aggressiv, penetrative act.  It takes big equipment, and it
+> literally changes the world afterward.  Particle accelerators scar
+> the land, and leave radioactive byproducts.  Astronauts leave trash
+> on the moon.  There is always some proof that scientists were there,
+> making their discoveries.  Discovery is always a rape of the natural
+> world.  Always.
+
+
+
+> `The scientists want it that way.  They have to stick their
+> instruments in.  They have to leave their mark.  They can't just
+> watch.  They can't just appreciate.  They can't just fit into the
+> natural order.  They have to make something unnatural happen.  That
+> is the scientist's job, and now we have whole societies that try to
+> be scientific.'
+
+
+
+> [...]
+
+
+
+> `But then we'd lose all the advances---'
+
+
+
+> `What advances?'  Malcolm said irritably.  `The number of hourse
+> women devote to housework has not changed since 1930, despite all the
+> advances.  All the vacuum cleaners, whasher-dryers, trash compactors,
+> garbage disposals, wash-and-wear fabrics... Why does it still take as
+> long to clean the house as it did in 1930?'
+
+
+
+> [...]
+
+
+
+> `Because there haven't been any advances,' Malcolm said.  `Not
+> really.  Thirty thousand years ago, when men were doing cave
+> paintings at Lascaux, they worked twenty hours a week to provide
+> themselves with food and shelter and clothing.  The rest of the tim,
+> they could play, or sleep, or do whatever they wanted.  And they
+> lived in a natural world, with clean air, clean water, beautiful
+> trees and sunsets.  Think about it.  Twenty hours a week.  Thirty
+> thousand years ago.'"
+> 
+
+
+

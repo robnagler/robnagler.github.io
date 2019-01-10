@@ -1,0 +1,291 @@
+---
+layout: post
+title: "BookReview: Sources of Power: How People Make Decisions"
+date: 2007-05-27T12:00:00Z
+---
+By Gary Klein, The MIT Press, 2/26/1999, 978-0262611466
+
+Klein runs a research group (Klein Associates, klein-inc.com) which
+focuses on on decision-centered solutions.  They are a human factors
+company, and they use an anthropological approach to cognitive
+science.  The thesis of the book is that experts decide not based on
+"analysis" but on a theory called recognition-primed decision (RPD)
+making.  The cummulative experience allows experts to perform
+similarity analysis on the fly.  That's how chess grand masters can
+play speed chess with the same relative accuracy as they do non-speed
+games, whereas novices make many more mistakes under pressure.
+
+The book is filled with annecdotes from interviews from a variety of
+situations including Klein's personal experience with RPD.  The
+annecdotes liven up the book, and also support his theories.  However,
+there's no "proof", and he clearly admits this.  His argument is that
+it has worked for his business, and it may work for yours.
+
+I'd guess that Kent Beck read this book.  Extreme Programming takes
+many elements from Klein's book including: stories, metaphors, and
+team knowledge.  And, most importantly, his focus on the value of
+*code* (experience) over plans (analysis).
+
+
+> [p17] Our results turned out to be fairly clear. It was not that the
+> commanders were *refusing* to compare options; rather, they did not
+> have to compare options. I had been so fixated on what they were not
+> doing that I had missed the real finding: that the commanders could
+> come up with a good course of action from the start. That was what the
+> stories were telling us. Even when faced with a complex situation, the
+> commanders could see it as familiar and know how to react.
+
+
+
+> The commanders' secret was that their experience let them see a
+> situation, even a nonroutine one, as an example of a prototype, so
+> they knew the typical course of action right away. Their experience
+> let them identify a reasonable reaction as the first one they
+> considered, so they did not bother thinking of others. They were not
+> being perverse. They were being skillful. We now call this strategy
+> *recognition-primed*decision*making*.
+
+
+
+> [p34] Intuition is not infallible. Our experience will sometimes
+> mislead us, and we will make mistakes that add to our experience
+> base.
+
+
+
+> [p42] The part of intuition that involves pattern matching and
+> recognition of familiar and typical cases can be trained.  If you want
+> people to size up situations quickly and accurately, you need to
+> expand their experience base.
+
+
+
+> [p68] I do not count it as a weakness of mental simulations that they
+> are sometimes wrong. My estimate is that most of the time they are
+> fairly accurate. Besides, they are a means of generating explanations,
+> not for generating proofs.
+
+
+
+> I do count it as a weakness of mental simulations that we become too
+> confident in the ones we construct. One reason for problems such as de
+> minimus explanations that discard disconfirming evidence is that once
+> we have built a mental simulation, we tend to fall in love with
+> it. Whether we use it as an explanation or for prediction, once it is
+> completed, we may give it more credibility than it deserves,
+> especially if we are not highly experienced in the area and do not
+> have a good sense of typicality. This "overconfidence" effect has been
+> shown in the laboratoty by Hirr and Sherman (1985).
+
+
+
+> [p69] Marvin Cohen (1997) believes that mental simulation is usually
+> self-correcting through a process he has called snap-back. Mental
+> simulation can explain away disconfirming evidence, but Cohen has
+> concluded that it is often wise to explain away mild discrepancies
+> since the evidence itself might not be trustworthy. However, there is
+> a point when we have explained away so much that the mental simulation
+> becomes very complicated. At this point we begin to lose fairh in the
+> mental simulation and reexamine it. We look at all of the new evidence
+> that had been explained away to see if maybe there is not another
+> simulation that makes more sense. Cohen believes that until we have an
+> alternate mental simulation, we will keep patching the original
+> one. We will not be motivated to assemble an alternate simulation
+> until there is too much to be explained away. The strategy makes
+> sense. The problem is that we lose track of how much contrary evidence
+> we have explained away so the usual alarms do not go off.
+
+
+
+> [p103] One application of the RPD model is to be skeptical of courses or
+> books about powerful methods for making effective decisions, thirty
+> days guaranteed or your money back. I doubt whether such methods
+> exist. [...]
+
+
+
+> A second application of this chapter is to suggest that analytical
+> methods may be helpful for people who lack experience. [...]
+
+
+
+> A third application is to consider which decisions are worth
+> making. When options are very close together in value, we can call
+> this a zone of indifference: the closer together the advantages and
+> disadvantages of competing options, the harder it will be to make a
+> decision but the less it will matter. For these situations, it is
+> probably a waste of time to try to make the best decision. If we can
+> sense that we are within this zone of indifference, we should make the
+> choice any way we can and move on to other matters.
+
+
+
+> [p104] A fourth application is *not* to teach someone to use the RPD
+> model. There is no reason to teach someone to follow the RPD model,
+> since the model is descriptive. It shows what experienced decision
+> makers already do.
+
+
+
+> A fifth application is to improve decision skills. Because the key to
+> effective decision making is to build up expertise, one temptation is
+> to develop training to teach people to think like experts. But in most
+> settings, this can be too time-consuming and expensive. However, if we
+> cannot teach people to think like experts, perhaps we can teachthem to
+> learn like experts. After reviewing the literature, I identified a
+> number of ways that experts in different fields learn Klein (1997):
+
+
+
+> * They engage in deliberate practice, so that each opportunity for practice has a goal and evaluation criteria.
+> * They compile an extensive experience bank.
+> * They obtain feedback that is accurate, diagnostic, and reasonably timely.
+> * They enrich their experiences by reviewing prior experiences to derive new insights and lessons from mistakes.
+
+
+
+> The first strategy is to engage in deliberate practice. In order to do
+> this, people must articulate goals and identify the types of judgment
+> and decision skills they need to improve.
+
+
+
+> The strategy of compiling an extensive experience bank appears
+> important. But the mere accumulation of experiences may not be
+> sufficient. The experiences need to include feedback that is accurate,
+> diagnostic, and timely. In domains were it is possible to obtain such
+> feedback (e.g., weather forecasting), decision-making expertise
+> develops. In domains that are not marked by opportunities for
+> effective feedback (e.g., clinical psychology), mere accumulation of
+> experience does not appear to result in growth of expertise.
+
+
+
+> [p154] One aspect of being able to improvise that was not discussed in
+> chapter 8 is the ability of experts to generate counterfactuals:
+> explanations and predictions that are inconsistent with the
+> data. Perhaps they have this ability because they have learned not to
+> place too heavy a reliance on data. Novices, in contrast, have
+> difficulty imagining a world different from the one they are seeing.
+
+
+
+> [p154] Skilled decision makers may be able to seek information more
+> effectively than novices. This skill in information seeking would
+> result in a more efficient search for data that clarify the status of
+> the situation.
+
+
+
+> [p156] The ability to see the past and the future rests on an
+> understanding of the primary causes in a domain and the ability to
+> apply these causes to run mental simulations. This is one way to
+> distinguish true experts people who pretend to be experts. The
+> pretenders have mastered many procedures and tricks of the trade;
+> their actions are smooth. They show many of the characteristics of
+> expertise. However, if they are pushed outside the standard patterns,
+> they cannot improvise. They lack a sense of the dynamics of the
+> situation. They have trouble explaining how the current state of
+> affairs came about and how it will play out.  They also have trouble
+> manetallly simulating how a different future state from the one they
+> predicted might evolve.
+
+
+
+> [p225] *Considerations*in*Communicating*Intent*
+
+
+
+> In observing teams and reviewing their attempts to communicate goals,
+> I have identified a few types of information that are important for
+> describing intent (Klein 1994). There are seven types of information
+> that a person could present to help the people receiving the request
+> to understand what to do:
+
+
+
+> 1. The purpose of the task (the higher-level goals).
+
+
+
+> 2. The objective of the task (an image of the desired outcome).
+
+
+
+> 3. The sequence of steps in the plan.
+
+
+
+> 4. The rationale for the plan.
+
+
+
+> 5. The key decisions that may have to be made.
+
+
+
+> 6. Antigoals (unwanted outcomes).
+
+
+
+> 7. Constraints and other considerations.
+
+
+
+> [p226] All seven rypes of information are not always
+> necessary. Instead, this list can be used as a checklist, to determine
+> if there are any more details to add. In my company, whenever we begin
+> a new project, we go through the relevant items in the checklist. We
+> try to make sure that everyone working on the project has the same
+> understanding of what we are after.
+
+
+
+> [p283] One way to improve performance is to be more careful in
+> considering alternate explanations and diagnoses for a situation.  The
+> _de_minimus_ [p284] error may arise from using mental simulation to
+> explain away cues that are early warnings of a problem. One exercise
+> to correct this tendency is to use the crystal ball technique
+> discussed in chapter 5. The idea is that you can look at the
+> situation, pretend that a crystal ball has shown that your explanation
+> is wrong, and try to come up with a different explanation. Each time
+> you stretch for a new explanation, you are likely to consider more
+> factors, more nuances. This should reduce fixation on a single
+> explanation. The crystal ball method is not well suited for
+> time-pressured conditions. By practicing with it when we have rhe
+> time, we may learn what it feels like to fixate on a hypothesis. This
+> judgment may help us in situations of time pressure.
+
+
+
+> A second application is to accept all errors as inevitable. In complex
+> situations, no amount of effort is going to be able to prevent any
+> errors. Jens Rasmussen (1974) came to this conclusion in his work with
+> nuclear power plants, which is one of the industries most preoccupied
+> with safery. He pointed out that the rypical method for handling error
+> is to erect defenses that make the errors less and less likely: add
+> warnings, safeguards, autOmatic shut-offs, and all kinds of other
+> defenses. These do reduce the number of errors, but at a cost, and
+> errors will continue to be made, and accidents will continue to
+> happen. In a massively defended system, if an accident sneaks through
+> all the defenses, the operators will find it far more difficult to
+> diagnose and correct it. That is because they must deal with all of
+> the defenses, along with the accident itself. Recall example 13.7, the
+> flight mismanagement system. A unit designed to reduce small errors
+> helped to create a large one.
+
+
+
+> Since defenses in depth do not seem to work, Rasmussen suggests a
+> different approach: instead of erecting defenses, accept malfunctions
+> and errors, and make their existence more visible. We can try to
+> design better human-system interfaces that let the system operators
+> quickly notice that something is going wrong and form- diagnoses and
+> reactions. Instead of trusting the systems (and, by extension, the
+> cleverness of the design engineers) we can trust the competence of the
+> operators and make sure they have the tools to maintain situation
+> awareness throughout the incident.
+> 
+
+
+

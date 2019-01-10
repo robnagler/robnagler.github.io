@@ -1,0 +1,973 @@
+---
+layout: post
+title: "BookReview: A User's Guide to the Brain: Perception, Attention, and the Four Theatres of the Brain"
+date: 2010-05-02T12:00:00Z
+---
+By John J. Ratey, Vintage, January 8, 2002, 978-0375701078
+
+This has to be the best book I've read on the brain, ever.  John
+Ratey explains in layman's terms the latest research on the brain and
+are behavior comes directly from the brain's biology.
+
+The Four Theatres is a model for "analyzing human experience".  This
+is not a literal framework, but a way of thinking about patients'
+brains.  The four theaters are "perception captures incoming stimuli;
+attention, consciousness, and cognition filter and process these
+perceptions; the brain functions then work with this information and
+affect how subsequent information is perceived and processed; the
+final result is behavior and, ultimately, identity."
+
+The Four Theatres aside, the book explains the brain as we understand
+it today in great detail.  While you may not agree with his model,
+you'll get an education on how the brain metabolizes stimuli (my
+words).
+
+
+> [k84] The brain is nothing like the personal computers it has
+> designed, for it does not process information and construct images by
+> manipulating strings of digits such as ones and zeros. Instead,
+
+
+
+> [k97] Our troubled world, too, is becoming too complex for logical
+> argumentation, and may have to change its thinking: real trust, when
+> emotions are running high, is based on analogy, not
+> calculation. Meanwhile,
+
+
+
+> [k143] The accepted wisdom has always been that the key to success in
+> life is to know yourself, and this still remains one of the most basic
+> truths of philosophy, psychology, and religion. To know ourselves, we
+> must become good self-observers, and it is for this reason, more than
+> any other, that we must learn about the object that drives our logic,
+> imagination, and passion. Biological determinism,
+
+
+
+> [k163] It's not surprising that language about the brain is complex,
+> for the brain is the most complex object in the universe. There are a
+> hundred billion neurons in a single human brain, and roughly ten times
+> as many other cells that have noncomputational roles.
+
+
+
+> [k190] The brain is so complex, and so plastic, that it is virtually
+> impossible, except in the broadest fashion, to predict how a given
+> factor will influence its state.
+
+
+
+> [k194] Darwinism." These networks of synapses, Edelman argues, are
+> more than a vast communicative infrastructure; each network in the
+> brain is striving against the others for feedback from the outside
+> world.
+
+
+
+> [k224] Likewise, blaming yourself for the physiological shortcomings
+> of your brain, whatever they may be, is misdirected energy, energy
+> better spent in changing your habits and lifestyle to live the most
+> productive life you can.
+
+
+
+> [k355] Brain structure is not predetermined and fixed. We can alter
+> the ongoing development of our brains and thus our capabilities. This
+> is not always beneficial, however, as sometimes in the brain's attempt
+> to adapt, the rewiring can make things worse.
+
+
+
+> [k384] The first weeks and months are a time of furious cell
+> production and overproduction, with 250,000 neuroblasts, or primitive
+> nerve cells, being created every minute.
+
+
+
+> [k405] The two main types of cells, neurons and glia, make up the
+> brain, which is pretty much complete by the eighth month of
+> pregnancy. At this point there are twice as many neurons as in the
+> adult brain. As the brain ages,
+
+
+
+> [k430] A period of cell death during the later stages of pregnancy
+> wipes out almost half the neurons in the brain, which are probably
+> phagocytized, or eaten up, by the support cells of the brain and the
+> molecules recycled locally. There is a drop from about 200 billion
+> neurons to 100 billion. This widespread cell death is normal, for it
+> eliminates the wrong and weak connections that could inhibit efficient
+> and proper brain function. This is a classic example of the incredible
+> resourcefulness of evolution, which makes us highly adaptable
+> creatures. It also points to the fact that even at the very beginning
+> of development the brain is a social organ: where there is no
+> connection, there is no life.
+
+
+
+> [k519] "Neurons that fire together wire together" means that the more
+> we repeat the same actions and thoughts--from practicing a tennis
+> serve to memorizing multiplication tables--the more we encourage the
+> formation of certain connections and the more fixed the neural
+> circuits in the brain for that activity become. "Use it or lose it" is
+> the corollary: if you don't exercise brain circuits, the connections
+> will not be adaptive and will slowly weaken and could be lost.
+
+
+
+> [k538] A mere 50,000 genes for the brain are not nearly enough to
+> account for the 100 trillion synaptic connections that are made
+> there. Genes set boundaries for human behavior, but within these
+> boundaries there is immense room for variation determined by
+> experience, personal choice, and even chance.
+
+
+
+> [k555] Studies of identical twins separated at birth are often used to
+> test the debate between nature and nurture. While these can be
+> valuable, this test is hamstrung from the start for several reasons,
+> one of which is that differences in the position of each twin in
+> relation to the placenta may bring with them differences in blood
+> supply, hormonal levels, and other factors that are not intrinsic to
+> the genes of the twins. Whether a twin is a "front child" or a "back
+> child," a "spleen child" or a "liver child," makes a difference.
+
+
+
+> [k578] Genes and the environment work together to shape our brains,
+> and we can manage them both if we want to. It may be harder for people
+> with certain genes or surroundings, but "harder" is a long way from
+> predetermination.
+
+
+
+> LEARNING TO CHANGE THE NEURAL PATHWAYS that control the basic
+> functions we need to survive--heartbeat, temperature control,
+> breathing--are already connected at birth, but many more pathways are
+> determined by the greatest environmental factor in our lives:
+> learning. Although the brain's flexibility may decrease with age, it
+> remains plastic throughout life, restructuring itself according to
+> what it learns. The brains of children three to ten years old consume
+> twice as much of the blood nutrient glucose as those of adults, in
+> part because their brains are less efficient and are in the business
+> of forming a vast number of connections. Studies also show that
+> children who exercise regularly do better in school. New research
+> indicates that adult exercise juices the brain with more glucose too,
+> which may promote an increase in neural connections.
+
+
+
+> [k606] The drug Prozac can be helpful in breaking these kinds of
+> deadlocks. We always have the ability to remodel our brains. To change
+> the wiring in one skill, you must engage in some activity that is
+> unfamiliar, novel to you but related to that skill, because simply
+> repeating the same activity only maintains already established
+> connections. To bolster his creative circuitry, Albert Einstein played
+> the violin. Winston Churchill painted landscapes. You can try puzzles
+> to strengthen connections involved with spatial skills, writing to
+> boost the language area, or debating to help your reasoning
+> networks. Interacting with other intelligent and interesting people is
+> one of the best ways to keep expanding your networks--in the brain and
+> in society.
+
+
+
+> [k625] There is stronger evidence, however, that children who listen
+> to and play music at ages younger than eight do better on spatial
+> reasoning tests. For example, the California team studied a class of
+> three-year-olds. Half the class attended piano or singing lessons for
+> eight months. Their scores on puzzles, tests of spatial reasoning, and
+> drawing of geometric figures shot up to 80 percent higher than those
+> of their classmates who did not attend music lessons. The musical
+> children gradually became faster and more accurate at spatial
+> reasoning over the school year and boosted their spatial
+> intelligence. The theory is that as music is structured in space and
+> time, practicing it will strengthen circuits that help the brain think
+> and reason in space and time, important for math. If the effect of
+> sustained practice during childhood is permanent, the improved ability
+> will help children in complex math and engineering problems when they
+> grow up. It is theorized that the music triggers neural firing
+> patterns over large regions of the cortex that are also used for
+> spatial reasoning.
+
+
+
+> [k1039] An excess of mental noise in the brain can make it difficult
+> to perceive what's going on, overloading other circuits of attention,
+> memory, learning, cognition, emotional stability, or any other brain
+> function. The system goes into information overload. If random
+> neuronal firings are too fast and furious, incoming stimuli might fail
+> to activate and assemble the neurons into properly synchronized
+> behavior. This, in turn, could result in the incorrect processing of a
+> stimulus, and neurons would misfire accordingly. This is what can
+> happen when highly anxious people take tests. The heightened anxiety
+> drives up the mental noise, so much so that such people may literally
+> see less of their environment, as though the brain space usually open
+> for perception is busy with the internal noise.
+
+
+
+> [k1046] Our brains are not infinite. They run out of space, run out of
+> gas, as it were. If the brain is busy trying to filter uncomfortable
+> and frustrating noise, worries, or other concerns, there is less
+> "brain stuff" available for perceiving.
+
+
+
+> [k1428] It is easy to understand how the many processing difficulties
+> of autism can lead to social isolation. If one has an aversion to
+> being touched by another human being, if clothes feel like steel wool,
+> and if sensory information comes too fast and furiously for one to
+> process, a perfectly natural reaction is to avoid the overwhelming
+> stimuli in any way possible. Sadly, this social isolation, which
+> begins in early childhood when the brain is developing, sets up
+> behaviors that can last a lifetime.
+
+
+
+> [k1575] Like all of us, some dyslexics learn to tolerate this
+> inability to fit auditory information into models by becoming more
+> inventive in deciphering the sounds around them, perhaps by asking
+> probing questions all the time that help make sense of what is being
+> said and heard.
+
+
+
+> [k1678] To add to this complexity, recent physiological findings
+> suggest that all this processing takes place along several
+> independent, parallel pathways. One system processes information about
+> shape, one about color, and one about movement, location, and spatial
+> organization. If you look up and see a clock, the image of its face
+> and the action of its sweeping second hand are being processed
+> independently, despite how unified the image appears. It may seem
+> bizarre to think of vision as functionally subdivided. But how
+> otherwise could a person who has perfect focus and tracking of moving
+> objects be color-blind? Some "blind" people who cannot see colors or
+> objects can still see movement.
+
+
+
+> [k1784] With research in hand, I finally came to understand that my
+> mother has an exceptional parvo, slow-processing system; like most
+> artists, she expresses an enhanced perception of color. She also
+> expresses a mildly deficient magno, fast-processing system. I also
+> became aware that her brain "compensated" for its deficiency; and
+> finally, I put to rest the notion that perhaps my mother had a
+> slightly abnormal brain.
+
+
+
+> [k1794] My research assistant had not only found an underlying cause
+> for her mother's reading difficulty, she had also hit upon a central
+> conclusion about perception, and indeed all brain function. Each brain
+> is different, and each is more efficient at certain kinds of
+> processing than others. For most people, their plastic brain attempts
+> to reorganize to compensate for its deficiencies the best it can. The
+> more we learn about how this occurs, the more we will be able to help
+> the brain retrain itself.
+
+
+
+> [k1889] If the brain were simply reflexive, it would never be able to
+> plan a future action. The brain is a powerful prediction machine,
+> continuously making elaborate mental maps of the world that are
+> reliable enough to enable us to predict what lies ahead, both in space
+> and in time. All animals that move must have some predictive power--at
+> the very least a simple image of what they are moving into and a sense
+> of how they are moving into it.
+
+
+
+> [k1926] Scientists have identified four distinct components within the
+> attention system, which together create the brain's overall ability to
+> monitor the environment: arousal, motor orientation, novelty detection
+> and reward, and executive organization. At the lowest level of
+> monitoring, the brainstem maintains our vigilance--our general degree
+> of arousal. At the next level, the brain's motor centers allow us to
+> physically reorient our bodies so that we can immediately redirect our
+> senses to possible new villains or food sources. Then, the limbic
+> system accomplishes both novelty detection and reward. Finally, the
+> cortex--especially the frontal lobes--commands action and reaction and
+> integrates our attention with short- and long-term goals.
+
+
+
+> [k1971] A key area of action is this little group of cells, the
+> nucleus accumbens. Monkeys with lesions in this region are unable to
+> sustain attention, which hinders them in performing tasks that are not
+> rewarded immediately, therefore affecting motivation. ADHD can be
+> thought of as an addiction to the present. Patients are often
+> impulsive, lacking in inhibitions, and quick to act because they are
+> hooked on immediate feedback. They tend to prioritize tasks according
+> to which offers the most immediate gratification. As a result, they
+> tend to not interrupt current activities in order to rehearse skills
+> or evaluate the consequences of their actions.
+
+
+
+> [k2014] Since the 1930s, studies have linked the anterior cingulate
+> gyrus to attention, emotion, memory, somatic and autonomic motor
+> responses, motivation, and even responses to painful stimuli. One of
+> the keys to its widespread power is that it can regulate its own
+> dopamine levels, which enhance the reactivity of neural networks. It
+> also has extensive neural connections to regions throughout the brain,
+> helping it regulate other regions involved in attention. The complex
+> system of arousal, emotion, and motivation feeding the attention
+> system seems to be coordinated through the anterior cingulate gyrus.
+
+
+
+> THE PRIMARY EMOTIONAL signal the anterior cingulate gyrus receives
+> comes from the amygdala, at the core of the limbic system, which
+> influences attention by assigning emotional significance to incoming
+> information. Even before a sensory perception has reached the frontal
+> lobes, where it enters conscious awareness and undergoes fine
+> categorization, the amygdala has already branded it with a raw
+> emotional valence somewhere along a continuum from mildly interesting
+> to "oh my God!" It activates the body and the rest of the brain in
+> response to how significant it deems the stimulus to be to
+> survival. If the stimulus seems threatening,
+
+
+
+> [k2025] The amygdala provides a preconscious bias of intensity to
+> every stimulus you come into contact with, even before you actually
+> pay attention to it. It can, and does, operate outside consciousness.
+
+
+
+> [k2057] One of these, the D2R2 receptor gene, which codes for the D-2
+> receptors on the postsynaptic site for dopamine that is mainly
+> concentrated in the area of the limbic system, has an allele, or
+> alternative gene, that has been linked repeatedly with a variety of
+> psychiatric conditions such as alcoholism, ADHD, cocaine abuse,
+> nicotine addiction (better known as smoking), compulsive gambling, and
+> other addictions. These findings remain, but a number of studies now
+> show that there is a relationship--this is an association, not a
+> causal connection--between the D2 receptors and problems reward
+> and attention.
+
+
+
+> It is believed that an abnormally low density of D2 receptors in the
+> nucleus accumbens reduces an individual's ability to experience
+> pleasure. This diminished capacity would almost inevitably drive that
+> individual to seek external forms of self-gratification. During the
+> course of a life, such strategies could settle into pathological
+> patterns of reward-seeking, from substance abuse to sexual conquest to
+> problem gambling. This has led Dr. Kenneth Blum of the University of
+> Texas and others to define a new syndrome called the "reward
+> deficiency syndrome."  Recognizing that a reward you are receiving is
+> "enough" is in part a function of memory, and sustaining attention is
+> the primary gate-way to the encoding of memories. Dopamine is central
+> to both attention and reward. What's more, substances such as
+> nicotine, cocaine, chocolate, marijuana, carbohydrates, and alcohol
+> increase the level of dopamine in this area of deficiency, so
+> searching for and ingesting these substances may be in part an attempt
+> to compensate for individual differences in dopamine levels. These
+> levels may also be increased rapidly by engaging in high-risk
+> behaviors, or by constantly confronting novel and challenging
+> situations. Putting yourself at prolonged risk, say,
+
+
+
+> [k2072] The D2R2 allele, although present in only 20 to 25 percent of
+> the American population, was found to be present in 70 percent of
+> severe alcoholics dying from cirrhosis of the liver. These findings,
+> presented to the public in 1990, stirred up a flurry of debate in the
+> media, which immediately jumped to the conclusion that the "alcoholism
+> gene" had been discovered.
+
+
+
+> [k2095] Most often, ADHD individuals are deficient in the motivational
+> sensations of pleasure or pain, and as a result they struggle to
+> sustain the drive required to complete important but tedious tasks
+> that only reward after a long period of time, such as doing well in
+> school to eventually take on college or a career.
+
+
+
+> [k2149] WHETHER IT FUNCTIONS smoothly or not, the ultimate purpose of
+> our attention system is to help our brains tune in to the world,
+> including our own minds. Tuning in opens the door to that most
+> fascinating aspect of our lives: consciousness. People love to debate
+> consciousness. Considering that we don't know what it is or how it
+> works, the fervor with which it is debated can be embarrassingly
+> presumptuous.
+
+
+
+> [k2250] CONSCIOUSNESS One of the most appealing explanations of
+> consciousness is the proposal that the recurrent network set up
+> between the thalamus and the cortex is the neurology of
+> consciousness. The thalamus is connected to the cortex by the
+> intralaminar nuclei, which project long axons to all areas of the
+> cerebral hemispheres. These areas in turn send back projections to the
+> same intralaminar nuclei, and when this circuit is humming with a
+> steady oscillation, consciousness may result.
+
+
+
+> [k2410] The next frontier in the quest to explain consciousness is the
+> hard question of subjective experience. We all know what a subjective
+> experience is, but it's hard even to explain what we experience. The
+> most central subjective experience we have is "what it is like to be
+> me from the inside." Examining consciousness from the inside reveals a
+> whole new set of "data" to be explained--the qualitative aspects of
+> our experiences, or, for short, qualia. The term qualia is currently
+> in vogue in the field of philosophy of the mind. Qualia are the
+> phenomenological properties of experience; the "what it is like" of
+> consciousness that are elements that can only be known from one
+> subjective standpoint. For example, you cannot experience another
+> person's pain. You can infer what the other person is going through,
+> but there is no direct transfer of the experience. Other examples of
+> qualia might be, for instance, deja vu, a chilling dive into a cold
+> river, or the smell of burnt rubber.
+
+
+I do not understand altruismm in this context. Altruism is a
+quality like anything else.
+
+
+> [k2423] As we attend more and are more conscious about what is going
+> on around us, we have more freedom, while at the same time we are more
+> bound to the reality of the world. We can think of an increasing
+> consciousness as an expanding playground for creativity, where we can
+> learn in new ways how the world is put together. Altruism and
+> consciousness are the steps that we're walking through that will
+> define us more in the future.
+
+
+
+> [k2453] Motor function is as crucial to some forms of cognition as it
+> is to physical movement. It is equally crucial to behavior, because
+> behavior is the acting out of movements prescribed by cognition. If we
+> can better understand movement, we can better understand thoughts,
+> words, and deeds.
+
+
+
+> [k2473] Nature is a frugal tinkerer.
+
+
+
+> [k2518] The typical OCDer is a perfectionist who is interminably
+> searching for error. He or she explodes with worry and gets caught in
+> a never-ending do-loop of concern and rumination. Did I make the right
+> move?
+
+
+
+> [k2547] Cases like T.J.'s stunned practicing psychiatrists, virtually
+> all of whom had been schooled in the classic Freudian view that OCD
+> somehow stemmed from a disturbance in toilet training. Acute-onset
+> cases like T.J.'s totally upset the traditional psychodynamic,
+> interpretative framework for the disease, even the updated,
+> biologically aware versions that put some blame on an imbalance of
+> serotonin. These children were virtually "catching" OCD, or at least
+> tics, the way a person catches a cold. There was nothing social about
+> it. MRI scans revealed that in these children the caudate nucleus, the
+> area implicated in OCD, had swollen to as much as 24 percent larger
+> than normal. What's more, the degree of swelling directly correlated
+> with the severity of the OCD symptoms. Researchers surmised that the
+> antibodies created to attack the strep bacteria were attacking the
+> caudate neurons of the children's brains.
+
+
+
+> [k2572] A lot of brain function is, essentially, movement.
+
+
+
+> [k2584] Movement is fundamental to the very existence of a
+> brain. Interestingly, only an organism that moves from place to place
+> requires a brain. Plants enhance their chances for photosynthesis by
+> turning their leaves to face the sun, but this is done through the
+> growth of cells, not by changing their position. A tiny marine
+> creature known as the sea squirt swims about like a tadpole. It has a
+> brain and a nerve cord to control its movements. However, when it
+> matures, it attaches itself permanently to a rock. From that moment
+> on, the brain and the nerve cord are gradually absorbed and
+> digested. The sea squirt consumes its own brain because it is not
+> needed anymore.
+
+
+
+> [k2671] We therefore have to be very wary when we are presented with a
+> nice, neat map of the brain. For six decades investigators have
+> created brain maps that reflect the "latest" research. The maps have
+> evolved from well-defined point-to-point grids to messy configurations
+> showing complex overlapping areas. The phrenologist and the geographer
+> live within us: we want to know where and how. But this is just not
+> the way the brain is organized.
+
+
+
+> [k2887] What's even more fascinating is that the motor control of
+> movements related to emotion is not in the same location as the
+> control for a voluntary movement of the same kind. For example, when a
+> stroke destroys the motor cortex in the brain's left hemisphere, the
+> patient experiences paralysis on the right side of the face. When
+> asked to smile the patient cannot move the right side of his
+> mouth. However, when the same patient is told a joke and laughs
+> spontaneously, the smile is normal; both sides of the mouth move as
+> they should. The cortex cannot exercise its usual control over the
+> muscles, but the muscles still respond to the more automatic and
+> implicitly learned responses that are located on the first floor--the
+> basal ganglia.
+
+
+
+> [k2911] Our motor programs continually reorganize into sequences of
+> motor movements that reflect what we learn each time, to lead to
+> well-thought-out and successful performance. We are always modifying
+> and learning through movement.
+
+
+
+> [k2942] Our physical movements can directly influence our ability to
+> learn, think, and remember. It has been shown that certain physical
+> activi-ties that have a strong mental component, such as soccer or
+> tennis, enhance social, behavioral, and academic abilities. Although
+> the reasons are not completely understood, many reports indicate that
+> this is so. Evidence is mounting that each person's capacity to master
+> new and remember old information is improved by biological changes in
+> the brain brought on by physical activity. Certain kinds of exercise
+> can produce chemical alterations that give us stronger, healthier, and
+> happier brains.
+
+
+
+> [k2969] Studies suggest that challenge and feedback are necessary to
+> maximize learning. The brain is exquisitely designed to operate on
+> feedback, both internal and external. The substantia nigra,
+
+
+
+> [k3003] What am I talking about? False memories. We all have
+> them. Despite our great certainty about what we have and have not
+> experienced, the fact is that given a few bogus details and a little
+> prodding, about a quarter of adults can be convinced that they
+> remember childhood adventures they never had. Our memories are much
+> more malleable and fallible than we like to think.
+
+
+
+> [k3153] This process, however, is not standardized. Motivation can
+> affect how encoded a memory becomes. Michael Merzenich did much of the
+> early work in showing that when there is a reward, the pieces of a
+> memory are more strongly bonded. He placed a slowly spinning wheel
+> beside monkeys' cages, which the monkeys could touch with their
+> fingertips, and monitored the region of their brains responsible for
+> the fingers. The cells responsible for feeling the wheel and
+> remembering the sensation were mapped. Merzenich then added a learning
+> task; when the monkeys could recognize a designated pattern of
+> spinning and press a buzzer, they were given a food reward. They soon
+> became experts at recognizing the right pattern, and literally within
+> hours the nerve cells responsible for the task multiplied as the
+> monkeys' discriminatory powers increased. Neighboring neurons were
+> recruited to help perceive and then remember the perception. The
+> adding of a reward led to having many more neurons code the
+> memories. The monkeys were motivated to remember the event. The adage
+> that reward is part of learning is backed up by real neuronal proof.
+
+
+
+> [k3178] More evidence comes from the evolutionary ladder. In the one
+> mammal that does not experience REM sleep, the spiny anteater, the
+> prefrontal cortex--the major center of learning and behavior--is so
+> disproportionately large relative to the animal's body mass that
+> memories are encoded at the moment an event is first
+> experienced. Higher mammals, lacking this massive reservoir, were
+> perhaps forced to develop and reserve REM sleep as a time for
+> solidifying memories; recall the study showing that the exact neuronal
+> firing patterns present when rats explored a maze were repeated
+> precisely when the rats were in REM sleep.
+
+
+
+> [k3246] Problems with working memory are crucial to the many symptoms
+> of ADHD. Those of us blessed with proper working memory can predict
+> the consequences of our actions: we have memory of the future. People
+> with ADHD lack this gift. Planning overwhelms them, and they "forget
+> to remember" and "forget to remember that they will exist in the
+> future" and so on until everything falls into an unproductive infinite
+> regress. Further, they lack an ability to screen out extraneous
+> stimuli.
+
+
+
+> [k3585] Cognitive changes assumed to accompany aging are seriously
+> misunderstood. Many people, for example, confuse normal age-associated
+> memory changes with the severe clinical condition of Alzheimer's
+> disease, a form of senile dementia. Statistics show that no more than
+> 10 to 15 percent of people from age sixty-five to one hundred show
+> symptoms of clinically diagnosed senile dementia, yet thanks to
+> prompting--or perhaps priming--by the popular press, a great majority
+> of the aging population would swear to having the disease. Some memory
+> loss is common as people get older, and it differs significantly from
+> dementia. In normal aging, individuals may have a "tip-of-the-tongue"
+> memory loss for words that haven't been used in a while. That's why
+> Grandma, having a "senior moment," may confuse her grandchildren's
+> names when they first come to visit after having not seen them for
+> several months. With Alzheimer's, people lose the names for common
+> objects they run into every day, like glasses or ovens.
+
+
+
+> [k3948] Sadness probably evolved to emphasize and underscore losses of
+> all kinds; it takes us off-line so that we can regroup and
+> reevaluate. It may even cause us enough "pain" that we are motivated
+> to change. In the brain,
+
+
+
+> [k3986] Depression affects 3 to 5 percent of the population at any
+> given time, and about 20 percent of people will experience major
+> depression in their lifetimes. Even children only five or six years
+> old can experience symptoms clinically similar to adult
+> depression. Depression is less genetically based than any other mental
+> illness, and is the one most dependent on environmental factors.
+
+
+
+> [k4135] A disorder of the motivation system is apathy, which can have
+> a neurological basis or accompany another medical disorder. Apathy can
+> be particularly difficult to treat because the behavior may be seen by
+> the patient's family as moral weakness or be misinterpreted by a
+> therapist as passive-aggressive behavior.
+
+
+
+> [k4140] High doses of dopamine are usually needed to help patients
+> suffering from apathy. In one study, seven out of eight patients who
+> became depressed following liver transplants and were given
+> methylphenidate, or Ritalin, a drug that elevates dopamine levels,
+> showed improved motivation in pursuing their rehabilitation regimens
+> and less social withdrawal and apathy than they exhibited before
+> taking the drug. For apathy patients, drugs are not the final
+> cure. They also need assistance in practicing techniques to help
+> themselves. Education of the family is an important job for the
+> therapist, too. Treatment of apathy raises some complex human rights
+> issues, because these patients may be competent enough to make some
+> decisions but not others. They are also prone to anxiety, which must
+> be relieved so that they will consider options and get involved with
+> life again. Treating apathy is also important in depressed
+> patients. Drugs can be used to bring about rapid improvement at an
+> early stage. Since depressed patients are often convinced that nothing
+> can be done for them, they may not adhere to the treatment plan, and
+> become uncooperative and neglectful. Rapid countering of this resigned
+> apathy is an essential aspect of treatment.
+
+
+
+> [k4181] As we evolved and our social groups got bigger and more
+> complex, we needed to delay and react more deliberately or chaos would
+> have reigned. Language may have evolved as a delay mechanism.
+
+
+
+> [k4186] It is the moment of delay that is so crucial to planned
+> action. Owing to language, we don't have to act immediately on
+> emotional impulses determined by our immediate surroundings.
+
+
+
+> [k4648] Electrical stimulation studies on the conscious brain have
+> helped define the reading areas. They overlap with naming sites, but
+> aren't always in the same area, and exact locations vary from one
+> individual to another, as is the case for naming sites for oral
+> language. Other tests show that people with high verbal IQs have
+> reading sites in the superior temporal gyrus and naming sites in the
+> middle temporal gyrus. Ironically, the reverse pattern is found in
+> people with weaker verbal skills. William Calvin of the University of
+> Washington proposes one explanation: We learn to name before we learn
+> to read. If we are genetically less efficient at this task, the
+> greater neural area in the superior temporal gyrus is necessary for
+> success. So when we begin to learn the complex task of reading when we
+> start school, the superior temporal gyrus is already dedicated to
+> naming sites, so reading sites form in the less optimal middle
+> temporal gyrus.
+
+
+
+> [k4669] Whether schools should teach reading by phonics versus whole
+> language has become a hot, almost political debate, but brain research
+> provides a simple answer: they should use both. The whole-language
+> trend assumes that reading is a natural, genetically programmed part
+> of language development, and that children will pick it up as easily
+> as speaking. However, as noted, since writing has only existed for
+> 5,000 years and literacy has only been widespread for a few centuries,
+> it is highly unlikely that the human brain has evolved structures
+> specifically for reading and writing in this time. It is our ability
+> to learn through experience that allows us to achieve reading, but
+> only with explicit instruction.
+
+
+
+> [k4796] The process of writing may provide an even greater delaying
+> function, allowing for even more organization of ideas before
+> action. So many of us claim that we can organize our thoughts better
+> and learn new tasks more easily if we sit down and write them out on a
+> piece of paper. Perhaps journal writing would be a useful
+> rehabilitation tool to train our brains to slow down, think, and
+> vocalize before acting on emotion or acting out in a social
+> situation--the subject of our next chapter.
+
+
+
+> [k4899] The more I see the pieces put together, the more I am
+> convinced that there is indeed a social brain. The pieces have long
+> been identified, but we do not think of them as constituting a
+> holistic function.
+
+
+
+> [k4903] This simple declaration may seem heretical to some.
+
+
+
+> [k4907] If we can understand how the social brain works, we can begin
+> to find ways to treat people whose behavior crosses the limits
+> tolerated by our social society. More important, we might find a way
+> to give otherwise isolated and anguished people the ability to make
+> friends, get along with co-workers, and form intimate
+> relationships. Even though we typically think of these emotional,
+> psychological, or moral capacities as learned, the existence of a
+> social brain indicates that our social skills also have a partly
+> biological basis.
+
+
+
+> [k4922] Our highest human virtue is our connection with other humans,
+> and social activity is basic to our health and happiness. Our brains
+> are preprogrammed to look for other humans from the moment of birth,
+> and continuing social interaction with parents and peers is essential
+> for normal development throughout life.
+
+
+
+> [k4957] The lesson is that practice can make perfect. Some schools are
+> realizing this, and are beginning to put class time aside, even if
+> it's as little as 15 minutes a week, to help children learn how to be
+> friends, how to recognize and talk about different feelings, how to
+> handle anger or pain, and how to express what they like and
+> dislike. Teachers will act out situations--
+
+
+
+> [k4963] Modern society has canonized successful social relationships
+> as the ultimate in psychological adaptation, and much of psychology
+> and psychoanalysis is based on this premise. But there is a definite
+> neurological component to this exalted function, and the possibility
+> of correcting the brain's social neurology has been largely ignored.
+
+
+
+> [k5033] Often it is easier for an individual to participate in an
+> exchange relationship than to do everything for himself. Once you open
+> a door for yourself, it requires only a bit of extra effort to
+> continue to hold it for the person behind you. This little effort is
+> rewarded with a lessening of your own burden when someone else holds a
+> door open for you. This economic principle, which surfaces as little
+> politenesses, helps make civilized society possible.
+
+
+
+> [k5200] This motor activity then helps her calm down. Alternatively,
+> as the woman's anxiety heightens, someone may approach her who has a
+> friendly expression and a quieting tone of voice and give her a
+> reassuring touch on the arm. This raises the woman's serotonin level,
+> which dampens the network, tells the cortex to quiet down and the
+> amygdala to reduce its vigilance for there is no longer a threat.
+
+
+
+> [k5581] This view leads to a radically different but simple model for
+> analyzing human experience, which delves far below the emotional
+> surface of feelings while recognizing that emotion conditions the
+> entire process. The model consists of four "theaters" of exploration,
+> which flow and feed back into one another: perception captures
+> incoming stimuli; attention, consciousness, and cognition filter and
+> process these perceptions; the brain functions then work with this
+> information and affect how subsequent information is perceived and
+> processed; the final result is behavior and, ultimately, identity. By
+> logically investigating each theater, clinicians--and people
+> themselves--can find the fundamental cause of difficulties and design
+> lasting cures.
+
+
+
+> THE TRADITIONAL EFFORT to uncover the hidden trauma supposedly
+> responsible for suffering is largely being replaced today by searches
+> for neurotransmitter imbalances, aberrant genes, and altered brain
+> functions. Where we once spoke of superego, ego, and id, we now speak
+> of serotonin, gene sequences, and neural networks in various brain
+> regions. Nevertheless, mental health practitioners continue trying to
+> treat affect directly, as if it were the illness itself, rather than
+> attempting to investigate the ways in which it might be a consequence
+> of a patient's underlying disorders. Furthermore, they continue to
+> insist on a Pasteurian notion of illness: one pathogen, one antigen,
+> one cure.  The pressing desire to provide immediate relief also leaves
+> many doctors and patients addicted to the search for a convenient,
+> comforting diagnostic label and a hot new drug to cure the
+> affliction. The hunt for a single villainous gene for each behavioral
+> problem is just as intoxicating, and the media have fostered
+> unwarranted hopes among the general public, which now plainly expects
+> miracle cures for suffering. This trend is unfortunate and
+> distressing.
+
+
+
+> [k5602] Although psychiatry has finally achieved recognition as a
+> medical science, drug therapy is still a crude and primitive tool for
+> treating an organ we are only beginning to understand. Which faculties
+> and sources of satisfaction should a psychiatric patient expect to
+> surrender for the sake of therapeutic convenience?
+
+
+
+> [k5625] Feelings may be the cause of distress, but they also cover up
+> the problem. Furthermore, in light of the paucity of our understanding
+> of the brain, it seems more productive for clinicians to replace
+> confidence in diagnostic categories with curiosity and a knowing
+> humanity.
+
+
+
+> Even if emotions are largely the cause of a problem, those emotions
+> are created by the physical firing of neurons in the
+> brain. Furthermore, even if an emotional trauma is the root cause of a
+> problem, that trauma reorganizes the brain's circuits--a biological
+> result that can be turned around.
+
+
+
+> [k5670] My hope is that with the metaphorical framework of the four
+> theaters we can begin to base modern mental health care on a more
+> holistic method of healing. By starting upstream and working their way
+> down, psychiatrists stand a better chance of identifying the true
+> etiologies of the disorders they seek to treat and of engineering the
+> environment in such a way that patients' internal shortcomings are met
+> with self-forgiveness and effective steps to correct their
+> problems.
+
+
+
+> The First Theater--Perception THE BRAIN DOES NOT mechanically store
+> the information that it acquires. It is changed forever each and every
+> time it interacts with the world. Each time, it becomes the
+> information. Perception is the gateway through which we receive
+> information from our five senses and from our internal
+> awareness. Perception is the beginning of all experience.
+
+
+
+> [k5684] A lifetime of misperceptions leaves many patients
+> ashamed of their limitations and fearful of repeating
+> failures. Perception is the starting point for diagnosis, because
+> mental life develops primarily in response to the information that the
+> brain apprehends. The Second Theater--Attention, Consciousness, and
+> Cognition WHEN WE ATTEND to a perception, we become conscious of it,
+> and then we think about it or react to it. The second theater
+> encompasses a person's conscious experience of the world. It is how a
+> person represents the world to himself or herself, from moment to
+> moment, and how he or she interprets events within it. Upstream
+> problems in perception
+
+
+
+> The quality of one's inner awareness can deteriorate as poorly formed
+> perceptions fail to provide the structural basis for well-coordinated
+> attention shifts, and as ill-formed cognitive networks lead to
+> confused internal representations of the world. This leaves the brain
+> trapped in a state of constant "noise" and starved for accurate
+> information.
+
+
+
+> [k5696] The Third Theater--Brain Function THE THIRD THEATER comprises
+> the primary functions of the brain, movement, memory, emotion,
+> language, and the social brain, all of them affected by differences
+> between the brain's hemispheres. These processes directly influence
+> the moment-by-moment experience of life, yet adapt relatively slowly.
+
+
+
+> [k5702] Brain functions lie downstream from the first two theaters in
+> our model because they emerge and develop in response to whatever
+> kinds of experiences enter consciousness from perception. A second
+> theater filled with mental noise can distort functions in the third in
+> numerous ways, including ADHD, OCD, autism, anxiety disorders, and
+> others.
+
+
+
+> [k5722] The Fourth Theater--Identity and Behavior THE FOURTH THEATER
+> constitutes the "output" of the brain: one's decisions, behavior, and
+> historical sense of self. It is the sum total of neurological and
+> psychological traits that, at any given moment, constitute who a
+> person has become. This theater is, in a sense, the space occupied by
+> the life narrative that individuals tell themselves--and their
+> care-givers. It is also where modern psychiatry has spent most of its
+> time, for it is where we confront early traumas, lowered self-esteem,
+> fantasies, phobias, behavioral troubles, broken marriages, character
+> disorders, and personality. A patient's quest for accurate
+> self-knowledge begins in the fourth theater. The obvious problem, of
+> course, is that a life of long-compromising influences flowing in from
+> upstream alters one's own self-observation, self-esteem, sense of
+> self, and memory.
+
+
+
+> [k5890] The possibilities for change are bounded only by our
+> imagination, our willingness to assess our brains accurately through
+> self-reflection, and our commitment to do some hard work.
+
+
+He gets grandiose at times.
+
+
+> [k5907] Not so. The brilliantly simple evidence from exciting new
+> areas of physical and social science--complexity theory and tipping
+> points--shows how powerful such universal factors can be in affecting
+> the brain-body system.
+
+
+
+> [k5966] Several studies show that older men who have stayed in shape
+> do better on mental tests than those who have not; indeed, they do
+> just as well as men thirty to forty years younger. Aging brains may
+> also decline in function owing to lower levels of dopamine crossing
+> the synapses. Physical exercise elevates these dopamine levels.
+
+
+
+> [k5984] Hatha-yoga has been found to decrease excitability,
+> aggressiveness, and somatic complaints and to enhance emotional and
+> life satisfaction.
+
+
+
+> [k6235] Any activity that gives us a sense of purpose and
+> accomplishment, that makes us feel glad to be alive, can help us care
+> for and feed our brain. Many people put off doing what they love, or
+> what they know they need to do for themselves, until later in life,
+> trying to get the world's demands out of the way first. What a grave
+> mistake! It is far better to make sure that part of our lives is
+> consumed with activities that we can put all our hearts, minds,
+> energies, and joys into at once.
+
+
+
+> [k6242] Remember one important point: In pursuing your passion, the
+> actual doing is what matters, not any measure of success. A diet of
+> constant, stimulating activity is the best prescription for our
+> troubles. It keeps the brain in a state of constant change, flow,
+> confirmation, and anticipation, thereby reducing the noise, fragility,
+> self-doubt, and stagnation with which we all have to contend.
+
+
+

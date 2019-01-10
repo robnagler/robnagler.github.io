@@ -1,0 +1,39 @@
+---
+layout: post
+title: "BookReview: On Lisp"
+date: 2001-12-31T12:00:00Z
+---
+By Paul Graham, Prentice Hall, 1993
+ You can
+[download entire book here](http://www.paulgraham.com/onlisp.html).  Even if you don't know anything about LISP, there's a lot
+to be absorbed from this book.
+
+
+> [p34]
+> The trick is to realize that an imperative program is a functional
+> program turned inside-out. To find the functional program implicit in
+> our imperative one, we just turn it outside-in. Let's try this
+> technique on imp.
+
+
+
+> The first thing we notice is the creation of y and sqr in the
+> initial let. This is a sign that bad things are to follow. Like eval
+> at runtime, uninitialized variables are so rarely needed that they
+> should generally be treated as a symptom of some illness in the
+> program. Such variables are often used like pins which hold the 
+> program down and keep it from coiling into its natural shape.
+
+
+
+> However, we ignore them for the time being, and go straight to the
+> end of the function. What occurs last in an imperative program occurs
+> outermost in a functional one. So our first step is to grab the final
+> call to list and begin stuffing the rest of the program inside
+> it--like turning a shirt inside-out. We continue by applying the same
+> transformation repeatedly, just as we would with the sleeves of the
+> shirt, and in turn with their cuffs.
+> 
+
+
+

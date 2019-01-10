@@ -1,10 +1,13 @@
-@h1 Evolutionary Economics
+---
+layout: post
+title: "Evolutionary Economics"
+date: 2009-04-11T12:00:00Z
+---
 
 Like a lot of people, I am intrigued by evolution as a design system.
 For decades I believed that evolution was unique to biology.  Even
 after reading
-@a href=^BookReview_The_Selfish_Gene The Selfish Gene
-my understanding of evolution was quite shallow.  With the publication
+[The Selfish Gene](/2009/04/20/BookReview-The-Selfish-Gene.html)my understanding of evolution was quite shallow.  With the publication
 of the 30th anniversary edition and a few more Richard Dawkins and
 other author's books on evolution, biology, and economics under my
 belt, I have figured out how evolution works its magic on the
@@ -17,7 +20,7 @@ design systems.  There are many written books about evolution, but I
 have a unique way of looking at design systems.  I'm a programmer, not
 a biologist, after all.
 
-@h3 The Biosphere
+## The Biosphere
 
 As Dawkins has made clear, evolution is about death.  Darwin's
 unfortunate use of the term "fittest" has clouded people's
@@ -40,12 +43,12 @@ manifests itself in organisms, which are containers for competing
 entities called genes.  Dawkins explains these core components in the
 Selfish Gene as:
 
-@blockquote
-The gene is the unit in the sense of  replicator. The organism is the
-unit in the sense of  vehicle. Both are important. Neither should be
-denigrated. They represent two completely  distinct kinds of unit and
-we shall be hopelessly confused unless we recognize the distinction.
-@/blockquote
+
+> The gene is the unit in the sense of  replicator. The organism is the
+> unit in the sense of  vehicle. Both are important. Neither should be
+> denigrated. They represent two completely  distinct kinds of unit and
+> we shall be hopelessly confused unless we recognize the distinction.
+
 
 In my way of thinking, genes survive if their host organisms transfer
 them to progeny in sufficient numbers before dying.  Genes are,
@@ -70,21 +73,19 @@ treat as a closed system.  And, finally, I am ready to expand into
 explaining how the World Economy is the only example we have of a
 closed evolutionary economic system.
 
-@h3 Economic DNA
+## Economic DNA
 
 Many books cover evolution and economics, and
-@a href=https://www.google.com/search?q=site:robnagler.com+evolution+economics I haven't found one
-which explains how evolution applies to the economy.
+[I haven't found one](https://www.google.com/search?q=site:robnagler.com+evolution+economics)which explains how evolution applies to the economy.
 For example,
-@a href=^BookReview_The_Ascent_of_Money The Ascent of Money
-contains these conflicting statements:
+[The Ascent of Money](/2009/04/06/BookReview-The-Ascent-of-Money.html)contains these conflicting statements:
 
-@blockquote
-Broadly speaking, the law of the survival of the fittest
-applies. Institutions with a 'selfish gene' that is good at
-self-replication and self-perpetuation will tend to proliferate and
-endure. [...] The evolutionary analogy is, admittedly, imperfect.
-@/blockquote
+
+> Broadly speaking, the law of the survival of the fittest
+> applies. Institutions with a 'selfish gene' that is good at
+> self-replication and self-perpetuation will tend to proliferate and
+> endure. [...] The evolutionary analogy is, admittedly, imperfect.
+
 
 Evolution is an all-or-nothing proposition.  Without the components I
 outlined in the previous section, evolution does not apply.  It is
@@ -142,7 +143,7 @@ affects how you perform your job, given the wide range of sleep
 patterns, it is likely that the eight-hour-sleep meme probably does
 not have that much effect on the economy.
 
-@h3 It's jobs, stupid!
+## It's jobs, stupid!
 
 It is safe to say there is probably some economic DNA comprised of
 introns and exons, and it is the introns people carry around which
@@ -169,7 +170,7 @@ do the "same" job, they do not act in exactly the same way.  That new
 hire has different economic DNA, and the new hire's economic DNA
 changes as a result of being hired.
 
-@h3 Jobytes
+## Jobytes
 
 Recently I chatted with a friend in Detroit.  The US auto industry is
 getting pummelled right now.  Jobs are being lost.  One thing my
@@ -207,15 +208,13 @@ environmentally-friendly consumer job, she thinks it is a the best
 job.  The two jobs inside her head may have a debate.  Here's a
 overly-simplified version:
 
-@ul
-@li Worker: The more Ford cars bought, the more likely I get to keep my job!
-@li Consumer:  One car is not going to change anything.
-@li Worker: My boss says that we have to buy Fords.
-@li Consumer: That's not a contract, that's peer pressure.  You can buy any car you want to.
-@li Worker: Fords are better!
-@li Consumer: If Fords are better, why are people snapping up Priuses? If Ford made more hybrids, I am sure they would sell.
-@li Worker: Let's agree to disagree.  You do your job, and I'll do mine.
-@/ul
+* Worker: The more Ford cars bought, the more likely I get to keep my job!
+* Consumer:  One car is not going to change anything.
+* Worker: My boss says that we have to buy Fords.
+* Consumer: That's not a contract, that's peer pressure.  You can buy any car you want to.
+* Worker: Fords are better!
+* Consumer: If Fords are better, why are people snapping up Priuses? If Ford made more hybrids, I am sure they would sell.
+* Worker: Let's agree to disagree.  You do your job, and I'll do mine.
 
 People have these conversations in their heads all the time.  This is
 how we act "rationally".  The problem with the rational actor model is
@@ -238,7 +237,7 @@ survivor.  The "hit kid to be good" jobyte is going extinct in the
 US.  Yet why isn't there a simple book of jobytes that tells us how to
 get rich?
 
-@h3 Predators and Herds
+## Predators and Herds
 
 Rich people get that way one of two ways: investment or speculation.
 When your finance-actor thinks that GE is going to go up and buys it,
@@ -300,7 +299,7 @@ relevant, wolves eat deer, because it is easier.  As long as they do
 not eat too many deer, that symbiotic relationship is stable as it was
 until the last century, when a bigger predator came into town.
 
-@h3 Packs
+## Packs
 
 Wolf genes also survive due to their pack gene.  Humans are social
 animals, too.  Yet we do not seem form economic packs easily.  One of
@@ -336,7 +335,7 @@ longevity: George Soros & Jim Rogers; Larry Page, Sergey Brin, Urs
 Hoelzle, & Eric Schmidt; Andy Bechtolsheim & David Cheriton; and
 Warren Buffet & Charlie Munger.
 
-@h3 Patience
+## Patience
 
 Probably the most valuable jobyte I have seen is the patience-jobyte.
 I was not raised to understand the patience-jobyte.  Indeed, I didn't
@@ -353,4 +352,4 @@ low-metabolism gene is activated when faced with low-nutrition.  Maybe
 the patience-jobyte is a natural part of what some people call
 wisdom.
 
-@div.sig ^Via_Rob 4/11/2009
+
