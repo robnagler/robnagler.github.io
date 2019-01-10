@@ -25,6 +25,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-favicon
+
+favicon:
+  source: /assets/i/logo-512x512.png
+  path: /assets/i
+
+social:
+  name: Rob Nagler
+  logo: /assets/i/favicon-32x32.png
+  links:
+    - https://github.com/robnagler
+    - https://www.linkedin.com/in/robnagler
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
