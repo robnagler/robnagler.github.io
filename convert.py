@@ -72,7 +72,8 @@ def _gen(text, prefix=''):
             assert not prefix
             for l in text:
                 if 'blockquote' in l:
-                    assert not l.blockquote
+                    assert not l.blockquote, \
+                        res
                     break
                 if l == '--':
                     res = res.rstrip() + ' --\n'

@@ -165,7 +165,6 @@ Industry will inevitably adopt biological ways because:
 @li The complexity of built things now reaches biological complexity. [...]
 @li Nature will not move, so it must be accommodated. [...]
 @li The natural world itself-genes and life forms-can be engineered (and patented) just like industrial systems. [...]
-@/li
 @/ul
 @/blockquote
 
@@ -321,30 +320,12 @@ computers. As Denis Diderot wrote in 1755:
 @/blockquote
 
 @blockquote
-
-@blockquote
-The number of books will grow continually, and one can predict that a
-@/blockquote
-
-@blockquote
+"The number of books will grow continually, and one can predict that a
 time will come when it will be almost as difficult to learn anything
-@/blockquote
-
-@blockquote
 from books as from the direct study of the whole universe. It will be
-@/blockquote
-
-@blockquote
 almost as convenient to [p281] search for some bit of truth
-@/blockquote
-
-@blockquote
 concealed in nature as it will be to find it hidden away in an
-@/blockquote
-
-@blockquote
-immense multitude of bound volumes.
-@/blockquote
+immense multitude of bound volumes."
 @/blockquote
 
 @blockquote
@@ -400,22 +381,22 @@ than parasites, if we simple focus on programming, and not try to come
 up with grand theories of how we might program better.
 
 @blockquote
-[p338] (SIN (IFLTE (IFLTE (+ Y Y) (+ x Y) (- x Y) (+ Y Y» (* x X) (SIN
-(IFLTE (% Y Y) (% (SIN (SIN (% YO. 30400002») X) (% Y 0.30400002)
-(IFLTE (IFLTE (% (SIN (% (% Y (+ X Y» 0.30400002» (+ X Y» (% X
-0.10399997) (- X Y) (* (+ -0.12499994 -0.15999997) (- X Y») 0.30400002
-(SIN (SIN (IFLTE (% (SIN (% (% Y 0.30400002) 0.30400002» (+ X Y» (%
-(SIN Y) Y) (SIN (SIN (SIN (% (SIN X) (+ -0.12499994 -0.15999997»») (%
-(+ (+ X Y) (+ Y Y» 0.30400002»» (+ (+ X Y) (+ Y Y»») (SIN (IFLTE
-(IFLTE Y (+ X Y) (- X Y) (+ Y Y» (* X X) (SIN (IFLTE (% Y Y) (% (SIN
-(SIN (% Y 0.30400002») X) (% Y 0.30400002) (SIN (SIN (IFLTE (IFLTE
-(SIN (% (SIN X) (+ -0.12499994 -0.15999997») (% X -0.10399997) (- X Y)
-(+ X Y» (SIN (% (SIN X) (+ -0.12499994 -0.15999997») (SIN (SIN (% (SIN
-X) (+ -0.12499994 -0.15999997»» (+ (+ X Y) (+ Y Y»»») (% Y
-0.30400002»»).
+[p338] (SIN (IFLTE (IFLTE (+ Y Y) (+ x Y) (- x Y) (+ Y Y>> (* x X) (SIN
+(IFLTE (% Y Y) (% (SIN (SIN (% YO. 30400002>>) X) (% Y 0.30400002)
+(IFLTE (IFLTE (% (SIN (% (% Y (+ X Y>> 0.30400002>> (+ X Y>> (% X
+0.10399997) (- X Y) (* (+ -0.12499994 -0.15999997) (- X Y>>) 0.30400002
+(SIN (SIN (IFLTE (% (SIN (% (% Y 0.30400002) 0.30400002>> (+ X Y>> (%
+(SIN Y) Y) (SIN (SIN (SIN (% (SIN X) (+ -0.12499994 -0.15999997>>>>) (%
+(+ (+ X Y) (+ Y Y>> 0.30400002>>>> (+ (+ X Y) (+ Y Y>>>>) (SIN (IFLTE
+(IFLTE Y (+ X Y) (- X Y) (+ Y Y>> (* X X) (SIN (IFLTE (% Y Y) (% (SIN
+(SIN (% Y 0.30400002>>) X) (% Y 0.30400002) (SIN (SIN (IFLTE (IFLTE
+(SIN (% (SIN X) (+ -0.12499994 -0.15999997>>) (% X -0.10399997) (- X Y)
+(+ X Y>> (SIN (% (SIN X) (+ -0.12499994 -0.15999997>>) (SIN (SIN (% (SIN
+X) (+ -0.12499994 -0.15999997>>>> (+ (+ X Y) (+ Y Y>>>>>>) (% Y
+0.30400002>>>>).
 @/blockquote
 
- I think the above is very cool, because the OCR system pulled
+NOTE: I think the above is very cool, because the OCR system pulled
 this out of prose without missing a step, and the OCRed text contains
 enough mistakes to yield the intent for the book's purpose, yet the
 software is not executable by any interpreter that is built today, and
@@ -795,12 +776,10 @@ itself.
 The song goes: No one is in charge. We can't predict the future.
 @/blockquote
 
+
+NOTE: But he still believes we can control it at some level.
+
 @blockquote
-
-@span.rob
-[Rob: But he still believes we can control it at some level.]
-@/span
-
 Now hear the flip side of the album: We are all steering. And we can
 learn to anticipate what is immediately ahead. To learn is to live.
 @/blockquote

@@ -1,7 +1,7 @@
 @h1 BookReview: Testing Computer Software, 2nd Ed.
 @div.bib by Cem Kaner et al, Wiley, 1999, 0-471-35846-0
  This is an up to date version of the
-@a href=^BookExcerpt_Art_of_Software_Testing Art of Software Testing@
+@a href=^BookReview_Art_of_Software_Testing Art of Software Testing
 . It is oriented towards waterfall development, but the technical
 discussion of testing are very good.
 

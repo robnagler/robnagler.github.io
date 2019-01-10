@@ -11,7 +11,7 @@ whole book is well organized.
 has its own reason for existing.  One cannot help but be in awe when
 he contemplates the mysteries of eternity, of life, of the marvelous
 structure of reality.  It is enough if one tries to comprehend a
-little of this mystery every day.  Never lose a holy curiosity."  
+little of this mystery every day.  Never lose a holy curiosity."
 -- Albert Einstein [From Death_of_a_Genius, by William Miller, LIFE
 Magazine, May 2, 1955]
 @/blockquote
@@ -23,12 +23,14 @@ these atrributions lead to admiration and emulation of good workers
 by lesser ones?  Isn't it useful to have an author's name on a book
 so we have a better idea of what to expect when we read it?  And
 wouldn't the same apply to programs?  Perhaps it would--if people
-read programs, but we know that they do not. 
-@span.rob
-[Rob: 20 years later and
-still true.]
-@/span
-  Thus, the admiration of individual programmers cannot
+read programs, but we know that they do not.
+@/blockquote
+
+NOTE: 20 years later and
+still true.
+
+@blockquote
+Thus, the admiration of individual programmers cannot
 lead to an emulaton of their wokr, but only to an affectation of
 their mannerisms.  This is the same phenomenon we see in "art
 colonies," where every knows how to look like an artist, but few, if
@@ -62,7 +64,7 @@ programmer would have to reason something like this:
 @blockquote
 extension of myself, even carrying my name.  _I_ am defective."
 But the very harshness of this self-judgment means that it is seldom
-carried out. 
+carried out.
 @/blockquote
 
 @blockquote
@@ -136,7 +138,7 @@ of society and have difficulty appreciating the fact that other
 people do not completely share their goals of money and prestige.
 They are especially at a loss to understand the smooth functioning of
 a programming rgoup based on mutual respect for individual talent and
-cooperation in the common cause. 
+cooperation in the common cause.
 @/blockquote
 
  Another point about fixation is Weinberg's persistent use of
@@ -202,7 +204,7 @@ armies when war threatens.  When there is no war threat, there is no
 general--but there are other leaders chosen according to what needs
 there are for leadership.  The Swiss, unlike certain other countries,
 are not burdened by general trying to govern the country in
-peacetime. 
+peacetime.
 @/blockquote
 
 @blockquote
@@ -228,13 +230,11 @@ THE TEAM IN CRISIS
 @blockquote
 [...] [The] life story of a typical programming team would make the
 subject of a fairly interesting--if slightly unbelieveable--novel.
-
-@span.rob
-[Rob: Did Tracy Kidder get his idea for the Soul of a New Machine
-from this book?]
-@/span
- [...]
 @/blockquote
+
+
+NOTE: Did Tracy Kidder get his idea for the Soul of a New Machine
+from this book?
 
 @blockquote
 In certain types of groups, and often in programming teams, the
@@ -248,12 +248,12 @@ may be replaced by the group if he does not display the necessary
 competence.  The maintenance-specialist--who will more often be the
 best-liked person in the group--can come from anywhere.  He may not
 be a particularly good programmer in his own right, though he may
-well be.  Very often, he will be a she. 
-@span.rob
-[Rob: Can you say sexist?]
-@/span
-
+well be.  Very often, he will be a she.
 @/blockquote
+
+
+NOTE: Can you say sexist?
+
 
 @blockquote
 In one cross-cultural study of nuclear families--father, mother,
@@ -267,42 +267,49 @@ is a woman on a programming team, she [p86] assumes the role of
 "team-mother," although no studies have been made to verify sex as a
 significant factor in choosing maintenance-specialist.  There have
 been at least several teams where one of the women was openly
-referred to as the "team-mother" or "den-mother," 
-@span.rob
-[Rob: "The Mother
-of All Programmers" as Saddam Hussein would say...]
-@/span
+referred to as the "team-mother" or "den-mother,"
+@/blockquote
+
+
+NOTE: "The Mother
+of All Programmers" as Saddam Hussein would say...
+
+@blockquote
  and there is the
 persistent joke in computing circles which defines "software" as "a
-girl programmer." 
-@span.rob
-[Rob: This was 1971!]
-@/span
- [...] Whether or not this
+girl programmer."
+@/blockquote
+NOTE: This was 1971!
+
+@blockquote
+[...] Whether or not this
 maile-female division of leadership is ultimately shown to have
 social-psychological validity, there is sufficient anecdotal evidence
-to make it a worthwhile experimental 
-@span.rob
-[Rob: Experimental?!?]
-@/span
- practice
+to make it a worthwhile experimental
+@/blockquote
+
+NOTE: Experimental?!?
+
+@blockquote
+practice
 to place at least one woman programmer on each team, though probably
 not in the role of designated leader.  Of course, there is no reason
-why a woman, as in many families, 
-@span.rob
-[Rob: Actually, the vast majority
-of ghetto families have a women head and half have no male at all.]
-@/span
+why a woman, as in many families,
+@/blockquote
 
+NOTE: Actually, the vast majority
+of ghetto families have a women head and half have no male at all.
+
+@blockquote
 cannot take the task-specialist role; but managers should be wary of
 promoting a woman to be designated leader simply because she seems to
 be second-in-command in a team.  In fact, there is no need to limit
-this caveat to women[.] 
-@span.rob
-[Rob: Then why mention them separately?]
-@/span
- 
+this caveat to women[.]
 @/blockquote
+
+
+NOTE: Then why mention them separately?
+
 
 @blockquote
 [p90] Two general social-psychological observations about group
@@ -315,7 +322,7 @@ solutions to group problems rather quickly.  Thus, in a programming
 team--which is possibly in a continual crisis [!]--leadership patters
 may be in constant flux. [!!] Because of this reshuffling, the more
 difficult the task is, the more the team comes to follow those leaders
-who can actually steer the team most effectively. 
+who can actually steer the team most effectively.
 @/blockquote
 
 @blockquote
@@ -385,11 +392,13 @@ good looks with poor brains is the source of one of the more serious
 social problems in large projects--the sex problem.  One of the women
 in our class undertook to study the attitudes about women programmers
 of men in her project.  The picture that emerged from this survey was
-of men (especially older ones 
-@span.rob
-[Rob: Like the author?]
-@/span
-) who plastered
+of men (especially older ones)
+@/blockquote
+
+NOTE: Like the author?
+
+@blockquote
+who plastered
 over their insecurities by belittling the women who were involved in
 professional work.
 @/blockquote
@@ -430,7 +439,7 @@ into types of work might realize gains in productivity of this
 magnitude [thirty-to-one]. Notice this is precisely what happens when
 egoless programming is practiced; and as long as programmers "own"
 programmers rather than, possibly, "owning" programming _stages_, we
-are not going to realize these potential gains.  
+are not going to realize these potential gains.
 @/blockquote
 
 @blockquote
@@ -456,7 +465,7 @@ poetically, "Beauty is truth, truth beauty."
 programming language is when we finally overcome the psychological
 barriers and learn a new one.  Our standards, in other words, are
 shifting ones--a fact that has to be taken into full consideration in
-programming language design. 
+programming language design.
 @/blockquote
 
 @blockquote
@@ -465,12 +474,10 @@ documentation is well done.  If it is poorly done, it will be worse
 than no documentation at all.
 @/blockquote
 
+NOTE: Strange segue
+
 @blockquote
-[p279] 
-@span.rob
-[Rob: Strange segue]
-@/span
- We stand at the brink of a new age, an
+[p279] We stand at the brink of a new age, an
 age made possible by the revolution htat is embodied in the computer.
 Standing on the bring, we could totter either way--to a golden age
 of liberty or a dark age of tyranny, either of which would surpass
@@ -482,7 +489,6 @@ their own ignorance.  Would that it not be adopted by the forces of
 tyranny themselves, as no doubt it will be.  Lacking that hope, I can
 only hope that its use to the other forces will, in the balance, be
 greater.
-
 @/blockquote
 
 @div.sig ^Via_Rob 1992

@@ -34,7 +34,7 @@ more importantly, to accept it.  My next step is to address the issue
 head on.
 
 Graham goes on to say that he saves up little tasks for those
-periods when he is uninspired, e.g. debugging.  "I like debugging: 
+periods when he is uninspired, e.g. debugging.  "I like debugging:
 it's the one time that hacking is as straightforward as people think
 it is."  Most programmers are afraid of debugging.  Indeed, I was once
 laughed at by a room full of about 400 programmers who thought I was
@@ -85,13 +85,13 @@ code that's badly indented, or that uses ugly variable names.
 If a hacker were a mere implementor, turning a spec into code, then he
 could just work his way through it from one end to the other like
 someone digging a ditch. But if the hacker is a creator, we have to
-take inspiration into account. 
+take inspiration into account.
 @/blockquote
 
 @blockquote
 In hacking, like painting, work comes in cycles. Sometimes you get
 excited about some new project and you want to work sixteen hours a
-day on it. Other times nothing seems interesting. 
+day on it. Other times nothing seems interesting.
 q  To do good work you have to take these cycles into account, because
 they're affected by how you react to them. When you're driving a car
 with a manual transmission on a hill, you have to back off the clutch
@@ -99,7 +99,7 @@ sometimes to avoid stalling. Backing off can likewise prevent ambition
 from stalling. In both painting and hacking there are some tasks that
 are terrifyingly ambitious, and others that are comfortingly
 routine. It's a good idea to save some easy tasks for moments when you
-would otherwise stall. 
+would otherwise stall.
 @/blockquote
 
 @blockquote
@@ -116,7 +116,7 @@ end. It's as relaxing as painting a wall.
 never worked on the same parts. It was common for the master to paint
 the principal figures and for assistants to paint the others and the
 background. But you never had one guy painting over the work of
-another. 
+another.
 @/blockquote
 
 @blockquote
@@ -127,14 +127,14 @@ end up being like a common-room. It will tend to feel bleak and
 abandoned, and accumulate cruft. The right way to collaborate, I
 think, is to divide projects into sharply defined modules, each with a
 definite owner, and with interfaces between them that are as carefully
-designed and, if possible, as articulated as programming languages.   
+designed and, if possible, as articulated as programming languages.
 @/blockquote
 
 @blockquote
 [p31] Most makers make things for a human audience. And to engage an
 audience you have to understand what they need. Nearly all the
 greatest paintings are paintings of people, for example, because
-people are what people are interested in. 
+people are what people are interested in.
 @/blockquote
 
 @blockquote
@@ -158,7 +158,7 @@ who've sworn off Perl after such experiences.
 of the world. One of the most obvious examples is Santa Claus. We
 think it's cute for little kids to believe in Santa Claus. I myself
 think it's cute for little kids to believe in Santa Claus. But one
-wonders, do we tell them this stuff for their sake, or for ours? 
+wonders, do we tell them this stuff for their sake, or for ours?
 @/blockquote
 
 @blockquote
@@ -189,7 +189,7 @@ problem afflicting large companies is the difficulty of assigning a
 value to each person's work. For the most part they punt. In a big
 company you get paid a fairly predictable salary for working fairly
 hard. You're expected not to be obviously incompetent or lazy, but
-you're not expected to devote your whole life to your work. 
+you're not expected to devote your whole life to your work.
 @/blockquote
 
 @blockquote
@@ -213,7 +213,7 @@ point, take the harder choice.
 for. Near the top is the company run by techno-weenies who are
 obsessed with solving interesting technical problems, instead of
 making users happy. In a startup, you're not just trying to solve
-problems. You're trying to solve problems that users care about. 
+problems. You're trying to solve problems that users care about.
 @/blockquote
 
 @blockquote
@@ -222,15 +222,15 @@ language will work to varying degrees depending on how close you are
 to the core. Sort routines you can write now. But it would be hard to
 predict now what kinds of libraries might be needed in a hundred
 years. Presumably many libraries will be for domains that don't even
-exist yet. If SETI@home works, for example, we'll need libraries for
+exist yet. If SETI@@home works, for example, we'll need libraries for
 communicating with aliens. Unless of course they are sufficiently
-advanced that they already communicate in XML. 
+advanced that they already communicate in XML.
 @/blockquote
 
 @blockquote
 At the other extreme, I think you might be able to design the core
 language today. In fact, some might argue that it was already mostly
-designed in 1958. 
+designed in 1958.
 @/blockquote
 
 @blockquote
@@ -253,7 +253,7 @@ programming languages, consider the following problem. We want to
 write a function that generates accumulators-- a function that takes a
 number n, and returns a function that takes another number i and
 returns n incremented by i. (That's incremented by, not plus. An
-accumulator has to accumulate.) 
+accumulator has to accumulate.)
 @/blockquote
 
 @blockquote
@@ -261,13 +261,10 @@ In Common Lisp this would be
 @/blockquote
 
 @blockquote
-@code
+```lisp
 (defun foo (n)
-@/blockquote
-
-@blockquote
-(lambda (i) (incf n i)))
-@/code
+  (lambda (i) (incf n i)))
+```
 @/blockquote
 
  In the book, he includes a Ruby example here "it's almost
@@ -280,14 +277,11 @@ he is trying to tell us not to fall into.
 @/blockquote
 
 @blockquote
-@code
+```perl
 sub foo {
-@/blockquote
-
-@blockquote
-my ($n) = @_; sub {$n += shift}
+    my($n) = @@_; sub {$n += shift}
 }
-@/code
+```
 @/blockquote
 
 @blockquote
@@ -302,7 +296,7 @@ your users carefully, and be slow to grow their number. Having users
 is like optimization: the wise course is to delay it. Also, as a
 general rule, you can at any given time get away with changing more
 than you think. Introducing change is like pulling off a bandage: the
-pain is a memory almost as soon as you feel it. 
+pain is a memory almost as soon as you feel it.
 @/blockquote
 
  The above is from an earlier essay (2001) than his other essays about
@@ -314,7 +308,7 @@ optimization.
 @blockquote
 [p217] This focus on the user is a kind of axiom from which most of
 the practice of good design can be derived, and around which most
-design issues center. 
+design issues center.
 @/blockquote
 
 @blockquote
@@ -323,7 +317,7 @@ Better. Actually, there are several ideas mixed together in the
 concept of Worse is Better, which is why people are still arguing
 about whether worse is actually better or not. But one of the main
 ideas in that mix is that if you're building something new, you should
-get a prototype in front of users as soon as possible. 
+get a prototype in front of users as soon as possible.
 @/blockquote
 
 @blockquote
@@ -332,7 +326,7 @@ strategy. Instead of getting a prototype out quickly and gradually
 refining it, you try to create the complete, finished, product in one
 long touchdown pass. As far as I know, this is a recipe for
 disaster. Countless startups destroyed themselves this way during the
-Internet bubble. I've never heard of a case where it worked. 
+Internet bubble. I've never heard of a case where it worked.
 
 @/blockquote
 

@@ -3,7 +3,7 @@
 Like a lot of people, I am intrigued by evolution as a design system.
 For decades I believed that evolution was unique to biology.  Even
 after reading
-@a href=^/my/page/BookReview_The_Selfish_Gene The Selfish Gene
+@a href=^BookReview_The_Selfish_Gene The Selfish Gene
 my understanding of evolution was quite shallow.  With the publication
 of the 30th anniversary edition and a few more Richard Dawkins and
 other author's books on evolution, biology, and economics under my
@@ -207,28 +207,15 @@ environmentally-friendly consumer job, she thinks it is a the best
 job.  The two jobs inside her head may have a debate.  Here's a
 overly-simplified version:
 
-@dl
-@dt Worker:
-@dd The more Ford cars bought, the more likely I get to keep my job!
-@dt Consumer:
-@dd One car is not going to change anything.
-@dt Worker:
-@dd My boss says that we have to buy Fords.
-@dt Consumer:
-@dd
-That's not a contract, that's peer pressure.  You can buy any car you
-want to.
-@/dd
-@dt Worker:
-@dd Fords are better!
-@dt Consumer:
-@dd
-If Fords are better, why are people snapping up Priuses?
-If Ford made more hybrids, I am sure they would sell.
-@/dd
-@dt Worker:
-@dd Let's agree to disagree.  You do your job, and I'll do mine.
-@/dl
+@ul
+@li Worker: The more Ford cars bought, the more likely I get to keep my job!
+@li Consumer:  One car is not going to change anything.
+@li Worker: My boss says that we have to buy Fords.
+@li Consumer: That's not a contract, that's peer pressure.  You can buy any car you want to.
+@li Worker: Fords are better!
+@li Consumer: If Fords are better, why are people snapping up Priuses? If Ford made more hybrids, I am sure they would sell.
+@li Worker: Let's agree to disagree.  You do your job, and I'll do mine.
+@/ul
 
 People have these conversations in their heads all the time.  This is
 how we act "rationally".  The problem with the rational actor model is
