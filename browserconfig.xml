@@ -1,0 +1,11 @@
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square310x310logo src="/assets/i/favicon-558x558.png" />
+      <wide310x150logo src="/assets/i/favicon-558x270.png" />
+      <square150x150logo src="/assets/i/favicon-270x270.png" />
+      <square70x70logo src="/assets/i/favicon-128x128.png" />
+      <TileColor>#ffffff</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>

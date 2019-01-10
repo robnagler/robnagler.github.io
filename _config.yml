@@ -26,11 +26,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-favicon
-
-favicon:
-  source: /assets/i/logo-512x512.png
-  path: /assets/i
 
 social:
   name: Rob Nagler
