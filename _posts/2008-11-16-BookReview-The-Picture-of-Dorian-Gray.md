@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "BookReview: The Picture of Dorian Gray "
+title: "BookReview: The Picture of Dorian Gray "
 date: 2008-11-16T12:00:00Z
 ---
-By Oscar Wilde, ^Feedbooks.com, 1891
+By Oscar Wilde, [Feedbooks.com](http://feedbooks.com), 1891
 
 Oscar Wilde is a great author.  This book pulled me in like a
 modern-day thriller, and held my attention (mostly).  Wilde has some
@@ -61,7 +61,4 @@ paragraphs" such as this one:
 > act. It is superbly sterile. The books that the world calls immoral
 > are books that show the world its own shame. That is all. But we won't
 > discuss literature.
-> 
-
-
-
+>
