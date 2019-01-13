@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-u"""?
+u"""Converted BOP Wiki to Kramdown/Jekyll/Nginx.
 
-:copyright: Copyright (c) 2018 Robert Nagler.  All Rights Reserved.
+For more, see https://www.robnagler.com/2019/01/13/My-Best-Worst-Program.html
+
+:copyright: Copyright (c) 2019 Robert Nagler.  All Rights Reserved.
 :license: http://www.apache.org/licenses/LICENSE-2.0.html
 """
 from __future__ import absolute_import, division, print_function
@@ -120,7 +122,7 @@ def _gen(text, prefix=''):
 
 
 def _parse(wiki_name, wiki):
-    res = pkcollections.Dict()# wiki_name=wiki_name, wiki=wiki)
+    res = pkcollections.Dict()
     res.md_name = wiki_name.replace('_', '-')
     lines = iter(wiki.split('\n'))
     t = []
