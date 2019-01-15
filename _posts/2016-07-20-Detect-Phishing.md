@@ -89,5 +89,3 @@ big red flag.
 That's probably the most important advice: links in emails
 should be coupled to an exchange with someone known to
 you. If not, just don't click.
-
-
