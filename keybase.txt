@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/robnagler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.robnagler.com
+  * I am robnagler (https://keybase.io/robnagler) on keybase.
+  * I have a public key ASCYz13yzqTvDciHeaBbCwlpgvhReV0O_Zw4DhJH4k_f6Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010172842e9c40012ff08eff850265520c688e65b133290ae7b7ad1a10b7ffc2b28c0a",
+      "host": "keybase.io",
+      "kid": "012098cf5df2cea4ef0dc88779a05b0b096982f851795d0efd9c380e1247e24fdfe80a",
+      "uid": "dc8631a243d5bfcd6a40336c49302900",
+      "username": "robnagler"
+    },
+    "merkle_root": {
+      "ctime": 1547511375,
+      "hash": "67d56b598df73d7799fd42c82a4e160d581353a54159038696c0fa23e71dbb6f11137a608a45f7c983be051caa6aa98d201eefdfb654f6b2d3b0cc1731e04315",
+      "hash_meta": "efa27d6ae8f459a03871a9a5710f067f6fcccbb30442e1d23a7f1a3c43e63003",
+      "seqno": 4384747
+    },
+    "service": {
+      "entropy": "rzZB/9A97VAdAdrjhXxZyZUm",
+      "hostname": "www.robnagler.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.6"
+  },
+  "ctime": 1547511379,
+  "expire_in": 504576000,
+  "prev": "d992d3fc8f55b2c104fb686828378304e189e581c98e549414bba2ee539f3ba2",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmM9d8s6k7w3Ih3mgWwsJaYL4UXldDv2cOA4SR+JP3+gKp3BheWxvYWTESpcCIMQg2ZLT/I9VssEE+2hoKDeDBOGJ5YHJjlSUFLui7lOfO6LEIDNMKp314Pgs+cYfTSgRzJJ67ysI7OWGpBekz6+MtoYxAgHCo3NpZ8RAMPSGNqxrsV/UIOYQxjlg+fZtz6q+wjuqdVD8+572w+RaaACL9Zh+r7NYhnENN//VkqEk9iAEeP7oX92RwAZoCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIECkdE7U0J1QstCyfFb0UhAobHbb7mNbHThPIceESNS+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robnagler
+
+==================================================================
+
