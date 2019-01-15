@@ -20,13 +20,13 @@ To do so, I am signing this object:
       "username": "robnagler"
     },
     "merkle_root": {
-      "ctime": 1547511375,
-      "hash": "67d56b598df73d7799fd42c82a4e160d581353a54159038696c0fa23e71dbb6f11137a608a45f7c983be051caa6aa98d201eefdfb654f6b2d3b0cc1731e04315",
-      "hash_meta": "efa27d6ae8f459a03871a9a5710f067f6fcccbb30442e1d23a7f1a3c43e63003",
-      "seqno": 4384747
+      "ctime": 1547511722,
+      "hash": "cb26ad8017a8988f4e01e14f1c2606c450b176c877819395b4593a4ead1504afea92776f7e9d12cf5b0e0c8272212614ef63ade46fce1d621e0da8d8e7f80a0c",
+      "hash_meta": "1d8c9887efc8ca8cc9731900c5f374a3e5629ff4e49c2fb9c52a544b9cce0c25",
+      "seqno": 4384777
     },
     "service": {
-      "entropy": "rzZB/9A97VAdAdrjhXxZyZUm",
+      "entropy": "FD3uByDDW2mxApFhhKUbml0Z",
       "hostname": "www.robnagler.com",
       "protocol": "https:"
     },
@@ -37,16 +37,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "2.12.6"
   },
-  "ctime": 1547511379,
+  "ctime": 1547511736,
   "expire_in": 504576000,
-  "prev": "d992d3fc8f55b2c104fb686828378304e189e581c98e549414bba2ee539f3ba2",
-  "seqno": 32,
+  "prev": "b9e692058868895c92fefcf02d2069fd9c6f8b4172d42c290496c5eb6898f1bd",
+  "seqno": 34,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmM9d8s6k7w3Ih3mgWwsJaYL4UXldDv2cOA4SR+JP3+gKp3BheWxvYWTESpcCIMQg2ZLT/I9VssEE+2hoKDeDBOGJ5YHJjlSUFLui7lOfO6LEIDNMKp314Pgs+cYfTSgRzJJ67ysI7OWGpBekz6+MtoYxAgHCo3NpZ8RAMPSGNqxrsV/UIOYQxjlg+fZtz6q+wjuqdVD8+572w+RaaACL9Zh+r7NYhnENN//VkqEk9iAEeP7oX92RwAZoCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIECkdE7U0J1QstCyfFb0UhAobHbb7mNbHThPIceESNS+o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmM9d8s6k7w3Ih3mgWwsJaYL4UXldDv2cOA4SR+JP3+gKp3BheWxvYWTESpcCIsQgueaSBYhoiVyS/vzwLSBp/Zxvi0Fy1CwpBJbF62iY8b3EILc7+Wrf0oPM5S2/Rkuxp0AsRLzWRTymA0W5TJuiJ89eAgHCo3NpZ8RAqPeuu0S7PA/sXiwxbCShgix3qCg1oaq0RpuMomNe9wRnLbYGWpQGOQU4VI4Do++774HpbFugirtK3HYVdlR8AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID6y/Etq1uZSwYYtqLuJ8Hg/Avh/tLNa6nUP3eCVeC0Bo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/robnagler
 
 ==================================================================
-
