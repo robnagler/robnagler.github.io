@@ -22,6 +22,8 @@ linkedin_username:  robnagler
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 theme: minima
 plugins:
   - jekyll-feed
