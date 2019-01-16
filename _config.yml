@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Rob Nagler
 #email:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://www.robnagler.com"
 github_username:  robnagler
 linkedin_username:  robnagler
 
