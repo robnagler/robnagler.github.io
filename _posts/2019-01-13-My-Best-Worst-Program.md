@@ -20,7 +20,7 @@ for the redirects from viarob.com to robnagler.com to
 This was the Best Program I've written in a while, because it solved
 one problem, completely. A single file of code that addressed all the
 business requirements, which will never be used again, except as an
-example for this article. Most
+example for this article.
 
 Most of what I do involves tens of files to do anything, usually a lot
 more. Even when adding a line or two of code, I may have to read
