@@ -1,0 +1,1 @@
+> Psychopathy is traditionally a personality disorder characterized by persistent antisocial behavior, impaired empathy and remorse, and bold, disinhibited, and egotistical traits -- [Wikipedia](https://en.wikipedia.org/wiki/Psychopathy)
