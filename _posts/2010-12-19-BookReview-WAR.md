@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: WAR "
+title: "BookReview: WAR"
 date: 2010-12-19T12:00:00Z
 ---
 By Sebastian Junger, Twelve, May 11, 2010, B0035II95C
