@@ -1,23 +1,21 @@
-IMPERIUM
-RYS ZARO
-~ ~ KAPUSCINSKI
-TRANSLATED FROM THE POLISH BY
-KLARA G LOWCZEWSKA
-Vintagt International
-VINTAGE BOOKS A DIVISION OF RANDOM HOUSE, INC,
-NEW YORK
+---
+layout: post
+title: "BookReview: Imperium"
+date: 2019-01-28T12:00:00Z
+---
+By Ryszard Kapuscinski, Vintage International, August 8, 1995, 067974780X
+[Wikipedia](https://en.wikipedia.org/wiki/Imperium_(Polish_book))
 
-[](https://en.wikipedia.org/wiki/Imperium_(Polish_book))
+I read this book about twenty years ago, and these notes are from
+then. I remember enjoying it.
 
-Imperium, published in 1993, is a book by Polish journalist Ryszard Kapuściński about his travels to the Soviet Union, and more broadly about his personal relationship with that country. Its English translation (by Klara Glowczewska) was first published in 1994. The book is both a personal travelogue and a memoir, divided into three parts.
-
-I read this twenty years ago, and these notes are from then.
-
-Ryszard Kupscinski is a great, flowing writer. Cover Russia in a way
-from the inside (as a Pole), and from the outside (foreigner),
-mostly. Real life stores. Talks about satellites in this foreigner
-sense, e.g. Armenia. Finds the best of the cultures. Talks of losing
-his family. What a horror!
+Ryszard Kupscinski is a great, flowing writer. Covering Russia in a
+way from the inside (as a Pole), and from the outside (foreigner),
+mostly. The book is a series of real life stories about his life and
+travels in the Soviet Union. He talks about the Soviet satellites in
+the foreigner sense, e.g. Armenia (see excerpts below). He tries to
+find the best of the cultures. He talks of losing his family in the
+Soviet reply. What a horror!
 
 > [p11] ONE NEVER KNEW what night they would come, or for whom.  The
 > boys who knew a lot about the deportations attempted to discern some
@@ -36,14 +34,14 @@ his family. What a horror!
 > sleep!"  "You, too, don't sleep!" But, of course, in the midst of this
 > struggling and shoving we both fall asleep. But Mother really does not
 > sleep. She sits at the table and listens the whole time.
->
+
 > [p24] Worst of all are the books. What a curse to be traveling with a
 > book! You could be carrying a suitcase of cocaine and keep a book on
 > top of it. The cocaine wouldn't rouse the least bit of interest; all
 > the customs inspectors would throw themselves upon the book. And
 > what--God forbid!--if you're carrying a book in English? Then the real
 > running, checking, paging through, reading would begin.
->
+
 > [p35] And the worst of it is that anyone who has met with a foreigner
 > and has exchanged a word with him is already suspect, already
 > marked. One has to live in such a way, walk around town in such a way,
@@ -59,7 +57,7 @@ his family. What a horror!
 > throughout the dioceses. Mashtots initiates the great movement of the
 > medieval copyists, which among the Armenians will develop to an extent
 > unknown anyhere else.
->
+
 > Already by the sixth century, they had translated into Armeian all of
 > Aristotle. By the tenth century, they had translated the ajority of
 > the Greek and Roman philosophers, hundreds of titles of ancient
@@ -74,7 +72,7 @@ his family. What a horror!
 > translated the Persians! They were in conflict with Byzantium, but
 > whatever appeared on the market there, they would take and translate
 > that as well.
->
+
 > [p94] The rulers decided about the life or death of people, and yet
 > these people were never able to see the rulers with their own
 > eyes. And then, suddenly, here they are, the rulers, getting angry,
@@ -86,7 +84,7 @@ his family. What a horror!
 > And finally--perestroika coincided with the explosion of television in
 > this country. Television gave to perestroika a dimension that no other
 > event in the history of the lmperium had ever had.
->
+
 > [p105] Only he
 > who maintains (and has somehow proven) that his authority has
 > a human and divine nature can rule here, can lead the people and
@@ -100,7 +98,7 @@ his family. What a horror!
 > its proven life-givings prings. Bolshevismi s of course yet another
 > pretender, but a pretender that goes a step further: it is not only
 > the earthly reflection of God, it is God.
->
+
 > [p112] No sooner do the wheels of the plane touch the ground than the
 > three hundred passengers aboard the large, heavy AN-86, as though they
 > have been administered an electrical shock, bolt from their seats and
@@ -112,7 +110,7 @@ his family. What a horror!
 > people back into their seats by force, but it's useless; their efforts
 > are in vain; no one can restrain this crowd any longer; an elemental
 > force has stirred them and seized control of the situation.
->
+
 > [p123] I think that every Georgian, every inhabitant of the Caucasus,
 > has such a map encoded in his memory. He has studied its particulars
 > from childhood-in his home, in his village, on his street. It is a
@@ -132,7 +130,7 @@ his family. What a horror!
 > those in the most immediate neighborhood. What is beyond its borders
 > (which, moreover, are extremely difficult to define), this nobody
 > knows or-more important- cares to know.
->
+
 > [p196] Mikhaylovsky writes that Dostoyevsky discovered a horrifying
 > attribute in man--unnecessary cruelty. A tendency in man to inflict
 > suffering on others--without cause and without purpose. One man
@@ -143,7 +141,7 @@ his family. What a horror!
 > discovery, Mikhaylovsky emphasizes; in the story "The Village of
 > Stieanchykovo and Her Inhabitants" he describes a small, provincial
 > creature named Foma Opiskin--tormentor, monster, tyrant.
->
+
 > [p201] For only one railroad line goes to Vladivostok, and only a few
 > ships ply the waters from there to the port in Magadan. It is along
 > this very route that for twenty-five years, nonstop, living human
@@ -166,7 +164,7 @@ his family. What a horror!
 > enormous staging camp. Here a slave market operated. The commanders of
 > the camps set up near the mines would come and select for themselves
 > the most physically able prisoners.
->
+
 > [p236] Here is precisely the kind of situation in which many
 > Westerners lose themselves, inclined as they are to treat all reality
 > just as it usually presents itself to them: limpid, legible, and
@@ -180,7 +178,7 @@ his family. What a horror!
 > contradictory logical systems, now and then erroneously called
 > illogicality or alogicality by those who assume that there exists only
 > one system of logic.)
->
+
 > [p249] On the other hand, there is something one can envy both the
 > Armenians and the Azerbaijanis. They are not beset by worries about
 > the complexity of the world or about the fact that human destiny is
@@ -188,7 +186,7 @@ his family. What a horror!
 > questions as: What is truth? What is the good? What is justice? is
 > alien to them. They do not know the burden that weighs on those who
 > ask themselves, But am I right?
->
+
 > [p262] The Soviet authorities have long worried about how to reverse
 > the disaster--the destruction of the Aral Sea, the ruination of half
 > of Central Asia. It is after all well known that the unprecedented
@@ -198,7 +196,7 @@ his family. What a horror!
 > thousands of cubic kilometers of water, for otherwise the Uzbeks will
 > die of thirst, sand will bury the cotton fields, the textile basins of
 > Russia will come to a standstill, and on and on.
->
+
 > [p263] In Tashkent I was received by Victor Duhovy, the general
 > director of the Sanira conglomerate. Sanira is one of the numerous
 > arms of the former USSR's Ministry of Water Administration, which
