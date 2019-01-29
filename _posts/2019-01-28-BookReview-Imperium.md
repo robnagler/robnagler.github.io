@@ -4,7 +4,6 @@ title: "BookReview: Imperium"
 date: 2019-01-28T12:00:00Z
 ---
 By Ryszard Kapuscinski, Vintage International, August 8, 1995, 067974780X
-[Wikipedia](https://en.wikipedia.org/wiki/Imperium_(Polish_book))
 
 I read this book about twenty years ago, and these notes are from
 then. I remember enjoying it.
