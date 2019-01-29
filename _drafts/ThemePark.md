@@ -1,6 +1,15 @@
+---
+layout: post
+title: "Corporations Are Not Evil"
+date: 2019-01-28T12:00:00Z
+---
 > Psychopathy is traditionally a personality disorder characterized by persistent antisocial behavior, impaired empathy and remorse, and bold, disinhibited, and egotistical traits -- [Wikipedia](https://en.wikipedia.org/wiki/Psychopathy)
 
-I grew up with [a serial killer](https://en.wikipedia.org/wiki/Joel_Rifkin) so I ought to know.
+Corporations behave like psychopaths.
+
+I grew up with
+[a serial killer](https://en.wikipedia.org/wiki/Joel_Rifkin) so I
+ought to know.
 
 A corporation is [a legal person](https://en.wikipedia.org/wiki/Legal_person).
 
@@ -37,4 +46,3 @@ No security, just waving people through when busy. It's about not bringing in fo
 Forgoing fingerprints when busy
 
 Asked for photo id with credit card, but that wasn't enough to validate the user. Have to go to guest services and present photo id.
-
