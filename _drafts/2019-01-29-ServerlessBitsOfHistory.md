@@ -10,6 +10,18 @@ is growing rapidly. I've long been a fan of
 so I'm happy to see this programming trend where stateless
 functions are invoked on demand.
 
+# Background
+
+When you
+[look up Serverless Computing](https://www.google.com/search?q=serverless+computing),
+you learn it is pay-as-you-go and *#NoOps*. The explanations assume
+you are already programming statelessly. This is not a given,
+and web development has long history of stateful programming.
+
+
+
+
+
 What's interesting to me is how no one seems to remember that
 the stateless function paradigm was popular several decades ago
 in systems built executed by a
@@ -25,11 +37,9 @@ is described on Wikipedia as follows:
 
 Compare that to the definition of Function as a Service
 
-
-
-
-
-
+similar to large data problem, context id was passed along:
+https://serverless.com/blog/api-gateway-websockets-support/
+websockets are handled by the API Gateway
 
 The flow will be different in that model than in the two tier application model:
 The client side application invokes a "service" with data marshaled in the appropriate format; that means that the client application has some knowledge of:
