@@ -1,8 +1,27 @@
-> Psychopathy is traditionally a personality disorder characterized by persistent antisocial behavior, impaired empathy and remorse, and bold, disinhibited, and egotistical traits -- [Wikipedia](https://en.wikipedia.org/wiki/Psychopathy)
+---
+layout: post
+title: "Theme Parks Are Psychopaths"
+date: 2019-01-23T12:00:00Z
+---
+
+> "Psychopathy is traditionally a personality disorder characterized by
+> persistent antisocial behavior, impaired empathy and remorse, and
+> bold, disinhibited, and egotistical traits" --
+> [Wikipedia](https://en.wikipedia.org/wiki/Psychopathy)
 
 I grew up with [a serial killer](https://en.wikipedia.org/wiki/Joel_Rifkin) so I ought to know.
 
 A corporation is [a legal person](https://en.wikipedia.org/wiki/Legal_person).
+
+I grew up with a future serial killer
+and in the last two weeks, I visited Universal Studios, Warner Brothers Studios,
+Disney Epcot, and the Kennedy Space Center. While I didn't know
+[Joel Rifkin](https://en.wikipedia.org/wiki/Joel_Rifkin) was a psychopath
+at the time, I've come to believe that Theme Parks are.
+
+In many countries, a corporation is [a legal person](https://en.wikipedia.org/wiki/Legal_person).
+Theme Parks are corporations and therefore persons, but can we think of them as having
+personalities
 
 Good vs evil portrayed simply. Us vs Them. Not about inclusion and working together.
 
