@@ -19,3 +19,11 @@ reader (like me :).
 > nowhere do you find more of it than at the Pentagon.
 
 > [k5893] She filed for a copyright on the name.
+
+NOTE: A name can be trademarked, not copyrighted. I filed a Content
+Error with Amazon no this. I often file typo errors, and the
+occasional factual error like this one. I wonder where the bug reports
+go.
+
+
+
