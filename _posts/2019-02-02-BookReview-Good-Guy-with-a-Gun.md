@@ -21,7 +21,7 @@ reader (like me :).
 > [k5893] She filed for a copyright on the name.
 
 NOTE: A name can be trademarked, not copyrighted. I filed a Content
-Error with Amazon no this. I often file typo errors, and the
+Error with Amazon on this. I often file typo errors, and the
 occasional factual error like this one. I wonder where the bug reports
 go.
 
