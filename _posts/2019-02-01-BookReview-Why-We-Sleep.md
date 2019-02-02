@@ -19,53 +19,61 @@ studies he presents.
 
 If you don't know much about sleep, this is very readable book.
 
-> [p21] Sadly, society treats night owls rather unfairly on two
+> [k316] Sadly, society treats night owls rather unfairly on two
 > counts. First is the label of being lazy, based on a night owl's
 > wont to wake up later in the day, due to the fact that they did not
 > fall asleep until the early-morning hours.
 
-> [p21] They are bound to a delayed schedule by unavoidable DNA
+> [k319] They are bound to a delayed schedule by unavoidable DNA
 > hardwiring. It is not their conscious fault, but rather their
 > genetic fate. Second is the engrained, un-level playing field of
 > society's work scheduling, which is strongly biased toward early
 > start times that punish owls and favor larks.
 
-> [p21] Second is the engrained, un-level playing field of society's
+> [k320] Second is the engrained, un-level playing field of society's
 > work scheduling, which is strongly biased toward early start times
 > that punish owls and favor larks.
 
-> [p27] At this very moment, a chemical called adenosine is building
+> [k411] At this very moment, a chemical called adenosine is building
 > up in your brain. It will continue to increase in concentration with
 > every waking minute that elapses. The longer you are awake, the more
-> adenosine will accumulate. [...] One consequence of increasing
-> adenosine in the brain is an increasing desire to sleep. This is
-> known as sleep pressure, and it is the second force that will
-> determine when you feel sleepy, and thus should go to bed.
+> adenosine will accumulate.
 
-> [p27] It is the second most traded commodity on the planet, after
+> [k413] One consequence of increasing adenosine in the brain is an
+> increasing desire to sleep. This is known as sleep pressure, and it
+> is the second force that will determine when you feel sleepy, and
+> thus should go to bed.
+
+> [k420] It is the second most traded commodity on the planet, after
 > oil.
 
-NOTE: [Not true](http://n99.us/yqf): In 2017, oil was $788B,
-aluminum was $106B, copper was $104B, iron ore was $67B, and coffee
-was $19B. 
+NOTE: [Not true](http://n99.us/yqf): In 2017, oil was $788B, aluminum
+was $106B, copper was $104B, iron ore was $67B, and coffee was $19B.
 
-> [p28] Caffeine works by successfully battling with adenosine for the
-> privilege of latching on to adenosine welcome sites--or
-> receptors--in the brain. [...] Rather, caffeine blocks and
-> effectively inactivates the receptors, acting as a masking agent.
+> [k421] continues to this day. Caffeine works by successfully
+> battling with adenosine for the privilege of latching on to
+> adenosine welcome sites--or receptors--in the brain. Once caffeine
+> occupies these receptors,
 
-> [p28] Caffeine has an average half-life of five to seven hours.
+> [k422] Caffeine works by successfully battling with adenosine for
+> the privilege of latching on to adenosine welcome sites--or
+> receptors--in the brain.
 
-> [p41] This dramatic deceleration of neural time may be the reason we
-> believe our dream life lasts far longer than our alarm clocks
+> [k423] Rather, caffeine blocks and effectively inactivates the
+> receptors, acting as a masking agent.
+
+> [k429] Caffeine has an average half-life of five to seven hours.
+
+> [k642] This dramatic deceleration of neural time may be the reason
+> we believe our dream life lasts far longer than our alarm clocks
 > otherwise assert.
 
-> [p46] Since your brain desires most of its REM sleep in the last
+> [k713] Since your brain desires most of its REM sleep in the last
 > part of the night, which is to say the late-morning hours, you will
 > lose 60 to 90 percent of all your REM sleep, even though you are
 > losing 25 percent of your total sleep time.
 
-> [p53] When it comes to information processing, think of the wake
+> [k825] When it comes to information processing, think of the wake
 > state principally as reception (experiencing and constantly learning
 > the world around you), NREM sleep as reflection (storing and
 > strengthening those raw ingredients of new facts and skills), and
@@ -74,8 +82,8 @@ was $19B.
 > ever more accurate model of how the world works, including
 > innovative insights and problem-solving abilities).
 
-> [p66] But if you bring that person into a sleep laboratory, or take
-> them to a hotel--both of which are unfamiliar sleep
+> [k1034] But if you bring that person into a sleep laboratory, or
+> take them to a hotel--both of which are unfamiliar sleep
 > environments--one half of the brain sleeps a little lighter than the
 > other, as if it's standing guard with just a tad more vigilance due
 > to the potentially less safe context that the conscious brain has
@@ -83,18 +91,18 @@ was $19B.
 > new location, the more similar the sleep is in each half of the
 > brain.
 
-> [p68] On average, these tribespeople will fall asleep two to three
+> [k1081] On average, these tribespeople will fall asleep two to three
 > hours after sunset, around nine p.m. Their nighttime sleep bouts
 > will come to an end just prior to, or soon after, dawn.
 
 NOTE: Do they have night owls and early birds?
 
-> [p69] The practice of biphasic sleep is not cultural in origin,
+> [k1090] The practice of biphasic sleep is not cultural in origin,
 > however. It is deeply biological. All humans, irrespective of
 > culture or geographical location, have a genetically hardwired dip
 > in alertness that occurs in the midafternoon hours.
 
-> [p71] These napping communities have sometimes been described as
+> [k1127] These napping communities have sometimes been described as
 > "the places where people forget to die." From a prescription written
 > long ago in our ancestral genetic code, the practice of natural
 > biphasic sleep, and a healthy diet, appear to be the keys to a
@@ -104,7 +112,7 @@ NOTE: Do they have night owls and early birds?
 > (e.g., time), form (e.g., half-brain, whole-brain), and pattern
 > (monophasic, biphasic, polyphasic).
 
-> [p74] From these clues, I offer a theorem: the tree-to-ground
+> [k1171] From these clues, I offer a theorem: the tree-to-ground
 > reengineering of sleep was a key trigger that rocketed Homo sapiens
 > to the top of evolution's lofty pyramid. At least two features
 > define human beings relative to other primates. I posit that both
@@ -114,19 +122,19 @@ NOTE: Do they have night owls and early birds?
 > cognitive intelligence. REM sleep, and the act of dreaming itself,
 > lubricates both of these human traits.
 
-> [p82] Most notable, however, is the significant shortage of REM
+> [k1292] Most notable, however, is the significant shortage of REM
 > sleep. Autistic individuals show a 30 to 50 percent deficit in the
 > amount of REM sleep they obtain, relative to children without
 > autism.
 
-> [p82] Alcohol is one of the most powerful suppressors of REM sleep
+> [k1304] Alcohol is one of the most powerful suppressors of REM sleep
 > that we know of.
 
-> [p90] As deep NREM sleep performs its final overhaul and refinement
-> of the brain during adolescence, cognitive skills, reasoning, and
-> critical thinking start to improve, and do so in a proportional
-> manner with that NREM sleep change. Taking a closer look at the
-> timing of this relationship, you see something even more
+> [k1417] As deep NREM sleep performs its final overhaul and
+> refinement of the brain during adolescence, cognitive skills,
+> reasoning, and critical thinking start to improve, and do so in a
+> proportional manner with that NREM sleep change. Taking a closer
+> look at the timing of this relationship, you see something even more
 > interesting. The changes in deep NREM sleep always precede the
 > cognitive and developmental milestones within the brain by several
 > weeks or months, implying a direction of influence: deep sleep may
@@ -139,52 +147,52 @@ NOTE: Do they have night owls and early birds?
 > perception, and then progressed steadily forward as adolescence
 > progressed.
 
-> [p90] His findings helped explain why rationality is one of the last
-> things to flourish in teenagers, as it is the last brain territory
-> to receive sleep's maturational treatment.
+> [k1427] His findings helped explain why rationality is one of the
+> last things to flourish in teenagers, as it is the last brain
+> territory to receive sleep's maturational treatment.
 
-> [p92] Faulty pruning of brain connections in schizophrenia caused by
-> sleep abnormalities is now one of the most active and exciting areas
-> of investigation in psychiatric illness.
+> [k1452] Faulty pruning of brain connections in schizophrenia caused
+> by sleep abnormalities is now one of the most active and exciting
+> areas of investigation in psychiatric illness.
 
-> [p109] Sleep before learning refreshes our ability to initially make
-> new memories [p109]
+> [k1679] Sleep before learning refreshes our ability to initially
+> make new memories .
 
-> [p110] In contrast, those who napped did markedly better, and
+> [k1698] In contrast, those who napped did markedly better, and
 > actually improved in their capacity to memorize facts. The
 > difference between the two groups at six p.m. was not small: a 20
 > percent learning advantage for those who slept.
 
-> [p140] The recycle rate of a human being is around sixteen
+> [k2161] The recycle rate of a human being is around sixteen
 > hours. After sixteen hours of being awake, the brain begins to
 > fail. Humans need more than seven hours of sleep each night to
 > maintain cognitive performance.
 
-> [p140] As a result, 1.2 million accidents are caused by sleepiness
+> [k2168] As a result, 1.2 million accidents are caused by sleepiness
 > each year in the United States.
 
-> [p141] As a result, car crashes caused by drowsiness tend to be far
+> [k2176] As a result, car crashes caused by drowsiness tend to be far
 > more deadly than those caused by alcohol or drugs.
 
-> [p141] And when a truck driver loses his or her life in a
+> [k2181] And when a truck driver loses his or her life in a
 > drowsy-driving crash, they will, on average, take 4.5 other lives
 > with them.
 
-> [p161] Should you experimentally prevent a mouse from getting NREM
+> [k2509] Should you experimentally prevent a mouse from getting NREM
 > sleep, keeping it awake instead, there is an immediate increase in
 > amyloid deposits within the brain. Without sleep, an escalation of
 > poisonous Alzheimer's-related protein accumulated in the brains of
 > the mice, together with several other toxic metabolites.
 
-> [p161] From this cascade comes a prediction: getting too little
+> [k2516] From this cascade comes a prediction: getting too little
 > sleep across the adult life span will significantly raise your risk
 > of developing Alzheimer's disease. Precisely this relationship has
 > now been reported in numerous epidemiological studies, including
 > those individuals suffering from sleep disorders such as insomnia
 > and sleep apnea.
 
-> [p194] But we had to wait until the advent of brain-imaging machines
-> in the early 2000s before we could reconstruct glorious,
+> [k3016] But we had to wait until the advent of brain-imaging
+> machines in the early 2000s before we could reconstruct glorious,
 > three-dimensional visualizations of brain activity during REM
 > sleep. It was worth the wait. Among other breakthroughs, the method
 > and the results undermined the postulates of Sigmund Freud and his
@@ -194,33 +202,33 @@ NOTE: Do they have night owls and early birds?
 > below. But there were deep and systemic flaws that led to a
 > rejection of the theory by modern-day science.
 
-> [p203] Nevertheless, the psychoanalytic method built on Freudian
+> [k3160] Nevertheless, the psychoanalytic method built on Freudian
 > theory is nonscientific and holds no repeatable, reliable, or
 > systematic power for decoding dreams. This, people must be made
 > aware of.
 
-> [p208] Concentrations of a key stress-related chemical called
+> [k3226] Concentrations of a key stress-related chemical called
 > noradrenaline are completely shut off within your brain when you
 > enter this dreaming sleep state. In fact, REM sleep is the only time
 > during the twenty-four-hour period when your brain is completely
 > devoid of this anxiety-triggering molecule.
 
-> [p210] Sleep, and specifically REM sleep, was clearly needed in
+> [k3273] Sleep, and specifically REM sleep, was clearly needed in
 > order for us to heal emotional wounds.
 
-> [p211] Cartwright had shown that it was not enough to have REM
+> [k3285] Cartwright had shown that it was not enough to have REM
 > sleep, or even generic dreaming, when it comes to resolving our
 > emotional past. Her patients required REM sleep with dreaming, but
 > dreaming of a very specific kind: that which expressly involved
 > dreaming about the emotional themes and sentiments of the waking
 > trauma.
 
-> [p212] The theory proposed that a contributing mechanism underlying
+> [k3301] The theory proposed that a contributing mechanism underlying
 > the PTSD is the excessively high levels of noradrenaline within the
 > brain that blocks the ability of these patients from entering and
 > maintaining normal REM-sleep dreaming.
 
-> [p213] It turns out that the drug prazosin, which Raskind was
+> [k3321] It turns out that the drug prazosin, which Raskind was
 > prescribing simply to lower blood pressure, also has the fortuitous
 > side effect of suppressing noradrenaline in the brain. Raskind had
 > delightfully and inadvertently conducted the experiment I was trying
@@ -229,8 +237,8 @@ NOTE: Do they have night owls and early birds?
 > stress-related noradrenaline--within the brain during REM sleep that
 > had been absent for so long in these PTSD patients.
 
-> [p242] While the reasons remain unclear, insomnia is almost twice as
-> common in women than in men, and it is unlikely that a simple
+> [k3732] While the reasons remain unclear, insomnia is almost twice
+> as common in women than in men, and it is unlikely that a simple
 > unwillingness of men to admit sleep problems explains this very
 > sizable difference between the two sexes. Race and ethnicity also
 > make a significant difference, with African Americans and Hispanic
@@ -242,37 +250,36 @@ NOTE: Do they have night owls and early birds?
 > widespread and serious problem than even these sizable numbers
 > suggest.
 
-> [p244] The two most common triggers of chronic insomnia are
+> [k3754] The two most common triggers of chronic insomnia are
 > psychological: (1) emotional concerns, or worry, and (2) emotional
-> distress, or anxiety.
+> distress,
 
-> [p245] Simply put, the insomnia patients could not disengage from a
+> [k3781] Simply put, the insomnia patients could not disengage from a
 > pattern of altering, worrisome, ruminative brain activity.
 
-> [p274] Many people enjoy a glass of wine with dinner, even an
+> [k4252] Many people enjoy a glass of wine with dinner, even an
 > aperitif thereafter. But it takes your liver and kidneys many hours
 > to degrade and excrete that alcohol, even if you are an individual
 > with fast-acting enzymes for ethanol decomposition. Nightly alcohol
 > will disrupt your sleep, and the annoying advice of abstinence is
 > the best, and most honest, I can offer.
 
-> [p279] Hot baths prior to bed can also induce 10 to 15 percent more
+> [k4329] Hot baths prior to bed can also induce 10 to 15 percent more
 > deep NREM sleep in healthy adults.
 
-> [p300] Interestingly, participants in the above studies do not
+> [k4686] Interestingly, participants in the above studies do not
 > perceive themselves as applying less effort to the work challenge,
 > or being less effective, when they were sleep-deprived, despite both
 > being true. They seemed unaware of their poorer work effort and
 > performance--a theme of subjective misperception of ability when
 > sleep-deprived that we have touched upon previously in this book.
 
-> [p313] Teton County in Wyoming enacted an even more dramatic change
+> [k4898] Teton County in Wyoming enacted an even more dramatic change
 > in school start time, shifting from a 7:35 a.m. bell to a far more
 > biologically reasonable one of 8:55 a.m. The result was
 > astonishing--a 70 percent reduction in traffic accidents in sixteen-
 > to eighteen-year-old drivers.
 
-> [p319] Additionally, after a thirty-hour shift without sleep,
+> [k4990] Additionally, after a thirty-hour shift without sleep,
 > residents make a whopping 460 percent more diagnostic mistakes in
 > the intensive care unit than when well rested after enough sleep.
-
