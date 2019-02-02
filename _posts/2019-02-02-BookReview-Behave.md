@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BookReview: Behave: The Biology of Humans at Our Best and Worst"
-date: 2019-02-02T16:27:07-0700
+date: 2019-02-02T23:52:00Z
 ---
 By Robert M. Sapolsky,  Penguin Books, May 2, 2017, 978-0143110910
 
