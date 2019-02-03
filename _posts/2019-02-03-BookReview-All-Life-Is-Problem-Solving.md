@@ -35,11 +35,11 @@ I read this about 15 years ago. These notes are from then.
 
 > [p10] For example, instead of waiting until our environment refutes a
 > theory or an attempted solution, we try to modify the environment in
-> such a way that it is _as unfavourable as possible_ to our attempted
+> such a way that it is *as unfavourable as possible* to our attempted
 > solution. We thus put our theories to the tesc - indeed, we try to put
 > them to the severest test. We do everything to eliminate our theories,
 > for we ourselves should like to discover those theories that are
-> _false_.
+> *false*.
 
 > [p11] There is nothing that can guarantee scientific progress.
 
@@ -54,14 +54,14 @@ I read this about 15 years ago. These notes are from then.
 > is that such a dogmatic attitude is essentially characteristic
 > of prescientific thinking, whereas the critical approach involving
 > consciou attempts at falsification leads to scienceand governs
-> _scientific method_.
+> *scientific method*.
 
 > Although the taking of sides undoubtedly has a function in scientific
 > method, it is in m view important that the individual researcher
 > should be aware of the underlying significance of attempts at
 > falsification and of sometimes successful falsification. For the
-> scientific method is not _cumulative_ (as Bacon of Verulam and Sir
-> James Jeans taught); it is fundamentally _revolutionary_.
+> scientific method is not *cumulative* (as Bacon of Verulam and Sir
+> James Jeans taught); it is fundamentally *revolutionary*.
 
 > [p13] You will perhaps have been surprised that I have so often
 > mentioned my three-stage model. I have done this partly to prepare you
@@ -71,10 +71,10 @@ I read this about 15 years ago. These notes are from then.
 > [p14] we arrive at the
 > four-stage model characteristic of scientific theory.[...]
 
-> 1. _the old problem_;
-> 2. _formation of tenative theories_;
-> 3. _attemps at elimination_ through critical discussion, including experimental testing;
-> 4. _the new problems_ that arise from the critical discussion of our theories.
+> 1. *the old problem*;
+> 2. *formation of tenative theories*;
+> 3. *attemps at elimination* through critical discussion, including experimental testing;
+> 4. *the new problems* that arise from the critical discussion of our theories.
 
 
 # Epistemology And The Problem Of Peace
@@ -82,17 +82,21 @@ I read this about 15 years ago. These notes are from then.
 > [p38] But there is none; for knowledge -- certain knowledge -- is an
 > empty word.
 > 
-> Science is the quest for truth. But truth is not _certain_ truth.
-> 
->   (5) _Truth != certain truth_
->       _Truth != certainty._
+> Science is the quest for truth. But truth is not *certain* truth.
+>
+> ```txt
+>   (5) *Truth != certain truth*
+>       *Truth != certainty.*
+> ```
 > 
 > Everyone knows what truth is. It is the correspondence of a statement
 > with the reality about which the statement says something:
 > 
+> ```txt
 >   (6) Truth = correspondence with reality, or perhaps
 >       Truth correspondence of the alleged facts with the
 >       actual facts.
+> ```
 > 
 > But definitions are not important. And quibbling over words is a menace.
 
@@ -105,7 +109,7 @@ I read this about 15 years ago. These notes are from then.
 
 > [p48] A test tube is a very poor environment for life, and to keep
 > life alive we shall have to develop special machinery. We shall thus
-> have to _adapt the environment to life_. (Adaptation is indeed based upon
+> have to *adapt the environment to life*. (Adaptation is indeed based upon
 > reciprocity.) To adapt the environment to life, we must introduce at
 > least one supermarket to feed the life. We also need a sewage system
 > to remove the waste produced by life. And then we must also build
@@ -115,26 +119,26 @@ I read this about 15 years ago. These notes are from then.
 
 # Towards An Evolutionary Theory Of Knowledge
 
-> [p71] Observations (or 'data') may lead in scienceto the _abandonment_
+> [p71] Observations (or 'data') may lead in scienceto the *abandonment*
 > of a scientific theory and thereby induce some of us to think up a new
-> tentative theory -- a new trial. But the new theory is _our_ product,
-> _our_ thought, _our_ invention; and a new theory is only rarely
+> tentative theory -- a new trial. But the new theory is *our* product,
+> *our* thought, *our* invention; and a new theory is only rarely
 > thought up by more than a few people, even when there are many who
-> agree on the refutation of the old theory.  The few are those who _see
-> the new problem_. Seeing a new problem may well be the most difficult
+> agree on the refutation of the old theory.  The few are those who
+> *see the new problem*. Seeing a new problem may well be the most difficult
 > step in creating a new theory.
 
 # On Freedom
 
 > [p84] When I speak of reason or rationalism, all I mean is the
-> conviction that we can _learn_ through criticism of our mistakes and
+> conviction that we can *learn* through criticism of our mistakes and
 > errors, especially through criticism by others, and eventually also
 > through self-criticism. A rationalist is simply someone for whom it is
 > more important to learn than to be proved right; someone who is
 > willing to learn from others -- not by simply taking over another's
 > opinions, but by gladly allowing others to criticize his ideas and by
 > gladly criticizing the ideas of others. The emphasis here is on the
-> idea of criticism or, to be more precise, _critical discussion_.
+> idea of criticism or, to be more precise, *critical discussion*.
 
 > [p89] Kant's solution was to demand that the state should limit
 > individual freedom only to the extent made necessary by human
@@ -146,15 +150,15 @@ I read this about 15 years ago. These notes are from then.
 > certain limitation of freedom is really necessary,nor whether it is a
 > burden imposed equally on all citizens. We therefore need another
 > criterion that can be more easily applied. My own proposal for one is
-> the following. _A state is politically free if its political_
-> _institutions enable its citizens in practice to change a_
-> _government without bloodshed when a majority wishes such a change_.
+> the following. *A state is politically free if its political*
+> *institutions enable its citizens in practice to change a*
+> *government without bloodshed when a majority wishes such a change*.
 > Or, more succinctly: we are free if we can get rid of our rulers without
 > bloodshed.
 
 # Against The Cynical Interpretation of History
 
-> [p107] For if socialism _must_ come about, it is obviously _criminal_
+> [p107] For if socialism *must* come about, it is obviously *criminal*
 > to fight its coming. Indeed it is everyone's duty to further the
 > coming of socialism, so that what must come will encounter as little
 > resistance as possible. Since you are not strong enough as an
@@ -178,8 +182,8 @@ I read this about 15 years ago. These notes are from then.
 > people.) This was their way of dealing with questions. This was the
 > source of party discipline.
 
-> [p109] _I am an optimist who has no knowledge of the future and_
-> _therefore makes no predictions_.  We must make a very clear division
+> [p109] *I am an optimist who has no knowledge of the future and*
+> *therefore makes no predictions*.  We must make a very clear division
 > between the present, which we can and should judge, and the wide-open
 > future, which we are able to influence. We therefore have a moral duty
 > to face the future quite differently from how we would if it were just
@@ -212,7 +216,7 @@ I read this about 15 years ago. These notes are from then.
 > There are billions of possibilities, good and bad, that no one can
 > foresee. I reject the prophetic goal-setting of the three
 > interpretations of history, and I maintain that on moral grounds we
-> should not put _anything_ in their place. It is wrong even to try to
+> should not put *anything* in their place. It is wrong even to try to
 > extrapolate from history -- for example, by inferring from present
 > trends what will happen tomorrow. To see history as an at least
 > partly predictable current is to build a theory out of an image or
@@ -220,11 +224,11 @@ I read this about 15 years ago. These notes are from then.
 
 # Waging Wars For Peace
 
-> [p116] _Spiegel_ Herr Popper, the collapse of the Soviet Union has fulfilled a
+> [p116] *Spiegel* Herr Popper, the collapse of the Soviet Union has fulfilled a
 > prophecy you made as much as half a century ago. Is this the triumph
 > of critical rationalism over the enemies of the open society?
 > 
-> _Popper_ I made no such prophecies, because I am of the view that no
+> *Popper* I made no such prophecies, because I am of the view that no
 > prophecies should be made. I think it is a completely wrong attitude
 > to judge intellectuals by whether they make good prophecies.
 > 
@@ -240,10 +244,10 @@ like predictions or judging intellectuals by their prophecies. Yet,
 below he says he made a bold prediction and that it came (partially)
 true with AIDS.
 
-> _Spiegel_ Already before Hiroshima, you wrote that man will one day
+> *Spiegel* Already before Hiroshima, you wrote that man will one day
 > disappear from the face of the earth.
 >
-> _Popper_ Why not? There are incalculable dangers. Just as all of us
+> *Popper* Why not? There are incalculable dangers. Just as all of us
 > die, mankind too will probably die. Perhaps we will one day perish
 > along with the solar system. But there is no point in talking, or
 > even thinking, about such things. More likely is what I predicted
@@ -263,7 +267,7 @@ true with AIDS.
 > that although I had a right to risk my own life for the sake of my
 > ideals, I certainly had no right to encourage others to risk their
 > lifefor my ideals and even less for a theory like Marxism of whose
-> truth there _might_ be some doubt.
+> truth there *might* be some doubt.
 > 
 > I asked myself whether I had seriously and critically examined the
 > Marxist theory. And I was deeply depressed when I had to admit to
@@ -289,19 +293,19 @@ true with AIDS.
 > better.
 > 
 > To do this we must use all we have learnt from the past; and one very
-> important thing we ought to have learnt is: _to be modest_.
+> important thing we ought to have learnt is: *to be modest*.
 
-> [p137] 1. _Strengthening Freedom, Controlled by Responsibility_.  We hope to
+> [p137] 1. *Strengthening Freedom, Controlled by Responsibility*.  We hope to
 > achieve something like a maximum degree of personal freedom, but this
 > is possible only in a civilized society - that is, a society devoted
 > to a life of non-violence. [...]
 >
-> 2. _World Peace_. Now that the atom bomb and nuclear warheads have
+> 2. *World Peace*. Now that the atom bomb and nuclear warheads have
 > been invented, all civilized societies ought to cooperate in
 > keeping the peace and closely monitoring the proliferation of
 > atomic and hydrogen weapons. [...]
 >
-> 3. _Fighting Poverty_. Thanks to technology, the world is wealthy
+> 3. *Fighting Poverty*. Thanks to technology, the world is wealthy
 > enough, at least potentially, to eliminate poverty and also to
 > reduce unemployment to a tolerable minimum. Economists have found
 > this very difficult -- as no doubt it is; and they have ceased,
@@ -314,7 +318,7 @@ true with AIDS.
 > interfere constantly with the free market, probably much more than
 > necessary. [...]
 >
-> 4. _Fight the Population Explosion_. With the invention of abortion
+> 4. *Fight the Population Explosion*. With the invention of abortion
 > pills, in addition to other methods of birth control, biochemical
 > technology has achieved a state where education on population
 > control should be made available all over the world. [...]
@@ -351,7 +355,7 @@ true with AIDS.
 > consisting of experimental investigations and not of results assured
 > for all time. True science, then, primarily consists of discoveries
 > that have to be repeated over and over again it does not consist of
-> so-called solid facts but of unsure _hypotheses_. The researcher must
+> so-called solid facts but of unsure *hypotheses*. The researcher must
 > therefore sometimes take risks that put his intellectual
 > responsibility severely to the test.
 
