@@ -4,6 +4,12 @@ title: "Serverless: Bits of History"
 date: 2019-01-29T12:00:00Z
 ---
 
+TODO:
+
+* Serverless vendor locking and version churn https://news.ycombinator.com/item?id=19083713
+* Semantic version myth https://news.ycombinator.com/item?id=19084280
+
+
 [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing)
 is growing rapidly. I've long been a fan of
 [stateless programming](https://www.extremeperl.org/bk/its-a-smop)
