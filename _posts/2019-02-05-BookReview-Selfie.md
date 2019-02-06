@@ -11,9 +11,13 @@ reformed enforcer for the mob (deluded himself), and many other
 stories about history and people. It's fascinating stuff. Storr is a
 great science writer.
 
-Will Storr was a David McRaney's multiple times. This book was the
-topic of
-[YANSS 127 -- How we became self obsessed](http://n99.us/ueu).
+I walked away with a better understanding of how the self came about
+in evolutionary terms. It fits in with a lot of other psychology I've
+read.
+
+Will Storr was interviewed by David McRaney's multiple times. This
+book was the topic of
+[You Are Not So Smart #127: How we became self obsessed](http://n99.us/ueu).
 
 > [k131] Today, over a twelve-month period, between 8 and 10 per cent
 > of the entire adult population of the US and UK uses
