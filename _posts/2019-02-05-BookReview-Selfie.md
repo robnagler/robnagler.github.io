@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BookReview: Selfie: How We Became So Self-Obsessed and What It's Doing to Us"
-date: 2019-02-06T04:08:00Z
+date: 2019-02-05T23:59:59Z
 ---
 By Will Storr, Abrams Press, March 27, 2018, 1468315897
 
