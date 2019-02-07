@@ -86,7 +86,14 @@ the system or by a server.
 
 3. A context-free server is a server that accepts a single message from a requester, performs a job, and issues a single reply message to respond to the requester. Once the reply message has been issued. the server has no state (or context) that may survive to be used in subsequent requests. A c o n t e x t - sensitive server is a one that engages in a multiple message dialogue with the requester. In between messages, the context-sensitive server retains some state information.
 
+jim gray http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
+Why Do Computers Stop and What Can Be Done About It?
 
+[p16] Fault containment through fail-fast software modules.
+The process approach to fault isolation advocates that the process software module be fail-fast, it should either function correctly or
+it should detect the fault, signal failure and stop operating.
+
+[p27] Communications lines are the most unreliable part of a distributed computer system.
 
 
 What's interesting to me is how no one seems to remember that
