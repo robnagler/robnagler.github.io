@@ -1,29 +1,90 @@
 ---
 layout: post
-title: "Serverless: Bits of History"
+title: "Serverless: Bits of History, Words of Advice"
 date: 2019-01-29T12:00:00Z
 ---
+
+[Serverless Computing](http://n99.us/zoy)
+is growing rapidly. I've long been a fan of
+[stateless programming](http://n99.us/fyq)
+so I'm happy to Serverless taking off. I just thought I'd
+chime in about the parallels to Transaction Process
+Monitors, and the lessons to be learned from them.
+
+When you
+[search Serverless Computing](http://n99.us/hxc),
+you learn it is pay-as-you-go and *#NoOps*. However, the 
+big value of Serverless is the stateless programming model,
+which improves makes code more maintainable and reliable
+as well as scalable and deployable. That discussion is lost in all
+the sales talk about cost savings, which is irrelevant for
+most applications.
+
+> In a world full of retried messages, idempotence is an essential
+> property for reliable systems. -- [Pat Helland](http://n99.us/vfb)
+from: Idempotence Is Not a Medical Condition
+
+Serverless requires idempotent functions. 
+
+DON’T TALK AND LISTEN AT THE SAME TIME
+Allowing it to depart before the transaction commits may open up the
+possibility of the message being sent but the transaction aborting.
+
+This article has sketched a few principles used by grizzled old-timers
+to provide resilience even when “stuff happens.” In most cases, these
+programming techniques are used as patches to applications when the
+rare anomalies occur in production. As a whole, they are not spoken
+about too often and rarely crop up during testing. They typically
+happen when the application is under its greatest stress (which may be
+the most costly time to realize you have a problem).
+
+Some basic principles are:
+
+* Every message may be retried and, hence, must be idempotent.
+* Messages may be reordered.
+* Your partner may experience amnesia as a result of failures, poorly
+  managed durable state, or load-balancing switchover to its evil
+  twin. 
+* Guaranteed delivery of the last message is impossible.
+
+Keeping these principles in mind can lead to a more robust
+application.
+
+
+
+Back in the 1960's, companies realized they had to solve the scaling
+problem so they created 
+Back in the 1970's, people figured out that statelessness was a
+good thing. By the 1980's statelessness was normal. 
+
+there were several OLTP systems 
+
+
+. All the state resides in a database,
+and the serverless functions that execute should be idempotent.
+That's a key factor for scaling.
+
+In the 1980's [OLTP](http://n99.us/evw) systems 
+
+see this programming trend where stateless
+functions are invoked on demand.
+
+# Background
 
 TODO:
 
 * Serverless vendor locking and version churn https://news.ycombinator.com/item?id=19083713
 * Semantic version myth https://news.ycombinator.com/item?id=19084280
 
+http://www.hpl.hp.com/techreports/tandem/TR-89.3.pdf
+The TMF Application Programming Interface
+Pat Helland
+2.5 An important concept for the requester is that a BEGINTRANSACTION must
+always be paired with a matching ENDTRANSACTION or
+ABORTTRANSACTION. This is true even if the transaction is aborted by
+the system or by a server.
 
-[Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing)
-is growing rapidly. I've long been a fan of
-[stateless programming](https://www.extremeperl.org/bk/its-a-smop)
-so I'm happy to see this programming trend where stateless
-functions are invoked on demand.
-
-# Background
-
-When you
-[look up Serverless Computing](https://www.google.com/search?q=serverless+computing),
-you learn it is pay-as-you-go and *#NoOps*. The explanations assume
-you are already programming statelessly. This is not a given,
-and web development has long history of stateful programming.
-
+3. A context-free server is a server that accepts a single message from a requester, performs a job, and issues a single reply message to respond to the requester. Once the reply message has been issued. the server has no state (or context) that may survive to be used in subsequent requests. A c o n t e x t - sensitive server is a one that engages in a multiple message dialogue with the requester. In between messages, the context-sensitive server retains some state information.
 
 
 
