@@ -4,34 +4,65 @@ title: "Serverless: Bits of History, Words of Advice"
 date: 2019-01-29T12:00:00Z
 ---
 
-[Serverless Computing](http://n99.us/zoy)
-is growing rapidly. I've long been a fan of
-[stateless programming](http://n99.us/fyq)
-so I'm happy to Serverless taking off. I just thought I'd
-chime in about the parallels to Transaction Process
-Monitors, and the lessons to be learned from them.
-
-When you
-[search Serverless Computing](http://n99.us/hxc),
-you learn it is pay-as-you-go and *#NoOps*. However, the 
-big value of Serverless is the stateless programming model,
-which improves makes code more maintainable and reliable
-as well as scalable and deployable. That discussion is lost in all
-the sales talk about cost savings, which is irrelevant for
-most applications.
+[Serverless Computing](http://n99.us/zoy) is growing rapidly. I've
+long been a fan of [stateless programming](http://n99.us/fyq) so I'm
+happy to see Serverless taking off. I thought I'd chime in about the
+parallels to [Transaction Process Monitors](http://n99.us/kyf), and
+some advice from graybeards about how to build robust Serverless
+systems.
 
 > In a world full of retried messages, idempotence is an essential
-> property for reliable systems. -- [Pat Helland](http://n99.us/vfb)
-from: Idempotence Is Not a Medical Condition
+> property for reliable systems. --
+> [Pat Helland](http://n99.us/vfb)
 
-Serverless requires idempotent functions. 
+When you
+[search for Serverless Computing](http://n99.us/hxc),
+you learn it is pay-as-you-go and *#NoOps*. However, the
+big value of Serverless is the stateless programming model for which
+the biggest win is more maintainable and reliable systems.
+That discussion is lost in all the sales talk about cost savings,
+which is irrelevant for most applications.
+
+Serverless requires idempotent functions. You have no choice about it,
+and in the good old days, Transaction Process Monitors enforced the
+same model. For example,
+[IBM's Transaction Processing Facility (TPF)](http://n99.us/caf) is
+described on Wikipedia as follows:
+
+> TPF is not a general-purpose operating system (GPOS). TPF's
+> specialized role is to process transaction input messages, then
+> return output messages on a 1:1 basis at extremely high volume with
+> short maximum elapsed time limits.
+
+That's Serverless in a nutshell.
+
+> This article has sketched a few principles used by grizzled old-timers
+> to provide resilience even when "stuff happens."
+> -- [Pat Helland](http://n99.us/vfb)
+
+The thing is that Serverless is hard. It's easy when you are just
+doing basic [CRUD](http://n99.us/gsx). But when "stuff happens", it's
+going to be hard to debug, because there's no guarantee about the
+execution environment of your code. You may think there is, but
+your software is not perfect, and their software is even worse!
+
+> The implications of these statistics are clear: the key to high-
+> availability is tolerating operations and software faults.
+> -- [Jim Gray](http://n99.us/xdl)
+
+
+
+Distributed
+
+[p27] Communications lines are the most unreliable part of a distributed computer system.
+
+
 
 DON’T TALK AND LISTEN AT THE SAME TIME
 Allowing it to depart before the transaction commits may open up the
 possibility of the message being sent but the transaction aborting.
 
-This article has sketched a few principles used by grizzled old-timers
-to provide resilience even when “stuff happens.” In most cases, these
+In most cases, these
 programming techniques are used as patches to applications when the
 rare anomalies occur in production. As a whole, they are not spoken
 about too often and rarely crop up during testing. They typically
@@ -60,6 +91,7 @@ good thing. By the 1980's statelessness was normal.
 there were several OLTP systems 
 
 
+
 . All the state resides in a database,
 and the serverless functions that execute should be idempotent.
 That's a key factor for scaling.
@@ -84,6 +116,8 @@ always be paired with a matching ENDTRANSACTION or
 ABORTTRANSACTION. This is true even if the transaction is aborted by
 the system or by a server.
 
+
+
 3. A context-free server is a server that accepts a single message from a requester, performs a job, and issues a single reply message to respond to the requester. Once the reply message has been issued. the server has no state (or context) that may survive to be used in subsequent requests. A c o n t e x t - sensitive server is a one that engages in a multiple message dialogue with the requester. In between messages, the context-sensitive server retains some state information.
 
 jim gray http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
@@ -99,15 +133,6 @@ it should detect the fault, signal failure and stop operating.
 What's interesting to me is how no one seems to remember that
 the stateless function paradigm was popular several decades ago
 in systems built executed by a
-[Transaction Process Monitor](http://wiki.c2.com/?TransactionProcessingMonitor).
-For example,
-[IBM's Transaction Processing Facility](https://en.wikipedia.org/wiki/Transaction_Processing_Facility)
-is described on Wikipedia as follows:
-
-> TPF is not a general-purpose operating system (GPOS). TPF's
-> specialized role is to process transaction input messages, then
-> return output messages on a 1:1 basis at extremely high volume with
-> short maximum elapsed time limits.
 
 Compare that to the definition of Function as a Service
 
