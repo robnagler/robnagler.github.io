@@ -144,7 +144,7 @@ might have been better to be left out although it does add to
 ending. There was a mention of a stonehenge-like structure at one
 point, which is annoying.
 
-# The Story Behind the **Last Bookaneer**
+# The Story Behind the _Last Bookaneer_
 
 > [k5191] Still, Stevenson, like all popular authors of his day, was
 > affected by literary piracy throughout his career, and was keenly
