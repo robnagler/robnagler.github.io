@@ -91,7 +91,7 @@ foreach my $line (<>) {
             = <<"EOF";
 ---
 layout: post
-title: "BookReview: $title"
+title: "BookNotes: $title"
 date: $now
 ---
 By $author, Some Publisher, Month 1, 201x, ISBN
