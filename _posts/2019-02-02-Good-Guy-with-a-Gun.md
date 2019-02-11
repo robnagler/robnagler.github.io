@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2019/02/02/BookReview-Good-Guy-with-a-Gun.html"
 layout: post
 title: "BookNotes: The Good Guy with a Gun (Jim McGill series Book 6)"
 date: 2019-02-02T21:22:09Z
