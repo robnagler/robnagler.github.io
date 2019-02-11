@@ -1,0 +1,141 @@
+---
+redirect_from: "/2006/12/31/BookReview-Your-Marketing-Sucks.html"
+layout: post
+title: "BookNotes: Your Marketing Sucks"
+date: 2006-12-31T12:00:00Z
+---
+By Mark Stevens, Three Rivers Press, April 26, 2005, 1400081696
+
+Mark Stevens promotes Extreme Marketing: results means revenue, and
+nothing else.  He thinks the Clio award should be abolished along with
+any awards, because they take away from marketing productivity.  The
+book is filled with examples of where his company changed the
+marketing to improve the ROI of various companies.
+
+Unfortunately, he presents anecdotes as evidence.  While his specific
+recommendations make "sense" in context, and are backed by numbers in
+the specific instance, that doesn't mean they are generally good
+advice to follow.  Indeed, it seems like any advice he gives always
+works.  He doesn't present his trials and errors at getting ROI, which
+would be extremely useful.
+
+The book is entertaining in general.  I like his direct style of
+writing.  It's probably a bit too long for the general message: have a
+way of measuring it, and try a lot of stuff.  However, in comparison
+to other marketing books, his book is concise and clear about how to
+value marketing.
+
+
+> [p29] No more submissions for Clios. No more "most creative ad by a
+> Midwest agency" competitions. No more nothing that has to do with ego
+> as opposed to sales. The reason for that is simple: Ad agencies and
+> the companies that hire them have opposite goals. Those creative
+> directors want to win Clios on your budget-to them, their careers come
+> before your company's growth. So before you hire an agency, you have
+> to forbid it from entering any advertising contest.
+
+
+
+> The only exception I would make is when the agency is competing for an
+> award that is given for producing the greatest return on investment,
+> and even then I am not sure I would have firms entering those
+> contests-filling out the entry forms takes away from productive
+> work. If someone wanted to give them the award, that would be fine.
+
+
+
+> Forbes gave my company such an award for an ad we created. (See page
+> 30.) The ad drove an unbelievable amount of traffic to the Cognet
+> website, and that is what it was designed to do. We didn't enter a
+> contest to win it -- Forbes found
+
+
+
+> [p49] Rule 3: Most companies make salesmanship the last step the
+> marketing process. Most companies are wrona: Salesmanship should come
+> first.
+
+
+
+> [p67] The fact is that salespeople bring in business. They bring home
+> the check. That is what sales is about. It is not the ability to put
+> on a pleasant presentation or have a good meeting. Salespeople aren't
+> afraid to make cold calls, they are eager to ask for the sale, they
+> have a passion for what they do, they don't fear rejection, and they
+> are bulldogs. (They aren't like my dog Blue.) They won't stop until
+> they get the business. You either have those traits or you don't.
+
+
+
+> If you don't, does that mean Extreme Marketing is wasted on you?
+> Absolutely not. It just means you need real salespeople in your
+> marketing mix to close the deal.
+
+
+
+> The Lazy Marketing approach is to deny this undeniable fact and
+
+
+
+> a. Continue to hope for this magic
+
+
+
+> b. Accept the fact that only a few of the individuals in the firm
+> will produce practice-building results
+
+
+
+> [p76] We have already talked about the fact that you can't turn a
+> nonsalesperson into a salesperson. But when you a little deeper, you
+> find something that is even more depressing, if you are a senior
+> manager or entrepreneur.
+
+
+
+> The problem can be reduced to this: "Ninety-nine cent of the world's
+> salespeople aren't."
+
+
+
+> What does this mean? Simply that the vast majority people posing as
+> salespeople fall into one of the follow' two camps:
+
+
+
+> * They have tried other jobs and failed at them, rather than remaining
+>   on the unemployment lines, they taking a fling at selling. That is
+>   certainly not a backgrou that is going to inspire confidence.
+> * They actually want to be salespeople and may like the idea of
+>   selling. After all, they have always been told they are sociable and
+>   outgoing and assume this makes th natural-born salespeople. But
+>   although they may be charming, they can't make the sale. The fact is
+>   that there is enormous gulf between a schmoozer and a closer. The ab:"
+>   to get along famously, and even conduct an amiable s meeting, does not
+>   a salesperson make. The only way a salesperson can be judged is on the
+>   ability to actually write new business. And it is on this acid test
+>   that most "salespeople: fail miserably.
+
+
+
+> [p85] But Extreme Marketers recognize that longevity is far less
+> important than management's willingness to repeatedly dismiss mediocre
+> performers in order to raise the bar on the company's revenues and
+> profitability.
+
+
+
+> [p179] You can do this by conducting focus groups with your target
+> audience-but I don't recommend it. The problem I have found with focus
+> groups is that they are never going to tell you something that you
+> don't already know. First of all, the focus group is invariably
+> dominated by one person with a big mouth, and an ego to match, who
+> influences everyone else, despite the best attempts of the moderator.
+
+
+
+> And even if you conduct multiple focus groups, to try to get a sample
+> reaction that is statistically valid, it doesn't help you much.
+
+
+

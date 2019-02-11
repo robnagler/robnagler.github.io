@@ -7,7 +7,7 @@ date: 2009-04-11T12:00:00Z
 Like a lot of people, I am intrigued by evolution as a design system.
 For decades I believed that evolution was unique to biology.  Even
 after reading
-[The Selfish Gene](/2009/04/20/BookReview-The-Selfish-Gene.html)my understanding of evolution was quite shallow.  With the publication
+[The Selfish Gene](/2009/04/20/The-Selfish-Gene.html)my understanding of evolution was quite shallow.  With the publication
 of the 30th anniversary edition and a few more Richard Dawkins and
 other author's books on evolution, biology, and economics under my
 belt, I have figured out how evolution works its magic on the
@@ -78,7 +78,7 @@ closed evolutionary economic system.
 Many books cover evolution and economics, and
 [I haven't found one](https://www.google.com/search?q=site:robnagler.com+evolution+economics)which explains how evolution applies to the economy.
 For example,
-[The Ascent of Money](/2009/04/06/BookReview-The-Ascent-of-Money.html)contains these conflicting statements:
+[The Ascent of Money](/2009/04/06/The-Ascent-of-Money.html)contains these conflicting statements:
 
 
 > Broadly speaking, the law of the survival of the fittest

@@ -1,0 +1,34 @@
+---
+redirect_from: "/1990/12/31/BookReview-The-Programmers-Apprentice.html"
+layout: post
+title: "BookNotes: The Programmer's Apprentice"
+date: 1990-12-31T12:00:00Z
+---
+By Charles Rich, Richard C. Waters, ACM Press, 1990, 0-201-52425-2
+ The theory: a programmer needs an apprentice to help with the
+mundane tasks.  Programmers must do the higher level connections and
+the "checking up" on the apprentice while the apprentice deals with
+the details and low level checking up (e.g. do these constraints
+match the code?, are there contradictions?).  The user is expected to
+be an expert software engineer (chief programmer).  The apprentice
+will work with all levels from requirements to coding.
+
+Knowledge Based Emacs (KBEmacs) has been implemented.  It is an
+extended editor for editing programs with knowledge based commands.
+A plan calculus is developed for representing program cliches
+(program fragments).  A cliche is how the engineer thinks.  Engineers
+do not go to basic principles when programming, they use predefined
+cliches (roles, plans). The calculus is data flow oriented for language
+independence and ease of connections.
+
+Much of the book is devoted to the calculus and KBEmacs.  Some
+discussion at the end of the real state of the art and the problems.
+There are many plans and interesting insights to CASE.  The problem
+is that a true apprentice doesn't exist and is hard to do (e.g. the
+plan calculus doesn't handle all programs).
+
+I particularly liked the tricks with dataflow.  This relates a
+little bit to my work with G and, in a sense, justifies the data flow
+approach.
+
+

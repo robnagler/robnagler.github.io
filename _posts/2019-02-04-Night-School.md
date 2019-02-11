@@ -12,7 +12,7 @@ cognitive biases. Wiseman is entertaining to listen to as well.
 
 If you are having trouble sleeping, you are better off reading this
 book than
-[Why We Sleep]({{ site.baseurl }}{% post_url 2019-02-01-BookReview-Why-We-Sleep %}), 
+[Why We Sleep]({{ site.baseurl }}{% post_url 2019-02-01-Why-We-Sleep %}), 
 which has a lot more theory. Night School explains the reasons
 behind the suggested cognitive behavioral techniques. I am
 fortunate that I've fallen into many of these techniques

@@ -1,0 +1,404 @@
+---
+redirect_from: "/2010/12/19/BookReview-How-to-Be-Alone.html"
+layout: post
+title: "BookNotes: How to Be Alone: Essays"
+date: 2010-12-19T12:00:00Z
+---
+By Jonathan Franzen, Farrar, Straus and Giroux, April 1, 2010, B003GFIVNE
+
+Jonathan Franzen is a great writer.  I read Freedom, and then I read
+this book.  I tend not write notes about fiction (beats me as to why),
+but since I'm writing about Franzen, I'll say that Freedom was a great
+book.
+
+Franzen's essays are fascinating and poignant, especially the one
+about his family.  I also enjoyed his rants.  I skimmed the last half
+of the book, because it didn't seem that the subsequent essays
+contained new concepts.  I recommend the book overall, though.
+
+
+> [k556] IMPERIAL BEDROOM
+
+
+
+> PRIVACY, privacy, the new American obsession: espoused as the most
+> fundamental of rights, marketed as the most desirable of commodities,
+> and pronounced dead twice a week.
+
+
+
+> [k664] OUR PRIVACY panic isn't merely exaggerated. It's founded on a
+> fallacy. Ellen Alderman and Caroline Kennedy, in The Right to Privacy,
+> sum up the conventional wisdom of privacy advocates like this: "There
+> is less privacy than there used to be." The claim has been made or
+> implied so often, in so many books and editorials and talk-show dens,
+> that Americans, no matter how passive they are in their behavior, now
+> dutifully tell pollsters that they're very much worried about
+> privacy. From almost any historical perspective, however, the claim
+> seems bizarre.
+
+
+
+> In 1890, an American typically lived in a small town
+> under conditions of near-panoptical surveillance. Not only did his
+> every purchase "register," but it registered in the eyes and the
+> memory of shopkeepers who knew him, his parents, his wife, and his
+> children. He couldn't so much as walk to the post office without
+> having his movements tracked and analyzed by neighbors.
+> Probably he grew up sleeping in the same bed with his siblings and
+> possibly with his parents, too. Unless he was well off, his
+> transportation--a train, a horse, his own two feet--either was
+> communal or exposed him to the public eye.
+
+
+
+> In the suburbs and exurbs
+> where the typical American lives today, tiny nuclear families inhabit
+> enormous houses, in which each person has his or her own bedroom and,
+> sometimes, bathroom. Compared even with suburbs in the sixties and
+> seventies, when I was growing up, the contemporary condominium
+> development or gated community offers a striking degree of
+> anonymity. It's no longer the rule that you know your
+> neighbors. Communities increasingly tend to be virtual, the
+> participants either faceless or firmly in control of the face they
+> present. Transportation is largely private: the latest SUVs are the
+> size of living rooms and come with onboard telephones, CD players, and
+> TV screens;
+> behind the tinted
+> windows of one of these high-riding I-see-you-but-you-can't-see-me
+> mobile PrivacyGuard(Runits, a person can be wearing pajamas or a
+> licorice bikini, for all anybody knows or cares. Maybe the government
+> intrudes on the family a little more than it did a hundred years ago
+> (social workers look in on the old and the poor, health officials
+> require inoculations, the police inquire about spousal battery), but
+> these intrusions don't begin to make up for the small-town snooping
+> they've replaced.
+
+
+
+> The "right to be left alone"? Far from disappearing,
+> it's exploding. It's the _essence_ of modern American architecture,
+> landscape, transportation, communication, and mainstream political
+> philosophy. The real reason that Americans are apathetic about privacy
+> is so big as to be almost invisible: we're flat-out drowning in
+> privacy. What's threatened, then, isn't the private
+
+
+
+> [k679] Maybe the government intrudes on the family a little more than
+> it did a hundred years ago (social workers look in on the old and the
+> poor, health officials require inoculations, the police inquire about
+> spousal battery), but these intrusions don't begin to make up for the
+> small-town snooping they've replaced.
+
+
+
+> The "right to be left alone"?
+> Far from disappearing, it's exploding. It's the essence of modern
+> American architecture, landscape, transportation, communication, and
+> mainstream political philosophy. The real reason that Americans are
+> apathetic about privacy is so big as to be almost invisible: we're
+> flat-out _drowning_ in privacy.
+
+
+
+> What's threatened, then, isn't the
+> private sphere. It's the public sphere. Much has been made of the
+> discouraging effect that the Starr investigation may have on future
+> aspirants to public office (only zealots and zeros need apply), but
+> that's just half of it. The public world of Washington, because it's
+> public, belongs to everyone. We're all invited to participate with our
+> votes, our patriotism, our campaigning, and our opinions. The
+> collective weight of a population makes possible our faith in the
+> public world as something larger and more enduring and more dignified
+> than any messy individual can be in private. But, just as one sniper
+> in a church tower can keep the streets of an entire town empty, one
+> real gross-out scandal can undermine that faith. If privacy depends
+> upon an expectation of invisibility, the expectation of visibility is
+> what defines a public space. My "sense of privacy" functions to keep
+> the public out of the private _and_ to keep the private out of the
+> public.
+
+
+
+> [k709] Reticence, meanwhile, has become an obsolete virtue. People now
+> readily name their diseases, rents, antidepressants. Sexual histories
+> get spilled on first dates, Birkenstocks and cutoffs infiltrate the
+> office on casual Fridays, telecom-muting puts the boardroom in the
+> bedroom, "softer" modern office design puts the bedroom in the
+> boardroom, salespeople unilaterally address customers by their first
+> name, waiters won't bring me food until I've established a personal
+> relationship with them, voice-mail machinery stresses the "I" in "I'm
+> sorry, but I don't understand what you dialed," and cyberenthusiasts,
+> in a particularly grotesque misnomer, designate as "public forums"
+> pieces of etched silicon with which a forum's unshaved "participant"
+> may communicate while sitting crosslegged in tangled sheets. The
+> networked world as a threat to privacy? It's the ugly spectacle ### of
+> a privacy triumphant.
+
+
+
+> A genuine public space is a place where every
+> citizen is welcome to be present and where the purely private is
+> excluded or restricted.
+
+
+
+> [k754] All I really want from a sidewalk is that people see me and let
+> themselves be seen, but even this modest ideal is thwarted by
+> cell-phone users and their unwelcome privacy. They say things like
+> "Should we have couscous with that?" and "I'm on my way to
+> Blockbuster." They aren't breaking any law by broadcasting these
+> breakfast-nook conversations. There's no PublicityGuard that I can
+> buy, no expensive preserve of public life to which I can flee.
+
+
+
+> [k772] WHY BOTHER? (The Harper's Essay)
+
+
+
+> [k820] Otto Bentwood, if he existed in the nineties, would not break
+> down, because the world would no longer even bear on him. As an
+> unashamed elitist, an avatar of the printed word, and a genuinely
+> solitary man, he belongs to a species so endangered as to be all but
+> irrelevant in an age of electronic democracy. For centuries, ink in
+> the form of printed novels has fixed discrete, subjective individuals
+> within significant narratives. What Sophie and Otto were glimpsing, in
+> the vatic black mess on their bedroom wall, was the disintegration of
+> the very notion of a literary character. Small wonder they were
+> desperate. It was still the sixties, and they had no idea what had hit
+> them.
+
+
+
+> There was a siege going on: it had been going on for a long
+> time, but the besieged themselves were the last to take it
+> seriously. -- from Desperate Characters
+
+
+
+> [k851] But the biggest surprise--the true measure of how little I'd
+> heeded my own warning in _The_Twenty-Seventh_City_ -- was the failure of
+> my culturally engaged novel to engage with the culture. I'd intended
+> to provoke; what I got instead was sixty reviews in a vacuum.
+
+
+
+> [k856] How did it feel to be a local kid returning to St. Louis on a
+> fancy book tour? It felt obscurely disappointing. But I didn't say
+> this. I'd already realized that the money, the hype, the limo ride to
+> a _Vogue_ shoot weren't simply fringe benefits. They were the main
+> prize, the consolation for no longer mattering to a culture.
+
+
+
+> [k866] The only mainstream American household I know well is the one I
+> grew up in, and I can report that my father, who was not a reader,
+> nevertheless had some acquaintance with James Baldwin and John
+> Cheever, because _Time_ magazine put them on its cover and _Time_, for my
+> father, was the ultimate cultural authority. In the last decade, the
+> magazine whose red border twice enclosed the face of James Joyce has
+> devoted covers to Scott Turow and Stephen King. These are honorable
+> writers; but no one doubts it was the size of their contracts that won
+> them covers. The dollar is now the yardstick of cultural authority,
+> and an organ like _Time_, which not long ago aspired to shape the
+> national taste, now serves mainly to reflect it.
+
+
+
+> [k879] My second novel, _Strong_Motion_, was a long, complicated story
+> about a Midwestern family in a world of moral upheaval, and this time,
+> instead of sending my bombs in a Jiffy-Pak mailer of irony and
+> understatement, as I had with The _Twenty-Seventh_City_, I'd come out
+> throwing rhetorical Molotov cocktails. But the result was the same:
+> another report card with A's and B's from the reviewers who had
+> replaced the teachers whose approval, when I was younger, I had both
+> craved and taken no satisfaction from; decent money; and the silence
+> of irrelevance.
+
+
+
+> [k892] There's never been much love lost between literature and the
+> marketplace. The consumer economy loves a product that sells at a
+> premium, wears out quickly or is susceptible to regular improvement,
+> and offers with each improvement some marginal gain in usefulness. To
+> an economy like this, news that stays news is not merely an inferior
+> product; it's an _antithetical_ product. A classic work of literature is
+> inexpensive, infinitely reusable, and, worst of all, unimprovable.
+
+
+
+> [k898] In 1993 I saw signs of the consolidation everywhere. I saw it
+> in the swollen minivans and broad-beamed trucks that had replaced the
+> automobile as the suburban vehicle of choice--these Rangers and Land
+> Cruisers and Voyagers that were the true spoils of a war waged to keep
+> American gasoline cheaper than dirt, a war that had played like a
+> thousand-hour infomercial for high technology, a consumer's war
+> dispensed through commercial television. I saw leaf-blowers replacing
+> rakes. I saw CNN holding hostage the travelers in airport lounges and
+> the shoppers in supermarket checkout lines. I saw the 486 chip
+> replacing the 386 and being replaced in turn by the Pentium so that,
+> despite new economies of scale, the price of entry-level notebook
+> computers never fell below a thousand dollars. I saw Penn State win
+> the Blockbuster Bowl.
+
+
+
+> [k919] IN THE NINETEENTH CENTURY, when Dickens and Darwin and Disraeli
+> all read one another's work, the novel was the preeminent medium of
+> social instruction. A new book by Thackeray or William Dean Howells
+> was anticipated with the kind of fever that a late-December film
+> release inspires today.
+
+
+
+> The big, obvious reason for the decline of the
+> social novel is that modern technologies do a much better job of
+> social instruction. Television, radio, and photographs are vivid,
+> instantaneous media. Print journalism, too, in the wake of In Cold
+> Blood, has become a viable creative alternative to the novel. Because
+> they command large audiences, TV and magazines can afford to gather
+> vast quantities of information quickly.
+
+
+
+> [k936] We live in a tyranny of the literal. The daily unfolding
+> stories of O. J. Simpson, Timothy McVeigh, and Bill Clinton have an
+> intense, iconic presence that relegates to a subordinate shadow-world
+> our own untelevised lives. In order to justify their claim on our
+> attention, the organs of mass culture and information are compelled to
+> offer something "new" on a daily, indeed hourly, basis. Although good
+> novelists don't deliberately seek out trends, many of them feel a
+> responsibility to pay attention to contemporary issues, and they now
+> confront a culture in which almost all the issues are burned out
+> almost all the time.
+
+
+
+> [k943] None of this stops cultural commentators--notably Tom
+> Wolfe--from blaming novelists for their retreat from social
+> description. The most striking thing about Wolfe's 1989 manifesto for
+> the "New Social Novel," even more than his uncanny ignorance of the
+> many excellent socially engaged novels published between 1960 and
+> 1989, was his failure to explain why his ideal New Social Novelist
+> should not be writing scripts for Hollywood. And so it's worth saying
+> one more time: Just as the camera drove a stake through the heart of
+> serious portraiture, television has killed the novel of social
+> reportage.
+
+
+
+> [k1028] I can't pretend the mainstream will listen to the news I have
+> to bring. I can't pretend I'm subverting anything, because any reader
+> capable of decoding my subversive messages does not need to hear them
+> (and the contemporary art scene is a constant reminder of how silly
+> things get when artists start preaching to the choir). I can't stomach
+> any kind of notion that serious fiction is _good_ for us, because I
+> don't believe that everything that's wrong with the world has a cure,
+> and even if I did, what business would I, who feel like the sick one,
+> have in offering it? It's hard to consider literature a medicine, in
+> any case, when reading it serves mainly to deepen your depressing
+> estrangement from the mainstream; sooner or later the therapeutically
+> minded reader will end up fingering reading itself as the sickness.
+
+
+
+> [k1096] Looking me in the eye, Heath said: "You are a socially
+> isolated individual who desperately wants to communicate with a
+> substantive imaginary world."
+
+
+
+> I knew she was using the word "you" in
+> its impersonal sense. Nevertheless, I felt as if she were looking
+> straight into my soul. And the exhilaration I felt at her accidental
+> description of me, in unpoetic polysyllables, was my confirmation of
+> that description's truth. Simply to be recognized for what I was,
+> simply not to be misunderstood: these had revealed themselves,
+> suddenly, as reasons to write.
+
+
+
+> [k1141] For Heath, a defining feature of "substantive works of
+> fiction" is unpredictability. She arrived at this definition after
+> discovering that most of the hundreds of serious readers she
+> interviewed have had to deal, one way or another, with personal
+> unpredictability.
+
+
+
+> [k1148] In her interviews, Heath uncovered a "wide unanimity" among
+> serious readers that literature " 'makes me a better person.' " She
+> hastened to assure me that, rather than straightening them out in a
+> self-help way, "reading serious literature impinges on the embedded
+> circumstances in people's lives in such a way that they have to deal
+> with them. And, in so dealing, they come to see themselves as deeper
+> and more capable of handling their inability to have a totally
+> predictable life."
+
+
+
+> [k1219] In Gaddis's first novel, The Recognitions (1955), a stand-in
+> for the author cries: "What is it they want from the man that they
+> didn't get from the work? What do they expect? What is there left when
+> he's done with his work, what's any artist but the dregs of his work,
+> the human shambles that follows it around?" Postwar novelists like
+> Gaddis and Pynchon and postwar artists like Robert Frank answered
+> these questions very differently than Norman Mailer and Andy Warhol
+> did. In 1954, before television had even supplanted radio as the
+> regnant medium, Gaddis recognized that no matter how attractively
+> subversive self-promotion may seem in the short run, the artist who's
+> really serious about resisting a culture of inauthentic mass-marketed
+> image must resist becoming an image himself, even at the price of
+> certain obscurity.
+
+
+
+> [k1230] Silence, however, is a useful statement only if someone,
+> somewhere, expects your voice to be loud. Silence in the 1990s seemed
+> only to guarantee that I would be alone. And eventually it dawned on
+> me that the despair I felt about the novel was less the result of my
+> obsolescence than of my isolation.
+
+
+
+> [k1275] What emerges as the belief that unifies us is not that a novel
+> can change anything but that it can preserve something.
+
+
+
+> [k1280] Above all, they are preserving a community of readers and
+> writers, and the way in which members of this community recognize each
+> other is that nothing in the world seems simple to them.
+
+
+
+> Shirley
+> Heath uses the bland word "unpredictability" to describe this
+> conviction of complexity; Flannery O'Connor called it "mystery." In
+> _Desperate_Characters_, Fox captures it like this: "Ticking away inside
+> the carapace of ordinary life and its sketchy agreements was anarchy."
+> For me, the word that best describes the novelist's view of the world
+> is _tragic_. In Nietzsche's account of the "birth of tragedy," which
+> remains pretty much unbeatable as a theory of why people enjoy sad
+> narratives, an anarchic "Dionysian" insight into the darkness and
+> unpredictability of life is wedded to an "Apollonian" clarity and
+> beauty of form to produce an experience that's religious in its
+> intensity.
+
+
+
+> [k1323] But how ridiculous the self-pity of the writer in the late
+> twentieth century can seem in light of, say, Herman Melville's
+> life. How familiar his life is: the first novel that makes his
+> reputation, the painful discovery of how little his vision appeals to
+> prevailing popular tastes, the growing sense of having no place in a
+> sentimental republic, the horrible money troubles, the abandonment by
+> his publisher, the disastrous commercial failure of his finest and
+> most ambitious work, the reputed mental illness (his melancholy, his
+> depression), and finally the retreat into writing purely for his own
+> satisfaction.
+
+
+

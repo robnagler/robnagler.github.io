@@ -1,0 +1,705 @@
+---
+redirect_from: "/1990/12/31/BookReview-On-Liberty.html"
+layout: post
+title: "BookNotes: On Liberty"
+date: 1990-12-31T12:00:00Z
+---
+By John Stuart Mill, W. W. Norton & Company, 1975, 0-393-09252-6
+
+Norton Critical Edition which includes criticism against and
+support for Mill.
+
+
+> [p23] The usefulness of an opinion is itself a matter of opinion:
+> as disputable, as open to discussion, and requiring discussion as
+> much as the opinion itself.
+
+
+
+> [p28] But, indeed, the dictum that truth always triumphs over
+> persecution is one of the most pleasant falsehoods which men repeat
+> after one another till they pass into commonplaces, but which all
+> experience refutes.
+
+
+
+> [p33] Who can compute what the world loses in the multitude of
+> promising intellects combined with timid characters, who dare not
+> follow out any bold, vigorous, independent train of thought, lest it
+> should land them in something which would admit of being cosidered
+> irreligious or immoral? [...] No one can be a great thinker who does not
+> recognise, that as a thinker it is his first duty to follow his
+> intellect to whatever conclusions it may lead.  Truth gains more even
+> by the errors of one who, with due study and preparation, thinks for
+> himself, than by the true opinions of thos who only hold them because
+> they do not suffer themselves to think.
+
+
+
+> [p36] He who knows only his own side of the case, knows little of
+> that.
+
+
+
+> [p44] If there are any persons who contest a received opinion, or
+> who will do so if law or opinion will let them, let us thank them for
+> it, open our minds to listen to them, and rejoice that there is some
+> one to do for us what we otherwise ought, if we have any regard for
+> either the certainty or the vitality of our convictions, to do with
+> much greater labour for ourselves.
+
+
+
+> [p46] Truth, in the great practical concerns of life, is so much a
+> question of the reconciling and combining of opposites, that very few
+> have minds sufficiently capacious and impartial to make the
+> adjustment with an approach to correctness, and it has to be made by
+> the rough process of a struggle between combatants fighting under
+> hostile banners.
+
+
+
+> [p47] Christian morality (so called) has all the characters of a
+> reaction; it is, in great part, a protest against Paganism.  Its
+> ideal is negative rather than positive; passive rather active;
+> Innocence rather than Nobleness; Abstinence from Evil, rather than
+> energetic Pursuit of Good; in its precepts (as has been well said)
+> 'thou shall not' perdominates unduly over 'thou shallt.'
+
+
+
+> [p49] If Christians would teach infidels to be just to
+> Christianity, they should  themselves be just to infidelity.  It can
+> do truth no service to blink the fact, known to all who have the most
+> ordinary acquantance with literary history, that a large portion of
+> the noblest and most valuable moral teaching has been the work, not
+> only of men who did not know, but of men who knew and rejected, the
+> Christian faith.
+
+
+
+> [p51] Undoubtedly the manner of asserting an opinion, even thought
+> it be a true one, may be very objectionable, and may justly incur
+> severe censure.  But the principal [sic] offences of the kind are
+> such as it is mostly impossible, unless by accidental self-betrayal,
+> to bring home to conviction.  The gravest of them is, to argue
+> sophistically, to suppress facts or agruments, to misstate the
+> elements of the case, or misrepresent the opposite opinion.
+
+
+
+> [p56] He who lets the world, or his own portion of it, choose his
+> plan of life for him, has no need of any other faculty than the
+> ape-like one of imitation. [...] Human nature is not a machine to be
+> built after a model, and set to do exactly the work prescribed for
+> it, but a tree, which requires to grow and develop itself on all
+> sides, according to the tendency of the inward forces which make it a
+> living thing. [...] it will probably be conceded that it is desirable
+> people should exercise their understandings, and than an intelligent
+> following of custom, or even occasionally an intelligent deviation
+> from custom, is better than a blind and simply mechanical adhesion to
+> it.
+
+
+
+> [p57] It is not because men's desires are strong that they act
+> ill; it is because their consciences are weak. [...] But society has now
+> fairly got the better of individuality; and the danger which
+> threatens human nature is not the excess, but the deficiency, of
+> personal impulses and preferences.
+
+
+
+> [p58] I do not mean that they choose what is customary in
+> preference to what suits their own inclination.  It does not occur to
+> them to have any inclination, except for what is customary. 
+
+
+
+> [p61] [T]here are but few persons, in comparison with the whole of
+> mankind, whose experiments, if adopted by others, would likely to be
+> any improvement on established practice.  But these few are the salt
+> of the earth; without them, human life would become a stagnant pool.
+
+
+
+> [p62] Originality is the one thing which unoriginal minds cannot
+> feel the use of.
+
+
+
+> [p63] In this age, the mere example of non-conformity, the mere
+> refusal to bend the knee to custom, is itself a service.
+
+
+
+> [p66] The despotism of custom is everywhere the standing hindrance
+> to human advancement, being in unceasing antagonism to that
+> disposition to aim at something better than customary, which is
+> called according to circumstances, the spirit of liberty, or that of
+> progress or improvement.
+
+
+
+> [p67] They [that hold the title of sages and philosophers] are
+> remarkable, too, in the excellence of their apparatus for impressing,
+> as far as possible, the best wisdom they possess upon every mind in
+> the community, and securing that those who have appropriated most of
+> it shall occupy the posts of honour and power.
+
+
+
+> [p69] A more powerful agency than even all these, in bringing
+> about a general similarity among mankind, is the complete
+> establishment, in this and other free countries, of the ascendancy of
+> public opinion in the State.
+
+
+
+> [p70] Though society is not founded on a contract, and though no
+> good purpose is answered by inventing a contract in order to deduce
+> social obligations from it, every one who receives the protection of
+> society renders it indispensible that each should be bound to observe
+> a certain line of conduct towards the rest. Nor is this all that
+> society may do.  The acts of an individual may be hurtful to others,
+> or wanting in due consideration for their welfare, without going to
+> the length of violating any of their constituted rights.  The
+> offender may then be justly punished by opinion, though not by law.
+> As soon as any part of a person's conduct affects prejudicially the
+> interests of others, society has jurisdiction over it, and the
+> question whether the general welfare will or will not be promoted by
+> interfering with it, becomes open to discussion.  But there is no
+> room for entertaining any such question when a person's conduct
+> affects the interest of no persons besides himself, or needs not
+> effect them unless they like (all persons concerned being of ull age,
+> and the ordinary amount of understanding).  In all usch cases, there
+> should be perfect freedom, legal and social, to do the action and
+> stand the consequences.
+
+
+
+> It would be a great misunderstanding of this doctrine to suppose
+> that it is one of selfish indifference, which pretends that human
+> beings have no business with oeach other's conduct in life, and that
+> they should not concern themselves about the well-doing or well-being
+> of one another, unless their own interest is involved.  Instead oof
+> any diminution, there is need of great increase of disinterested
+> exertion to promote the good of others.
+
+
+
+> [p72] It would be well, indeed, if this good office were much more
+> freely rendered than the common notions of politeness at present
+> permit, and if one person could honestly point out to another that he
+> thinks hime in fault, withou being considered unmannerly or
+> presuming. [...] We have a right, also, in various ways, to actu upon
+> our unfavourable opinion of any one, not to the oppression of his
+> individuality [WHATEVER THAT MEANS], but in the exercise of ours.  We
+> are not bound, for example, to seek his society; we have a right to
+> avoid it (though not to parade the avoidance), for we have a right to
+> choose the society most acceptable to us.  We have a right, and it
+> may be our duty, to caution others against him, if we think his
+> example or conversation likely to have pernicious effect on those
+> with whom he associates.
+
+
+
+> [p76] In like manner, when a person disables himself, by conduct
+> purely self-regarding, from the performance of some definite duty
+> incumbent on him to the public, he is guilty of a social offense. No
+> person ought to be punished simply for being drunk; but a soldier or a
+> policeman should be punished for being drunk on duty. [...] Whenever, in
+> short, there is a definite damage, or a definite risk of damage, either to
+> an individual or to the public, the case is taken out of the province of
+> liberty, and placed in that of morality of law. [...] But I cannot consent to
+> argue the point as if society had no means of bringing its weaker members
+> up to its ordinary standard of rational conduct, except waiting till they
+> do sommething irrational, and then punishing them, legally or morally, 
+> for it.
+
+
+
+> [p77] If society lets any considerable number of its members grow up
+> mere children, incapable of being acted on by rational consideration of
+> distant motives, society has itself to blame for the consequences.
+
+
+
+> [p79] And it is not difficult to show, by abundant instances, that
+> to extend the bounds of what may be called moral police, until it
+> encroaches on the most unquestionably legitimate liberty of the
+> individual, is one of the most universal of all human propensities.
+
+
+
+> [p81] It is affirmed that in the country where this tendency [towards a
+> democratic constitution of society] is most completely realised -- where
+> both society and the government are most democratic -- the United States
+> -- the feeling of the majority, to whom any appearance of a more showy or
+> costly style of living than they can hope to rival is disagreeable,
+> operates as a tolerably effectual sumptuary law, and that in many parts of
+> the Union it is really difficlut for a person possessing a very large
+> income to find any mode of spending it which will not incur popular
+> disapprobation.  Though such statements as these are doubtless much
+> exaggerated as a representation of existing facts, the state of things
+> they describe is not only a conceivable and possible, but a probable
+> result of democratic feeling, combined with the notion that the public has
+> a right to a veto on the manner in which individuals shall spend their
+> incomes. 
+
+
+
+> [p83] Quote of Edward Henry Stanley British Secretary of State for
+> India, 'I claim, as a citizen, a right to legislate whenever my social
+> rights are invaded by the social act of another.'  And now for the
+> definition of these 'social rights.'  'If anything invades my social
+> rights, certainly the traffic in strong drink does.  It destroys my
+> primary right of security, by constantly creating and tsimulating social
+> disorder.  It invades my right of equality, by deriving a profit from the
+> creation of a misery I am taxed to support.  It impedes my right to free
+> moral and intellectual development, by surrounding my path with dangers,
+> and weakening and demoralising society, forom which I have a right to
+> claim mutual aid and intercourse.'
+
+
+
+> [p84] Another important example of illegitimate interference with the
+> rightful liberty of the individual, not simply threatened, but long since
+> carried into triumphant effect, is Sabbatarian legislation. [...] [I]t may be
+> allowable and right that the law should guarantee to each the observance
+> by others of the custom, by suspending the greater operations of industry
+> on a particular day. [...] It is true that the amusement of some is the day's
+> work of others; but the pleasure, not to say the useful recreation, of
+> many, is worth the labour of a few, provided the occupation is freely
+> chosen, and can be freely resigned.
+
+
+
+> [p86] A civilisation that can thus succumb to its vanquished enemy,
+> must first have become so degenerate, that neither its appointed priests
+> and teachers, nor anybody else, has the capacity, or will take the
+> trouble, to stand up for it.  If this be so, the sooner such a
+> civilisation receives notice to quit the better.
+
+
+
+> [p88] [I]t was once held to be the duty of governments, in all cases
+> which were considered of importance, to fix prices, and regulate the
+> processes of manufacture.  But it is now recognised, though not till after
+> a long struggle, that both the cheapness and the good quality of
+> commodities are most effecutally provided for by leaving the producers and
+> sellers perfectly free, under the sole check of equal freedom to the
+> buyers for supplying themselves elsewhere. [...] [W]hat amount of public
+> control is admissible for the prevention of fraud by adulteration; how far
+> sanitary precautions, or arrangements to protect workpeople employed in
+> dangerous occupations, should be enfored on employers.  Such questions
+> involve considerations of liberty, only in so far as leaving people to
+> themselves is always better, caeteris paribus, than countrolling them: but
+> that they may be legitimately controlled for these ends is in principle
+> undeniable. 
+
+
+
+> [p89] Nevertheless, if a public authority, or even a private person,
+> sees any one evidently preparing to commit a crime, they are not bound to
+> look on inactive until the crime is committed, but may interfere to
+> prevent it. [...] If either a public officer or any one else saw a person
+> attempting to cross a bridge which had been ascertained to be unsafe, and
+> there were no time to warn him of his danger, they might seize him and
+> turn him back, without any real infringement of his liberty;  for liberty
+> consists in doing what one desires, and he does not desire to fall into
+> the river.
+
+
+
+> [p90] The making himself drunk, in a person who drunkenness excites to
+> do harm to others, is a crime against others.
+
+
+
+> [p93] The interest, however, of these dealers in promoting intemperance
+> is a real evil, and justifies the State in imposing restriction and
+> requiring guarantees which, but for that justification, would be
+> infringements of legitimate liberty. [...] Taxation, therefore, of stimulants,
+> up to the point which produces the largest amount of revenue (supposing
+> that the State needs all the revenue which it yields) is not only
+> admissible, but to be approved of.
+
+
+
+> [p94] Not only persons are not held to engagements which violote the
+> rights of third parties, but it is sometimes considered a sufficient
+> reason for releasing them from an engagement, that it is injurious to
+> themselves.  In this and most other civilised countries, for example, an
+> engagement by which a person should sell himself, or allow himself to be
+> sold, as a slave, would be null and void; neither enforced by law nor by
+> opinion.
+
+
+
+> [p97] The almost despotic power of husbands over wives needs not be
+> enlarged upon here, because nothing more is needed for the complete removal
+> of the evil than that wives should have the same rights, and should receive
+> the protection of law in the same manner, as all other persons; and
+> because, on this subject, the defenders of established injustice do not
+> avail themselves of the plea of liberty, but stand forth openly as the
+> champions of power. [...] Instead of his being required to make any exertion
+> or sacrifice for securing educaation to his child, it is left to his
+> choice to accept it or not whn it is provided gratis!
+
+
+
+> [p98] The objections which are urged which reason against State
+> education do not apply to the enforcement of education by the State, but
+> to the State's taking upon itself to direct that education; which is a
+> totally different thing.
+
+
+
+> [p99] All attempts by the State to bias the conclusins of its citizens
+> on disputed subjects are evil; but it may very properly offer to ascertain
+> and certify that a person possesses the knowledge requisite to make his
+> conclusions, on any given subject, worth attending to.
+
+
+
+> [p100] The fact itself, of causing the existence of a human being, is
+> one of the most responsible actions in the range of human life.
+
+
+
+> [p102] What the State can usefully do is to make itself a central
+> depositor, and active circulator and diffuser, of the experience resulting
+> from many trials.  Its business is to enable each experimentalist to
+> benefit by the experiments of others; instead of teolerating no
+> experiments but its own. [...] If the roads, the railways, the banks, the
+> insurance offices, the great joint-stock companies, the universities, and
+> the public charities, were all of them branches of the government; if, in
+> addition, the municipal corporations and local boards, with all that now
+> devolves on them, became departments of the central administration; if the
+> employees of all these different enterprises were appointed and paid by
+> the government, and looked to the government for every rise in life; not all
+> the freedom of the press and popular constitution of the legislature would
+> make this or any other country free otherwise than in name.
+
+
+
+> [p116] Harriet Taylor, 'Toleration', To all such we would say, think for
+> yourself, and act for yourself, but whether you have strength to do either
+> the one or the other, attempt not to impede, much less to resent the
+> genuine expression of the others.
+
+
+
+> [p125] 'Case Against Mill' [Anon] The despotism of public opinion in
+> America is not due to the gradual disapperance of local types of opinion
+> and sectional habits of mind, and the natural fusion of political creeds
+> which thus results, -- but to the complete political victory which a false
+> constitutional system has given to the largest and most ignorant class of
+> the community overa ll those whose wishes and judgement were entitled to
+> greater weight.
+
+
+
+> [p133] The only liberty he [Mill] would deny the nation is the liberty
+> to be a nation.  He distrusts social and political freedom.
+
+
+
+> [p146] James Fitzjames Stephen, 'Mill's Fallacies', There is a period,
+> now generally reached all over Europe and America, at which discussion
+> takes the place of compulsion, and in which people when they know what is
+> good for them generally do it.  When this period is reached, compulsion
+> may be laid aside.  To this I should say that no such period has yet been
+> reach anywhere, and that there is no prospect of its being reached
+> anywhere within any assignable time.  
+
+
+
+> [p147] Where, in the very most advanced and civised communities, will
+> you find any class of persons whose views or whose conduct on subjects on
+> which they are interested are regulated even in the main by the results of
+> free discussion? [...] A young man who is educated and so kept under close
+> and continuous discipline till he is twenty-two or twenty-three years of
+> age will generally have a much more vigorous and more original character
+> than one who is left entirely to his own devices at an age when his mind
+> and his tastes are unformed.  Almost every human being requires more or
+> less coercion and restraint as astringents to give him the maximum of
+> power which he is capabale of attaining.
+
+
+
+> [p148] The way in which the man of genious rules is by persuading an
+> efficient minority to coerce an indifferent and self-indulgent majority,
+> which is quite a different process.
+
+
+
+> [p151] Before an act can be treated as a crime, it ought to be capable
+> of distinct definition and of specific proof, and it ought also to be of
+> such a nature that it is worth while to prevent it at the risk of
+> inflicting great damage, direct and indirect, upon those who commit it.
+> These conditions are seldom, if ever, fulfilled by mere vices.
+
+
+
+> [p152] If we now look at the different acts which satisfy the
+> conditions specified, it will, I think, be found that criminal law in this
+> country actually is applied to the suppression of vice and so to the
+> promotion of virtue to a very considerable extent; and this I say is right.
+
+
+
+> [p153] It has been plausably maintained that these laws [on marriage
+> and inheritence, that is, illegitimate children inherit nothing] bear
+> hardly upon bastards, punishing them for the sins of their parents.  It is
+> not necessary to my purpose to go into this, though it appears to me that
+> the law is right.
+
+
+
+> [p162] Willmoore Kendall, 'The Open Society and Its Fallacies',
+> Mill's proposals have as one of their tacit premises a false conception
+> of the nature of societ, and are, therefore, unrealistic on their face.
+> They assume that society is, so to speak, a debating club devoted above
+> all to the pursuit of truth, and capable  therefore of subordinating
+> itself--and all other considerations, goods, and goals--to that pursuit.
+
+
+
+> [p164] In order to practice tolerance on behalf of the pursuit of
+> truth, you have first to value and believe in not merely the pursuit of
+> truth but Truth itself, with all its accumulated riches to date.  The
+> all-questions-are-open-questions society cannot do that; it cannot,
+> therefore, practice tolerance towards those who disagree with it.  It must
+> persecute--and so, on its very own showing, arrest the pursuit of truth.
+
+
+
+> [p165] Still another tacit premise of the proposals is the
+> extraordinary notion that the discussion process, which correctly
+> understood does indeed forward the pursuit of truth, and does indeed call
+> for free discussion, is one and the same thing with Mill's unlimited
+> freedom of speech.  They rest, in consequence, upon a false conception of
+> the discussion process.  What they will produce is not truth but rather
+> only deafening noise and demoralizing confusion. [...] Of the latter point we
+> may sufficienly satisf ourselves, it seems to me, by recalling how the
+> discussion process works in those situations in which men who are products
+> of the tradition organize themselves for a serious venture in the puruit
+> of truth--as they do in, say, a branch of scholarship, an academic
+> discipline, and the community of truth-seekers corresponding to it.
+
+
+
+> Such men demonstrably proceed on some such principles as these:
+> (a) The pursuit of truth is indeed forwarded by the exchange of opinions
+> and ideas among many; helpful suggestions do indeed emerge sometimes from
+> surprising quarters; but one does not leap from these facts to the
+> conclusion that helpful suggestions may come from just anybody.  (bi) The
+> man or woman who mishes to exercise the right to be heard has a logically
+> and temporally prior obligation to prepare himself for participation in
+> the xchange, and to prepare himself in the amnner defined by the
+> community.  Moreover (c), from the moment he begins to participate in the
+> exchange, he must make manifest, by his behaviour, his sencse of the duty
+> to act as if the other participants had something to teach him--the duty,
+> in a word, to see to it that the exchange goes forward in an atmoshphere
+> of courtesy and mutual self-respect.  Next (d), the entrant must so behave
+> as to show that he understands that scholarly investigation did not begin
+> with his appearance on the scene, that there is a strong presumption that
+> prior investigators have not labered entirely in vain, and that the
+> community is the custodian of--let us not sidestep the mot juste--an
+> orthodoxy, no part of which it is going to set lightly to one side.  (e)
+> That orthodoxy must be understood as concerning first and foremost the
+> frame of reference within which the exchange of ideas and opinions is to
+> go forward.  That frame of referenc is, to be sure, subject to change, but
+> this is a matter of meeting the arguments that led originally to its
+> adoption, and meeting them in recognition that the ultimate decision, as
+> to whether or not to change it, lies with the community.  (uf) The
+> entrant, unsofar as he wishes to challenge the orthodoxy, must exect
+> barriers to be placed in his way, and must not be astonished if he is
+> punished, at least in the sholt term, by what are fashionably called
+> 'deprivations'; he must, indeed, recoginze that the barriers and the
+> deprivations are a necessary part of the organized procedure by which
+> truth is pursued.  (g) Access to the channels of communication that
+> represent the community's central rutual (the learned journals, that is to
+> say) is something that the entrant wins by performing the obligation to
+> produce a craftsmanlike piece of work.  (h) The ultimate fate of the
+> entrant who disagrees with the orthodoxy but cannot persuade the community
+> to accetp his point of view is, quite simply, isolation within or
+> banishment from the community.
+
+
+
+> [p168] The point about Mill's model is that by giving equal privileges
+> to those who are in fact opposed to or ignorant of the discussion process,
+> it constitutes a major onslaught against Truth. [...] It would not be easy,
+> of course, to transfer the rules of the discussion process set forth here
+> to the public forum of a society; nor is there any point in denying that
+> the transfer would involve our openly conceding to society far greater
+> powers, particularly as regards silencing the ill-mannered, the ignorant,
+> the irrelevant, than it would ever enjoy under Mill's perscription.  Here,
+> however, two things must be kept in mind.  First (however reluctant we may
+> be to admit it), that society always has, and constantly exercise, the
+> power to silence. And second, that no society is likely, within the
+> foreseeable future, to remake itself in the image of either of the two
+> paradigms. 
+
+
+
+> [p181] If men and women try to create a society in which there is no
+> fundamental agreement about good and evil they will fail; if, having based
+> it on common agreement, the agreement goes, the society will disintegrate.
+> For society is not something that is kept together physically; it is held
+> by the invisible bonds of common thought. [...] The bondage is part of the
+> price of society; and mankind, which needs society, must pay its price.
+
+
+
+> [p185] How are the moral judgements of society to be ascertained? by
+> leaving it until now, I can ask it in the more limited form that is now
+> sufficient for my purpose.  How is the law-maker to ascertain the moral
+> judgements of society? It is surely not enought that they should be
+> reached by the opinien of the majority; it would be too much to require
+> the individula assent of every citizen.  English law has evolved and
+> regularly uses a standard which does not depend on the counting of heads.
+> It is that of the reasonable man.  He is not to be confused with the
+> rationalman.  He is not expected to reason about anything and his
+> judgement may be largely a matter of feeling. [...] He might also be called
+> the right-minded man. [...] Immorality then, for the purpose of the law, is
+> what every right-minded person is presumed to consider to be immoral.
+
+
+
+> [p186] I do not think that one can talk sensibly of a public and
+> private morality any more than one can of a public or private highway.
+> Morality is a sphere in which there is a public interest and a private
+> interest, often in conflict, and the problem is to reconcile the two. [...]
+> No society can do without intolerance, indignation, and disgust; they are
+> the forces bedind the moral law, and indeed it can be argud that if they
+> or something like them are not present, the feelings of society cannot be
+> weighty enough to deprive the individual of freedom of choice. [...] Every
+> moral judgement, unlless it claims a divine source, is simply a feeling
+> that no right-minded man could behave in any other way without admitting
+> that he was doing wrong.  It is the power of a common sense and not the
+> power of reason that is behind the judgements of society.
+
+
+
+> [p187] We should ask ourselves in thefirst instance whether, looking at
+> it calmly and dispassionately, we regard it as a vice so abominable that
+> its mere presence is an offence.  If that is the genuine feeling of the
+> society in which we live, I do not see how society can be denied the right
+> to eradicate it.  Our feeling may not be so intense as that.  We may feel
+> about it that, if confined, it is tolerable, but that if it spread it
+> might be gravely injurious; it is in this way that most societies look
+> upon fornication, seeing it as a natural weakness which must be kept
+> within bounds but which cannot be rooted out.  It becomes then a question
+> of balance, the danger to society in one scale and the extent of the
+> restriction in the other.
+
+
+
+> [p189] The fact that adultery, fornication, and lesbianism are
+> untouched by the criminal law does not prove that homosexuality ought not
+> to be touched.
+
+
+
+> [p190] Society cannot live without morals.  Its morals are those
+> standards of conduct which the reasonable man approves.  A ratinal man,
+> who is also a good man, may have other standards.  If he has no standards
+> at all he is not a good man and need not be further considered.  If he has
+> standards, they may be very different; he may, for example, not disapprove
+> of homosexuality or abortion.  In that case he wil not share in the common
+> morality; but that hsould not make him deny that it is a social necessity.
+> A rebel may be rational in thinking that he is right but he is irrational
+> if he thinks that society can leave him free to rebel.  
+
+
+
+> A man who concedes that morality is necessary to society must support
+> the sue of those instruments without which morality cannot be maintained.
+> The two instruments are those of teaching, which is doctrine, and of
+> enforcement, which is the law.  If morals could be taught simply on the
+> basis that they are necessary to society, there would be no social need
+> for religion;  it could be left as a purely personal affair.  But morality
+> cannot be taught in that way.  Loyalty is not taught in that way either.
+> No society has yet solved the problem of how to teach morality without
+> religion.  So the law must base itself on Christian morals and to the
+> limit of its ability enforce them, not simply because they are the morals
+> which are taught by the established Church--on these points the law
+> recognizes the right to dissent--but for the compelling reason that
+> without the help of Christian teaching the law will fail.
+
+
+
+> [p195] Albert William Levi, 'The Value of Freedom', Intereference with
+> public discussion in an attempt ot safeguard sacred institutions from
+> attack is intrinsically an illegitimate power, and even when public
+> opinion is itself  at one with coercive government in this attempt, it
+> cannot be vindicated.
+
+
+
+> [p205] David Spitz, 'Freedom and Individuality', But Mill valued
+> liberty and diversity precisely because he rejected the possibilty of such
+> an absolutistic conception of morality.
+
+
+
+> [p221] And this, too, is why, howerver we define it, individuality
+> cannot be understood save in such terms as incorporate the elements of
+> spontaneity, diversity, and the latitued of choice provided by freedom of
+> expression and mutual criticism.
+
+
+
+> [p223] For happiness, as Mil was later to argue in his Autobigraphy,
+> eludes men when they seek it as a direct or immediate aim; it is rather a
+> by-product that comes to men in the course of their other activities.
+
+
+
+> [p229] Mill, like any other political philosopher, is writing a book of
+> political principles, not a catalogue of do's and don'ts.  As such, his
+> book cannot anticipate all contigencies, nor can his examples don more
+> than illustrate his meaning. [...] If, therefore, a man were actually to
+> express a willingness to contract himself into slavery, it could only be
+> because the circumstances which surround him are such as to 'force' him
+> into this action; seeing no feasible alternativ, he finds himself
+> compelled to become a slave.
+
+
+
+> [p230] One of the moste glaring faults for which Mill's essay can
+> properly be taken to task is its curious failure to deal with wahat was
+> then, and remains now, one of the greatest sources of danger to individual
+> freedom--the power of social and economic organizations.
+
+
+
+> [p238] What is fundamental to Mill's whole approeach, of course, is the
+> altogether salutary reminder that we are not infallible creatures; that
+> truth cannot be attaned in any complete and final sense; that what we take
+> to be truth must therfore be held tentatively and undogmatically; and that
+> wemust always be prepared, as rational men, to subject the beliefs we hodl
+> to be true to the test of new data and new experiences.
+
+
+
+> [p250] H. L. A. Hart, 'Immorality and Treason', We must ask a question
+> at two different levels which Sir Patrick [Devlin] never clearly enough
+> identifies or separates.  First, we must ask whether a practice which
+> offends moral feeling is harmful, independently of its repercussion on the
+> general moral code.  Secondly, what about repercussion on the moral code?
+> Is it really true that failure to translate this item of general morality
+> into criminal law wil jeopardize the whole fabric of morality and so of
+> society?
+
+
+
+> [p252] 'Morality, what crimes may be committed in thy name!'
+> 
+
+
+

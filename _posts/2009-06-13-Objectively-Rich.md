@@ -11,7 +11,7 @@ and an insignificant amount of the S&P 500.
 
 
 Money doesn't buy hapiness.  Really!  In
-[Stumbling on Happiness](/2009/06/14/BookReview-Stumbling-on-Happiness.html)
+[Stumbling on Happiness](/2009/06/14/Stumbling-on-Happiness.html)
 Dan Gilbert refers to study after study which demonstrates this observation.
 Adam Smith noted this long ago in the Wealth of Nations (quoted in ibid):
 
@@ -62,7 +62,7 @@ O&A's main competitor was
 [The Prediction Company](https://en.wikipedia.org/wiki/Prediction_Company), now a wholly owned subsidiary of the publicly traded
 [Union Bank of Switzerland](https://yhoo.it/2sfGt33).  Yes, you should click on that link.  UBS was the largest bank in
 Switzerland for many years, but an attack from a
-[Black Swan](/2007/08/25/BookReview-The-Black-Swan.html)
+[Black Swan](/2007/08/25/The-Black-Swan.html)
 turned the one-time behemoth into
 [the most mauled European financial player in the global credit crisis](http://www.businessweek.com/magazine/content/08_09/b4073030425608.htm).
 Apparently, the folks at the Prediction Company failed to forecast

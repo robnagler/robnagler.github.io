@@ -1,0 +1,106 @@
+---
+redirect_from: "/2008/01/13/BookReview-Born-Standing-Up.html"
+layout: post
+title: "BookNotes: Born Standing Up: A Comic's Life"
+date: 2008-01-13T12:00:00Z
+---
+By Steve Martin, Scribner, November 20, 2007, 1416553649
+
+Steve Martin is incredibly creative, but like many comedians, his
+creativity were born from a painful childhood and (necessarily)
+difficult adult life.  His strict and harsh father was never a fan of
+his work, and only in the 1990s, did they begin to reconcile their
+differences -- long after Steve left the stage for movies.
+
+I've read a few of Martin's books, and all of them are entertaining.
+While his book Shop Girl is a sketch of his personality, this book
+tells us why he is aloof, awkward, and anxious.  He had not choice in
+becoming a comedian, and yet, it was a very difficult path for such a
+personality.
+
+
+> [p2] I was seeking comic originality, and fame fell on me as a
+> by-product. The course was more plodding than heroic: I did not strive
+> valiantly against doubters but took incremental [p3] steps studded
+> with a few intuitive leaps. I was not naturally talented -- I didn't
+> sing, dance, or act -- though working around that minor detail made me
+> inventive. I was not self-destructive, though I almost destroyed
+> myself. In the end, I turned away from stand-up with a tired swivel of
+> my head and never looked back, until now. A few years ago, I began
+> researching and recalling the details of this crucial part of my
+> professional life -- which inevitably touches upon my personal life --
+> and was reminded why I did stand-up and why I walked away.
+
+
+
+> In a sense, this book is not an autobiography but a biography, because
+> I am writing about someone I used to know. Yes, these events are true,
+> yet sometimes they seemed to have happened to someone else, and I
+> often felt like a curious onlooker or someone trying to remember a
+> dream. I ignored my stand-up career for twenty-five years, but now,
+> having finished this memoir, I view this time with surprising
+> warmth. One can have, it turns out, an affection for the war years.
+
+
+
+> [p80] Then I added: "I have decided my act is going to go
+> avant-garde.  It is the only way to do what I want."
+
+
+
+> I'm not sure what I meant, but I wanted to use the lingo, and it was
+> seductive to make these pronounce-;, ments. Through the years, I have
+> learned there is no harm in charging oneself up with delusions between
+> moments of valid inspiration.
+
+
+NOTE: I can totally relate to this statement.
+
+
+> [p106] My life had been alternately inching or leaping upward: I was
+> proud of my job on the Smothers Brothers' show. I had some cash. My
+> sex life was abundant and selfish. Things were rolling along nicely
+> when I experienced a crushing psychological surprise. One night I was
+> off to the movies with my friends John McClure, George McKelvey, and
+> his wife, Carole. We were going to see Mel Brooks's _The_Producers_,
+> and we decided to smoke a little pot, which had become a dietary
+> staple for me. So now I was high. In the car on the way to the
+> theater, I felt my mind being tom from its present location and lifted
+> into the ether. My discomfort intensified, and I experienced an eerie
+> distancing from my own self that crystallized into morbid doom. I
+> mutely waited for the feeling to pass. It didn't, and I finally said,
+> "I feel strange." We got out of the car, and John, George, and Carole
+> walked me along Sunset Boulevard in the night. I decided to go into
+> the theater, thinking it might be distracting. During the film, I sat
+> in stoic silence as my heart began to race above two hundred beats per
+> minute and the saliva drained [p107] from my mouth so completely that
+> I could not move my tongue. I assumed this was the heart attack I had
+> been waiting for, though I wasn't feeling pain. I was, however,
+> experiencing extreme fear; I thought I was dying, and I can't explain
+> to you why I just sat there. After the movie, I considered checking
+> myself in to a hospital. But if I went to the hospital, I would miss
+> work the next day, which might make me expendable at CBS, where my
+> career was just launching. My friends walked me along Sunset again,
+> and I remember humming, "Whenever I feel afraid, I hold my head erect
+> and whistle a happy tune" from The King and I. I spent the night on
+> George and Carole's couch in absolute terror. I kept wondering, "Am I
+> dying?" but was more concerned with the question "Do I have to quit my
+> job?"
+
+
+ It's difficult for those of us who suffer from anxiety attacks to
+admit it.  It's a crucial part of the illness to be afraid of the
+anxiety, and to leave it unnamed.  Though I rarely suffer from anxiety
+attacks today, I am still ashamed to talk about them.  Perhaps this is
+one of the things that gives them their power over me.
+
+I went through a similar experience about the same age Steve Martin
+had his first attack -- he was about 30.  It's a difficult time for
+men: we are no longer children or young adults, and our life is
+finally cemented, or is it?  Doubts arise about our choices.  Is this
+what we'll be doing forever?  I have known many many to have similar
+experiences to mine.  Our childhoods were different, but the effects
+are the same.  Fundamental doubt leads to extreme fear and anxiety
+attacks.
+
+

@@ -1,0 +1,1007 @@
+---
+redirect_from: "/2007/11/24/BookReview-Out-of-Control.html"
+layout: post
+title: "BookNotes: Out of Control: The New Biology of Machines, Social Systems, & the Economic World"
+date: 2007-11-24T12:00:00Z
+---
+By Kevin Kelly, Perseus Books Group, May 1995, 978-0201483406
+
+Kevin Kelly has a brilliant mind, and this is a great and fun book.
+Kelly has grand ideas encompassing evolution and how it maps to just
+about every complex problem we faced in the 1990s from the "hive mind"
+to "creating multimillion-line programs to fly airplanes".  If you
+like thinking about the "why" of the world, this is a book for you.
+
+Needless to say, I love this stuff.  I have grand ideas, too, and
+having worked in and given up on the Crystal Ball Society, it's fun to
+poke holes in the grand theories.  To be fair to Kelly, however, this
+book was written at a time when everything was predictable.  And,
+predictably, he chatted with the "gurus" at the Prediction Company, a
+rival to where I worked at the time, Olsen & Associates AG (O&A), in
+Zurich.  The easiest way to poke fun at the grand theories is to look
+at where they have led: nowhere.  When I visit predict.com today
+(11/24/2007), I see a company bought out in its heyday by a large
+Swiss bank -- much to the chagrin of Richard Olsen -- and still not
+predicting anything predictably.
+
+I'll poke more holes in the actual text below,
+which is probably untolerably long for most people.  This book taught
+be a lot about a lot of things.  Lots of sticky notes in its pages
+that have been converted by the magic of OCR technology into text.  It
+even converted a LISP program, which amazes me, even though, it's just
+the march of progress that allows me to write these notes with so much
+source material.
+
+
+> [p68] Ecologies and organisms have always been grown. Today computer
+> networks and intricate silicon chips are grown too. Even if we owned
+> the blueprints of the existing telephone system, we could not assemble
+> a replacement as huge and reliable as the one we had without in some
+> sense recapitulating its growth from many small working networks into
+> a planetary web.
+
+
+
+> Creating extremely complex machines, such as robots and software
+> programs of the future, will be like restoring prairies or tropical
+> islands. These intricate constructions will have to be assembled over
+> time because that is the only way to make sure they work from top to
+> bottom. Unripe machinery let out before it is fully grown and fully
+> integrated with diversity will be a common complaint. ''We ship no
+> hardware before its time," will not sound funny before too long.
+
+
+ We own the blueprints to the Internet, and we can assemble an
+Internet quite quickly.  The problem is that we can't connect the
+computers to the people, which is what makes the Internet interesting.
+With a single download, the Google Toolbar turns every computer
+connected to the Internet into a single massively parallel computer.
+The biggest computer assembled in the world, in a matter of hours of
+downloads, all directed by a single entity (Google), which can upgrade
+its networks, also with a push of a button.  The Google network
+including all machines which run its Toolbar is the most complex
+machine ever built, perhaps, except, of course, for the Microsoft
+network, which connects all computers running Windows.  It's pretty
+difficult to imagine this complexity, except when, say, a bug is
+detected, which brings down the whole network.  All of this was a
+nascent dream at the time Kelly wrote his book.  Now that we see how
+complex machines are built today, we know that it has little to do
+with the hardware, and everything to do with the way the software
+interacts.
+
+
+> [p127] Lao Tzu's wisdom could be a motto for a gung-ho 21st-century
+> Silicon Valley startup. In an age of smartness and superintelligence,
+> the most intelligent control methods will appear as uncontrol
+> methods. Investing machines with the ability to adapt on their own, to
+> evolve in their own direction, and grow without human oversight is the
+> next great advance in technology. Giving machines freedom is the only
+> way we can have intelligent control.
+
+
+
+> What little time left in this century is rehearsal time for the chief
+> psychological chore of the 21st century: letting go, with dignity.
+
+
+ A hard psychological lesson for the best of us.  The new
+billionaires have not had (psychological, not evolutionary) time to
+adapt to their billions, and they receive too little feedback to adapt
+quickly.  A theme throughout Kelly's book is the hive mind, yet he is
+drawn to the gurus, not the hive mind, for discussions.  In the two
+thousand years since Lao Tzu published his great book we have not
+learned to let go, I don't know why we would learn to let got now.  We
+cling to guru-worship and populism as a means of learning, when
+learning, I believe, is best done by doing.  This book is a monument
+to holding on to myriad details assembled into a monolith that is the
+antithesis of "Out of Control".
+
+
+> [p155] The biospherians showed the officer receipts and other
+> paperwork that proved the late finches were mere captive-bred store
+> pets, a status that was okay with the Wildlife Department. "By the
+> way, what other birds do you have in there?" he asked them.
+
+
+
+> "Right now, only some English sparrows and a curved-bill thrasher"
+
+
+
+> "Do you have a permit for that curved-bill thrasher?"
+
+
+
+> "Uhhh, no."
+
+
+
+> "You know that under the Migratory Bird Treaty it's against federal
+> law to contain a curved-bill thrasher. I'll have to give you a
+> citation if you are holding him deliberately."
+
+
+
+> "Deliberately? You don't understand. He's a stowaway. We tried very
+> hard to get him out of here. We tried trapping him every way we could
+> think of. We didn't want him here before and we don't want him here
+> now. He eats our bees, and butterflies, and as many insects as he can
+> find, which isn't many by now."
+
+
+
+> The game warden and the biospherians were facing each other on
+> either side of a thick airtight window. Although their noses were
+> inches apart they talked on walkie-talkies. The surreal conversation
+> continued. "Look," the biospherians said, "we couldn't get him out now
+> even if we could catch him. We are _completely_sealed up in here for
+> another year and a half."
+
+
+
+> "Oh. Umm. I see." The warden pauses. "Well, since you aren't keeping
+> him intentionally, I'll issue you a permit for a curved-bill thrasher,
+> and you can release him when you open up."
+
+
+
+> Anyone want to bet he won't ever leave?
+
+
+
+> [p181] A future "hydrogen economy" would use sunlight to crack water
+> into hydrogen and oxygen, and then pump the hydrogen around like
+> natural [p182] gas, burning it for energy where needed. Such an
+> environmentally benign carbon less energy system would ape the
+> photon-based powerpacks in plant cells.
+
+
+
+> [...]
+
+
+
+> Industry will inevitably adopt biological ways because:
+
+
+
+> * It takes less material to do the same job better. [...]
+> * The complexity of built things now reaches biological complexity. [...]
+> * Nature will not move, so it must be accommodated. [...]
+> * The natural world itself-genes and life forms-can be engineered (and patented) just like industrial systems. [...]
+
+
+US-centric.  Other governments don't allow patenting of genes.
+This book is quite US-centric, and for the most part,
+intellectual-centric.  The "hive mind" doesn't like intellectuals,
+because, indeed, they aren't on average.  The "hive mind" aims for
+mediocrity, because it survives.  Gurus do not exist in bee hives or
+other "swarmy" species.  Specializations do occur but not in the form
+of directed intelligence or benevolent dictatorship.  Any bee can talk
+to any other bee to communicate the source of a good place to move or
+a nice flowers.
+
+
+> [p183] Note the woolly flavor of these recent technical conferences
+> and workshops: Adaptive Computation (Santa Fe, April 1992), modeling
+> organic flexibility into computer programs; Biocomputation (Monterey,
+> June 1992), claiming that "natural evolution is a computational
+> process of adaptation to an ever changing environment";
+> Parallel. Problem Solving from Nature (Brussels, September 1992),
+> treating nature as a supercomputer; The Fifth International Conference
+> on Genetic Algorithms (San Diego, 1992), mimicking DNA's power of
+> evolution; and uncountable conferences on neural networks, which focus
+> on copying the distinctive structure of the brain's neurons as a model
+> for learning.
+
+
+
+> Ten years from now the wowiest products in your living room, office,
+> or garage will be based on ideas from these pioneering meetings.
+
+
+ Uh oh, a prediction with a date attached.  I love those.  It's
+quite wrong.  So-called Adaptive Systems, including neural networks,
+are too static.  They are limited by their creators' knowledge.  Ten
+years leater, the coolest gadgets have been ultra-engineered -- as
+they were in 1995 -- by brilliant minds with the hive mind in mind. :-)
+
+
+> [p199] Ted Kaehler invents new kinds of software languages for his
+> living. He was an early pioneer of object-oriented languages, a
+> codeveloper of SmallTalk and HyperCard. He's now working on a "direct
+> manipulation" language for Apple Computers. When I asked him about
+> zero-defect software at Apple he waved it off. "I think it is possible
+> to make zero defects in production software, say if you are writing
+> yet another database program. Anywhere you really understand what you
+> are doing, you can do it without defects."
+
+
+
+> Ted would never get along in a Japanese software mill. He says, "A
+> good programmer can take anything known, any regularity, and cleverly
+> reduce it in size. In creative programming then, anything completely
+> understood disappears. So you are left writing down what you don't
+> know .... So, yeah, you can make zero-defect software, but by writing
+> a program that may be thousands of lines longer than it needs to be."
+
+
+
+> This is what nature does: it sacrifices elegance for reliability. The
+> neural pathways in nature continue to stun scientists with how
+> non-optimized they are. Researchers investigating the neurons in a
+> crayfish's tail reported astonishment at how clunky and inelegant the
+> circuit was. With a little work they could come up with a more
+> parsimonious design. But the crayfish tail circuit, more redundant
+> than it perhaps needed to be, was error free.
+
+
+
+> The price of zero-defect software is that it's over-engineered,
+> overbuilt, a bit bloated, and never on the edge of the unknown where
+> Ted and friends hang out. It trades efficiency of execution for
+> efficiencies of production.
+
+
+ Where is Ted Kaehler today?  He's no longer a guru.  The hive
+mind rejected his ideas.  SmallTalk and HyperCard are dead
+(effectively).  Tandem Computers, Inc. is dead, too (effectively).
+Tandem had a zero-defect policy for its software.  It failed to evolve
+in a world where defects could be fixed on the fly.  That's what Kelly
+is missing: software can be repaired rapidly, and if the programmers
+are clever, the defect usually involves eliminating the defective
+software without any loss in function.  That's counter-intuitive if
+you think of programs being written by lots of programmers.  If your
+"fitness" criterium for the evolution of programming is team size and
+larger is better, then yes, you'll evolve a larger and larger team.
+If your fitness criteria includes smaller and smaller, you'll evolve
+towards that.  The danger of Kelly's swarmy philosophy is that is
+large by definition, and any problems we encounter require mass not
+intellect.
+
+
+> [p225] Ubiquitous digital cash dovetails well with massive electronic
+> networks.  It's a pretty sound bet that the Internet will be the first
+> place that e-money will infiltrate deeply. Money is another type of
+> information, a compact type of control. As the Net expands, money
+> expands. Wherever information goes, money is sure to follow. By its
+> decentralized, distributed nature, encrypted e-money has the same
+> potential for transforming economic structure as personal computers
+> did for overhauling management and communication structure. Most
+> importantly, the privacy/security innovations needed for e-money are
+> instrumental in developing the next level of adaptive complexity in an
+> information-based society. I'd go so far as to say that truly digital
+> money-or, more accurately, the economic mechanics needed for truly
+> digital cash-will rewire the nature of our economy, communications,
+> and knowledge.
+
+
+ E-money has not evolved as Kelly hoped, except that many people
+eliminate the hyphen and call it ecash.
+
+
+> [p279] In evolutionism, the borrowed concepts of mutation and sexual
+> reproduction spawn the art. Instead of painting or creating textures
+> for computer graphic models, artist Sims evolves them. He drifts into
+> a region of woodlike patterns and then evolves his way to the exact
+> grainy, knot-ridden piney look which he can use to color a wall in a
+> video he is making.
+
+
+
+> You can now do this on a Macintosh with a commercial template for
+> Adobe Photoshop software. Written by Kai Krause, the Texture Mutator
+> lets ordinary computer owners breed textures from a choice of eight
+> offspring every generation.
+
+
+
+> Evolutionism reverses the modern trend in the design of artist's tools
+> that bends toward greater analytical control. The ends of evolution
+> are more subjective ("survival of the most aesthetic"), less
+> controlled, more related to art generated in a dream or trance; more
+> found.
+
+
+ We haven't moved towards evolutionary art.  The web (if you call
+it art) is all about more and more exacting control, be it asetic Web
+2.0 or abundant MySpace aesthics, it's about the artist's control over
+every last detail.
+
+
+> [p280] In the end, breeding a useful thing becomes almost as
+> miraculous as creating one. Richard Dawkins echoes this when he
+> asserts that "effective searching procedures become, when the
+> search-space is sufficiently large, indistinguishable from true
+> creativity." In the library of all possible books, finding a
+> particular book is equivalent to writing it.
+
+
+
+> This sentiment was recognized centuries ago, long before the advent of
+> computers. As Denis Diderot wrote in 1755:
+
+
+
+> "The number of books will grow continually, and one can predict that a
+> time will come when it will be almost as difficult to learn anything
+> from books as from the direct study of the whole universe. It will be
+> almost as convenient to [p281] search for some bit of truth
+> concealed in nature as it will be to find it hidden away in an
+> immense multitude of bound volumes."
+
+
+
+> [p308] Parallel computers embody the challenge of all distributed
+> swarm systems, including phone networks, military systems, the
+> planetary 24-hour financial web, and large computer networks. Their
+> complexity is taxing our ability to steer them. 'The complexity of
+> programming a massively parallel machine is probably beyond us," Tom
+> Ray told me. "I don't think we'll ever be able to write software that
+> fully uses the capacity of parallelism."
+
+
+
+> Little dumb creatures in parallel that can "write" better software
+> than humans can suggests to Ray a solution for our desire for parallel
+> software. "Look," he says, "ecological interactions are just parallel
+> optimization techniques. A multicellular organism essentially runs
+> massively parallel code of an astronomical scale. Evolution can
+> 'think' of parallel programming ways that would take us forever to
+> think of. Ifwe can evolve software, we'll be way ahead." When it comes
+> to distributed network kinds of things, Rays says, "Evolution is the
+> natural way to program."
+
+
+
+> The natural way to program! That's an ego-deflating lesson. Humans should stick to what they do best: small, elegant, minimal systems that are fast and deep. Let natural evolution (artificially injected) do the messy big work.
+
+
+
+> Danny Hillis has come to the same conclusion. He is serious when he
+> says he wants his Connection Machine to evolve commercial
+> software. ''We want these systems to solve a problem we don't know how
+> to solve, but merely [p309] know how to state." One such problem is
+> creating multimillion-line programs to fly airplanes. Hillis proposes
+> setting up a swarm system which would try to evolve better software to
+> steer a plane, while tiny parasitic programs would try to crash it. As
+> his experiments have shown, parasites encourage a faster convergence
+> to an error-free, robust software navigation program. Hillis: "Rather
+> than spending uncountable hours designing code, doing error-checking,
+> and so on, we'd like to spend more time making better parasites!"
+
+
+ Thinking Machines was another casualty of the exuberance of the
+1990s.  Do we need "multimillion-line programs to fly airplanes"?  Are
+there that many concepts that need to be encoded?  I think not.  When
+you think big IT, you get big IT.  When you think about the problem
+and design tests which embody it, you get small programs that can be
+refactored (not evolved!) by programmers who know how to match
+patterns, because evolution has taught them that's what they need to
+do.  We are not simple parasitic organisms but rather the culmination
+of billions of years of parallel time.  That's why we can do better
+than parasites, if we simple focus on programming, and not try to come
+up with grand theories of how we might program better.
+
+
+> [p338] (SIN (IFLTE (IFLTE (+ Y Y) (+ x Y) (- x Y) (+ Y Y>> (* x X) (SIN
+> (IFLTE (% Y Y) (% (SIN (SIN (% YO. 30400002>>) X) (% Y 0.30400002)
+> (IFLTE (IFLTE (% (SIN (% (% Y (+ X Y>> 0.30400002>> (+ X Y>> (% X
+> 0.10399997) (- X Y) (* (+ -0.12499994 -0.15999997) (- X Y>>) 0.30400002
+> (SIN (SIN (IFLTE (% (SIN (% (% Y 0.30400002) 0.30400002>> (+ X Y>> (%
+> (SIN Y) Y) (SIN (SIN (SIN (% (SIN X) (+ -0.12499994 -0.15999997>>>>) (%
+> (+ (+ X Y) (+ Y Y>> 0.30400002>>>> (+ (+ X Y) (+ Y Y>>>>) (SIN (IFLTE
+> (IFLTE Y (+ X Y) (- X Y) (+ Y Y>> (* X X) (SIN (IFLTE (% Y Y) (% (SIN
+> (SIN (% Y 0.30400002>>) X) (% Y 0.30400002) (SIN (SIN (IFLTE (IFLTE
+> (SIN (% (SIN X) (+ -0.12499994 -0.15999997>>) (% X -0.10399997) (- X Y)
+> (+ X Y>> (SIN (% (SIN X) (+ -0.12499994 -0.15999997>>) (SIN (SIN (% (SIN
+> X) (+ -0.12499994 -0.15999997>>>> (+ (+ X Y) (+ Y Y>>>>>>) (% Y
+> 0.30400002>>>>).
+
+
+NOTE: I think the above is very cool, because the OCR system pulled
+this out of prose without missing a step, and the OCRed text contains
+enough mistakes to yield the intent for the book's purpose, yet the
+software is not executable by any interpreter that is built today, and
+you don't need to understand LISP to recognize the breaks in the
+pattern.  The errors are visible, because we understand patterns, and
+no known program can fix them.  The OCR program didn't convert it
+correctly to ASCII (even 7 bit ASCII, which is something it should
+have known to do), and it had the source.  The OCR program did not
+know it was LISP, and it probably would never have known that, because
+LISP is a programming language and the rest of the scanned text was
+not.  The fact that it was in a fixed with font *could* have tipped it
+off, but it didn't.   Could an evolutionary computer program figured
+out this was LISP and it should be executable?  What is executable?
+What is LISP?  Inquiring minds want to know, and parasites just want
+to get their next meal.
+
+
+> [p338] There was no evolutionary pressure in [John] Koza's world toward
+> simple solutions. His experiment could not have found that distilled
+> equation because it wasn't structured to do so. Koza tried applying
+> parsimony in other runs but found that parsimony added to the
+> beginning of a run dampened the efficiency of the solutions. He'd find
+> simple but mediocre to poor solutions. He has some evidence that
+> adding parsimony at the end of evolutionary procedure-that is, first
+> let the system find a solution that kind of works and then start
+> paring it down-is a better way to evolve succinct equations.
+
+
+
+> But Koza passionately believes parsimony is highly overrated. It is,
+> he says, a mere "human esthetic." Nature isn't particularly
+> parsimonious. For instance, David Stork, then a scientist at Stanford,
+> analyzed the neural circuits in the muscles of a crayfish tail. The
+> network triggers a curious backflip when the crayfish wants to
+> escape. To humans the circuit looks baroquely complex and could be
+> simplified easily with the quick removal of a couple of superfluous
+> loops. But the mess works. Nature does not simplify simply to be
+> elegant.
+
+
+ When I was at O&A, I called Koza to try to get him to let use
+his genetic programming techniques for free.  He wouldn't.  They were
+patented.  I could probably use them today for free, but I wouldn't
+want to.  They have failed to prove themselves.  Koza is no closer to
+a genetically programmed system to predict the stock markets.  He's
+not on the Forbes 400 list, but two guys named Serey Brin and Larry
+Page are tied for spot #5.  They weren't Koza's students at Stanford,
+and at the time this book was written, it would have been laughable
+for someone to come up with a new type of search that would have
+beaten the existing players.  First-movers were all the rage.  Yet
+another grand theory down the tubes.
+
+
+> [p379] Small changes can be magnified as development unfolds. In this
+> way, morphogenesis skips Darwinian gradualism. This point was made by
+> the Berkeley geneticist Richard Goldschmidt, whose ideas on nongradual
+> evolution were derided and scorned throughout his life. His major
+> work, The Material Basis of Evolution (1940), was dismissed as
+> near-crackpot until Steven Jay Gould began a campaign to resurrect his
+> ideas in the [p380] 1970s. Goldschmidt's title mirrors a theme of mine
+> here: that evolution is an intermingling of material and information,
+> and that genetic logic cannot be divorced from the laws of material
+> form in which it dwells. (An extrapolation of this idea would be that
+> artificial evolution will run slightly differently from natural
+> evolution as long as it is embedded on a different substrate.)
+
+
+
+> Goldschmidt spent a unrewarded lifetime showing that extrapolating the
+> gradual transitions of microevolution (red rose to yellow rose) could
+> not explain macroevolution (worm to snake). Instead, he postulated
+> from his work on developing insects that evolution proceeded by
+> jumps. A small change made early in development would lead to a large
+> change-a monster-at the adult stage. Most radically altered forms
+> would abort, but once in a while, large change would cohere and a
+> hopeful monster would be born. The hopeful monster would have a full
+> wing, say, instead of the halfwinged intermediate form Darwinian
+> theory demanded. Organisms could arrive fully formed in niches that a
+> series of partially formed transitional species would never get
+> to. The appearance of hopeful monsters would also explain the real
+> absence of transitional forms in fossil lineages.
+
+
+
+> Goldschmidt made the intriguing claim that his hopeful monsters could
+> most easily be generated by small shifts in developmental timing. He
+> found "rate genes" that controlled the timing of local growth and
+> differentiation processes. For instance, a tweak in the gene
+> controlling the rates of pigmentation would produce caterpillars of
+> wildly different color patterns. As his champion Gould writes, "Small
+> changes early in embryology accumulate through growth to yield
+> profound differences among adults .... Indeed, if we do not invoke
+> discontinuous change by small alterations in rates of development, I
+> do not see how most major evolutionary transitions can be accomplished
+> at all."
+
+
+
+> [p385] These fruitful questions about the constitutional laws of
+> evolution are being asked, not in biological terms, but in the
+> language of a new science, the science of complexity. Biologists find
+> it most grating that the impetus for this postdarwinian convergence
+> comes chiefly from mathematicians, physicists, computer scientists,
+> and whole systems theorists-people who couldn't tell the difference
+> between Cantharellus cibarius and Amanita muscaria (one of them a
+> deadly mushroom) if their lives depended on it. Naturalists have had
+> nothing but scorn for those so willing to simplify nature's complexity
+> into computer models, and to disregard the conclusions of that most
+> awesome observer of nature, Charles Darwin.
+
+
+
+> Of Darwin's insights, Darwin himself reminded readers in his update to
+> the third edition of Origin of Species:
+
+
+
+> As my conclusions have lately been much misrepresented, and it has
+> been stated that I attribute the modification of species
+> exclusively to natural selection, I may be permitted to remark
+> that in the first edition of this work, and subsequently, I place
+> in a most conspicuous position-namely at the close of the
+> Introduction-the following words: "I am convinced that natural
+> selection has been the main, but not the exclusive means of
+> modification." This has been of no avail. Great is the power of
+> steady misrepresentation.
+
+
+
+> Neodarwinism presented a wonderful story of evolution through natural
+> selection, a just-so story whose logic was impossible to argue with:
+> since natural selection could logically create all things, all things
+> were created via natural selection. AJ; long as the argument was over
+> the history of our one life on Earth, one had to settle for this broad
+> interpretation unless inarguable evidence would come along to prove
+> otherwise.
+
+
+
+> It has not yet come. The clues I present here of symbiosis, directed
+> mutation, saltationism, and self-organization, are far from
+> conclusive. But they are of a pattern: that evolution has multiple
+> components in addition to natural selection. And furthermore, these
+> bits and questions are being stirred up by a bold and daring vision:
+> to synthesize evolution outside of biology.
+
+
+
+> [p397]
+
+
+
+> "You can't ask the experimental question until, roughly speaking, the
+> intellectual framework is in place. So the critical thing is asking
+> importan questions," [Stuart] Kauffman warned me. Often during our
+> conversations, I'd catch Kauffman thinking aloud. He'd spin off wild
+> speculations and then seize one and twirl it around to examine it from
+> various directions. "How do you ask that question?" he asked himself
+> rhetorically. His quest was for the Question of All Questions rather
+> than the Answer of All Answers. "Once you've asked the question," he
+> said, "there's a good chance of finding some sort of answer.
+
+
+
+> A Question Worth Asking. That's what Kauffman thought of his notion of
+> self-organized order in evolutionary systems. Kauffman confided to me:
+
+
+
+> "Somehow, each of us in our own heart is able to ask questions that we
+> think are profound in the sense that the answer would be truly
+> important. The enormous puzzle is why in the world any of us ask the
+> questions that we do."
+
+
+ The essence of programming is asking the right questions, not
+seeking the right answers (tools).
+
+
+> [p401] The art of evolution is the art of managing dynamic
+> complexity. Connecting things is not difficult; the art is finding
+> ways for them to connect in an organized, indirect, and limited way.
+
+
+
+> [p417] The evolution of evolution does not mean merely that the
+> mutation rate is evolving, although it could entail this. In fact, the
+> mutation rate is remarkably constant over time throughout not only the
+> organic world but also the world of machines and hyperlife. (It is
+> rare for mutation rates to go above a few percent and rare for them to
+> drop below a hundredth of a percent. Somewhere around a tenth of a
+> percent seems to be ideal. That means that a nonsensical wild idea
+> once in a thousand is all that is needed to keep things evolving. Of
+> course one in a thousand is pretty wild for some places.)
+
+
+
+> Natural selection tends to maintain a mutation rate for maximal
+> evolv-, ability. But for the same advantage, natural selection will
+> move all parameters of a system to the optimal point where further
+> natural selection can take place. However that point of optimal
+> evolvability is a moving target shifted by the very act of reaching
+> for it. In one sense, an evolutionary system is stable because it
+> continually returns itself to the preferred state of optimal
+> evolvability. But because that point is moving-like a chameleon's
+> colors on a mirror-the system is perpetually in disequilibrium.
+
+
+
+> The genius of an evolutionary system is that it is a mechanism for
+> generating perpetual change. Perpetual change does not mean recurrent
+> change, as the kaleidoscope of pedestrian action on a street corner
+> may be said to endure perpetual change. That's really perpetual
+> dynamism. Perpetual change means persistent disequilibrium, the
+> permanent almost-fallen state. It means change that undergoes change
+> itself. The result will be a system that is always on the edge of
+> changing itself out of existence.
+
+
+
+> Or into existence. The capacity to evolve must be evolved
+> itself. Where else did evolution come from in the first place?
+
+
+
+> If we accept the theory that life evolved from some kind of nonlife,
+> or protolife, then evolution had to precede life. Natural selection is
+> an abiological consequence; it could very well work on protoliving
+> populations. Once fundamental varieties of evolution were operating,
+> more complex varieties kicked in as the complexity of forms
+> allowed. What we witness in the fossil record of Earthly life is the
+> gradual accumulation of various types of simpler evolutions into the
+> organic whole we now call evolution. Evolution is a conglomeration of
+> many processes which form a society of evolutions. As evolution has
+> evolved over time, evolution itself has increased in diversity and
+> complexity and evolvability. Change changes itself.
+
+
+
+> [p420] I'm sitting on a sofa in the guru's office. I've trekked to
+> this high mountain outpost at one of the planet's power points, the
+> national research labs at Los Alamos, New Mexico. The office of the
+> guru is decorated in colorful posters of past hi-tech conferences that
+> trace his almost mythical career: from a maverick physics student who
+> formed an underground band of hippie hackers to break the bank at Las
+> Vegas with a wearable computer, to a principal character in a renegade
+> band of scientists who invented the accelerating science of chaos by
+> studying a dripping faucet, to a founding father of the artificial
+> life movement, to current head of a small 'lab investigating the new
+> science of complexity in an office kitty-corner to the museum of
+> atomic weapons at Los Alamos.
+
+
+
+> The guru, Doyne Farmer, looks like Ichabod Crane in a bolo tie. Tall,
+> bony, looking thirty-something, Doyne (pronounced Doan) was embarking
+> on his next remarkable adventure. He was starting a company to beat
+> the odds on Wall Street by predicting stock prices with computer
+> simulations.
+
+
+
+> "I've been thinking about the future, and I have one question," I
+> begin.
+
+
+
+> "You want to know if IBM is gonna be up or downl" Farmer suggests with
+> a wry smile.
+
+
+
+> "No. I want to know why the future is so hard to predict."
+
+
+
+> "Oh, that's simple."
+
+
+
+> I was asking about predicting because a prediction is a form of
+> control. It is a type of control particularly suited to distributed
+> systems. By anticipating the future, a vivisystem can shift its stance
+> to preadapt to it, and in this way control its destiny. John Holland
+> says, "Anticipation is what complex adaptive systems do. "
+
+
+
+> Farmer likes to use a favorite example when explaining the anatomy of
+> a prediction. "Here catch this!" he says tossing you a ball. You grab
+> it. ''You know how you caught that?" he asks. "By prediction."
+
+
+ Deceived by simplicity and lots of zeroes.  Can a bee catch a
+ball?  For that matter, can a whole swarm catch a ball?  And, catching
+a ball is a one-body problem.  After I finished this book, I went out
+to have a snowball fight with my kids.  Do you realize how hard it is
+to hit a kid with a snowball even if he is sitting on the ground?  We
+have not evolved to solve the two-body problem all that well.  We
+consider it great skill to be able to hit a standing target with a
+powerful weapon, and an even greater skill to hit a moving target with
+that same powerful weapon.  Have you ever gone skit shooting with a
+bow and arrow?  The stock market is an N-body problem.  Catching a
+ball has been drilled in over evolutionary time, and it's a trivial
+problem.  One more point, "If you can dodge a wrench, you can dodge a
+ball" is a very funny line, just because it is still a hard problem to
+not get hit by something that is moving at human speeds.
+
+ The second issue with this quote is that it begins Chapter 22
+titled: Prediction Machinery.  Farmer is the "god", and Kelly is the
+"supplicant".  Farmer's insatiable ego fills the beginning of this
+chapter before Kelly really gets going.  Who is Farmer trying to
+please with the statement: "Oh, that's simple"?  Why trivialize a
+problem that Kelly has been searching 21 chapters to figure out?  To
+show that Caveman Farmer can wield a club better than Caveman Kelly.
+What does this have to do with evolution?  Nothing and everything.
+The way we react as the "hive mind" to tree-pissing is pretty much the
+same as we reacted thousands of years ago.  We no longer fear for our
+physical safety, but when someone tries to pee higher intellectually,
+we react in the same way: fear.  Not to say that Kelly was afraid, but
+the text above demonstrates his extreme deference to a "god" in the
+field of prediction.  Where is Doyne Farmer today?  He's not on the
+Forbes 400 list, and he surely was trying to get there at the
+Prediction Company.  Gurus are not evolved, they are created by the
+hive mind.
+
+
+> [p428] Sure, you can't predict where the water will go a half-mile
+> downstream, but for five seconds-or five hours on Wall Street-you can
+> predict the unfolding show. That's all you really need to be useful
+> (or rich). Find any pattern and exploit it. The Prediction Company's
+> algorithms grab a fleeting bit of order and exploit this ephemeral
+> archetype to make money. Farmer and Packard emphasize that while
+> economists are obliged by their profession to unearth the cause of
+> such patterns, gamblers are not bound so. The exact reason why a
+> pattern forms is not important for the Prediction Company's
+> purposes. In inductive models-the kind the Prediction Company
+> constructs-the abstracted causes of events are not needed, just as
+> they aren't needed for an outfielder's internalized ballistic notions,
+> or for a dog to catch a tossed stick.
+
+
+
+> [p447] The dream of [Dana] Meadows is the same as that of [Jay]
+> Forrester, the U.S. Command Central wargamers, Farmer and the
+> Prediction Company, and myself, for that matter: to create a system (a
+> machine) that sufficiently mirrors the real evolving world so that
+> this miniature can run faster than real life and thus project its
+> results into the future. We'd like prediction machinery not for a
+> sense of predestiny but for guidance. And ideally it must be a
+> Kauffman or von Neumann machine that can create things more complex
+> that itself.
+
+
+ A machine that can "sufficiently mirror the real evolving world"
+would need to take into account itself.  It would be more than a
+butterly flying in Brazil.  It would be a machine whose output would
+change the course of events (larger or small), guaranteed.  Anything
+or anyone which could read the output would be able to act or not act
+on it, and that decision itself would have to be incorporated in the
+model.  Impossible and to which Kelly alludes as follows:
+
+
+> [p449] On Earth, there is no outside platform from which to send an
+> intelligent hand into the vivisystem, and no point inside where a
+> control dial waits to be turned. The direction of large swarm like
+> systems such as human society is controlled by a messy multitude of
+> interconnecting, self-contradictory agents who have only the dimmest
+> awareness of where the whole is at anyone moment. Furthermore, many
+> active members of this swarmy system are not individual human
+> intelligences; they are corporate entities, groups, institutions,
+> technological systems, and even the nonbiological systems of the Earth
+> itself.
+
+
+
+> The song goes: No one is in charge. We can't predict the future.
+
+
+
+NOTE: But he still believes we can control it at some level.
+
+
+> Now hear the flip side of the album: We are all steering. And we can
+> learn to anticipate what is immediately ahead. To learn is to live.
+
+
+
+> [p456] Alan Lightman and Owen Gingerich, writing in a 1991 Science
+> article, ''When Do Anomalies Begin?," claim that contrary to the
+> reigning Kuhnian model of science, "certain scientific anomalies are
+> recognized only after they are given compelling explanations within a
+> new conceptual framework. Before this recognition, the peculiar facts
+> are taken as givens or are ignored in the old framework." In other
+> words, the real anomalies that eventually overthrow a reigning
+> paradigm are at first not even perceived as anomalies. They are
+> invisible.
+
+
+
+> [p457] The final section in my book is a short course in what we, or
+> at least I, don't know about complex adaptive systems and the nature
+> of control. It's a list of questions, a catalogue of holes. A lot of
+> the questions may seem silly, obvious, trivial, or hardly worth
+> worrying about, even for nonscientists. Scientists in the pertinent
+> fields may say the same: these questions are distractions, the ravings
+> of a amateur science-groupie, the ill-informed musing of a
+> techno-transcendentalist. No matter. I am inspired to follow this
+> unorthodox short course by a wonderful paragraph written by Douglas
+> Hofstadter in an forward to Pentti Kanerva's obscure technical
+> monograph on sparse distributed computer memory. Hofstadter writes:
+
+
+
+> I begin with the nearly trivial observation that members of a
+> familiar perceptual category automatically evoke the name of the
+> category. Thus, when we see a staircase (say), no matter how big
+> or small it is, no matter how twisted or straight, no matter how
+> ornamented or plain, modern or old, dirty or clean, the label
+> "staircase" spontaneously jumps to center stage without any
+> conscious effort at all. Obviously, the same goes for telephones,
+> mailboxes, milkshakes, butterflies, model airplanes, stretch
+> pants, gossip magazines, women's shoes, musical instruments, beach
+> balls, station wagons, grocery stores, and so on. This phenomenon,
+> whereby an external physical stimulus indirectly activates the
+> proper part of our memory, permeates human life and language so
+> thoroughly that most people have a hard time working up any
+> interest in it, let alone astonishment, yet it is probably the
+> most key of all mental mechanisms.
+
+
+
+> To be astonished by a question no one else can get worked up about, or
+> to be astonished by a matter nobody considers a problem, is perhaps a
+> better paradigm for the progress of science.
+
+
+
+> This book is based on my astonishment that nature and machines work at
+> all. I wrote it by trying to explain my amazement to the reader. When
+> I came to something I didn't understand, I wrestled with it,
+> researched, or read until I did, and then started writing again until
+> I came to the next question [p458] tion I couldn't readily
+> answer. Then I'd do the cycle again, round and round. Eventually I
+> would come to a question that stopped me from writing further. Either
+> no one had an answer, or they provided the stock response and would
+> not see my perplexity at all. These halting questions never seeme&
+> weighty at first encounter-just a question that seems to lead to
+> nowhere for now. But in fact they are protoanomalies. Like
+> Hofstadter's unappreciated astonishment at our mind's ability to
+> categorize objects before we recognize them, out of these quiet
+> riddles will come future insight, and perhaps revolutionary
+> understanding, and eventually recognition that we must explain them.
+
+
+
+> [...]
+
+
+
+> And what is "complexity" anyway? I looked forward to the two 1992
+> science books identically titled Complexity, one by Mitch Waldrop and
+> one by Roger Lewin, because I was hoping one or the other would
+> provide me with a practical measurement of complexity. But both
+> authors wrote books on the subject without hazarding a guess at a
+> usable definition. How do we know one thing or process is more complex
+> than another? Is a cucumber more complex that a Cadillac? Is a meadow
+> more complex than a mammal brain? Is a zebra more complex than a
+> national economy? I am aware of three or four mathematical definitions
+> for complexity, none of them broadly useful in answering the type of
+> questions I just asked. We are so ignorant of complexity that we
+> haven't yet asked the right question about what it is.
+
+
+
+> If evolution tends to grow more complex, why? And if it really does
+> not, then why does it appear to? Is complexity in fact more efficient
+> than simplicity?
+
+
+
+> [p459] How far can you compress a meadow into seeds? This was the
+> question the prairie restorers inadvertently asked. Can you reduce the
+> treasure of information contained in an entire ecosystem into several
+> bushels of seeds, which, when watered, would reconstitute the awesome
+> complexity of prairie life? Are there important natural systems which
+> simply cannot be reduced and modeled accurately? Such a system would
+> be its own smallest expression, its own model. Are there any
+> artificial large systems that cannot be compressed or abstracted?
+
+
+ I believe that the limits of abstraction are the limits of our
+minds (or other software) to understand abstraction.  We can abstract
+systems, because we can recognize patterns, and then give them a
+name.  The choice of name is everything, as it is the guide to our
+adaptive taxonomy of the system itself.  Computers don't need to give
+names to patterns, because they can use the "long name" (the thing
+itself) to find the thing they are looking for.  The act of naming a
+bit of code is a requirement for a human programmer to communicate
+with another human programmer.  It compresses communication, not the
+thing itself, in order to create even greater abstractions.  When I
+use the world LISP, you know what it means, if you are a reasonably
+versed programmer.  A computer simply calls up the interpreter when I
+mention LISP.  It doesn't understand the abstraction of LISP; it
+merely understands how to interpret LISP programs.
+
+
+> [p459] I'd like to know more about stability. If we build a "stable" system,
+> is there some way we can define that? What are the boundary
+> conditions, the requirements, for stable complexity? When does change
+> cease to be change?
+
+
+
+> [p460] Every figure I've heard for both natural and artificial
+> self-sustaining systems puts the self-stabilizing mutation rate
+> between 1 percent and 0.01 percent. Are mutation rates universal?
+
+
+
+> [p461] The ever insightful [Jay David] Bolter writes, "Critics accuse
+> the computer of promoting homogeneity in our society, of producing
+> uniformity through automation, but electronic reading and writing have
+> just the opposite effect." Computers promote heterogeneity,
+> individualization, and autonomy.
+
+
+
+> No one has been more wrong about computerization than George Orwell in
+> 1984. So far, nearly everything about the actual possibility-space
+> which computers have created indicates they are the end of authority
+> and not its beginning.
+
+
+
+> Swarm-works have opened up not only a new writing space for us, but a
+> new thinking space. If parallel supercomputers and online computer
+> networks can do this, what kind of new thinking spaces will future
+> technologies--such as bioengineering-offer us? One thing
+> bioengineering could do for the space of our thinking is shift our
+> time scale. We moderns think in a bubble of about ten years. Our
+> history extends into the past five years and our future runs ahead
+> five years, but no further. We don't have a structured way, a cultural
+> tool, for thinking in terms of decades or centuries. Tools for
+> thinking about genes and evolution might change this.
+
+
+ It's an odd term "bubble" in the above, for that is what it was
+named afterwards.  Quite prescient.  We don't have a way of
+communicating the concept of time in non-human terms.  I thought I
+knew everything about programming while I was at O&A, and then I went
+to Tandem, and a few other companies before starting bivio.  I realize
+now how little I understand about programming, and how much more I can
+learn by programming.  It's our nature to not be able to look decades
+ahead, because the average human lifespan (in organic evolutionary
+terms) is just a couple of decades.
+
+
+> [p469] C How do you make something from nothing? Although nature knows
+> this trick, we haven't learned much just by watching her. We have
+> learned more by our failures in creating complexity and by combining
+> these lessons with small successes in imitating and understanding
+> natural systems. So from the frontiers of computer science, and the
+> edges of biological research, and the odd corners of interdisciplinary
+> experimentation, I have compiled The Nine Laws of God governing the
+> incubation of somethings from nothing:
+
+
+
+> * Distribute being
+> * Control from the bottom up
+> * Cultivate increasing returns
+> * Grow by chunking
+> * Maximize the fringes
+> * Honor your errors
+> * Pursue no optima; have multiple goals
+> * Seek persistent disequilibrium
+> * Change changes itself.
+
+
+
+> These nine laws are the organizing principles that can be found
+> operating in systems as diverse as biological evolution and
+> SimCity. Of course I am not suggesting that they are the only laws
+> needed to make something from nothing; but out of the many
+> observations accumulating in the science of complexity, these
+> principles are the broadest, crispest, and most representative
+> generalities. I believe that one can go pretty far as a god while
+> sticking to these nine rules.
+
+
+ Chapter 24: The Nine Laws of God.  Why nine? Why not seventeen?
+Why 24 chapters?  Numbers are not evolutionary.  24 is a nice number
+so is nine.  Are these the only laws that work?  I believe programming
+is pursuing an optimum: eliminating dupclication.  Encoding a problem is
+relatively easy, and I don't really consider that programming.  It's
+understanding the solution as a problem to be reduced, and reducing it
+to its barest solution, while verifiably preserving its existing
+function.  That's the easy rule of programming and the hard part.  It
+means that we are just automotons trying to do a very simple thing:
+detect patterns and name them.  It's the last bit that's the hard
+part.
+
+
+
