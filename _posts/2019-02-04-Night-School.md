@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Night School: Wake up to the power of sleep"
+title: "BookNotes: Night School: Wake up to the power of sleep"
 date: 2019-02-04T13:08:00Z
 ---
 By Richard Wiseman, Spin Solutions Ltd, March 8, 2014, 1447248406
