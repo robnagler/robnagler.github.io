@@ -39,8 +39,9 @@ incredibly supportive family, friends, and
 work colleagues.
 
 My opinions are informed mostly from my reading.  You can find many
-[reviews of books I find interesting](https://www.google.com/search?q=site:robnagler.com+BookReview) on this site.  I used to add a review a month, but
-I haven't had the time. I continue to read, just don't write reviews, much.
+[notes on books I find interesting](https://www.google.com/search?q=site:robnagler.com+BookNotes)
+on this site.  I used to add some notes once a month, but I haven't
+had the time. I continue to read, just don't write notes, much.
 
 Work is an extremely important part of my life.  I have had rapture of
 the bits since I was nine.  I have always worked in software, and continue
