@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Birth of the Palestinian Refugee Problem Revisited"
+title: "BookNotes: The Birth of the Palestinian Refugee Problem Revisited"
 date: 2007-05-27T12:00:00Z
 ---
 By Benny Morris, Cambridge University Press;, 1/5/2004, 978-0521009676

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Radical Leap"
+title: "BookNotes: The Radical Leap"
 date: 2005-12-31T12:00:00Z
 ---
 By Steve Farber, Dearborn, 2005, 0-7931-8568-8

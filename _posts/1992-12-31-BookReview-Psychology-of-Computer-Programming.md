@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Psychology of Computer Programming"
+title: "BookNotes: Psychology of Computer Programming"
 date: 1992-12-31T12:00:00Z
 ---
 By Gerald M. Weinberg, Van Nostrand Reinhold Company, 1971, 0-442-29264-3

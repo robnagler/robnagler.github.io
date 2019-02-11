@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Babbit"
+title: "BookNotes: Babbit"
 date: 1991-12-31T12:00:00Z
 ---
 By Sinclair Lewis, Penguin Books Ltd., 1987 (1923)

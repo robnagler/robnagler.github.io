@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Mythical Man-Month"
+title: "BookNotes: The Mythical Man-Month"
 date: 2001-12-31T12:00:00Z
 ---
 By Frederick Brooks, Addison Wesley, 1995

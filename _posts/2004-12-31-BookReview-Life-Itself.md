@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Life Itself: Exploring the realm of the living cell"
+title: "BookNotes: Life Itself: Exploring the realm of the living cell"
 date: 2004-12-31T12:00:00Z
 ---
 By Boyce Rensberger, Oxford University Press, 1998, 0-19-512500-2

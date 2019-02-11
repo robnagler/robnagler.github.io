@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Literary Machines"
+title: "BookNotes: Literary Machines"
 date: 1990-12-31T12:00:00Z
 ---
 By Theodor Holm Nelson, The Distributors, 1987

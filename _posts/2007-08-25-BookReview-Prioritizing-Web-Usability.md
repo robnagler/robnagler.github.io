@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Prioritizing Web Usability"
+title: "BookNotes: Prioritizing Web Usability"
 date: 2007-08-25T12:00:00Z
 ---
 By Jakob Nielsen, Hoa Loranger, New Riders Press, April 20, 2006, 978-0321350312

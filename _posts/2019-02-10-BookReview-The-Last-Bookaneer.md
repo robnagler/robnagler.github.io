@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Last Bookaneer"
+title: "BookNotes: The Last Bookaneer"
 date: 2019-02-10T11:24:59-0700
 ---
 By Matthew Pearl, Penguin Press, April 28, 2015, 1594204926

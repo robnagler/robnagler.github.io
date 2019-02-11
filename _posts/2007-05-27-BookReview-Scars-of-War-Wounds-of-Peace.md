@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Scars of War, Wounds of Peace: The Israeli-Arab Tragedy"
+title: "BookNotes: Scars of War, Wounds of Peace: The Israeli-Arab Tragedy"
 date: 2007-05-27T12:00:00Z
 ---
 By Shlomo Ben-Ami, Oxford University Press, 2/1/2006, 978-0195181586

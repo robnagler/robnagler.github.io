@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Underground: The Tokyo gas attack and the Japanese psyche"
+title: "BookNotes: Underground: The Tokyo gas attack and the Japanese psyche"
 date: 2006-12-31T12:00:00Z
 ---
 By Haruki Murakami, First Vintage International, 2000, 0-375-72580-6

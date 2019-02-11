@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Hackers and Painters: Big Ideas from the Computer Age"
+title: "BookNotes: Hackers and Painters: Big Ideas from the Computer Age"
 date: 2006-12-31T12:00:00Z
 ---
 By Paul Graham, O'Reilly Media, Inc., May 2004, 0596006624

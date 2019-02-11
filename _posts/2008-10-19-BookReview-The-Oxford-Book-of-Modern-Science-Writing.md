@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Oxford Book of Modern Science Writing"
+title: "BookNotes: The Oxford Book of Modern Science Writing"
 date: 2008-10-19T12:00:00Z
 ---
 By Richard Dawkins, Oxford University Press, June 15, 2008, 978-0199216802

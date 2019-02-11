@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Last Child in the Woods: Saving Our Children From Nature-Deficit Disorder "
+title: "BookNotes: Last Child in the Woods: Saving Our Children From Nature-Deficit Disorder "
 date: 2010-05-02T12:00:00Z
 ---
 By Richard Louv, Algonquin Books, April 15, 2005, 978-1565123915

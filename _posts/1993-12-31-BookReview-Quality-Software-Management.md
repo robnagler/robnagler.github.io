@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Quality Software Management: Vol. 1 Systems Thinking"
+title: "BookNotes: Quality Software Management: Vol. 1 Systems Thinking"
 date: 1993-12-31T12:00:00Z
 ---
 By Gerald M. Weinberg, 1991, 0-932633-22-6

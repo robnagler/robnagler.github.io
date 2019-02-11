@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: No Right to Remain Silent: The Tragedy at Virginia Tech "
+title: "BookNotes: No Right to Remain Silent: The Tragedy at Virginia Tech "
 date: 2009-04-20T12:00:00Z
 ---
 By Lucinda Roy, Harmony, March 31, 2009, 978-0307409638

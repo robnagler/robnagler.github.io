@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: No More Wacos: What's Wrong With Federal Law Enforcement and How to Fix It"
+title: "BookNotes: No More Wacos: What's Wrong With Federal Law Enforcement and How to Fix It"
 date: 2006-12-31T12:00:00Z
 ---
 By David B. Kopel & Paul H. Blackman, Prometheus Books, March 1997, 1573921254

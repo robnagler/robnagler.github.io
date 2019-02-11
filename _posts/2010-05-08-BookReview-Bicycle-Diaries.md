@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Bicycle Diaries "
+title: "BookNotes: Bicycle Diaries "
 date: 2010-05-08T12:00:00Z
 ---
 By David Byrne, Viking Adult, September 17, 2009, 978-0670021147

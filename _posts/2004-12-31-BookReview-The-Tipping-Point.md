@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Tipping Point"
+title: "BookNotes: The Tipping Point"
 date: 2004-12-31T12:00:00Z
 ---
 By Malcom Gladwell, Little, Brown, and Co., 2002, 0-316-34662-4

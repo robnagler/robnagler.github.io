@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The God Delusion"
+title: "BookNotes: The God Delusion"
 date: 2008-10-30T12:00:00Z
 ---
 By Richard Dawkins, Mariner Books, January 16, 2008, 978-0618918249

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Text, ConText, and HyperText"
+title: "BookNotes: Text, ConText, and HyperText"
 date: 1990-12-31T12:00:00Z
 ---
 By Edward Barret, ed., The MIT Press, 1989

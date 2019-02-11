@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Sophie's World"
+title: "BookNotes: Sophie's World"
 date: 2004-12-31T12:00:00Z
 ---
 By Jostein Gaarder, The Berkley Publishing Group, 1996, 0-425-15225-1

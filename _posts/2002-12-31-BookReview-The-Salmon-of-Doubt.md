@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Salmon of Doubt"
+title: "BookNotes: The Salmon of Doubt"
 date: 2002-12-31T12:00:00Z
 ---
 By Douglas Adams, Random House, 2002

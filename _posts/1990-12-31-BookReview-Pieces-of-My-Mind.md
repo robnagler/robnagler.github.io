@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Pieces of My Mind"
+title: "BookNotes: Pieces of My Mind"
 date: 1990-12-31T12:00:00Z
 ---
 By Andy Rooney, Avon Books, 1984, 0-380-69885-4

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: One-Dimensional Man"
+title: "BookNotes: One-Dimensional Man"
 date: 1990-12-31T12:00:00Z
 ---
 By Herbert Marcuse, Beacon Press, 1964, 0-8070-1575-X

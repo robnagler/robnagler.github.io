@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Radical Edge: Stoke Your Business, Amp Your Life, and Change the World "
+title: "BookNotes: The Radical Edge: Stoke Your Business, Amp Your Life, and Change the World "
 date: 2006-12-31T12:00:00Z
 ---
 By Steve Farber, Kaplan Business, April 1, 2006, 1419511319

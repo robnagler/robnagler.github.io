@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Blank Slate: The Modern Denial of Human Nature"
+title: "BookNotes: The Blank Slate: The Modern Denial of Human Nature"
 date: 2010-05-01T12:00:00Z
 ---
 By Steven Pinker, Viking, September 26, 2002, 978-0670031511

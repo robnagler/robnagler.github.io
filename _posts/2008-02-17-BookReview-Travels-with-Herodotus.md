@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Travels with Herodotus"
+title: "BookNotes: Travels with Herodotus"
 date: 2008-02-17T12:00:00Z
 ---
 By Ryszard Kapuscinski, Knopf, June 5, 2007, 1400043387

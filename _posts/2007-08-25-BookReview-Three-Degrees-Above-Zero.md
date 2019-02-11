@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Three Degrees Above Zero"
+title: "BookNotes: Three Degrees Above Zero"
 date: 2007-08-25T12:00:00Z
 ---
 By Peter L. Bernstein, Scribner, September 1, 1984, 978-0684181707

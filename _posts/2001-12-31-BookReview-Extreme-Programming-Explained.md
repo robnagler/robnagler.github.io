@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Extreme Programming Explained"
+title: "BookNotes: Extreme Programming Explained"
 date: 2001-12-31T12:00:00Z
 ---
 By Kent Beck, Addison Wesley, 2000

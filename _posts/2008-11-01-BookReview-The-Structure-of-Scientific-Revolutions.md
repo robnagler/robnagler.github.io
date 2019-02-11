@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Structure of Scientific Revolutions (3rd Edition)"
+title: "BookNotes: The Structure of Scientific Revolutions (3rd Edition)"
 date: 2008-11-01T12:00:00Z
 ---
 By Thomas S. Kuhn, University Of Chicago Press, December 15, 1996, 978-0226458083

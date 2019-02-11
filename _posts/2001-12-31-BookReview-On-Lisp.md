@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: On Lisp"
+title: "BookNotes: On Lisp"
 date: 2001-12-31T12:00:00Z
 ---
 By Paul Graham, Prentice Hall, 1993

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Travels With Charley: In Search of America"
+title: "BookNotes: Travels With Charley: In Search of America"
 date: 1990-12-31T12:00:00Z
 ---
 By John Steinbeck, Penguin Books, 1986, 0 14 00.5320 4

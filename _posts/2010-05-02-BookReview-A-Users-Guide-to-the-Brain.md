@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: A User's Guide to the Brain: Perception, Attention, and the Four Theatres of the Brain"
+title: "BookNotes: A User's Guide to the Brain: Perception, Attention, and the Four Theatres of the Brain"
 date: 2010-05-02T12:00:00Z
 ---
 By John J. Ratey, Vintage, January 8, 2002, 978-0375701078

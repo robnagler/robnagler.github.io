@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Open-Book Experience"
+title: "BookNotes: The Open-Book Experience"
 date: 2005-12-31T12:00:00Z
 ---
 By John Case, Perseus Books, 1998, 0-7382-0040-9

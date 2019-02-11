@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Jurassic Park"
+title: "BookNotes: Jurassic Park"
 date: 1991-12-31T12:00:00Z
 ---
 By Michael Crichton, Ballantine Books, 1990, 0-345-37473-8

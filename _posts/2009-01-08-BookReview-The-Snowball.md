@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Snowball: Warren Buffett and the Business of Life"
+title: "BookNotes: The Snowball: Warren Buffett and the Business of Life"
 date: 2009-01-08T12:00:00Z
 ---
 By Alice Schroeder, Bantam, 9/29/2008, 978-0553805093

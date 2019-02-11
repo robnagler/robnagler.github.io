@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Startup CEO: A Field Guide to Scaling Up Your Business"
+title: "BookNotes: Startup CEO: A Field Guide to Scaling Up Your Business"
 date: 2014-06-24T12:00:00Z
 ---
 By Matt Blumberg, Wiley, August 14, 2013 1118548361

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Sustainable Energy - Without the Hot Air"
+title: "BookNotes: Sustainable Energy - Without the Hot Air"
 date: 2009-06-14T12:00:00Z
 ---
 By David MacKay, UIT Cambridge Ltd, February 20, 2009, 978-0954452933

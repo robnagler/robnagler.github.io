@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Picture of Dorian Gray "
+title: "BookNotes: The Picture of Dorian Gray "
 date: 2008-11-16T12:00:00Z
 ---
 By Oscar Wilde, [Feedbooks.com](http://feedbooks.com), 1891

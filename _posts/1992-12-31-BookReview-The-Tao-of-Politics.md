@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Tao of Politics: Lessons of the Masters of Huainan"
+title: "BookNotes: The Tao of Politics: Lessons of the Masters of Huainan"
 date: 1992-12-31T12:00:00Z
 ---
 By Thomas Cleary, Shambala, Boston, 1990, ?

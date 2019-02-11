@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"
+title: "BookNotes: How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life"
 date: 2014-07-13T12:00:00Z
 ---
 By Scott Adams, Penguin, October 22, 2013 1591846919

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Courtier and the Heretic: Leibniz, Spinoza, and the Fate of God in the Modern World"
+title: "BookNotes: The Courtier and the Heretic: Leibniz, Spinoza, and the Fate of God in the Modern World"
 date: 2006-12-31T12:00:00Z
 ---
 By Matthew Stewart, W. W. Norton, January 9, 2006, 0393058980

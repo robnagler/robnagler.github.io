@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Dave Barry Talks Back"
+title: "BookNotes: Dave Barry Talks Back"
 date: 1992-12-31T12:00:00Z
 ---
 By Dave Barry, Crown Publishers, 0-517-58546-4

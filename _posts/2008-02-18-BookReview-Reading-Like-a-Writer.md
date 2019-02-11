@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Reading Like a Writer: A Guide for People Who Love Books and for Those Who Want to Write Them"
+title: "BookNotes: Reading Like a Writer: A Guide for People Who Love Books and for Those Who Want to Write Them"
 date: 2008-02-18T12:00:00Z
 ---
 By Francine Prose, HarperCollins, August 22, 2006, 0060777044

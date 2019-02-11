@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Gluten Lie: And Other Myths About What You Eat"
+title: "BookNotes: The Gluten Lie: And Other Myths About What You Eat"
 date: 2019-02-09T22:52:00Z
 ---
 By Alan Levinovitz, Regan Arts, April 21, 2015, 1941393063

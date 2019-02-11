@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Working"
+title: "BookNotes: Working"
 date: 1990-12-31T12:00:00Z
 ---
 By Studs Terkel, Ballantine Books, 1974, 0-345-32569-9

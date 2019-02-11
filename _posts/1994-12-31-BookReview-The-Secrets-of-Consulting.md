@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Secrets of Consulting"
+title: "BookNotes: The Secrets of Consulting"
 date: 1994-12-31T12:00:00Z
 ---
 By Gerald Weinberg, Dorset House, 1985, 0-932633-01-3

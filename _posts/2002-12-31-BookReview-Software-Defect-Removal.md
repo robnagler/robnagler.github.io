@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Software Defect Removal"
+title: "BookNotes: Software Defect Removal"
 date: 2002-12-31T12:00:00Z
 ---
 By Robert Dunn, McGraw-Hill, Inc., 1984

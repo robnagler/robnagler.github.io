@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Rich Dad's Before You Quit Your Job: 10 Real-Life Lessons Every Entrepreneur Should Know About Building a Multimillion-Dollar Business"
+title: "BookNotes: Rich Dad's Before You Quit Your Job: 10 Real-Life Lessons Every Entrepreneur Should Know About Building a Multimillion-Dollar Business"
 date: 2006-12-31T12:00:00Z
 ---
 By Robert T. Kiyosaki, Sharon L. Lechter, Warner Business Books, September 14, 2005, 0446696374

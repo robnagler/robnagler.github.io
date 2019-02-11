@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Blind Watchmaker"
+title: "BookNotes: The Blind Watchmaker"
 date: 2002-12-31T12:00:00Z
 ---
 By Richard Dawkins, W. W. Norton, 1986, 0-393-315703-3

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Your Marketing Sucks"
+title: "BookNotes: Your Marketing Sucks"
 date: 2006-12-31T12:00:00Z
 ---
 By Mark Stevens, Three Rivers Press, April 26, 2005, 1400081696

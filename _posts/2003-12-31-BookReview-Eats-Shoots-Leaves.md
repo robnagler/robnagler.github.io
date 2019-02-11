@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Eats, Shoots & Leaves"
+title: "BookNotes: Eats, Shoots & Leaves"
 date: 2003-12-31T12:00:00Z
 ---
 By Lynne Truss, Gotham Brooks, 2003, 1-592-40087-6

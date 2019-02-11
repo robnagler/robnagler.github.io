@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Why We Sleep: Unlocking the Power of Sleep and Dreams"
+title: "BookNotes: Why We Sleep: Unlocking the Power of Sleep and Dreams"
 date: 2019-02-01T17:00:00Z
 ---
 By Matthew Walker, Scribner, October 3, 2017, 978-1501144325

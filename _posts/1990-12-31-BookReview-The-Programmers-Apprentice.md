@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Programmer's Apprentice"
+title: "BookNotes: The Programmer's Apprentice"
 date: 1990-12-31T12:00:00Z
 ---
 By Charles Rich, Richard C. Waters, ACM Press, 1990, 0-201-52425-2

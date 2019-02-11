@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Kuhn vs. Popper: The Struggle for the Soul of Science"
+title: "BookNotes: Kuhn vs. Popper: The Struggle for the Soul of Science"
 date: 2008-10-24T12:00:00Z
 ---
 By Steve Fuller, Columbia University Press, November 23, 2004, 978-0231134286

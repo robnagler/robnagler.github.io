@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Winnie-the-Pooh"
+title: "BookNotes: Winnie-the-Pooh"
 date: 2001-12-31T12:00:00Z
 ---
 By A. A. Milne, Dutton's Childrens Books, 1994

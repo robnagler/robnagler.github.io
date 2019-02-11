@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Tao of Programming"
+title: "BookNotes: Tao of Programming"
 date: 1993-12-31T12:00:00Z
 ---
 By Geoffrey James, InfoBooks, 1987, 0-931137-07-1

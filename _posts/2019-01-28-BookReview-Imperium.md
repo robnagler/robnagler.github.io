@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Imperium"
+title: "BookNotes: Imperium"
 date: 2019-01-28T12:00:00Z
 ---
 By Ryszard Kapuscinski, Vintage International, August 8, 1995, 067974780X

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Prophet"
+title: "BookNotes: The Prophet"
 date: 2005-12-31T12:00:00Z
 ---
 By Kahlil Gibran, Alfred A. Knopf, Inc., 2004, 0-394-40428-9

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Island at the Center of the World"
+title: "BookNotes: The Island at the Center of the World"
 date: 2005-12-31T12:00:00Z
 ---
 By Russell Shorto, Doubleday, 2004, 0-385-50349-0

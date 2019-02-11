@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Made to Stick: Why Some Ideas Survive and Others Die"
+title: "BookNotes: Made to Stick: Why Some Ideas Survive and Others Die"
 date: 2007-10-13T12:00:00Z
 ---
 By Chip Heath & Dan Heath, Random House , January 2, 2007, 978-1400064281

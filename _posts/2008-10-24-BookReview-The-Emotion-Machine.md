@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind"
+title: "BookNotes: The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind"
 date: 2008-10-24T12:00:00Z
 ---
 By Marvin Minsky, Simon & Schuster, November 7, 2006, 978-0743276634

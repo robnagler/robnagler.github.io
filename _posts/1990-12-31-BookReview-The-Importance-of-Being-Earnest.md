@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Importance of Being Earnest"
+title: "BookNotes: The Importance of Being Earnest"
 date: 1990-12-31T12:00:00Z
 ---
 By Oscar Wilde, Avon Books, 1895, 1965, 0-380-01277-4

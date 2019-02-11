@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: On Liberty"
+title: "BookNotes: On Liberty"
 date: 1990-12-31T12:00:00Z
 ---
 By John Stuart Mill, W. W. Norton & Company, 1975, 0-393-09252-6

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Eight O'Clock Ferry to the Windward Side: Fighting the Lawless World of Guantanamo Bay"
+title: "BookNotes: The Eight O'Clock Ferry to the Windward Side: Fighting the Lawless World of Guantanamo Bay"
 date: 2008-02-18T12:00:00Z
 ---
 By Clive Stafford Smith, Nation Books, October 1, 2007, 1568583745

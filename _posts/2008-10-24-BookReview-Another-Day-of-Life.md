@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Another Day of Life"
+title: "BookNotes: Another Day of Life"
 date: 2008-10-24T12:00:00Z
 ---
 By Ryszard Kapuscinski, Vintage , April 17, 2001, 978-0375726293

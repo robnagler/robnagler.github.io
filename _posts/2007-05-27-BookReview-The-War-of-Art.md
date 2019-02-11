@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The War of Art: Break Through the Blocks and Win Your Inner Creative Battles"
+title: "BookNotes: The War of Art: Break Through the Blocks and Win Your Inner Creative Battles"
 date: 2007-05-27T12:00:00Z
 ---
 By Steven Pressfield, Warner Books, 4/1/2003, 978-0446691437

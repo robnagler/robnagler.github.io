@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Refactoring: Improving the Design of Existing Code"
+title: "BookNotes: Refactoring: Improving the Design of Existing Code"
 date: 2001-12-31T12:00:00Z
 ---
 By Martin Fowler, Addison-Wesley, 1999

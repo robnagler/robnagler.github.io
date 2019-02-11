@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: ANSI Common Lisp"
+title: "BookNotes: ANSI Common Lisp"
 date: 2004-12-31T12:00:00Z
 ---
 By Paul Graham, Prentice Hall, 1996, 0-13-370875-6

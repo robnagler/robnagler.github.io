@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Ideas and Opinions"
+title: "BookNotes: Ideas and Opinions"
 date: 2001-12-31T12:00:00Z
 ---
 By Albert Einstein, Crown Publishers Inc., 1985, 0-517-55601-4

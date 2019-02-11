@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Neuroscience of Psychotherapy"
+title: "BookNotes: The Neuroscience of Psychotherapy"
 date: 2005-12-31T12:00:00Z
 ---
 By Louis J. Cozolino, W. W. Norton & Company, Inc., 2002, 0-393-70367-3

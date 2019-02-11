@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Selfish Gene: 30th Anniversary Edition"
+title: "BookNotes: The Selfish Gene: 30th Anniversary Edition"
 date: 2009-04-20T12:00:00Z
 ---
 By Richard Dawkins, Oxford University Press, May 25, 2006, 978-0199291151

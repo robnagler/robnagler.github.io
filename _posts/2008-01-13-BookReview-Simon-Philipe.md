@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Simon Philipe"
+title: "BookNotes: Simon Philipe"
 date: 2008-01-13T12:00:00Z
 ---
 By John Bruhwiler, Kerlack Enterprises, May 30, 2006, 0966074459

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Nine: Inside the Secret World of the Supreme Court"
+title: "BookNotes: The Nine: Inside the Secret World of the Supreme Court"
 date: 2008-01-13T12:00:00Z
 ---
 By Jeffrey Toobin, Doubleday, September 18, 2007, 0385516401

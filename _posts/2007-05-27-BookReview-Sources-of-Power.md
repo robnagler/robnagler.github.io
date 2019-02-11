@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Sources of Power: How People Make Decisions"
+title: "BookNotes: Sources of Power: How People Make Decisions"
 date: 2007-05-27T12:00:00Z
 ---
 By Gary Klein, The MIT Press, 2/26/1999, 978-0262611466

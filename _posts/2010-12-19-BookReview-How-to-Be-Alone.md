@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "BookReview: How to Be Alone: Essays"
+title: "BookNotes: How to Be Alone: Essays"
 date: 2010-12-19T12:00:00Z
 ---
 By Jonathan Franzen, Farrar, Straus and Giroux, April 1, 2010, B003GFIVNE
 
-Jonathan Franzen is a great writer.  I read Freedom, and then I
-read this book.  I tend not to review non-fiction (beats me as to
-why), but since I'm writing about Franzen, I'll say that Freedom was a
-great book.
+Jonathan Franzen is a great writer.  I read Freedom, and then I read
+this book.  I tend not write notes about fiction (beats me as to why),
+but since I'm writing about Franzen, I'll say that Freedom was a great
+book.
 
 Franzen's essays are fascinating and poignant, especially the one
 about his family.  I also enjoyed his rants.  I skimmed the last half

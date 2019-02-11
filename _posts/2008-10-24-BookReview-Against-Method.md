@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Against Method (Third Edition)"
+title: "BookNotes: Against Method (Third Edition)"
 date: 2008-10-24T12:00:00Z
 ---
 By Paul Feyerabend, Verso, September 1993, 978-0860916468 

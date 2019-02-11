@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Mine Own Executioner"
+title: "BookNotes: Mine Own Executioner"
 date: 2006-12-31T12:00:00Z
 ---
 By Nigel Balchin, Houghton Mifflin Company, 1946

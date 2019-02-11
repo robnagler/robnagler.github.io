@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: All Life Is Problem Solving"
+title: "BookNotes: All Life Is Problem Solving"
 date: 2019-02-03T17:45:00Z
 ---
 By Karl Popper, Routledge, March 2, 2001, 0415249929

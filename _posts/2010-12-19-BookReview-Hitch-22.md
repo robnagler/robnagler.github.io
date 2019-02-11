@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Hitch-22: A Memoir "
+title: "BookNotes: Hitch-22: A Memoir "
 date: 2010-12-19T12:00:00Z
 ---
 By Christopher Hitchens, Twelve, June 2, 2010, B00351DSAU

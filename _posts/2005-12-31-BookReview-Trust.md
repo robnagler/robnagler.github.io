@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Trust"
+title: "BookNotes: Trust"
 date: 2005-12-31T12:00:00Z
 ---
 By Francis Fukuyama, Free Press, 8/1/1995, 0029109760

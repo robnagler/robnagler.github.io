@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Eat, Pray, Love "
+title: "BookNotes: Eat, Pray, Love "
 date: 2010-12-19T12:00:00Z
 ---
 By Elizabeth Gilbert, Penguin, February 1, 2007, B000PDYVVG

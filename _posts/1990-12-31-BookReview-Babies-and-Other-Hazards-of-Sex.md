@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Babies and Other Hazards of Sex"
+title: "BookNotes: Babies and Other Hazards of Sex"
 date: 1990-12-31T12:00:00Z
 ---
 By Dave Barry, Rodale Press, 1984, 0-87857-510-3

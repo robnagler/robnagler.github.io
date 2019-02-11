@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Glimpses of Unfamiliar Japan, Vol 1 "
+title: "BookNotes: Glimpses of Unfamiliar Japan, Vol 1 "
 date: 2009-01-08T12:00:00Z
 ---
 By Lafcadio Hearn, ^Feedbooks.com, May 1894, 978-0804811453

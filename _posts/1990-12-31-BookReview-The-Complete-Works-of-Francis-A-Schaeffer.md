@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Complete Works of Francis A. Schaeffer: A Christian Worldview"
+title: "BookNotes: The Complete Works of Francis A. Schaeffer: A Christian Worldview"
 date: 1990-12-31T12:00:00Z
 ---
 By Francis A. Schaeffer, Crossway Books, 1988

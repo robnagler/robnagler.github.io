@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Logic of Scientific Discovery"
+title: "BookNotes: The Logic of Scientific Discovery"
 date: 2008-10-31T12:00:00Z
 ---
 By Karl Popper, Routledge, March 29, 2002, 978-0415278447

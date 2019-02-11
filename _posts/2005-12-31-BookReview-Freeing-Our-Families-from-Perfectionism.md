@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Freeing Our Families from Perfectionism"
+title: "BookNotes: Freeing Our Families from Perfectionism"
 date: 2005-12-31T12:00:00Z
 ---
 By Thomas S. Greenspon, PhD, Free Spirit Publishing Inc., 2002, 1-57542-103-8

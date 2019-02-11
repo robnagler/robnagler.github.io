@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Bad Habits"
+title: "BookNotes: Bad Habits"
 date: 1992-12-31T12:00:00Z
 ---
 By Dave Barry, Owl Books, 1987, 0-8050-0254-5

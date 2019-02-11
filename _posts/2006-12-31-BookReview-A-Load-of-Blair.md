@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: A Load of Blair"
+title: "BookNotes: A Load of Blair"
 date: 2006-12-31T12:00:00Z
 ---
 By Jamie Whyte, Corvo Books Ltd., 2005, 0954325559

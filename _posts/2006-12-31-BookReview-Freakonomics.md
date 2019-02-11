@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Freakonomics : A Rogue Economist Explores the Hidden Side of Everything"
+title: "BookNotes: Freakonomics : A Rogue Economist Explores the Hidden Side of Everything"
 date: 2006-12-31T12:00:00Z
 ---
 By Steven D. Levitt, Stephen J. Dubner, William Morrow, May 1, 2005, 006073132X

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: What I Talk About When I Talk About Running"
+title: "BookNotes: What I Talk About When I Talk About Running"
 date: 2008-10-24T12:00:00Z
 ---
 By Haruki Murakami, Knopf , July 29, 2008, 978-0307269195

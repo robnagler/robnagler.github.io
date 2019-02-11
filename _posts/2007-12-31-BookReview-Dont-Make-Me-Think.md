@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Don't Make Me Think"
+title: "BookNotes: Don't Make Me Think"
 date: 2007-12-31T12:00:00Z
 ---
 By Steve Krug, New Riders Press, 8/18/2005, 0321344758

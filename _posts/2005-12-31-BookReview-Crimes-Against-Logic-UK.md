@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Crimes Against Logic (UK: Bad Thoughts)"
+title: "BookNotes: Crimes Against Logic (UK: Bad Thoughts)"
 date: 2005-12-31T12:00:00Z
 ---
 By Jamie Whyte, Corvo Books Ltd, 2004, 0-07-144643-5

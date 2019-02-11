@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Ascent of Money"
+title: "BookNotes: The Ascent of Money"
 date: 2009-04-06T12:00:00Z
 ---
 By Niall Ferguson, The Penguin Press HC, November 13, 2008, 978-1594201929

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Zen and The Art of Motorcycle Maintenance"
+title: "BookNotes: Zen and The Art of Motorcycle Maintenance"
 date: 1991-12-31T12:00:00Z
 ---
 By Robert M. Pirsig, Bantam Books (originally William Morrow Apr 1974), 1989, 0-553-27747-2

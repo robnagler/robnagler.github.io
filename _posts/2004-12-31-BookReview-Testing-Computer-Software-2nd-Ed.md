@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Testing Computer Software, 2nd Ed."
+title: "BookNotes: Testing Computer Software, 2nd Ed."
 date: 2004-12-31T12:00:00Z
 ---
 By Cem Kaner et al, Wiley, 1999, 0-471-35846-0

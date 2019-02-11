@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Guantanamo and the Abuse of Presidential Power"
+title: "BookNotes: Guantanamo and the Abuse of Presidential Power"
 date: 2006-12-31T12:00:00Z
 ---
 By Joseph Margulies, Simon & Schuster, June 27, 2006, 0743286855

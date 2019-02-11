@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Born Standing Up: A Comic's Life"
+title: "BookNotes: Born Standing Up: A Comic's Life"
 date: 2008-01-13T12:00:00Z
 ---
 By Steve Martin, Scribner, November 20, 2007, 1416553649

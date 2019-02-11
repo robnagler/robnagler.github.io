@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Stumbling on Happiness"
+title: "BookNotes: Stumbling on Happiness"
 date: 2009-06-14T12:00:00Z
 ---
 By Daniel Gilbert, Vintage, March 20, 2007, 978-1400077427

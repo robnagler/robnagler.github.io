@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Out of Control: The New Biology of Machines, Social Systems, & the Economic World"
+title: "BookNotes: Out of Control: The New Biology of Machines, Social Systems, & the Economic World"
 date: 2007-11-24T12:00:00Z
 ---
 By Kevin Kelly, Perseus Books Group, May 1995, 978-0201483406
@@ -23,12 +23,12 @@ at where they have led: nowhere.  When I visit predict.com today
 Swiss bank -- much to the chagrin of Richard Olsen -- and still not
 predicting anything predictably.
 
-I'll poke more holes in the actual text as this review progresses,
+I'll poke more holes in the actual text below,
 which is probably untolerably long for most people.  This book taught
 be a lot about a lot of things.  Lots of sticky notes in its pages
 that have been converted by the magic of OCR technology into text.  It
 even converted a LISP program, which amazes me, even though, it's just
-the march of progress that allows me to write this review with so much
+the march of progress that allows me to write these notes with so much
 source material.
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Imperative of Responsibility"
+title: "BookNotes: The Imperative of Responsibility"
 date: 1990-12-31T12:00:00Z
 ---
 By Hans Jonas, The University of Chicago Press, 1984

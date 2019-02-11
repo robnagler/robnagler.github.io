@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Wisdom of Teams: Creating the High-Performance Organization"
+title: "BookNotes: The Wisdom of Teams: Creating the High-Performance Organization"
 date: 1993-12-31T12:00:00Z
 ---
 By Jon R. Katzenbach & Douglas K. Smith, 1993, 0-87584-367-0

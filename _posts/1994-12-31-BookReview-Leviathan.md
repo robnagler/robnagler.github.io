@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Leviathan"
+title: "BookNotes: Leviathan"
 date: 1994-12-31T12:00:00Z
 ---
 By Paul Auster, Penguin Books, 1992, 0-14-017813-9

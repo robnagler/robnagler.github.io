@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Beyond Fear: Thinking sensibly About Security in an Uncertain World"
+title: "BookNotes: Beyond Fear: Thinking sensibly About Security in an Uncertain World"
 date: 2005-12-31T12:00:00Z
 ---
 By Bruce Schneier, Coernicus Books, 2003, 0-387-02620-7

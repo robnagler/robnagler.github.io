@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Legends, Lies & Cherished Myths of American History"
+title: "BookNotes: Legends, Lies & Cherished Myths of American History"
 date: 1990-12-31T12:00:00Z
 ---
 By Richard Shenkman, Harper & Row, 1989

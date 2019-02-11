@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Desert Queen: The Extraordinary Life of Gertrude Bell: Adventurer, Adviser to Kings, Ally of Lawrence of Arabia"
+title: "BookNotes: Desert Queen: The Extraordinary Life of Gertrude Bell: Adventurer, Adviser to Kings, Ally of Lawrence of Arabia"
 date: 2008-01-13T12:00:00Z
 ---
 By Janet Wallach, Anchor Books, July 12, 2005, 1400096197

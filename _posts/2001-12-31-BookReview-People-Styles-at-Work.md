@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: People Styles at Work"
+title: "BookNotes: People Styles at Work"
 date: 2001-12-31T12:00:00Z
 ---
 By Robert Bolton and Dorothy Grover Bolton, American Management Association, 1996, 0-8144-7723-2

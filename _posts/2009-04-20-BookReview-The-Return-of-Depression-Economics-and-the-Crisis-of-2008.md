@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Return of Depression Economics and the Crisis of 2008 "
+title: "BookNotes: The Return of Depression Economics and the Crisis of 2008 "
 date: 2009-04-20T12:00:00Z
 ---
 By Paul Krugman, W. W. Norton, December 1, 2008, 978-0393071016

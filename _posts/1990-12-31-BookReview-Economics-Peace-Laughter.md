@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Economics, Peace, & Laughter"
+title: "BookNotes: Economics, Peace, & Laughter"
 date: 1990-12-31T12:00:00Z
 ---
 By John Kenneth Galbraith, Penguin Books, 1975

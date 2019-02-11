@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Fonudations of Early Modern Europe, 1460-1559"
+title: "BookNotes: The Fonudations of Early Modern Europe, 1460-1559"
 date: 1991-12-31T12:00:00Z
 ---
 By Eugene F. Rice, Jr., W. W. Norton & Co, 1970, 0-393-09898-2

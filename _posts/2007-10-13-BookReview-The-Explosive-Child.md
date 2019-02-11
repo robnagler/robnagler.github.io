@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Explosive Child: A New Approach for Understanding and Parenting Easily Frustrated, Chronically Inflexible Children"
+title: "BookNotes: The Explosive Child: A New Approach for Understanding and Parenting Easily Frustrated, Chronically Inflexible Children"
 date: 2007-10-13T12:00:00Z
 ---
 By Ross W. Greene, Harper Paperbacks, 9/20/2005, 978-0060779399

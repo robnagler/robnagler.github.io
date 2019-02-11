@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: I Am a Strange Loop"
+title: "BookNotes: I Am a Strange Loop"
 date: 2008-10-31T12:00:00Z
 ---
 By Douglas R. Hofstadter, Basic Books, March 26, 2007, 978-0465030781

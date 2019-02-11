@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Best American Essays of the Century"
+title: "BookNotes: The Best American Essays of the Century"
 date: 2004-12-31T12:00:00Z
 ---
 By Joyce Carol Oates and Robert Atwan, eds, Houghton Mifflin Co, 2000, 0-618-04370-5

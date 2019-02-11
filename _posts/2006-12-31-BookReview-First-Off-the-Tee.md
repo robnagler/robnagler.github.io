@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: First Off the Tee: Presidential Hackers, Duffers, and Cheaters From Taft To Bush "
+title: "BookNotes: First Off the Tee: Presidential Hackers, Duffers, and Cheaters From Taft To Bush "
 date: 2006-12-31T12:00:00Z
 ---
 By Don Van Natta Jr., Perseus Books Group, October 30, 2004, 1586482653

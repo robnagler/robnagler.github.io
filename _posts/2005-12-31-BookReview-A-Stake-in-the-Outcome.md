@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: A Stake in the Outcome : Building a Culture of Ownership for the Long-Term Success of Your Business "
+title: "BookNotes: A Stake in the Outcome : Building a Culture of Ownership for the Long-Term Success of Your Business "
 date: 2005-12-31T12:00:00Z
 ---
 By Jack Stack, Bo Burlingham, Currency Doubleday, September 16, 2003, 0385505094

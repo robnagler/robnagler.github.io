@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The End of Faith: Religion, Terror, and the Future of Reason"
+title: "BookNotes: The End of Faith: Religion, Terror, and the Future of Reason"
 date: 2004-12-31T12:00:00Z
 ---
 By Sam Harris, Norton, 2004, 0-39303515-8

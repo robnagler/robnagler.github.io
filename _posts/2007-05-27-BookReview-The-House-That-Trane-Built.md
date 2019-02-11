@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The House That Trane Built: The Story of Impulse Records"
+title: "BookNotes: The House That Trane Built: The Story of Impulse Records"
 date: 2007-05-27T12:00:00Z
 ---
 By Ashley Kahn, W. W. Norton, June 6, 2006, 978-0393058796

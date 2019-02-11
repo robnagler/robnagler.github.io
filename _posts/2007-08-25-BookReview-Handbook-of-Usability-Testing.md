@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests"
+title: "BookNotes: Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests"
 date: 2007-08-25T12:00:00Z
 ---
 By Jeffrey Rubin, Wiley, April 15, 1994, 978-0471594031

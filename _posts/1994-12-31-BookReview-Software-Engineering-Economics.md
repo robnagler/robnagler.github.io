@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Software Engineering Economics"
+title: "BookNotes: Software Engineering Economics"
 date: 1994-12-31T12:00:00Z
 ---
 By Barry W. Boehm, Prentice-Hall, Inc., 1981, 0-13-822122-7

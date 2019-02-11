@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Timbuktu: A Novel "
+title: "BookNotes: Timbuktu: A Novel "
 date: 2008-11-16T12:00:00Z
 ---
 By Paul Auster, Picador , April 28, 2009, 978-0312428945

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Black Swan: The Impact of the Highly Improbable"
+title: "BookNotes: The Black Swan: The Impact of the Highly Improbable"
 date: 2007-08-25T12:00:00Z
 ---
 By Nassim Nicholas Taleb, Random House, April 17, 2007, 978-1400063512

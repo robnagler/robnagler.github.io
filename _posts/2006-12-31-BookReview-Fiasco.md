@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Fiasco: The American Military Adventure in Iraq"
+title: "BookNotes: Fiasco: The American Military Adventure in Iraq"
 date: 2006-12-31T12:00:00Z
 ---
 By Thomas E. Ricks, Penguin Press, July 25, 2006, 159420103X

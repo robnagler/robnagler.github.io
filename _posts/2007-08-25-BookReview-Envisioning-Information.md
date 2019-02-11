@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Envisioning Information"
+title: "BookNotes: Envisioning Information"
 date: 2007-08-25T12:00:00Z
 ---
 By Edward R. Tufte, Graphics Press, May 1990, 978-0961392116

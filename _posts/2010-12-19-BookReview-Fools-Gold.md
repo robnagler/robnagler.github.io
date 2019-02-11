@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Fool's Gold: How the Bold Dream of a Small Tribe at J.P. Morgan Was Corrupted by Wall Street Greed and Unleashed a Catastrophe"
+title: "BookNotes: Fool's Gold: How the Bold Dream of a Small Tribe at J.P. Morgan Was Corrupted by Wall Street Greed and Unleashed a Catastrophe"
 date: 2010-12-19T12:00:00Z
 ---
 By Gillian Tett, Free Press, June 9, 2009, B002AQRVXQ

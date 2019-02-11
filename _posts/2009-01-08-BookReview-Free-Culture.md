@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Free Culture: How Big Media Uses Technology and the Law to Lock"
+title: "BookNotes: Free Culture: How Big Media Uses Technology and the Law to Lock"
 date: 2009-01-08T12:00:00Z
 ---
 By Lawrence Lessig, ^Feedbooks.com, 2004, 9781594200069

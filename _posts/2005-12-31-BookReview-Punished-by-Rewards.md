@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Punished by Rewards: The Trouble with Gold Stars, Incentive Plans, A's, Praise, and Other Bribes"
+title: "BookNotes: Punished by Rewards: The Trouble with Gold Stars, Incentive Plans, A's, Praise, and Other Bribes"
 date: 2005-12-31T12:00:00Z
 ---
 By Alfie Kohn, Houghton Mifflin Company, 1999, 0-618-00181-6

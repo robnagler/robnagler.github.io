@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Six Pillars of Self-Esteem"
+title: "BookNotes: The Six Pillars of Self-Esteem"
 date: 2005-12-31T12:00:00Z
 ---
 By Nathaniel Branden, Bantam Books, 1994, 0-553-37439-7

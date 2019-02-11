@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: What Management Is: How it works and why it's everyone's business"
+title: "BookNotes: What Management Is: How it works and why it's everyone's business"
 date: 2002-12-31T12:00:00Z
 ---
 By Joan Magretta, Simon and Schuster, Inc., 2002, O-7432-0318-6

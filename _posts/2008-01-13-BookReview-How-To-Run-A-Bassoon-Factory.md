@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: How To Run A Bassoon Factory or Business Explained & Business for Pleasure"
+title: "BookNotes: How To Run A Bassoon Factory or Business Explained & Business for Pleasure"
 date: 2008-01-13T12:00:00Z
 ---
 By Nigel Balchin, Hamish Hamilton, 1951

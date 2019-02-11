@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: House of Cards: A Tale of Hubris and Wretched Excess on Wall Street "
+title: "BookNotes: House of Cards: A Tale of Hubris and Wretched Excess on Wall Street "
 date: 2010-12-19T12:00:00Z
 ---
 By William D. Cohan, Anchor, March 10, 2009, B001NLL5WC

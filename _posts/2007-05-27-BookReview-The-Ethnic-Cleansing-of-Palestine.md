@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: The Ethnic Cleansing of Palestine"
+title: "BookNotes: The Ethnic Cleansing of Palestine"
 date: 2007-05-27T12:00:00Z
 ---
 By Ilan Pappe, Oneworld Publications, 11/1/2006, 978-1851684670

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Built to Last"
+title: "BookNotes: Built to Last"
 date: 2001-12-31T12:00:00Z
 ---
 By James C. Collins and Jerry I. Porras, HarperBusiness, 1997, 0-88730-739-6

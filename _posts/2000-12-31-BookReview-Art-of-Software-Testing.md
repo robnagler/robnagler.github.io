@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Art of Software Testing"
+title: "BookNotes: Art of Software Testing"
 date: 2000-12-31T12:00:00Z
 ---
 By Glenford Myers, John Wiley & Sons, 1979

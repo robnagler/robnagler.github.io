@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookReview: Information Dashboard Design: The Effective Visual Communication of Data"
+title: "BookNotes: Information Dashboard Design: The Effective Visual Communication of Data"
 date: 2007-08-25T12:00:00Z
 ---
 By Stephen Few, O'Reilly Media, Inc., January 24, 2006, 978-0596100162
