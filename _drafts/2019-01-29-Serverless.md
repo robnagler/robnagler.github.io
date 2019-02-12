@@ -55,18 +55,25 @@ rightly postulates that Heisenbugs are hard to find and:
 > retried, the operation will usually not fail the second time.
 
 This is what makes Serverless hard. It's easy when you are just doing
-basic [CRUD](http://n99.us/gsx). It's hard to debug, because there are
-no real guarantees about the execution environment of your code. It'll
-run on some server, somewhere. Yes, it'll run in a configured
-container image, but you don't get to control the operating system
-kernel or other services used by the Serverless function.
+a basic [CRUD](http://n99.us/gsx) function. Anything more complex, and
+you have the complexities of intermittent failures of your code and/or
+third party services. With Serverless, there are no real guarantees
+about the execution environment. It'll run on some server,
+somewhere. Yes, it'll run in a configured container image, but you
+don't get to control the operating system kernel or other services
+used by the Serverless function.
 
-# Some advice
+# Some Advice
 
-In 2012 [Pat Helland](http://n99.us/hvz), chief architect of
-Tandems's Transaction Monitoring Facility and Microsoft Transaction
-Server, wrote
-[Idempotence Is Not a Medical Condition](http://n99.us/vfb)
+In 2012 [Pat Helland](http://n99.us/hvz) wrote
+[Idempotence Is Not a Medical Condition](http://n99.us/vfb), whose
+purpose is:
+
+> This article has sketched a few principles used by grizzled old-timers
+> to provide resilience even when "stuff happens."
+
+This was two years before AWS Lambda was launched, but the lessons are
+important to Serverless.
 
 http://www.hpl.hp.com/techreports/tandem/TR-89.3.pdf
 The TMF Application Programming Interface
@@ -76,9 +83,6 @@ always be paired with a matching ENDTRANSACTION or
 ABORTTRANSACTION. This is true even if the transaction is aborted by
 the system or by a server.
 
-> This article has sketched a few principles used by grizzled old-timers
-> to provide resilience even when "stuff happens."
-> -- [Pat Helland]
 
 
 Distributed
@@ -104,7 +108,7 @@ Some basic principles are:
 * Messages may be reordered.
 * Your partner may experience amnesia as a result of failures, poorly
   managed durable state, or load-balancing switchover to its evil
-  twin. 
+  twin.
 * Guaranteed delivery of the last message is impossible.
 
 Keeping these principles in mind can lead to a more robust
@@ -113,11 +117,11 @@ application.
 
 
 Back in the 1960's, companies realized they had to solve the scaling
-problem so they created 
+problem so they created
 Back in the 1970's, people figured out that statelessness was a
-good thing. By the 1980's statelessness was normal. 
+good thing. By the 1980's statelessness was normal.
 
-there were several OLTP systems 
+there were several OLTP systems
 
 
 
@@ -125,7 +129,7 @@ there were several OLTP systems
 and the serverless functions that execute should be idempotent.
 That's a key factor for scaling.
 
-In the 1980's [OLTP](http://n99.us/evw) systems 
+In the 1980's [OLTP](http://n99.us/evw) systems
 
 see this programming trend where stateless
 functions are invoked on demand.
