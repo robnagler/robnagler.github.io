@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Serverless: Bits of History, Words of Advice"
-date: 2019-01-29T12:00:00Z
+date: 2019-02-12T03:00:00Z
 ---
 
 [Serverless Computing](http://n99.us/zoy) is growing rapidly. I've
@@ -37,8 +37,7 @@ described on Wikipedia as follows:
 > short maximum elapsed time limits.
 
 Another example is Tandem's Transaction Monitoring Facility (TMF). The
-[TMF Application Programming Interface](http://n99.us/toz) from 1989
-states:
+[TMF Application Programming Interface](http://n99.us/toz) states:
 
 > A context-free server is a server that accepts a single message
 > from a requester, performs a job, and issues a single reply message
@@ -77,17 +76,16 @@ used by the Serverless function.
 # Words of Advice
 
 In 2012 [Pat Helland](http://n99.us/hvz) wrote
-[Idempotence Is Not a Medical Condition](http://n99.us/vfb), whose
-purpose is:
+[Idempotence Is Not a Medical Condition](http://n99.us/vfb), which states:
 
 > This article has sketched a few principles used by grizzled old-timers
 > to provide resilience even when "stuff happens."
 
 This was two years before AWS Lambda was launched, but the lessons are
-timeless for idempotent operations:
+timeless:
 
 > Some basic principles are:
-> 
+>
 > * Every message may be retried and, hence, must be idempotent.
 > * Messages may be reordered.
 > * Your partner may experience amnesia as a result of failures, poorly
@@ -98,9 +96,9 @@ timeless for idempotent operations:
 
 Amen.
 
-Pat Helland also wrote
-[TMF Application Programming Interface](http://n99.us/toz) (quoted
-above), which contains this sage advice:
+In 1989 Pat Helland also wrote
+[TMF Application Programming Interface](http://n99.us/toz), which
+contains this sage advice:
 
 > 2.5 An important concept for the requester is that a
 > BEGINTRANSACTION must always be paired with a matching
@@ -109,27 +107,24 @@ above), which contains this sage advice:
 
 This key concept is missing from Serverless frameworks -- at least the
 ones I've seen. Transactions should be *bracketed*, and the best way
-is for the framework to do this. If it's not available to you,
+is for the framework to do this. If it's not in your framework,
 create a wrapper for all your Serverless APIs that brackets all your
 transactions.
 
-When talking about reliable software, I have to mention
-[Fail Fast](http://n99.us/uzj), which was also mentioned
-in [Jim Gray's report](http://n99.us/xdl) (above):
+When talking about reliable software, [Fail Fast](http://n99.us/uzj) is a must,
+which [Jim Gray's report](http://n99.us/xdl) also mentions:
 
 > The process approach to fault isolation advocates that the process
 > software module be fail-fast, it should either function correctly or
 > it should detect the fault, signal failure and stop operating.
 
-To learn more about Fail Fast, 
-[read Jim Shore's excellent article](http://n99.us/dts),
-which will allow you to "Eliminate the debugger". With Serverless, you
-won't have one when you need it, anyway.
+Jim Shore's [Fail Fast](http://n99.us/dts) will help
+you to "Eliminate the debugger". With Serverless, you
+won't have one when you need one, so Jim's (modern day) advice
+will help you find those [Heisenbugs](http://n99.us/gth) that
+Jim Gray's report mentions.
 
 Serverless is going to be huge, because that's the way transaction
 processing systems have been built for decades.  Transaction
-Bracketing and Fail Fast are definitely key techniques to make your
-Serverless systems robust. I also highly recommend you familiarize
-yourself with Transaction Process Managers to help you avoid the
-[Heisenbugs](http://n99.us/gth) that stopped the systems Jim Gray
-investigated 35 years ago.
+Bracketing and Fail Fast are important techniques to make your
+Serverless systems robust.
