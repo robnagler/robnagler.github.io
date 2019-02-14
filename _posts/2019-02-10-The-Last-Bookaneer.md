@@ -2,7 +2,7 @@
 redirect_from: "/2019/02/10/BookReview-The-Last-Bookaneer.html"
 layout: post
 title: "BookNotes: The Last Bookaneer"
-date: 2019-02-10T11:24:59-0700
+date: 2019-02-10T18:00:00Z
 ---
 By Matthew Pearl, Penguin Press, April 28, 2015, 1594204926
 

@@ -2,7 +2,7 @@
 redirect_from: "/2019/02/06/BookReview-Happy-Brain.html"
 layout: post
 title: "BookNotes: Happy Brain: Where Happiness Comes From, and Why"
-date: 2019-02-05T20:36:09-0700
+date: 2019-02-05T20:00:00Z
 ---
 By Dean Burnett, W. W. Norton, May 29, 2018, 0393651347
 
