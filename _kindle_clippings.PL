@@ -7,7 +7,7 @@ my($in_text) = 0;
 my($book);
 my($rec);
 my($punct) = qr{[.\?\!\'\"]};
-my($now) = POSIX::strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
+my($now) = POSIX::strftime('%Y-%m-%dT%H:%M:%SZ', gmtime());
 foreach my $line (<>) {
     chomp($line);
     # first char on line by kindle
