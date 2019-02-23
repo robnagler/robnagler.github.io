@@ -15,5 +15,5 @@ ending. I enjoyed it, though.
 > would be simple multiplication. It would be trillions of seconds,
 > but so be it. It's still just mathematics."
 
-NOTE: Whoops. Billions, not trillions.
+NOTE: Whoops. Millions, not trillions.
 
