@@ -1,3 +1,4 @@
+---
 layout: post
 title: "BookNotes: Paris Is A Bitch -- A Rain/Delilah Short Story (A John Rain Novel)"
 date: 2019-02-23T13:07:00Z
