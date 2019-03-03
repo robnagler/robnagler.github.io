@@ -88,9 +88,11 @@ in how we die, too, and his position seems too trite.
 > Anaximander's thought from other writers. Only one small original
 > fragment of his writings has survived--just one:
 >
->    Things are transformed one into another according to necessity, 
->    and renderjustice to one another 
->    according to the order of time.
+> ```txt
+> Things are transformed one into another according to necessity, 
+> and render justice to one another 
+> according to the order of time.
+> ```
 
 > [k159] the whole of our physics, and science in general, is about
 > how things develop "according to the order of time."
@@ -286,8 +288,10 @@ in how we die, too, and his position seems too trite.
 
 > [k794] So, after all this, what is left of time?
 >
->     You got to deep-six your wristwatch, you got to try and understand, 
->     The time it seems to capture is just the movement of its hands... 
+> ```txt
+> You got to deep-six your wristwatch, you got to try and understand, 
+> The time it seems to capture is just the movement of its hands... 
+> ```
 >
 > Let's enter the world without time.
 
