@@ -28,7 +28,7 @@ by many names, and in programming, we use the word testability.
 I am talking about testability (falsifiability) of ideas, which is not
 the same thing as software testing.  Ideas are not executable,
 and code and tests are.
-[My other articles about testing](https://www.google.com/search?q=site:robnagler.com+testing)focus on the process and psychology around the tests
+[My other articles about testing](https://duckduckgo.com/?q=site:robnagler.com+testing)focus on the process and psychology around the tests
 themselves.  In this article I discuss how testable an
 idea is. In particular I will rely on Popper's result that the degree of
 testability can be used to define simplicity, and therefore

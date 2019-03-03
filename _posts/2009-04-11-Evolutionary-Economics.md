@@ -76,7 +76,7 @@ closed evolutionary economic system.
 ## Economic DNA
 
 Many books cover evolution and economics, and
-[I haven't found one](https://www.google.com/search?q=site:robnagler.com+evolution+economics)which explains how evolution applies to the economy.
+[I haven't found one](https://duckduckgo.com/?q=site:robnagler.com+evolution+economics)which explains how evolution applies to the economy.
 For example,
 [The Ascent of Money](/2009/04/06/The-Ascent-of-Money.html)contains these conflicting statements:
 

@@ -44,7 +44,7 @@ questions about what you are supposed to do.  The last rule is quite
 tricky.  What do they mean by "what" and "likely"?  Way too nebulous
 for me.  The first two have acronyms (showing their pervasiveness) and
 the last one does not.  Go ahead,
-[search on TWILTB](http://www.google.com/search?q=twiltb&lr=lang_en) to see what you come up with.  This page will be the 11th hit once
+[search on TWILTB](http://duckduckgo.com/?q=twiltb&lr=lang_en) to see what you come up with.  This page will be the 11th hit once
 Google gets to it, and it is the only page which discusses software
 testing.
 
@@ -196,7 +196,7 @@ of perfectionism in our schools will be with us for a long time to
 come.
 
 There is hope.  Testing is in, because
-[agile is in](http://www.google.com/search?q=agile+software).  The hype has allowed programmers to try testing and to consider
+[agile is in](http://duckduckgo.com/?q=agile+software).  The hype has allowed programmers to try testing and to consider
 that testing is integrated quality assurance.  This is an excellent
 start.  Programmers are motivated to test.
 

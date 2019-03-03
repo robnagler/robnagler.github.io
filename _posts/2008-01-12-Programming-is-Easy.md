@@ -109,7 +109,7 @@ overwhelmed by the problem.  Do I go forward, and try to debug the
 code, or retreat and start small again?  My answer is to go get
 something to eat or chat with my co-workers.  At this point, I'm in
 what Robert Pirsig calls a
-[Gumption Trap](https://www.google.com/search?q=site:robnagler.com+gumption+traps).  It's that awful feeling when you feel trapped by a confluence of
+[Gumption Trap](https://duckduckgo.com/?q=site:robnagler.com+gumption+traps).  It's that awful feeling when you feel trapped by a confluence of
 mistakes.  There's nothing to do but walk away and find something else
 to do which will replenish your gumption supply.
 

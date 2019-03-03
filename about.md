@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 I am a programmer.  Over the years, I've written a lot about
-[Programming](https://www.google.com/search?q=site:robnagler.com+programming).
+[Programming](https://duckduckgo.com/?q=site:robnagler.com+programming).
 This site collects some of these works, and is the repository for new articles.
 
 My opinions about programming and other subjects change over time.
@@ -15,22 +15,22 @@ how to devolve responsibility in a team.
 The methodology parts are too structured, and are not consistent with
 how I evolve software now, which is much more ad hoc.
 
-[Evolution](https://www.google.com/search?q=site:robnagler.com+evolution)
+[Evolution](https://duckduckgo.com/?q=site:robnagler.com+evolution)
 factors big in my current thinking about software.  This
 wasn't always the case.  I was a big fan of the waterfall model in the
 1980s until I saw people and relationships as the core issue.
 Programming-in-the-large requires a
-[team of trust](https://www.google.com/search?q=site:robnagler.com+team+trust).
+[team of trust](https://duckduckgo.com/?q=site:robnagler.com+team+trust).
 
 Code evolves by integrating
-[feedback](https://www.google.com/search?q=site:robnagler.com+feedback).
+[feedback](https://duckduckgo.com/?q=site:robnagler.com+feedback).
 The more feedback, the better.
 A team of trust is fearless and can accept any feedback thrown at it.
 Team members are never fearless.  Only in a team do we create a bond
 of trust that enables us to overcome our particular fears in any one
 instance.
 
-[Psychology](https://www.google.com/search?q=site:robnagler.com+psychology)
+[Psychology](https://duckduckgo.com/?q=site:robnagler.com+psychology)
 figures centrally in my life and work.
 I strive to understand how my psyche affects my
 actions and reactions.  I visit a psychologist regularly to help me
@@ -39,7 +39,7 @@ incredibly supportive family, friends, and
 work colleagues.
 
 My opinions are informed mostly from my reading.  You can find many
-[notes on books I find interesting](https://www.google.com/search?q=site:robnagler.com+BookNotes)
+[notes on books I find interesting](https://duckduckgo.com/?q=site:robnagler.com+BookNotes)
 on this site.  I used to add some notes once a month, but I haven't
 had the time. I continue to read, just don't write notes, much.
 
