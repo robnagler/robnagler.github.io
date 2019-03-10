@@ -85,6 +85,7 @@ foreach my $line (<>) {
         my($title, $author) = ($1, $2);
         $title =~ s/^\s+|\s+$//g;
         $author =~ s/^\s+|\s+$//g;
+        $author = join(' ', reverse(split(/\s*,\s*/, $author)));
         next
             if $book = $books->{$title . $author};
         ($book = ($books->{$title . $author} ||= {}))->{prefix}
