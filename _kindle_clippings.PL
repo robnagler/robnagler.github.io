@@ -31,6 +31,7 @@ foreach my $line (<>) {
         my($type, $unit, $start, $end, $ls, $le) = ($1, $2, $3, $4, $5, $6);
         $unit = $unit =~ /^p/i ? 'p' : 'k';
         $rec = {type => $type};
+        $in_text = 1;
         if ($type =~ /note/i) {
             $rec->{is_highlight} = 0;
             $rec->{start} = $rec->{end} = $ls || $start;
@@ -55,10 +56,13 @@ foreach my $line (<>) {
             $start .= $end;
             $rec->{end} = $start;
         }
-        else {
-            die("$type unknown: $line");
+        elsif ($type =~ /bookmark/i) {
+            # don't save, just parse and toss
+            next;
         }
-        $in_text = 1;
+        else {
+            die(qq{type "$type" unknown: $line});
+        }
         push(@{$book->{records} ||= []}, $rec);
     }
     elsif ($in_text) {
