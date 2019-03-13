@@ -2,6 +2,7 @@ package Nagler::Kindle;
 use strict;
 use Encode ();
 use POSIX ();
+use Text::Wrap ();
 my($books) = {};
 my($in_text) = 0;
 my($book);
@@ -123,14 +124,16 @@ foreach $book (values(%$books)) {
 	next
 	    unless $prev && $prev->{is_highlight} eq $curr->{is_highlight};
 	if ($prev->{start} eq $curr->{start}) {
-            print(STDERR "TITLE: $book->{title}\nREPLACED: $prev->{text}\nWITH: $curr->{text}\n");
+            unless ($prev->{text} eq $curr->{text}) {
+                print(STDERR "TITLE: $book->{title}\nREPLACED: $prev->{text}WITH: $curr->{text}\n\n");
+            }
 	    %$prev = %$curr;
 	}
  	elsif ($prev->{is_highlight}
  	    and $prev->{end} == $curr->{start}
  	    || $prev->{end} + 1 == $curr->{start}
  	) {
- 	    $prev->{text} .= ' FIXME ' . $curr->{text};
+ 	    $prev->{text} .= "\nFIXME\n" . $curr->{text};
  	}
 	else {
 	    next;
@@ -159,14 +162,15 @@ foreach $book (values(%$books)) {
                         # period, and the data strips too much.
                         if ($x =~ s/$qr//) {
                             if (length($1) > 1 && length($x) / length($t) > 0.8) {
-                                print(STDERR "TITLE: $book->{title}\nTRIMMED: $_->{label} $1\nFROM: $t\n");
+                                print(STDERR "TITLE: $book->{title}\nTRIMMED: $_->{label} $1\nFROM: $t\n\n");
                                 $t = $x;
                             }
                             elsif ($t !~ m{$punct\s*$}s) {
-                                $t .= ' FIXME';
+                                $t .= "\nFIXME";
                             }
                         }
 		    }
+                    $t = Text::Wrap::wrap('', '> ', $t);
 		}
 		$t;
 	    } @$records,
