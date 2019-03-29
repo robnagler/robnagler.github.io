@@ -6,8 +6,8 @@ date: 2019-03-17T12:00:00Z
 Barry Eisler writes spy books. I read a bunch of them, which are
 listed here, because I don't have much to say about them except they
 are a good distraction for me. I did write up two books 
-[The God's Eye View](/2019/02/23/Gods-Eye-View.html) and
-[Paris Is A Bitch](/2019/02/23/Paris-Is-A-Bitch.html).
+[The God's Eye View]({{ site.baseurl }}{% post_url 2019-02-23-Gods-Eye-View %}) and
+[Paris Is A Bitch]({{ site.baseurl }}{% post_url 2019-02-23-Paris-Is-A-Bitch%}).
 
 Eisler self-publishes. He also bought back the rights to all his
 books, cleaned up the titles, and republished them. I read those
