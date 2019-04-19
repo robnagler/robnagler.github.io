@@ -28,7 +28,7 @@ foreach my $line (<>) {
     # Trim footnotes
     $line =~ s/(?<=[^\d]$punct)\d+//sg;
     $line =~ s/^\s+|\s+$//g;
-    if ($line =~ m{^-(?:\s+Your)?\s+(\w+)\s+(?:on\s+)?(Loc|Page)\S*\s+(\d+)(?:-(\d+))?(?:\s+\|\s+Location\s+(\d+)(?:-(\d+))?)?}i) {
+    if ($line =~ m{^-(?:\s+Your)?\s+(\w+)\s+(?:on\s+)?(Loc|Page)\S*\s+(\w+)(?:-(\w+))?(?:\s+\|\s+Location\s+(\d+)(?:-(\d+))?)?}i) {
         my($type, $unit, $start, $end, $ls, $le) = ($1, $2, $3, $4, $5, $6);
         $unit = $unit =~ /^p/i ? 'p' : 'k';
         $rec = {type => $type};
