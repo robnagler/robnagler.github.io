@@ -22,8 +22,7 @@ foreach my $line (<>) {
     $line =~ s/\x{8094}/--/g;
     $line =~ s/[\x{0aa3}]/GBP /g;
     $line =~ s/\p{IsSpacePerl}+/ /g;
-
-    $line =~ s/([\x{FF}-\x{FFFF}])/'FIXME' . sprintf('%x', ord($1))/eg;
+    $line =~ s/([^[:ascii:]]+)/'<FIXME ' . sprintf('%x', ord($1)) . '>'/eg;
     $line =~ s/\r//g;
     # Trim footnotes
     $line =~ s/(?<=[^\d]$punct)\d+//sg;
