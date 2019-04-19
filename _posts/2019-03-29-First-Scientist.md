@@ -289,7 +289,7 @@ NOTE: Way overblown.
 
 > [k1942] It seems to me that humanity's common error is to fear this
 > fluidity and seek absolute certainty--the foundation, the fixed point
-> that would soothe our unease. I think that this attitude is naïve and
+> that would soothe our unease. I think that this attitude is naive and
 > counterproductive to the quest for knowledge.
 
 NOTE: Another story he tells as if it were absolute truth.
