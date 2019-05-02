@@ -8,8 +8,8 @@ By Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler, McGraw-Hill Ed
 Crucial Conversations happen constantly in my house. This book has already
 helped me. I first read the book in 2014. I reread it now at the
 prompting of a friend, and it was worth it. In conjunction with reading
-[Difficult Conversations](({{ site.baseurl }}{% post_url 2019-03-19-Difficult-Conversations %})
-and [Thanks for the feedback](({{ site.baseurl }}{% post_url 2019-04-02-Thanks-for-the-Feedback %}), 
+[Difficult Conversations]({{ site.baseurl }}{% post_url 2019-03-19-Difficult-Conversations %})
+and [Thanks for the feedback]({{ site.baseurl }}{% post_url 2019-04-02-Thanks-for-the-Feedback %}), 
 I feel motivated to really work on my behavior. As all these books
 note: I'm the only one who I can change. Sometimes I forget that!
 
