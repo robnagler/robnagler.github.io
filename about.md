@@ -33,15 +33,17 @@ instance.
 [Psychology](https://duckduckgo.com/?q=site:robnagler.com+psychology)
 figures centrally in my life and work.
 I strive to understand how my psyche affects my
-actions and reactions.  I visit a psychologist regularly to help me
-integrate the feedback the real world throws at me.  I also rely on my
-incredibly supportive family, friends, and
-work colleagues.
+actions and reactions. I used to visit a psychologist regularly to help me
+integrate the feedback the real world threw at me. I'm better able to
+do this on my own now, but I also rely on my
+incredibly supportive family, friends, and work colleagues.
 
-My opinions are informed mostly from my reading.  You can find many
+In addition to conversations, my opinions are informed by my reading.
+You can find many
 [notes on books I find interesting](https://duckduckgo.com/?q=site:robnagler.com+BookNotes)
-on this site.  I used to add some notes once a month, but I haven't
-had the time. I continue to read, just don't write notes, much.
+on this site. I've been trying to keep up more with my notes no
+recent books, and I've got years of pending notes that I need to
+backfill.
 
 Work is an extremely important part of my life.  I have had rapture of
 the bits since I was nine.  I have always worked in software, and continue
@@ -58,4 +60,4 @@ me at robnagler.com.
 
 Cheers,<br />
 Rob<br />
-1/9/2019
+8/10/2019
