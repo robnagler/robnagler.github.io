@@ -4,7 +4,7 @@ layout: post
 title: "BookNotes: Free Culture: How Big Media Uses Technology and the Law to Lock"
 date: 2009-01-08T12:00:00Z
 ---
-By Lawrence Lessig, ^Feedbooks.com, 2004, 9781594200069
+By Lawrence Lessig, [Feedbooks.com](http://feedbooks.com), 2004, 9781594200069
 
 Lawrence Lessig explains why the U.S. has gone from a free culture to a
 permissioned culture.  When people talk about the U.S. falling like
@@ -232,12 +232,11 @@ have entered a new phase, where IP is an idea, not a valuable object.
  I have always wondered why more authors don't do this. It has real value to the readers and the author's market.
 
 
-> [k4586] I have tried to remedy the instability by redirecting readers to the original source through the Web site associated with this book. For each link below, you can go to ^http://free-culture.cc
+> [k4586] I have tried to remedy the instability by redirecting readers to the original source through the Web site associated with this book. For each link below, you can go to [free-culture.cc](http://free-culture.cc)
 
 
 
-> [k4584] Throughout this text, there are references to links on the World Wide Web. As anyone who has tried to use the Web knows, these links can be highly unstable. I have tried to remedy the instability by redirecting readers to the original source through the Web site associated with this book. For each link below, you can go to ^http://free-culture.cc/notes and locate the original source by clicking on the number after the # sign. If the original link remains alive, you will be redirected to that link. If the original link has disappeared, you will be redirected to an appropriate reference for the material.
+> [k4584] Throughout this text, there are references to links on the World Wide Web. As anyone who has tried to use the Web knows, these links can be highly unstable. I have tried to remedy the instability by redirecting readers to the original source through the Web site associated with this book. For each link below, you can go to [free-culture.cc/notes](http://free-culture.cc/notes) and locate the original source by clicking on the number after the # sign. If the original link remains alive, you will be redirected to that link. If the original link has disappeared, you will be redirected to an appropriate reference for the material.
 > 
-
 
 
