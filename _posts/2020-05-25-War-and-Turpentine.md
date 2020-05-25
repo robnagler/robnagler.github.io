@@ -17,11 +17,11 @@ was not his profession. Urbain was man who did what asked of
 him. Again, that was my father, but while he went to war, he was more
 of a soldier at home. Urbain was a soldier in war and at home.
 
-Stefan Hertmans writes in a way. I read in the NY Times book review
-that "Whether that truth is documentary or dramatic (and carefully
-constructed) is a question this reader occasionally wrestled with, but
-mostly set aside." I felt exactly this way. It's an intriguing story
-full of emotion.
+Stefan Hertmans writes in an interesting style. I read in the NY Times
+book review that "Whether that truth is documentary or dramatic (and
+carefully constructed) is a question this reader occasionally wrestled
+with, but mostly set aside." I felt exactly this way. It's an
+intriguing story full of emotion and excellent prose.
 
 Urbain's first financee dies of the Flu in 1919. I write this during
 the COVID-19 pandemic, 100 years later. Fortunately, I don't know
