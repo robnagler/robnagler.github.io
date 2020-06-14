@@ -1,4 +1,4 @@
-n---
+---
 layout: post
 title: "BookNotes: Uncanny Valley"
 date: 2020-04-13T14:00:00Z
