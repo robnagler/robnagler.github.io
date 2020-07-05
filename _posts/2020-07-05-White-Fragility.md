@@ -12,7 +12,7 @@ unrelenting. This book will change your view of racism.
 
 Hopefully, it will help transform you into being less racist.
 
-> [k184] [Michael Eric Dyson's Foreword] *White Fragility* is a vital, necessary, and beautiful book, a
+> [k184] [Michael Eric Dyson's Foreword] __White Fragility__ is a vital, necessary, and beautiful book, a
 > bracing call to white folk everywhere to see their whiteness for what it
 > is and to seize the opportunity to make things better now.
 > Robin DiAngelo kicks all the crutches to the side and demands
@@ -54,7 +54,7 @@ Hopefully, it will help transform you into being less racist.
 > [k270] These responses work to reinstate white equilibrium as they
 > repel the challenge, return our racial comfort, and maintain our
 > dominance within the racial hierarchy. I conceptualize this process as
-> _white fragility_.
+> __white fragility__.
 
 > [k276] In the early days of my work as what was then termed a diversity
 > trainer, I was taken aback by how angry and defensive so many white
@@ -84,8 +84,8 @@ Hopefully, it will help transform you into being less racist.
 > indignities people of color endure from white people who see themselves
 > as open-minded and thus not racist.
 
-> [k315] I believe that _white progressives cause the most daily damage to
-> people of color_.
+> [k315] I believe that __white progressives cause the most daily damage to
+> people of color__.
 
 > [k317] White progressives can be the most difficult for people of color
 > because, to the degree that we think we have arrived, we will put our
@@ -138,7 +138,7 @@ Hopefully, it will help transform you into being less racist.
 > [k414] A more fruitful form of engagement (because it expands rather than
 > protects his current worldview) would have been to consider how Italian
 > Americans were able to become white and how that assimilation has shaped
-> his experiences in the present _as a white man_.
+> his experiences in the present __as a white man__.
 
 > [k421] We cannot understand modern forms of racism if we cannot or will
 > not explore patterns of group behavior and their effects on individuals.
@@ -146,7 +146,7 @@ Hopefully, it will help transform you into being less racist.
 > [k425] Rather than use what you see as unique about yourself as an
 > exemption from further examination, a more fruitful approach would be to
 > ask yourself, "I am white and I have had X experience. How did X shape me
-> as a result of _also being white_?"
+> as a result of __also being white__?"
 > Setting aside your sense of uniqueness is a critical skill that
 > will allow you to see the big picture of the society in which we live;
 > individualism will not.
@@ -230,7 +230,7 @@ Hopefully, it will help transform you into being less racist.
 > increasing rather than decreasing.
 
 > [k608] As with prejudice and discrimination, we can remove the qualifier
->_ reverse_ from any discussion of racism. By definition, racism is a deeply
+> __ reverse__ from any discussion of racism. By definition, racism is a deeply
 > embedded historical system of institutional power. It is not fluid and
 > does not change direction simply because a few individuals of color
 > manage to excel.
@@ -256,7 +256,7 @@ Hopefully, it will help transform you into being less racist.
 > who, behind the scenes, worked hard and long to open the field to African
 > American players.
 
-> [k686] In his book _The Racial Contract_, Charles W. Mills argues that the
+> [k686] In his book __The Racial Contract__, Charles W. Mills argues that the
 > racial contract is a tacit and sometimes explicit agreement among members
 > of the peoples of Europe to assert, promote, and maintain the ideal of
 > white supremacy in relation to all other people of the world. This
@@ -355,7 +355,7 @@ Hopefully, it will help transform you into being less racist.
 > we return to white writers, reinforcing the idea of whites as just human,
 > and people of color as particular kinds (racialized) of humans.
 
-> [k1123] Virtually any representation of _human_ is based on white people's
+> [k1123] Virtually any representation of __human__ is based on white people's
 > norms and images--"flesh-colored" makeup, standard emoji, depictions of
 > Adam and Eve, Jesus and Mary, educational models of the human body with
 > white skin and blue eyes.
@@ -487,8 +487,8 @@ Hopefully, it will help transform you into being less racist.
 > [k1604] Racism is so deeply woven into the fabric of our society that I
 > do not see myself escaping from that continuum in my lifetime.
 
-> [k1621] Talking about race and racism in general terms such as _white
-> people_ is constructive for whites because it interrupts individualism.
+> [k1621] Talking about race and racism in general terms such as __white
+> people__ is constructive for whites because it interrupts individualism.
 > But racial generalization also reinforces something problematic for
 > people of color--the continual focus on their group identity.
 
@@ -508,10 +508,10 @@ Hopefully, it will help transform you into being less racist.
 > the true direction of violence between whites and blacks since the
 > founding of this country.
 
-> [k1658] Affirmative action is a tool to ensure that _qualified_ minority
+> [k1658] Affirmative action is a tool to ensure that __qualified__ minority
 > applicants are given the same employment opportunities as white people.
 > It is a flexible program--there are no quotas or requirements as commonly
-> understood. Moreover, _white women_ have been the greatest beneficiaries of
+> understood. Moreover, __white women__ have been the greatest beneficiaries of
 > affirmative action, although the program did not initially include them.
 > Corporations are more likely to favor white women and immigrants of color
 > of elite backgrounds from outside the United States when choosing their
@@ -547,7 +547,7 @@ Hopefully, it will help transform you into being less racist.
 > recruit and retain a more diverse workforce, I am consistently warned
 > that past efforts to address the lack of diversity have resulted in
 > trauma for white employees. This is literally the term used to describe
-> the impact of a brief and isolated workshop: _trauma_.
+> the impact of a brief and isolated workshop: __trauma__.
 
 > [k1982] Let me be clear: while the capacity for white people to sustain
 > challenges to our racial positions is limited--and, in this way,
@@ -559,7 +559,7 @@ Hopefully, it will help transform you into being less racist.
 > place."
 
 > [k1994] White fragility is much more than mere defensiveness or whining.
-> It may be conceptualized as the _sociology of dominance_: an outcome of
+> It may be conceptualized as the __sociology of dominance__: an outcome of
 > white people's socialization into white supremacy and a means to protect,
 > maintain, and reproduce white supremacy.
 > The term is not applicable to other groups who may register
@@ -641,12 +641,12 @@ Hopefully, it will help transform you into being less racist.
 > distress as quickly as possible may be felt as a literal matter of
 > survival.
 
-> [k2376] _"Yes," she replies. "That survey? I wrote that survey. And I have
-> spent my life justifying my intelligence to white people."_
+> [k2376] __"Yes," she replies. "That survey? I wrote that survey. And I have
+> spent my life justifying my intelligence to white people."__
 >
-> _My chest
+> __My chest
 > constricts as I immediately realize the impact of my glib dismissal of
-> the survey. I acknowledge this impact and apologize._
+> the survey. I acknowledge this impact and apologize.__
 
 > [k2414] Being good or bad is not relevant.
 
@@ -687,7 +687,7 @@ Hopefully, it will help transform you into being less racist.
 > protect ignorance and the continuation of things the way they are, the
 > ultimate protection for changelessness.
 
-> [k2526] When I start from the premise that _of course_ I have been
+> [k2526] When I start from the premise that __of course__ I have been
 > thoroughly socialized into the racist culture in which I was born, I no
 > longer need to expend energy denying that fact.
 
