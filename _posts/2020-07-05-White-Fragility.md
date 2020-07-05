@@ -12,7 +12,7 @@ unrelenting. This book will change your view of racism.
 
 Hopefully, it will help transform you into being less racist.
 
-> [k184] [Michael Eric Dyson's Foreword] _White Fragility_ is a vital, necessary, and beautiful book, a
+> [k184] [Michael Eric Dyson's Foreword] *White Fragility* is a vital, necessary, and beautiful book, a
 > bracing call to white folk everywhere to see their whiteness for what it
 > is and to seize the opportunity to make things better now.
 > Robin DiAngelo kicks all the crutches to the side and demands
