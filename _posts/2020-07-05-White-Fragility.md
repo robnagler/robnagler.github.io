@@ -34,10 +34,10 @@ Hopefully, it will help transform you into being less racist.
 > [k235] When multiracial people's racial identity is ambiguous, they will
 > face constant pressure to explain themselves and "choose a side."
 
-> [k258] _A white man is pounding his fist on the table. As he pounds, he
+> [k258] __A white man is pounding his fist on the table. As he pounds, he
 > yells, "A white person can't get a job anymore!" I look around the room
 > and see forty employees, thirty-eight of whom are white. Why is this
-> white man so angry?_
+> white man so angry?__
 
 > [k262] White people in North America live in a society that is deeply
 > separate and unequal by race, and white people are the beneficiaries of
