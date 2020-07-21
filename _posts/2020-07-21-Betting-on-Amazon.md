@@ -155,8 +155,9 @@ while still believing in capitalism.
 
 ## What About Diversification?
 
-Warren Buffet [bet on the S&P 500 in 2008](http://n99.us/noo) over a
-hedge fund, and the manager conceded two years early (2016). Buffet
+In 2008, Warren Buffet made a ten year bet that the S&P 500 would beat
+a hedge fund and
+[the hedge fund manager conceded two years early](http://n99.us/noo). Buffet
 says that non-professional investors should invest in low-cost index
 funds. This is solid wisdom, and John C. Boggle made a fortune
 creating that industry.
@@ -182,8 +183,8 @@ Apple.
 
 Diversification is thought to be safe, but it leads to owning a lot of
 Day 2 companies. There are 500 companies in the S&P 500, and I would
-not buy a single share of most of them so why do I think "in
-aggregate" that the S&P 500 is a good bet. I don't any more.
+not buy a single share of most of them. Why would do I think "in
+aggregate" that the S&P 500 is a good bet? I don't, any more.
 
 ## Betting on America
 
