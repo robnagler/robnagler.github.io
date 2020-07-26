@@ -19,86 +19,38 @@ also have to thank Warren Buffet for saying "You have to learn how to
 value businesses and know the ones that are within your circle of
 competence and the ones that are outside."
 
-## The Richest Invested in One Company
+In this article, I attempt to value Amazon, because I believe it is
+within my circle of competence to do so. I want to know if my bet on
+Amazon makes sense.
 
-In 2009, I wrote,
-"[nine guys made all their money from a single company]({{ site.baseurl }}{% post_url 2009-06-13-Objectively-Rich %})."
-These nine people were in top 25 on the Forbes Billionaires list.
-Buffet, Helu, Alsaud, and Ka-shing were also in the top 25. And, the
-other twelve inherited their wealth so I joked the "easiest path to
-wealth is to inherit it." I concluded that I should invest with
-Buffet, because he was the best money manager. That is, I assumed I
-needed a money manager. Fatal flaw.
+## Bucking Tradition
 
-A better approach would have been to dig deeper. The people who
-inherited their wealth _also_ made their money from a single
-company. Even in the article, I noted that four of the top 25 were
-Waltons, but I did not dig deeper. I should have.
+Some investment advisors would have me put
+[60% of my money in bonds](https://www.investopedia.com/articles/investing/062714/100-minus-your-age-outdated.asp)
+and the rest in stock. Others say 110 minus your age in stocks, or
+50%, in my case. I think formulas like this are ridiculous, and not
+based on actual circumstances.
 
-The 2009 Forbes list:
+For example, I own real estate. How much is it worth? Real estate is a
+leveraged investment. What should my leverage be at my age? Some
+people would say I should be paying off your mortgage before I
+retire. None of this is incorporated in the age-based calculations.
 
-1. William Gates III - Microsoft
-2. Warren Buffett - Berkshire
-3. Carlos Slim Helu - Grupo Carso
-4. Lawrence Ellison - Oracle
-5. Ingvar Kamprad - IKEA
-6. Karl Albrecht - Aldi
-7. Mukesh Ambani - Reliance
-8. Lakshmi Mittal - ArcelorMittal
-9. Theo Albrecht - Aldi
-10. Amancio Ortega - Inditex
-11. Jim Walton - Walmart
-12. Alice Walton - Walmart
-13. Christy Walton - Walmart
-14. S Robson Walton	- Walmart
-15. Bernard Arnault - Christian Dior & Le Bon Marche
-16. Li Ka-shing Hong Kong - CK
-17. Michael Bloomberg - Bloomberg
-18. Stefan Persson - H&M
-19. Charles Koch - Koch
-20. David Koch - Koch
-21. Liliane Bettencourt - L'Oreal
-22. Prince Alwaleed Bin Talal Alsaud - Kingdom Establishment
-23. Michael Otto - Otto
-24. David Thomson - Thomson-Reuters
-25. Michael Dell - Dell
+"Consistently buy an S&P 500 low-cost index fund," [Warren Buffet]
+[told CNBC's On The Money](https://www.cnbc.com/2018/01/03/why-warren-buffett-says-index-funds-are-the-best-investment.html).
+"I think it's the thing that makes the most sense practically all of
+the time."
 
-Every single one of these people got their wealth from companies
-founded in the 20th century. No Rockefellers, Carnegies, or older
-wealth is in the list. All the heirs are second generation, and many
-went on to make the companies even bigger.
+If you have a long horizon, this makes perfect sense. Perhaps if I
+hadn't put all my savings into myriad startups, I'd have more savings
+now, and a bet on the S&P would have paid off. However, I have less
+savings than I need to retire, and I am confident that 1) I can work
+till I'm 75 and/or 2) I can take on much more risk so I might
+not have to.
 
-The list in 2020 contains even more first generation wealth from a
-single company:
-
-1. Jeff Bezos - Amazon
-2. William Gates III - Microsoft
-3. Bernard Arnault - Christian Dior & Le Bon Marche
-4. Warren Buffett - Berkshire
-5. Lawrence Ellison - Oracle
-6. Amancio Ortega - Inditex
-7. Mark Zuckerberg - Facebook
-8. Jim Walton - Walmart
-9. Alice Walton - Walmart
-10. Rob Walton - Walmart
-11. Steve Ballmer - Microsoft
-12. Carlos Slim Helu - Grupo Carso
-13. Larry Page - Google
-14. Sergey Brin - Google
-15. Liliane Bettencourt - L'Oreal
-16. Michael Bloomberg - Bloomberg
-17. Jack Ma - Alibaba
-18. Charles Koch - Koch
-19. Julia Koch - Koch
-20. Ma Huateng - Tencent
-21. Mukesh Ambani - Reliance
-22. MacKenzie Bezos - Amazon
-23. Karl Albrecht - Aldi
-24. David Thomson - Thomson-Reuters
-25. Phil Knight - Nike
-
-Fun fact: about half the companies are retail and the other
-half technology. Berkshire, Koch, and Gruppo Carso are outliers.
+I do have real estate in a solid market, and depending on whom you
+ask, it makes up 40% of my portfolio. I am also 15% cash at this
+very moment due to COVID-19, but that will change.
 
 ## Technology Meets Retail
 
@@ -131,7 +83,66 @@ Dogfooding is important. Google Compute Cloud is not used in
 internally at Google whereas Amazon Web Services (AWS) is. If AWS is
 down, services at amazon.com might be broken. I have used a number of
 cloud providers, and none of the big ones work as well as AWS. (I do
-like Linode.com, but they are a niche provider.)
+like and use Linode.com, but they are a niche provider.)
+
+Microsoft were the
+[original dogfooders](https://en.wikipedia.org/wiki/Eating_your_own_dog_food#Origin_of_the_term).
+This made Windows more reliable. I wonder if they are dogfooding
+their cloud products. From my personal usage of Azure (Microsoft's AWS
+competitor), I would say
+not, even though Microsoft is Number Two in cloud computing. Azure is
+clunky to use, and I only know a few people who use it.
+
+## Cloud Computing Revenues
+
+Investors pay a lot of attention to The Cloud. I'm less interested,
+because it is a small part of Amazon's revenue. AWS revenue was $35B
+in 2019, if we take it as face value. It grew from $25B in 2018, and
+is on track to increase by that much again in 2020. Amazon's total
+revenue in 2018 was $233B, and rose to $281B in 2019. That's 20%
+growth in a much larger market ($24T). Yet, I know that investors pay
+attention so should I.
+
+One question I had is whether AWS recognizes revenue from, say, Prime
+Video. Reading the 10-K, says "Costs to operate our AWS segment are
+primarily classified as 'Technology and content' as we leverage a
+shared infrastructure that supports both our internal technology
+requirements and external sales to AWS customers." I take from this
+statemtnt that they treat "internal technology" as a cost, and not a
+cost of goods sold. I don't think it would be legal for them to
+recognize revenue from internal "sales", and enough people are
+watching that I feel safe in that assumption.
+
+Investors are very excited about Microsoft, which has a higher market
+cap than Amazon, despite having only $126B in revenue in 2019 and
+$110B in 2018. Growth at Microsoft has been less than 15%. It's
+strange to me that their market cap is so high. The big excitement
+in the news is Azure growth, but there's a
+problem: Microsoft is
+[hiding Azure revenue numbers](https://www.techrepublic.com/article/microsoft-keeps-hiding-azure-revenue-numbers-but-why/).
+
+Azure revenues are important, because I would like to know if AWS is
+far and away the biggest cloud service, or if competitors are eating
+into AWS's revenue. Microsoft's Intelligent Cloud segment includes
+Azure, GitHub, Windows Server, SQL Server, Visual Studio, and
+Enterprise Services (Consulting and Support). Intelligent Cloud
+revenues were $39B in 2019. However, no one seems what Azure's
+standalone revenues are.
+
+I tried to do my own analysis, and gave up. Microsoft keeps on
+recategorizing "commercial cloud" to mean something else, and it seems
+to be getting bigger. (Go to the 2017 and 2019 annual reports and
+search on "Revenue from external customers" to see what I mean.)
+
+However, I am pretty sure that Azure revenues are a small percentage of the
+$39B stated in 2019 for the same reason that Amazon didn't post
+seperate numbers for AWS's first nine years. Small numbers are not
+interesting to investors. If Azure growth is 72%, it's not on $10B,
+because the delta between 2018 and 2019 Server Products and Cloud
+Services is $6B.
+
+My conclusion is that Microsoft is not eating AWS's lunch, at least
+not yet.
 
 ## My Circle of Competence
 
