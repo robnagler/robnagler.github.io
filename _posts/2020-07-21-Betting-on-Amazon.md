@@ -144,6 +144,8 @@ Services is $6B.
 My conclusion is that Microsoft is not eating AWS's lunch, at least
 not yet.
 
+## Truck Factor
+
 ## My Circle of Competence
 
 Unlike Warren Buffet, I am a technologist. I understand why Amazon
