@@ -3,38 +3,63 @@ layout: post
 title: "Betting on Amazon"
 date: 2020-07-21T15:30:00Z
 ---
-In February, I dropped some Berkshire Hathaway in favor of
-Amazon. When the market crashed in March due to COVID-19, I moved most
-of my money into cash. Then as I gained confidence, I bought
-more. Amazon is where most of my cash is invested.
+In February, I dropped some Berkshire Hathaway and bought
+some Amazon. When the market crashed in March due to the initial
+COVID-19 panic, I moved most of my money into cash. Then as I gained
+confidence, I bought more. Amazon is where most of my cash is invested.
 
-If you read my 2014 article [Lazy Investing]({{ site.baseurl }}{%
-post_url 2014-11-27-Lazy-Investing %}), you might say I am
+If you read my 2014 article
+[Lazy Investing]({{ site.baseurl }}{% post_url 2014-11-27-Lazy-Investing %}),
+you might say I am
 contradicting myself. Actually, that article was an example of
 confirmation bias. (I have that tendency, and perhaps this article
 should poke more holes in my conclusion.) It took me five years to
-realize that. I have to thank many lunch time conversations with Janis
+realize that the article was about convincing myself about my
+existing conviction.
+
+I have to thank many lunch time conversations with Janis
 and [Evan](https://evan.carlin.com) for challenging my convictions. I
 also have to thank Warren Buffet for saying "You have to learn how to
 value businesses and know the ones that are within your circle of
 competence and the ones that are outside."
 
-In this article, I attempt to value Amazon, because I believe it is
-within my circle of competence to do so. I want to know if my bet on
-Amazon makes sense.
+In this article, I document my investing strategy promoted by my
+rethinking in February. I discuss my asset allocation, but the primary
+focus is an attempt to value Amazon, because I believe it is within my
+circle of competence to do so. I want to know if my big bet on Amazon
+makes sense.
 
 ## Bucking Tradition
 
 Some investment advisors would have me put
 [60% of my money in bonds](https://www.investopedia.com/articles/investing/062714/100-minus-your-age-outdated.asp)
-and the rest in stock. Others say 110 minus your age in stocks, or
-50%, in my case. I think formulas like this are ridiculous, and not
+and the rest in stock. Others say 110 or 120 minus your age in stocks, or
+50-60%, in my case. I think formulas like this are ridiculous, and not
 based on actual circumstances.
 
-For example, I own real estate. How much is it worth? Real estate is a
-leveraged investment. What should my leverage be at my age? Some
-people would say I should be paying off your mortgage before I
-retire. None of this is incorporated in the age-based calculations.
+I own real estate. How much is it worth? Real estate is a
+leveraged investment. What should my leverage be at my age? How much
+should I keep in real estate vs cash vs bonds vs stock? I also own a
+significant chunk of two private companies. These are highly illiquid
+assets. Should I divest?
+
+Some people would say I should be paying off your mortgage before I
+retire. Others would say that my privately held stock is stock, and I
+need to adjust my publicly held stock accordingly. None of this is
+incorporated in the age-based calculations of stocks vs bonds.
+
+My portfolio is a victim of circumstance. I lived in a house, and I
+didn't sell it when I moved out. Janis is a real estate agent, and she
+thinks real estate is a good investment. One day she told me to buy
+another house so I did. Unlike stocks, you can't just drop a house for
+another one so I keep the houses partially out of inertia, the solid
+real estate market, and a number of other reasons that are personal to
+me. Owning real estate diversifies my asset allocation.
+
+My 401K only allows me to invest in mutual funds. During the COVID
+panic, I moved it all into a long term bond fund (VBLTX), because I
+figured it was slightly better than the money market. The fact that I
+can't put it in Amazon is a good thing, but why not put it in the S&P?
 
 "Consistently buy an S&P 500 low-cost index fund," [Warren Buffet]
 [told CNBC's On The Money](https://www.cnbc.com/2018/01/03/why-warren-buffett-says-index-funds-are-the-best-investment.html).
@@ -48,9 +73,21 @@ savings than I need to retire, and I am confident that 1) I can work
 till I'm 75 and/or 2) I can take on much more risk so I might
 not have to.
 
-I do have real estate in a solid market, and depending on whom you
-ask, it makes up 40% of my portfolio. I am also 15% cash at this
-very moment due to COVID-19, but that will change.
+COVID has created uncertainty like I have never seen before. The stock
+market is driven by fear-of-missing-out (FOMO) investors and/or
+speculators. I decided in March to sit out of the S&P for a while. If
+I lose a year's gains, so be it. I can have a multi-decade horizon on
+my 401K funds, since I'm being more agressive with my other accounts.
+
+So my asset mix is pretty random. I do not think there's a formula
+that could help me with my unique situation. I also know that I need
+to be aggressive with a large part of my portfolio so that I can
+retire comfortably.
+
+## How to Get Rich
+
+I wrote an article
+
 
 ## Technology Meets Retail
 
@@ -78,6 +115,9 @@ nor Google
 like Amazon does. It's funny, when I searched for this Wikipedia
 page I typed "Eat your own dog food" and the first completion on
 Google was "Eat your own dog food Amazon".
+
+> Google Compute Cloud is not used in internally at Google whereas Amazon Web Services
+> I've been misleading with my characterization of GCP use internally. Google uses the services that underpin GCP. For example Spanner. If there is a bug in Spanner then it will affect Google services as well as GCP users using it. There is just not much use of configuring services through the GCP UI/API and deploying services as a customer might. Google also has 100,00+ employees. The vast majority of the company I didn't interact with so maybe they were using GCP and I didn't know. My understanding at Amazon is that they really use AWS in the same manner that a customer might. I don't have any first hand knowledge to confirm this...
 
 Dogfooding is important. Google Compute Cloud is not used in
 internally at Google whereas Amazon Web Services (AWS) is. If AWS is
