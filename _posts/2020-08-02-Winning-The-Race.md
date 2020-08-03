@@ -9,7 +9,7 @@ John McWhorter's [critical essay](https://www.theatlantic.com/ideas/archive/2020
 of the book
 [White Fragility]({{ site.baseurl }}{% post_url
 2020-07-05-White-Fragility %}) led me to this book, which was
-published in 2005. He is a professor of linquistics at Columbia, and
+published in 2005. He is a professor of linguistics at Columbia, and
 writes very well.
 
 McWhorter challenges all of us, but mostly Blacks, to rethink racism
