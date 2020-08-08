@@ -19,7 +19,7 @@ existing conviction.
 
 I have to thank many lunch time conversations with Janis
 and [Evan](https://evan.carlin.com) for challenging my convictions. I
-also have to thank Warren Buffet for saying "You have to learn how to
+also have to thank Warren Buffett for saying "You have to learn how to
 value businesses and know the ones that are within your circle of
 competence and the ones that are outside."
 
@@ -32,7 +32,7 @@ makes sense.
 ## Bucking Tradition
 
 Some investment advisors would have me put
-[60% of my money in bonds](https://www.investopedia.com/articles/investing/062714/100-minus-your-age-outdated.asp)
+60% of my money in bonds
 and the rest in stock. Others say 110 or 120 minus your age in stocks, or
 50-60%, in my case. I think formulas like this are ridiculous, and not
 based on actual circumstances.
@@ -41,7 +41,7 @@ I own real estate. How much is it worth? Real estate is a
 leveraged investment. What should my leverage be at my age? How much
 should I keep in real estate vs cash vs bonds vs stock? I also own a
 significant chunk of two private companies. These are highly illiquid
-assets. Should I divest?
+assets. Should I divest? If so, when?
 
 Some people would say I should be paying off your mortgage before I
 retire. Others would say that my privately held stock is stock, and I
@@ -52,16 +52,16 @@ My portfolio is a victim of circumstance. I lived in a house, and I
 didn't sell it when I moved out. Janis is a real estate agent, and she
 thinks real estate is a good investment. One day she told me to buy
 another house so I did. Unlike stocks, you can't just drop a house for
-another one so I keep the houses partially out of inertia, the solid
-real estate market, and a number of other reasons that are personal to
-me. Owning real estate diversifies my asset allocation.
+another one so I keep the houses for many reasons: inertia, the solid
+real estate market, and personal circumstances. Owning real estate
+diversifies my asset allocation.
 
 My 401K only allows me to invest in mutual funds. During the COVID
 panic, I moved it all into a long term bond fund (VBLTX), because I
 figured it was slightly better than the money market. The fact that I
 can't put it in Amazon is a good thing, but why not put it in the S&P?
 
-"Consistently buy an S&P 500 low-cost index fund," [Warren Buffet]
+"Consistently buy an S&P 500 low-cost index fund," Warren Buffett
 [told CNBC's On The Money](https://www.cnbc.com/2018/01/03/why-warren-buffett-says-index-funds-are-the-best-investment.html).
 "I think it's the thing that makes the most sense practically all of
 the time."
@@ -87,16 +87,56 @@ retire comfortably.
 ## How to Get Rich
 
 I wrote an article
+[Objectively Rich]({{ site.baseurl }}{% post_url 2009-06-13-Objectively-Rich %})
+in 2009. It talks about how to get the best money manager by looking
+at the richest people in the world. Buffett, at that time, was near
+the top, so I concluded I should invest in Berkshire Hathaway,
+alongside him. Not unsound, but I missed something.
 
 
-## Technology Meets Retail
+When I was thinking about a money manager,
+I was thinking about investing in a diversified portfolio. I already
+have asset diversification (noted above). The question is: do I need
+diversification in an asset class? Or, is it better to make big bets
+on individual companies, like Amazon? The question isn't: which money
+manager should I hire? Rather, who can I invest alongside of who will
+make my bet win big.
+
+The richest people in the world built or expanded a single
+company. Buffett built Berkshire Hathaway. Gates create Microsoft. The
+richest list is even more heavily populated by tech and
+retail/consumer companies. I certainly tried my hand at getting rich
+like these people, but I'm not like these people. They are clearly
+different from me.
+
+## Jeff Bezos
+
+Jeff Bezos is currently the richest person in the world. He graduated
+with a degree in computer science and electrical engineering from
+Princeton in 1986. Excellent credentials to do any job, and he did
+have a few jobs before starting Amazon. He has been focused on Amazon
+since 1993.
+
+Bezos is
+[ruthless](https://www.grunge.com/143621/the-dark-truth-about-amazon-founder-jeff-bezos/).
+I have heard that from people who have worked for him. To make Amazon
+big, you have to be ruthless. I'm not ruthless. I don't generally like
+ruthless people. Steve Jobs was ruthless. Bill Gates was, too. I think
+he's softened somewhat.
+
+Amazon, Apple, Microsoft, etc. are as big as they are, because of
+these ruthless leaders. Lots of people love working for these
+companies. I'm not one of them, but I can certainly invest in
+the companies. It's my way of being mercenary.
+
+## Amazon
 
 Amazon used technology to sell retail, better. That's one reason
-Amazon is the best bet. Retail is a huge industry: worldwide retail
-sales are $24 trillion per year. People need to eat and to clothe
-themselves. World income is rising, and along with it,
-consumerism. (I'm not saying this is a good thing, but it is a hard
-fact.)
+Amazon is the best bet among these tech giants. Retail is a huge
+industry: worldwide retail sales are $24 trillion per year. People
+need to eat and to clothe themselves. World income is rising, and
+along with it, consumerism. (I'm not saying this is a good thing, but
+it is a hard fact.)
 
 Retail is a fickle business. I would not want to run a retail
 business. You have to move with the trends. Amazon moves with the
@@ -188,7 +228,7 @@ not yet.
 
 ## My Circle of Competence
 
-Unlike Warren Buffet, I am a technologist. I understand why Amazon
+Unlike Warren Buffett, I am a technologist. I understand why Amazon
 made the decisions they made in their technology. I have friends who
 have work(ed) at Amazon. I have started many different companies, and
 I get what it takes to be a success. Dogfooding and Day 1 are key
@@ -198,7 +238,7 @@ I interact with Amazon on a daily basis. I read on my Kindle every
 day. I often watch Prime Video. I buy things for my home and
 businesses on Amazon. I use Amazon Web Services. I listen to Amazon
 Music, which I start by talking to Alexa via my Echo. I listen to
-audio books on Audible. Buffet knows Dairy Queen and Coca-Cola, I know
+audio books on Audible. Buffett knows Dairy Queen and Coca-Cola, I know
 Amazon. I've been a customer since 1998 when I moved back to the US.
 
 But it's not just me: Amazon trucks past by my quiet street multiple
@@ -208,9 +248,9 @@ while still believing in capitalism.
 
 ## What About Diversification?
 
-In 2008, Warren Buffet made a ten year bet that the S&P 500 would beat
+In 2008, Warren Buffett made a ten year bet that the S&P 500 would beat
 a hedge fund and
-[the hedge fund manager conceded two years early](http://n99.us/noo). Buffet
+[the hedge fund manager conceded two years early](http://n99.us/noo). Buffett
 says that non-professional investors should invest in low-cost index
 funds. This is solid wisdom, and John C. Boggle made a fortune
 creating that industry.
@@ -241,8 +281,8 @@ aggregate" that the S&P 500 is a good bet? I don't, any more.
 
 ## Betting on America
 
-Yes, I keep on bringing up Buffet. He's a brilliant investor, and he
-has lived a long life with many ups and downs. Buffet says "Never,
+Yes, I keep on bringing up Buffett. He's a brilliant investor, and he
+has lived a long life with many ups and downs. Buffett says "Never,
 ever bet against America." I agree.
 
 That's why I am betting on Amazon. It is a quintessential American
