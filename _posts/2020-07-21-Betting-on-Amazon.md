@@ -121,13 +121,22 @@ Bezos is
 [ruthless](https://www.grunge.com/143621/the-dark-truth-about-amazon-founder-jeff-bezos/).
 I have heard that from people who have worked for him. To make Amazon
 big, you have to be ruthless. I'm not ruthless. I don't generally like
-ruthless people. Steve Jobs was ruthless. Bill Gates was, too. I think
-he's softened somewhat.
+ruthless people. Steve Jobs was ruthless. Bill Gates was, too.
 
 Amazon, Apple, Microsoft, etc. are as big as they are, because of
-these ruthless leaders. Lots of people love working for these
-companies. I'm not one of them, but I can certainly invest in
-the companies. It's my way of being mercenary.
+these ruthless leaders. That's harsh, but competing in business is
+tough, especially retail. Sam Walton was no doubt ruthless, too, and
+according to
+[this article](https://www.history.com/news/how-one-ruthless-impresario-blazed-a-trail-for-wal-mart-and-amazon)
+so was Frank Winfield Woolworth. And, remember Google's
+protest-too-much motto: [Don't be Evil](https://en.wikipedia.org/wiki/Don't_be_evil).
+
+Lots of people love working for the tech behemoths, despite their
+need to be ruthless. Many love their ruthless leaders.
+I'm not one of them of these people, but
+I can certainly invest in these companies, because I think their
+leaders do what they have to for their stakeholders, which do include
+users.
 
 ## Amazon
 
@@ -143,6 +152,24 @@ business. You have to move with the trends. Amazon moves with the
 trends. We are in the middle of the COVID-19 Pandemic, and Amazon
 stopped all deliveries of non-essential goods to its warehouses.
 That's because at Amazon, [it is always Day 1](http://n99.us/ukg).
+
+That's why I don't mind so much about how ruthless Bezos is: he has
+done great things for our society. Amazon has created a delivery
+business that gives gig-workers a reasonable deal. Despite the
+criticism of Mechanical Turk, I believe it gives people income out of
+their homes, anywhere in the world. Amazon's Kindle Direct Publishing
+platform virtually created the
+[self-publishing market](https://en.wikipedia.org/wiki/Self-publishing).
+Amazon Prime made shopping online competitive to going to Walmart and
+Costco. Amazon Echo was the first home digital assistant to work, and
+enables small businesses to reach homes, including my nephew's company,
+[MapHabit](https://www.maphabit.com), which is enhancing the quality
+of life of Alzheimer's patients and their families. Last but not
+least, Amazon Markplace allows over a million sellers fulfill product
+deliveries without ever touching the product itself. Marketplace
+revenue
+[just crossed 50% of Amazon's total revenue](https://www.marketplacepulse.com/articles/amazons-retail-business-is-now-just-50-of-the-companys-revenue),
+that is, $140B in 2019.
 
 ## Eat Your Own Dog Food
 
