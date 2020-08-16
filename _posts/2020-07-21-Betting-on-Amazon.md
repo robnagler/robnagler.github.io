@@ -86,28 +86,27 @@ retire comfortably.
 
 ## How to Get Rich
 
-I wrote an article
+I wrote
 [Objectively Rich]({{ site.baseurl }}{% post_url 2009-06-13-Objectively-Rich %})
 in 2009. It talks about how to get the best money manager by looking
-at the richest people in the world. Buffett, at that time, was near
+at the richest people in the world. Buffett was/is near
 the top, so I concluded I should invest in Berkshire Hathaway,
 alongside him. Not unsound, but I missed something.
-
 
 When I was thinking about a money manager,
 I was thinking about investing in a diversified portfolio. I already
 have asset diversification (noted above). The question is: do I need
 diversification in an asset class? Or, is it better to make big bets
 on individual companies, like Amazon? The question isn't: which money
-manager should I hire? Rather, who can I invest alongside of who will
-make my bet win big.
+manager should I hire, but with whom can I invest. That opens up
+more possibilities.
 
-The richest people in the world built or expanded a single
-company. Buffett built Berkshire Hathaway. Gates create Microsoft. The
-richest list is even more heavily populated by tech and
+Even in 2009, I recognized that the richest people in the world built
+single company. Buffett built Berkshire Hathaway. Gates create
+Microsoft. The richest list is even more heavily populated by tech and
 retail/consumer companies. I certainly tried my hand at getting rich
-like these people, but I'm not like these people. They are clearly
-different from me.
+like these people on my own companies, but I'm not like these
+people. They are clearly different from me.
 
 ## Jeff Bezos
 
@@ -115,7 +114,8 @@ Jeff Bezos is currently the richest person in the world. He graduated
 with a degree in computer science and electrical engineering from
 Princeton in 1986. Excellent credentials to do any job, and he did
 have a few jobs before starting Amazon. He has been focused on Amazon
-since 1993.
+since 1993. I appreciate his single-minded focus, and it obviously
+has worked out well for Amazon.
 
 Bezos is
 [ruthless](https://www.grunge.com/143621/the-dark-truth-about-amazon-founder-jeff-bezos/).
@@ -128,20 +128,20 @@ these ruthless leaders. That's harsh, but competing in business is
 tough, especially retail. Sam Walton was no doubt ruthless, too, and
 according to
 [this article](https://www.history.com/news/how-one-ruthless-impresario-blazed-a-trail-for-wal-mart-and-amazon)
-so was Frank Winfield Woolworth. And, remember Google's
-protest-too-much motto: [Don't be Evil](https://en.wikipedia.org/wiki/Don't_be_evil).
+so was Frank Winfield Woolworth before him.
 
-Lots of people love working for the tech behemoths, despite their
-need to be ruthless. Many love their ruthless leaders.
-I'm not one of them of these people, but
-I can certainly invest in these companies, because I think their
-leaders do what they have to for their stakeholders, which do include
-users.
+Lots of people love working for these behemoths, despite their
+ruthless leaders, or maybe because of them.  I'm not one of them of
+these people, but I can certainly invest in these companies, because I
+think their leaders do what they have to for their stakeholders, which
+do include their customers and workers. Despite what many think, these
+companies would not have grown so quickly if they treated their
+customers or workers badly.
 
 ## Amazon
 
-Amazon used technology to sell retail, better. That's one reason
-Amazon is the best bet among these tech giants. Retail is a huge
+Amazon used technology to sell retail, better. That's one of my reasons
+Amazon is the best bet among the tech giants. Retail is a huge
 industry: worldwide retail sales are $24 trillion per year. People
 need to eat and to clothe themselves. World income is rising, and
 along with it, consumerism. (I'm not saying this is a good thing, but
@@ -153,23 +153,49 @@ trends. We are in the middle of the COVID-19 Pandemic, and Amazon
 stopped all deliveries of non-essential goods to its warehouses.
 That's because at Amazon, [it is always Day 1](http://n99.us/ukg).
 
-That's why I don't mind so much about how ruthless Bezos is: he has
-done great things for our society. Amazon has created a delivery
-business that gives gig-workers a reasonable deal. Despite the
-criticism of Mechanical Turk, I believe it gives people income out of
-their homes, anywhere in the world. Amazon's Kindle Direct Publishing
-platform virtually created the
-[self-publishing market](https://en.wikipedia.org/wiki/Self-publishing).
-Amazon Prime made shopping online competitive to going to Walmart and
-Costco. Amazon Echo was the first home digital assistant to work, and
-enables small businesses to reach homes, including my nephew's company,
-[MapHabit](https://www.maphabit.com), which is enhancing the quality
-of life of Alzheimer's patients and their families. Last but not
-least, Amazon Markplace allows over a million sellers fulfill product
-deliveries without ever touching the product itself. Marketplace
-revenue
-[just crossed 50% of Amazon's total revenue](https://www.marketplacepulse.com/articles/amazons-retail-business-is-now-just-50-of-the-companys-revenue),
-that is, $140B in 2019.
+That's another reason why I don't mind so much about how ruthless
+Bezos is: he has done great things for our society by focusing on
+Day 1:
+
+* Created a logistics business that employs many hundreds of thousands.
+* Despite the criticism of Mechanical Turk, I believe
+  it gives people work anywhere in the world, out of their
+  own homes, and on their own schedule.
+* Amazon's Kindle Direct Publishing platform virtually created
+  the [self-publishing market](https://en.wikipedia.org/wiki/Self-publishing).
+* Prime made shopping online competitive with Walmart and Costco.
+* Echo was the first home digital assistant, which
+  now enables thousands of small businesses to reach homes. For example,
+  my nephew's company, [MapHabit](https://www.maphabit.com), which is
+  enhancing the quality of life of Alzheimer's patients and their
+  families through cognitive tools delivered via Alexa.
+* Marketplace allows over a million sellers to fulfill
+  product deliveries without ever touching the product
+  itself. Marketplace revenue
+  [just crossed 50% of Amazon's total revenue](https://www.marketplacepulse.com/articles/amazons-retail-business-is-now-just-50-of-the-companys-revenue),
+  that is, third party selling is a $140B business and growing.
+
+## Growth
+
+Walmart has been trying to compete with Amazon for a decade or more. I
+have bought stuff from Walmart both on and offline. Walmart's revenues
+($514B) are still bigger than Amazon ($280B). The difference is that
+Walmart's growth has been under 10% for the last decade, and Amazon's
+has been over 20%.
+
+There are other big companies, e.g. Apple, which are growing almost as
+fast, but Amazon is growing faster. It surpassed Apple's revenues this
+year, and it is on track to surpassing Walmart in a couple of years.
+
+Amazon's growth is diversified. It isn't just selling retail. AWS is
+growing by over 30%, and it, too, is becoming more diversified. The
+range of options on AWS is so mind boggling that a whole industry as
+formed to help you manage AWS.
+
+Retail is a huge industry, which means there's lots of room for
+growth. Amazon has changed the industry forever, to both the
+industry's and Amazon's benefit. I can see at least another decade of
+double digit growth.
 
 ## Eat Your Own Dog Food
 
@@ -183,45 +209,41 @@ like Amazon does. It's funny, when I searched for this Wikipedia
 page I typed "Eat your own dog food" and the first completion on
 Google was "Eat your own dog food Amazon".
 
-> Google Compute Cloud is not used in internally at Google whereas Amazon Web Services
-> I've been misleading with my characterization of GCP use internally. Google uses the services that underpin GCP. For example Spanner. If there is a bug in Spanner then it will affect Google services as well as GCP users using it. There is just not much use of configuring services through the GCP UI/API and deploying services as a customer might. Google also has 100,00+ employees. The vast majority of the company I didn't interact with so maybe they were using GCP and I didn't know. My understanding at Amazon is that they really use AWS in the same manner that a customer might. I don't have any first hand knowledge to confirm this...
-
-Dogfooding is important. Google Compute Cloud is not used in
-internally at Google whereas Amazon Web Services (AWS) is. If AWS is
-down, services at amazon.com might be broken. I have used a number of
-cloud providers, and none of the big ones work as well as AWS. (I do
-like and use Linode.com, but they are a niche provider.)
+Dogfooding is important. If AWS is down, services at amazon.com might
+be broken. I have used a number of cloud providers, and none of the
+big ones work as well as AWS. (I do like and use Linode.com, but they
+are a niche provider.)
 
 Microsoft were the
 [original dogfooders](https://en.wikipedia.org/wiki/Eating_your_own_dog_food#Origin_of_the_term).
-This made Windows more reliable. I wonder if they are dogfooding
-their cloud products. From my personal usage of Azure (Microsoft's AWS
-competitor), I would say
-not, even though Microsoft is Number Two in cloud computing. Azure is
-clunky to use, and I only know a few people who use it.
+This made Windows more reliable. I wonder if they are dogfooding their
+cloud products. From my own experience with Azure (Microsoft's AWS
+competitor), I would say not likely, even though Microsoft is Number
+Two in cloud computing. Azure is clunky to use, and I only know a few
+people who use it.
 
 ## Cloud Computing Revenues
 
 Investors pay a lot of attention to The Cloud. I'm less interested,
 because it is a small part of Amazon's revenue. AWS revenue was $35B
-in 2019, if we take it as face value. It grew from $25B in 2018, and
-is on track to increase by that much again in 2020. Amazon's total
-revenue in 2018 was $233B, and rose to $281B in 2019. That's 20%
-growth in a much larger market ($24T). Yet, I know that investors pay
-attention so should I.
+in 2019 -- if we take it as face value, more about this later. AWS grew
+from $25B in 2018, and is on track to increase by that much again
+in 2020. Amazon's total revenue in 2018 was $233B, and rose to $281B
+in 2019. That's 20% growth in a much larger market ($24T). Yet, I know
+that investors pay attention so should I.
 
 One question I had is whether AWS recognizes revenue from, say, Prime
-Video. Reading the 10-K, says "Costs to operate our AWS segment are
+Video. A recent 10-K states "Costs to operate our AWS segment are
 primarily classified as 'Technology and content' as we leverage a
 shared infrastructure that supports both our internal technology
 requirements and external sales to AWS customers." I take from this
-statemtnt that they treat "internal technology" as a cost, and not a
-cost of goods sold. I don't think it would be legal for them to
-recognize revenue from internal "sales", and enough people are
-watching that I feel safe in that assumption.
+statement that they treat "internal technology" as a cost. I don't
+think it would be legal for them to recognize revenue from internal
+"sales", and enough people are watching that I feel safe in that
+assumption.
 
 Investors are very excited about Microsoft, which has a higher market
-cap than Amazon, despite having only $126B in revenue in 2019 and
+capitalization than Amazon, despite having only $126B in revenue in 2019 and
 $110B in 2018. Growth at Microsoft has been less than 15%. It's
 strange to me that their market cap is so high. The big excitement
 in the news is Azure growth, but there's a
@@ -241,34 +263,82 @@ recategorizing "commercial cloud" to mean something else, and it seems
 to be getting bigger. (Go to the 2017 and 2019 annual reports and
 search on "Revenue from external customers" to see what I mean.)
 
-However, I am pretty sure that Azure revenues are a small percentage of the
-$39B stated in 2019 for the same reason that Amazon didn't post
-seperate numbers for AWS's first nine years. Small numbers are not
-interesting to investors. If Azure growth is 72%, it's not on $10B,
-because the delta between 2018 and 2019 Server Products and Cloud
-Services is $6B.
+However, I am pretty sure that Azure revenues are a small percentage
+of the $39B stated in 2019 for the same reason that Amazon didn't post
+seperate numbers for AWS during its first nine years. Small numbers
+are not interesting to investors. If Azure growth is 72%, it's not on
+$10B, because the delta between 2018 and 2019 Server Products and
+Cloud Services is $6B.
 
 My conclusion is that Microsoft is not eating AWS's lunch, at least
 not yet.
 
-## Truck Factor
+## Problems
+
+AWS has had its share of outages, some huge, while others lost
+customer data. They could be hit again. I'm very critical of cloud
+infrastructure, specifically the
+[Big Red Button]({{ site.baseurl }}{% post_url
+2014-06-24-Nuclear-Deterrence-For-Your-Cloud %}).
+Yet, the cloud is here to stay, and despite all these problems, AWS is
+still considered a leader.
+
+Counterfeit merchandise is a huge problem for Amazon. They luanched
+the [Counterfit Crimes Unit](https://blog.aboutamazon.com/company-news/amazon-establishes-new-counterfeit-crime-unit?ots=1&tag=curbedcom06-20&linkCode=w50)
+recently, which hopefully will help with this. Nike stopped selling
+directly on Amazon, and other big brands sometimes shun Amazon.
+
+Failed products are not uncommon: Fire Phone, Local, and Register were
+the biggest. It seems that Amazon kills products pretty
+quickly, and doesn't seem to infuriate customers like Google
+does.
+
+The recent
+[antitrust hearings in Congress](https://www.vox.com/recode/2020/7/29/21346584/jeff-bezos-amazon-antitrust-hearing-congressional-testimony-power-to-make-or-break-small-merchants)
+did not go well for Amazon. It is difficult to see how Amazon would be
+seen as a monopoly, but regulators could force Amazon to make
+changes. Amazon tends to beat regulators to the, e.g. by setting a
+minimum wage of $15 that is double the Federal minimum wage. They were
+very aggressive in their handling of COVID. I don't discount the
+regulatory risk, but I also don't think it's the biggest risk.
+
+## Truck Problem
+
+Jeff Bezos, I believe, is the achilles heal of Amazon.  If he were to
+die unexpectedly, the stock would take a big hit, and maybe the
+company would never recover. Can Andy Jassy or Jeff Wilke [fill Bezos's
+shoes](https://www.forbes.com/sites/petercohan/2020/06/26/amazons-looming-problem-who-has-the-strategic-mindset-to-replace-jeff-bezos/#1e4fdea61537)?
+
+There is no way to mitigate this risk. You either live with it or
+not. My guess is that the stock could drop as much as 50% if Bezos
+were to die suddenly. That's a big risk, but it's the problem with
+betting on one company, even one as large as Amazon.
+
+Investors seem to be more and more decoupled from the fundamentals of
+companies. Losing a CEO is important, but to run a large company, you
+need lots of company people. That doesn't mean anything if the
+"market" reacts to news, which it does.
+
+My plan would be to ride it out. I believe in Amazon as a business for
+all the reasons above and more.
 
 ## My Circle of Competence
 
 Unlike Warren Buffett, I am a technologist. I understand why Amazon
 made the decisions they made in their technology. I have friends who
-have work(ed) at Amazon. I have started many different companies, and
+have worked at Amazon. I have started many different companies, and
 I get what it takes to be a success. Dogfooding and Day 1 are key
 concepts that I try to employ.
 
 I interact with Amazon on a daily basis. I read on my Kindle every
-day. I often watch Prime Video. I buy things for my home and
-businesses on Amazon. I use Amazon Web Services. I listen to Amazon
+day. I often watch Amazon Video. I buy things for my home and
+businesses on Amazon. I use Amazon Web Services. I listen to
 Music, which I start by talking to Alexa via my Echo. I listen to
 audio books on Audible. Buffett knows Dairy Queen and Coca-Cola, I know
-Amazon. I've been a customer since 1998 when I moved back to the US.
+Amazon. I've been a customer since 1998 when I moved back to the US,
+and I spend thousands per year at Amazon businesses.
 
-But it's not just me: Amazon trucks past by my quiet street multiple
+But it's not just me: Amazon trucks pass by my quiet street multiple
 times a day. Amazon is an integral part of my society. And, more
 importantly, we share [the same progressive values](http://n99.us/mjx)
 while still believing in capitalism.
@@ -298,42 +368,22 @@ and growing.
 I use Apple products, but I am not a fan of Apple as an
 investment. They do sell retail, but they are focused on a narrow
 range of products. It is hard for them to be agile. That's why I am
-not betting on Apple, and why I didn't want +5% of my portfolio in
-Apple.
+not betting on Apple.
 
 Diversification is thought to be safe, but it leads to owning a lot of
 Day 2 companies. There are 500 companies in the S&P 500, and I would
 not buy a single share of most of them. Why would do I think "in
 aggregate" that the S&P 500 is a good bet? I don't, any more.
 
-## Betting on America
+## Confirmation Bias
 
-Yes, I keep on bringing up Buffett. He's a brilliant investor, and he
-has lived a long life with many ups and downs. Buffett says "Never,
-ever bet against America." I agree.
+In the end, I'm making a bet. That's why this article isn't called
+"Investing in Amazon". This is a big bet that involves significant
+risks. It's not for everyone.
 
-That's why I am betting on Amazon. It is a quintessential American
-company. The vast majority of its sales are in the US. Yet, they are
-open for business in the world. Jeff Bezos is the richest man in
-America. If America does well in the coming decade so will Amazon.
+I have tried to clarify my thinking about the bet in this article. I
+have to thank [Evan](https://evan.carlin.com) for his clear-sighted
+review of the first version of this article. I revisted my thinking
+and made it much more personal.
 
-## One Horse Race
-
-Walmart has been trying to compete with Amazon for a decade or more. I
-have bought stuff from Walmart both on and offline. Walmart's revenues
-($514B) are still bigger than Amazon ($280B). The difference is that
-Walmart's growth has been under 10% for the last decade, and Amazon's
-has been over 20%. Last quarter it grew by 34%.
-
-There are other big companies, e.g. Apple, which are growing almost
-that fast, Amazon is growing faster. It surpassed Apple this year, and
-it is on track to surpassing Walmart in a couple of years.
-
-Amazon's growth is diversified. It isn't just selling retail. AWS is
-growing by over 30%, and it, too, is becoming more diversified. The
-range of options on AWS is so mind boggling that a whole industry as
-formed to help you manage AWS.
-
-While this is, of course, confirmation bias, I have hard time seeing
-where Amazon will falter. Perhaps you can enlighten me. Until them,
-I'm betting on Amazon.
+I wonder what I'll be saying about this article in 10 years.
