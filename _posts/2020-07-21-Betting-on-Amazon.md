@@ -372,7 +372,7 @@ not betting on Apple.
 
 Diversification is thought to be safe, but it leads to owning a lot of
 Day 2 companies. There are 500 companies in the S&P 500, and I would
-not buy a single share of most of them. Why would do I think "in
+not buy a single share of most of them. Why would I think "in
 aggregate" that the S&P 500 is a good bet? I don't, any more.
 
 ## Confirmation Bias
