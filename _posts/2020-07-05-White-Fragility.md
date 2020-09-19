@@ -12,6 +12,25 @@ unrelenting. This book will change your view of racism.
 
 Hopefully, it will help transform you into being less racist.
 
+Update 9/19/2020:
+
+I walked away from reading the book convinced, then I read James
+McWhorter's
+[The Dehumanizing Condescension of _White Fragility_](https://www.theatlantic.com/ideas/archive/2020/07/dehumanizing-condescension-white-fragility/614146/),
+and I started down the path of reading and thinking about what
+McWhorter was saying. I read
+[Winning The Race]({{ site.baseurl }}{% post_url 2020-08-02-Winning-The-Race %}),
+which makes a quite different claim about how to help underprivileged
+Blacks. That led to a lot of discussion with
+[Evan](https://evan.carlin.com) about language and white supremacy.
+We both agree helping underprivileged people is a good idea, but we
+disagree on the effect of language and microaggressions on the
+underprivileged. I am currently aligned with McWhorter's thinking so
+although I wrote the above, and will try to be less racist, I don't think
+my attitudes on race have much of an affect on underprivileged
+blacks. I am privileged, and I try to use that privilege for the good
+of society.
+
 > [k184] [Michael Eric Dyson's Foreword] __White Fragility__ is a vital, necessary, and beautiful book, a
 > bracing call to white folk everywhere to see their whiteness for what it
 > is and to seize the opportunity to make things better now.
