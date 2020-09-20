@@ -19,10 +19,10 @@ By Dave Barry, Rodale Press, 1984, 0-87857-510-3
 
 
 
-> [p59] Baby's First Solid Food [...] We're using the term ``food''
+> [p59] Baby's First Solid Food [...] We're using the term "food"
 > loosely here.  What we're talking about are those nine zillion little
 > jars on the supermarket shelf with the smiling baby on the label and
-> names like ``Prunes with Mixed Leaks.''  Babies hate this stuff. Who
+> names like "Prunes with Mixed Leaks."  Babies hate this stuff. Who
 > wouldn't?  It looks like frog waste.
 
 
