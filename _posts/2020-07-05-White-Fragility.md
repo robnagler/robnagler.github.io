@@ -14,7 +14,7 @@ Hopefully, it will help transform you into being less racist.
 
 Update 9/19/2020:
 
-I walked away from reading the book convinced, then I read James
+I walked away from reading the book convinced, then I read John
 McWhorter's
 [The Dehumanizing Condescension of _White Fragility_](https://www.theatlantic.com/ideas/archive/2020/07/dehumanizing-condescension-white-fragility/614146/),
 and I started down the path of reading and thinking about what
