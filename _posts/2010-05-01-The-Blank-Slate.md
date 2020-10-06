@@ -403,7 +403,7 @@ unconvertable. For them it is about about belief, not science.
 > and destructive," it would have to be evil and destructive all the
 > time, like a deranged postal worker on a permanent rampage. It is
 > precisely because one act can balance ten thousand kind ones that we
-> call it "evil." Also,
+> call it "evil."
 
 
 
@@ -1606,6 +1606,3 @@ associative thinking in the extreme.
 > moral and political track record of modernist artists is nothing to be
 > proud of. Some were despicable in the conduct of their personal lives,
 > and many embraced fascism or Stalinism.
-
-
-
