@@ -3,11 +3,11 @@ layout: post
 title: "BookNotes: Cynical Theories: How Activist Scholarship Made Everything about Race, Gender, and Identity--and Why This Harms Everybody"
 date: 2020-11-07T21:00:00Z
 ---
-By Helen Pluckrose, Pitchstone & James A. Lindsay, May 5, 2020, 1634312023
+By Helen Pluckrose & James A. Lindsay, Pitchstone, May 5, 2020, 1634312023
 
 This is an intense book. Pluckrose and Lindsay argue ferociously for
 the case against Critical Social Justice, which is distinct from the
-everyday social justice of liberal society. They are secural liberals
+everyday social justice of liberal society. They are secular liberals
 who contend that Postmodern Theory is illiberal, and inhibits
 progress towards racial, gender, sexual, etc. equality.
 
