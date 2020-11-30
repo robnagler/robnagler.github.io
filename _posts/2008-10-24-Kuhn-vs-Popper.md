@@ -11,13 +11,13 @@ Thomas Kuhn.  I think he did a pretty good job, especially now that I
 have also read The Structure of Scientific Revolutions.  Kuhn did
 write sloppily.  Fuller calls him an intellectual coward.  At the same
 time, I do think Kuhn modeled the history of science pretty well.
-Popper's view is to "objective", when reality is quite subjective, and
+Popper's view is too "objective", when reality is quite subjective, and
 there is certainly a winner's history in all of science.
 
 Fuller's history of how Popper and Kuhn came by their different
 versions of the philosophy of science was also excellent.
 
-I didn't so much like the end.  It was a technical take-down of Kuhn.
+I didn't like the end so much.  It was a technical take-down of Kuhn.
 He models Kuhn on Heidegger.  I suspect Paul Feyerabend would have
 ripped Fuller's argumentation to shreds.
 
@@ -115,6 +115,3 @@ read.
 > thesis. Nevertheless, this is not how science has been officially
 > portrayed, at least since Newton claimed to have 'deduced from
 > phenomena' his laws of motion.
-
-
-
