@@ -151,7 +151,7 @@ very inspiring to me.
 > have criminal names because crime is not very progressive.
 
 > [k288] And then, what is "revolutionary" about how common murder is in
-> the rap world, so much so that it is a news clich<FIXME e9>? Parsons's
+> the rap world, so much so that it is a news cliche? Parsons's
 > murderers felt no shame in killing him over what was likely a trifle.
 
 > [k305] Specifically, I believe that we cannot understand our past without
@@ -647,17 +647,15 @@ very inspiring to me.
 
 > [k3086] And in the late sixties, black America needed not only
 > legislation, but also to feel whole.
->
-> FIXME
-> > [k3087] After centuries of degradation, there was a hole in the black
+
+> [k3087] After centuries of degradation, there was a hole in the black
 > American soul.
 
 > [k3096] As such, where for whites therapeutic alienation took its place
 > as an add-on, for blacks it took its place as a racial identity: an
 > entire psychological conception of one's place in the national fabric.
->
-> FIXME
-> > [k3099] This happened because deep down, blacks __hurt__ inside.
+
+> [k3099] This happened because deep down, blacks __hurt__ inside.
 
 > [k3114] The roots of black America's therapeutic alienation in inner pain
 > ties in to the teachings of Eric Hoffer in his classic monograph __The True
@@ -896,10 +894,7 @@ very inspiring to me.
 > bear me down to spiritual defeat. My inner life is mine, and I will
 > defend and maintain its integrity against the forces of hell.__
 
-> [k4104] soothe a hurt that being tailed
->
-> FIXME
-> > [k4105] That is, any black middle-class person in our moment who feels
+> [k4105] That is, any black middle-class person in our moment who feels
 > that any of the things that Cose describes show that racism defines their
 > lives hates themself deep down.
 
@@ -908,18 +903,10 @@ very inspiring to me.
 > human being in this imperfect but promising nation.
 
 > [k4117] When I became a college professor of linguistics, one of the
-> classes I taught
->
-> The issue is how I process it as I go through life. Here are two
-> examples. When I became a college professor of linguistics, one of the
 > classes I taught was a big survey class. I was, again, well aware of that
 > certain stereotype hanging in the air. And I didn't like it.
 
-> [k4121] My response to this was not to spend the semester musing over it
-> and sharing it with friends over drinks.
->
-> FIXME
-> > [k4122] My response was to do the most concrete thing I could to
+> [k4122] My response was to do the most concrete thing I could to
 > disabuse the students of any doubt that I was qualified to teach the
 > class--that is, to __prove__ it. So, my first lecture for that class, then
 > and for the next several years, was a survey of the languages of the
