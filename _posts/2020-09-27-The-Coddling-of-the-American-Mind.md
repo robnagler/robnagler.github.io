@@ -69,7 +69,8 @@ clearly.
 > I'll fail the class and be kicked out of school, and then I'll never get
 > a job...__) and "negative filtering" (__only paying attention to negative
 > feedback instead of noticing praise as well__).
-> > [k329] These distorted and irrational thought patterns are hallmarks of
+
+> [k329] These distorted and irrational thought patterns are hallmarks of
 > depression and anxiety disorders. We are not saying that students are
 > never in real physical danger, or that their claims about injustice are
 > usually cognitive distortions. We are saying that even when students are
