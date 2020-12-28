@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BookNotes: Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do (Issues of Our Time)"
+title: "BookNotes: Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do"
 date: 2020-12-27T22:00:00Z
 ---
 By Claude Steele, W. W. Norton, April 4, 2011, 0393339726
