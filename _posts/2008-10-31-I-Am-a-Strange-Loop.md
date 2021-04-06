@@ -10,7 +10,7 @@ This is my first Douglas Hofstadter book.  I enjoyed his writing,
 and I certainly learned a lot about brains and human thought
 processes.  As a programmer, I think about the brain as a
 computer processor.  Since I write a lot of Perl (and other dynamic
-languages), I relate to the a symbolic processing system with no
+languages), I relate to a symbolic processing system with no
 separation between the code and data.  It's just one big network of
 information which is sometimes data and sometimes code.
 
@@ -160,6 +160,3 @@ discussing the idea of strange loops.
 > "I" - is in reality brought into being if and only if along with that
 > self there is a sense of other selves with whom one has bonds of
 > affection. In short, only when generosity is born is an ego born.
-
-
-
