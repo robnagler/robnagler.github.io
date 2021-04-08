@@ -47,3 +47,13 @@ a meteor through the atmosphere. The difference these various
 sequences of bits is the belief in their economic utility.
 
 Cryptocurrencies is useful now, but it was not in 2009. If
+
+FOMO is belief
+
+This article really misses that point, and tries to equate all things
+as belief:
+https://www.theatlantic.com/ideas/archive/2021/04/nfts-show-value-owning-unownable/618525/
+CDOs were about leverage, not belief. The belief is that leverage is
+risk-free in certain situations, when it isn't.
+NFTs are not about leverage, but
+about belief (FOMO)
