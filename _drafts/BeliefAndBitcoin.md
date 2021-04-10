@@ -46,14 +46,136 @@ quantum state, ownership (stock) in a corporation, and the path of
 a meteor through the atmosphere. The difference these various
 sequences of bits is the belief in their economic utility.
 
-Cryptocurrencies is useful now, but it was not in 2009. If
+Bitcoin is useful now, but it was not in 2009.
 
-FOMO is belief
+FOMO is belief.
 
 This article really misses that point, and tries to equate all things
 as belief:
 https://www.theatlantic.com/ideas/archive/2021/04/nfts-show-value-owning-unownable/618525/
 CDOs were about leverage, not belief. The belief is that leverage is
 risk-free in certain situations, when it isn't.
-NFTs are not about leverage, but
-about belief (FOMO)
+NFTs are not about leverage, but about FOMO-belief. Keeping up with
+the Jonses.
+
+There's a belief that Bitcoin will be useful, that it will replace
+other currencies such as dollars. That belief is driving some of the
+cryptocurrency action. "The is real, finally", I think might be the
+sentiment. This is not about FOMO, but about Bitcoin (BTC) is here to stay
+so we might as well own some.
+
+I don't believe that. One of the reasons is that I have a bit of
+experience working in the foreign exchange (Forex, FX) industry.
+
+One of
+the concepts in FX is
+[foreign exchange risk](https://en.wikipedia.org/wiki/Foreign_exchange_risk)
+(FX Risk). You take on FX Risk when you plan a trip to
+another country. Let's say you were living in the UK in 2008, and
+you wanted to visit the US in the fall.
+Many of your UK friends told you how great their trip was, and how
+cheap everything was during their trips in 2007.
+You planned your holiday in the summer, when the GBP-USD exchange rate was
+about 2:1, that is, one pound would be exchanged for about two
+dollars.
+
+You budgeted 4,000 GBP for the trip. You already bought your plane
+tickets and reserved your hotels. You haven't paid for the hotels, but
+you did pay for the plane. Let's say your flight cost 1,000 GBP. That
+leaves 3,000 GBP for hotels, food, transporation, and
+entertainment. As the trip approaches, the GBP-USD starts
+dropping. By Sep 2008, it's down to 1.77, and still
+heading south. You trip is in Oct.
+
+Your trip is going to cost your 20% more than you originally
+budgeted, because the rate dropped to 1.65 by the end of October. Do
+you have an extra 600 GBP? Should you cancel your
+flight and not go? When you first planned bought the ticket, you
+probably didn't think of the FX Risk, because the rates were going up
+(in your favor).
+
+Now, imagine you are a US company, and you decide to accept BTC,
+because prices are going up. The goal of accepting BTC, of course, is
+to get more customers. Companies take on FX Risk to acquire customers
+in foreign markets. Sometimes they don't enter another country due to too much
+risk. If the demand is high enough, they will.
+
+The same has to be true of the FX Risk associated with BTC. Your home
+currency is USD. You pay your employees in USD. (Note that at the time
+of this writing all the major crypto exchanges pay their employees in
+USD, too.) You make the decision to accept BTC, because you reason
+that BTC is here to stay, and the price is going up. What could be the
+harm if BTC goes down, a little?
+
+That question is only half of the risk calculation. As I said,
+companies take on FX Risk to gain access to foreign markets. But BTC
+is not a foreign market, it's just a foreign currency. Will more
+customers buy your products now that you accept BTC? That's a risk,
+too. Indeed, the customers may arbitrage the price of your products
+based upon whether BTC-USD is going up or down. In other words, by
+accepting two currencies in your home country, you are almost
+guaranteed to lose money. If BTC-USD is going up, they will buy in
+USD, because it is "cheaper". If it is going down, they will spend
+their less valuable BTC.
+
+This argument is not specious, because the type of people who hold
+BTC today are definitely looking at the BTC-USD rates. They are
+actively trading BTC-USD, and they are thinking about how to make
+money of it. Their approach to FX arbitrage will also apply to
+purchase currency arbitrage.
+
+This already happens today. Many people have different credit cards
+that they use. People love to use Discover to pay for gas, because
+they get 5% cash back. They use their regular 2% cash back cards for
+other purchases. Maybe they also have an Amazon Prime card which gives
+them 5% cash back on Amazon and Whole Foods purchases.
+
+Why do businesses issue their own cards? Loyalty. If I have an Amazon
+card, I'm more likely to buy from Amazon. In this case, companies get
+more sales for the cost of a different kind of payment
+system. Customers will switch to that payment system, because it costs
+them less to buy things. It's a win-win-win, because the credit card
+make a profit on each transaction.
+
+For e-commerce, there's the added benefit that the credit card
+companies assume the risk of fraud. Customers don't have to worry
+about their credit cards getting stolen. The credit card companies
+just assume the loss, because they control the validity of the
+transaction. I'll also throw in the benefit of getting a free month of
+float on the purchase price. Customers only have to pay for their
+purchase a month later.
+
+BTC is a new kind of payment system. Your business will switch to it,
+because it will generate loyalty. But why? Except for a few diehard
+anti-fiat currency people, most people will still use credit
+cards. When you buy something with BTC, the customer not only assumes
+an FX risk, but you also assume all fraud risk. Once a BTC transaction
+is validated, it's in the blockchain, and your fraction of a BTC is
+gone, forever. If the business fails to deliver, you lost.
+
+If you use USD credit card, you'll actually get a discount from the payment
+system. If you use BTC, it's just like cash so nobody is going to pay
+you to use it. That's not quite true, of course, certain gas stations
+charge you to use credit cards. Some companies prefer being paid by
+check. It's possible those companies would accept BTC.
+
+I left out yet another risk: accounting/audit risk. Your financial
+books just got more complicated when you accept another currency. You
+now need Quickbooks Enterprise, which understand currencies. You have
+to input the exchange rate every day (or more frequently) so you can
+produce reports. Your financial statements got more complicated, too,
+and this means you have an increase audit risk that you made a
+mistake.
+
+
+Should I discuss this?
+
+[cross rates](https://www.investopedia.com/terms/c/crossrate.asp),
+which are exchange rates not based in US dollars (USD). Back in the
+day, there was almost no trading in cross rates, everything went
+through dollars. We had cross rate formulas that would take into
+account two
+[spreads](https://www.investopedia.com/articles/forex/090914/understanding-spread-retail-currency-exchange-rates.asp)
+(one for going into dollars, and another for
+leaving dollars). There's a real cost still to trading between
+non-popular currencies.
