@@ -1,6 +1,6 @@
----
+n---
 layout: post
-title: "Science and Belief"
+title: "Bitcoin and Belief"
 date: 2021-03-18T12:00:00Z
 ---
 
@@ -167,6 +167,55 @@ produce reports. Your financial statements got more complicated, too,
 and this means you have an increase audit risk that you made a
 mistake.
 
+Let's also not forget that as of this writing there are 5,000
+cryptocurrencies. Which one do you choose? BTC is clearly the largest,
+but Ether (ETH) and Binance (BNB) have significant market caps. If you
+choose more than one, you've now given your customers more arbitrage
+opportunities without gaining market share. I'd argue that one
+cryptocurrency is the same as another from the anti-fiat-money
+people.
+
+### Scientific Currency
+
+Bitcoin is the [Esperanto](https://en.wikipedia.org/wiki/Esperanto) of
+currencies. According to Wikipedia, Esperanto is the "world's most
+widely spoken constructed international auxiliary language." Quite an
+accomplishment, but very few people reading this will know what
+Esperanto is, or know that it was in invented in 1887.
+
+Crypto as an asset class will not go away. That's actually the point
+of this article: belief has trumped science. The science, or the
+reason for the invention was: [A purely peer-to-peer version
+of electronic cash would allow online payments to be sent directly
+from one party to another without going through a financial
+institution](https://bitcoin.org/bitcoin.pdf).
+Belief says that the asset is worth something, similar to
+beanie babies. No one believes my father's paintings are valuable even
+though he is dead, and there are a very limited number, and everyone
+who sees them thinks they are beautiful. (I specifically did not put a
+picture here, because it's not the point, and I don't want to prove
+anything about their beauty. Meaning, it's a personal thing.)
+
+Scarcity is not enough. It has to be believed to be valuable, and
+crypto is believed to be valuable.
+
+### Physical vs Digital Goods
+
+Bitcoin is useful as a means for paying for
+[digital goods](https://en.wikipedia.org/wiki/Digital_goods),
+especially
+[virtual goods](https://en.wikipedia.org/wiki/Virtual_goods),
+because the transaction can take place on a neutral exchange, and be
+secure. The virtual good, like payment, has to be secure from
+duplicate transactions. That exchange can be transacted
+completely via computer.
+
+Physical goods cannot be exchanged via computer. It's impossible. You
+can have a receipt, but the actual good must be transferred from the
+seller to the buyer by some physical means. There needs to be some
+other assurance that the physical transaction has taken place. This
+can be an escrow mechanism via a trusted third party, an in person
+exchange, or an insured transaction (e.g. credit cards).
 
 Should I discuss this?
 
@@ -179,3 +228,21 @@ account two
 (one for going into dollars, and another for
 leaving dollars). There's a real cost still to trading between
 non-popular currencies.
+
+
+From a friend:
+
+One BTC observation: I think some companies are taking positions just
+in case the price does climb enough (even temporarily) to give
+competitors with holdings an advantage, either in real liquidity or
+some intangible e.g. glowing stories in the media. The price tanking
+isn't an issue if everyone is in (given nothing else productive to do
+with the cash), since public perception would focus on the failings of
+BTC itself instead of the wisdom of conservative holdouts (unless they
+find a way to 'short' and see a return on their prescience).
+
+Individual investors have greater anti-BTC latitude:
+https://twitter.com/synopsi/status/1375889068018438149
+
+So, I'll be thinking about the relationship between perception and
+belief on my (much longer) hike today.
