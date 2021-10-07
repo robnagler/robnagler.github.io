@@ -1554,9 +1554,8 @@ n
 > [k2527] New York University historian Linda Gordon has summarized
 > working-class resentment of intersectionality:
 >
-> > Some criticism is
-> > ill-informed but understandable nevertheless. A poor white man
-> > associates intersectionality with being told that he has white
+> > Some criticism is ill-informed but understandable nevertheless. A
+> > poor white man associates intersectionality with being told that he has white
 > > privilege: "So when that feminist told me I had ‘white privilege,' I
 > > told her that my white skin didn't do shit." He explains: "Have
 > > you ever spent a frigid northern-Illinois winter without heat or
