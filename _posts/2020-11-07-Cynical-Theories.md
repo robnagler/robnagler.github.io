@@ -1552,15 +1552,17 @@ n
 > of the populist right.
 
 > [k2527] New York University historian Linda Gordon has summarized
-> working-class resentment of intersectionality: > Some criticism is >
-> ill-informed but understandable nevertheless. A poor white man >
-> associates intersectionality with being told that he has white >
-> privilege: "So when that feminist told me I had ‘white privilege,' I
+> working-class resentment of intersectionality:
+>
+> > Some criticism is
+> > ill-informed but understandable nevertheless. A poor white man
+> > associates intersectionality with being told that he has white
+> > privilege: "So when that feminist told me I had ‘white privilege,' I
 > > told her that my white skin didn't do shit." He explains: "Have
-> you > ever spent a frigid northern-Illinois winter without heat or
-> running > water? I have. At 12 years old were you making ramen
-> noodles in a > coffee maker with water you fetched from a public
-> bathroom? I was."
+> > you ever spent a frigid northern-Illinois winter without heat or
+> > running water? I have. At 12 years old were you making ramen
+> > noodles in a coffee maker with water you fetched from a public
+> > bathroom? I was."
 >
 > As intersectionality developed and became
 > dominant in both mainstream political activism and scholarship, it
