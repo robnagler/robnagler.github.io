@@ -5,6 +5,21 @@ date: 2021-10-23T023:00:00Z
 ---
 By Michael F. Brown, Harvard University Press, September 29, 2003, 9780674011717
 
+Who owns native culture? An excellent question. One that I hadn't
+thought about before. Michael Brown doesn't give an answer other than
+"negotiate carefully". Laws ("Total Heritage Protection") are not the
+answer, but they help create a framework for negotiation. That's
+difficult. It's not neat, and it gives me a better understanding of
+politics in general.
+
+I child will say "I'm not going". An adult will say "I do not want to
+go, but I will consider it." I think much of the political positions
+in the world today are child-like. This book tells me that negotiation
+between adults *will* solve hard problems, but everybody needs to
+want to work towards an agreement, in good faith. In this sense, this
+book is quite hopeful about the successes of the past, and how we
+should proceed in the future.
+
 > [k135] My centrist stance is inspired by what I found in many of the
 > places I visited: thoughtful people coming together to negotiate workable
 > solutions, however provisional and inelegant. Their successes, achieved
@@ -34,8 +49,6 @@ By Michael F. Brown, Harvard University Press, September 29, 2003, 9780674011717
 > protect our intellectual property rights as they've come together to
 > protect Coca-Cola or Microsoft, we wouldn't use the trademark.
 
-NEED TO EDIT BELOW
-
 > [k922] The distinction between an idea and its expression so crucial to
 > copyright is unknown to them: Kiowa individuals own ideas and personal
 > life experiences.
@@ -44,17 +57,13 @@ NEED TO EDIT BELOW
 > effects on native peoples often insist that copyright and patents are
 > unknown in non-Western societies, which treat information as communal
 > property. The Kiowa case demonstrates that this claim is
-> > misleading.
->
-> FIXME
-> > [k928] It was not unusual for Indians of Plains tribes to buy and sell
-> personal songs, blessings, visions, and other expressions of spiritual
-> knowledge.
->
-> FIXME
-> > [k927] There exists a rich ethnographic literature detailing the
+> misleading.
+> There exists a rich ethnographic literature detailing the
 > complex rules about knowledge and its uses observed in countless
 > indigenous societies.
+> It was not unusual for Indians of Plains tribes to buy and sell
+> personal songs, blessings, visions, and other expressions of spiritual
+> knowledge.
 
 > [k933] After Australian tee-shirt companies were sued for infringing the
 > copyright of Aboriginal artists, they began to print shirts with fake
@@ -62,54 +71,44 @@ NEED TO EDIT BELOW
 
 > [k937] In Onassis v. Dior, a landmark case dating to 1984, the New York
 > State
-> > Supreme Court ruled that the fashion designer Dior had violated the
+> Supreme Court ruled that the fashion designer Dior had violated the
 > rights of Jacqueline Kennedy Onassis when it published an ad that showed
 > an Onassis look-alike named Barbara Reynolds standing with various other
 > celebrities who played themselves. The court in effect determined that
 > Barbara Reynolds no longer retained exclusive ownership of her own image
 > because it resembled that of someone far more famous.
->
-> FIXME
-> > [k941] Real and counterfeit are no longer legally separable where
+
+> [k941] Real and counterfeit are no longer legally separable where
 > familiar images or sounds are concerned. Shouldn't the same logic apply
-> to native cultures, whose authentic identity is also at stake?"
+> to native cultures, whose authentic identity is also at stake?
 
 > [k946] However much one sympathizes with the idea of discouraging
 > tasteless or hurtful quotations of native iconography or design styles,
 > Thomas's blanket condemnation of all references to indigenous cultures by
 > non-indigenous artists or writers drifts perilously close to a semiotic
 > version of ethnic cleansing.
->
-> FIXME
-> > [k949] Purging them would require draconian social engineering.
->
-> FIXME
-> > [k949] Place names drawn from indigenous languages are ubiquitous in
+
+> [k949] Purging them would require draconian social engineering.
+> Place names drawn from indigenous languages are ubiquitous in
 > the United States and Canada, as they are in other settler nations.
 
 > [k969] The book that you hold in your hand may be destined for
 > obsolescence
-> > now that university presses are offering electronic copies to research
+> now that university presses are offering electronic copies to research
 > libraries in lieu of physical ones.
->
-> FIXME
-> > [k970] Not that it matters much, since the book's royalties are already
+> Not that it matters much, since the book's royalties are already
 > compromised by photocopy machines and Internet-based marketing systems
 > that put used copies into the hands of customers with startling
 > efficiency.
->
-> FIXME
-> > [k971] The history of attempts to control the products of replicative
+> The history of attempts to control the products of replicative
 > technologies gives one little reason to hope that indigenous heritage
 > will prove any more protectable than other cultural resources.
 
 > [k1039] In little more than a decade, ethnobotany, which Richard Evans
 > Schultes had helped to define as a heroic field dedicated to salvaging
 > useful native knowledge, had become for its critics a simple instrument
-> > of theft.
->
-> FIXME
-> > [k1040] This was a bitter pill for ethnobotanists, most of whom had
+> of theft.
+> This was a bitter pill for ethnobotanists, most of whom had
 > entered the profession because of their interest in, and personal
 > commitment to, indigenous people.
 
@@ -121,14 +120,14 @@ NEED TO EDIT BELOW
 > [k1063] As a counterexample he cited India, which has a wealth of
 > talented chemists, doctors, and biologists but is hobbled by weak patent
 > laws that discourage the invention of new drugs and medical techniques.
-> > This view has merit, but it also skirts inconvenient facts. Patents and
+>
+> This view has merit, but it also skirts inconvenient facts. Patents and
 > copyrights are intended to encourage innovation, yet the proliferation of
 > overly broad patents and the aggressiveness with which corporate patent
 > holders defend them have, according to some experts, begun to inhibit
 > original research.
->
-> FIXME
-> > [k1066] Research universities, once committed to the free exchange of
+
+> [k1066] Research universities, once committed to the free exchange of
 > scientific information, now guard their intellectual property, mindful of
 > the income that it may eventually generate.
 
@@ -145,26 +144,22 @@ NEED TO EDIT BELOW
 
 > [k1080] Norwegian researchers have criticized legal norms that allowed
 > the firm Novartis to develop cyclosporin
-> > from soil samples collected in Norway without any requirement that some
-> portion of the drug's profits be returned to the country of origin.'
+> from soil samples collected in Norway without any requirement that some
+> portion of the drug's profits be returned to the country of origin.
 
 > [k1090] Perhaps most familiar is the campaign of British botanists, led
 > by Sir Clements Markham, to smuggle specimens of several
-> > species of Cinchona, the source of quinine, and the Brazilian rubber
+> species of Cinchona, the source of quinine, and the Brazilian rubber
 > tree, Hevea brasiliensis, from South America to England and then to
 > British colonies in Southeast Asia for industrial cultivation there.
->
-> FIXME
-> > [k1092] The Scottish botanist Robert Fortune accomplished a similar
+> The Scottish botanist Robert Fortune accomplished a similar
 > feat with tea, which he collected in China in the late 184os and
 > introduced into cultivation in India and Ceylon.
 >
-> FIXME
-> > [k1093] Useful plant and animal species have moved to new locations as
+> Useful plant and animal species have moved to new locations as
 > long as human populations have been in contact with one another, of
 > course.
-
-> [k1094] The signature dish of southern Italian cuisine would not exist if
+> The signature dish of southern Italian cuisine would not exist if
 > tomatoes, a New World crop, had not been introduced to Europe by
 > travelers returning home.
 
@@ -178,19 +173,17 @@ NEED TO EDIT BELOW
 > discovered or bred these plants and the corporations that now claim them
 > as a monopoly.
 
-> [k1351] "The company talks about `reciprocity in its relations with the
+> [k1351] "The company talks about 'reciprocity' in its relations with the
 > indigenous peoples who it taps for resources and knowledge; but so far
 > the indigenous people who are Shaman's sangre de drago sources have
 > received a few thousand dollars while Shaman has raised millions in the
 > US capital market." RAFI neglects to mention that Shaman-or rather,
 > Shaman's unfortunate investors-also lost those millions.
->
-> FIXME
-> > [k1354] At times it is hard to tell whether the critics are more
-> offended by Shaman's profit motive or by its failure to realize a profit.
 
-> [k1355] Few mention that by its own reckoning
-> > Shaman has disbursed $3.5 million to the countries and communities with
+> [k1354] At times it is hard to tell whether the critics are more
+> offended by Shaman's profit motive or by its failure to realize a profit.
+> Few mention that by its own reckoning
+> Shaman has disbursed $3.5 million to the countries and communities with
 > which it is collaborating.
 
 > [k1457] Many would be willing to pay significant bioprospecting fees and
@@ -221,8 +214,7 @@ NEED TO EDIT BELOW
 > and reorganized so that each is returned to its point of origin? What
 > would be the social and political costs of such a campaign?
 >
-> FIXME
-> > [k2142] The most startling feature of the Daes Report and the many
+> The most startling feature of the Daes Report and the many
 > similar documents it has inspired is how little their authors worry about
 > the impact that new regulatory regimes are likely to have on indigenous
 > life. This terrain was mapped by Max Weber nearly a century ago, and his
@@ -236,15 +228,14 @@ NEED TO EDIT BELOW
 > awry it is difficult to assign blame.
 
 > [k2151] Weber considered bureaucracy inescapable and in his darkest
-> moments saw it as the framework for humanity's progressive enslave- ment.
+> moments saw it as the framework for humanity's progressive enslavement.
 
 > [k2155] One might reasonably expect that anyone concerned about the
 > vitality of indigenous societies would hesitate before turning them into
 > another experiment in the Law of Unintended Consequences.
->
-> FIXME
-> > [k2156] When law encompasses formerly
-> > undefined elements of social life, Foucault argues, it has a pronounced
+
+> [k2156] When law encompasses formerly
+> undefined elements of social life, Foucault argues, it has a pronounced
 > tendency to impose regulatory frameworks that shift power to regulators.
 
 > [k2199] In anthropology, which probably more than any other academic
@@ -254,9 +245,9 @@ NEED TO EDIT BELOW
 > coherence that doesn't exist in reality), essentialist (implicitly
 > reducing complex human behavior to a limited set of forces or essences),
 > and tied to boundaries that are difficult or impossible to identify.
->
-> FIXME
-> > [k2202] One now hears frequent references to the culture of
+> The sitution is not helped by the way people talk about culture in
+> the mass media.
+> One now hears frequent references to the culture of
 > corporations or occupational groups, and some observers of contemporary
 > social life feel comfortable declaring that gays and lesbians, the
 > disabled, and even women have distinct cultures, an assertion whose
@@ -305,13 +296,11 @@ NEED TO EDIT BELOW
 > of symbols "whose deprecation would have an impact on cultural survival."
 > Here we enter a funhouse world in which any use of symbols that a society
 > (the whole society? merely a segment of it?) finds offensive becomes a
-> mortal threat."
+> mortal threat.
 
 > [k2237] The outspoken writer Sherman Alexie, a Coeur d'Alene Indian,
 > plays in a blues band.
->
-> FIXME
-> > [k2238] When asked to justify his appropriation of an African-American
+> When asked to justify his appropriation of an African-American
 > musical form, he insisted that his music is "Indian blues," or "Crazy
 > Horse with a slide guitar."
 
@@ -320,8 +309,7 @@ NEED TO EDIT BELOW
 > groups, but it does underscore the folly of cordoning off heritage as a
 > discrete domain that can be defined and defended by law.
 >
-> FIXME
-> > [k2243] Despite the narrowing gap between native and non-native
+> Despite the narrowing gap between native and non-native
 > practices (or perhaps because of it), proponents of Total Heritage
 > Protection are strongly inclined to overstate the otherness of indigenous
 > peoples.
@@ -330,21 +318,22 @@ NEED TO EDIT BELOW
 > the repatriation of the Kennewick remains to the Confederated Tribes of
 > the Umatilla Indian Reservation, echoes Harjo's sentiments: "We already
 > know our history. It may not be written down, but we already know our
-> history. "
+> history.
 >
-> FIXME
-> > [k2254] Would we so readily nod our heads in agreement with Harjo and
-> > Minthorn if they were officers of the Sons of Confederate Veterans, an
+> Would we so readily nod our heads in agreement with Harjo and
+> Minthorn if they were officers of the Sons of Confederate Veterans, an
 > organization dedicated, in its own words, to "preserving the history and
 > legacy of these heroes, so future generations can understand the motives
 > that animated the Southern Cause"? What if they were Serbian nationalists
 > or Shining Path cadres?
-
-> [k2258] The reality of pluralist democracy is that groups living together
+> As a rhetorical strategy, a group's insistence that it, and only it,
+> knows its history maybe useful; as public policy in a multicultural
+> state, it is patently suicide.
+> The reality of pluralist democracy is that groups living together
 > must be free to talk about one another's history and culture. Without
 > these exchanges, they cannot build a durable civic life.
 
-> [k2267] Many-perhaps most-elements of culture do not answer to a logic of
+> [k2267] Many--perhaps most--elements of culture do not answer to a logic of
 > possession and control, to a vision of hermetically sealed social units
 > realizing their destiny in complete autonomy.
 
@@ -357,14 +346,14 @@ NEED TO EDIT BELOW
 
 > [k2286] Yet it is a totalizing model, and such approaches have a
 > disturbing
-> > tendency to reshape the world in unforeseen and harmful ways. In this
+> tendency to reshape the world in unforeseen and harmful ways. In this
 > case they are likely to foster bureaucratized and lifeless cultures that
 > operate by a proprietary logic perilously close to that of the
 > corporations they seek to resist.
 
 > [k2321] The archives case illustrates a version of liberal pluralism that
 > might be called "multiculturalism without illusions." This approach
-> > accepts that conflicts over values are inevitable when societies
+> accepts that conflicts over values are inevitable when societies
 > encompass groups that practice different ways of life.
 
 > [k2326] It is in the nature of rights to seek absolutes.
@@ -374,10 +363,10 @@ NEED TO EDIT BELOW
 > genuinely wrong. With the exception of a small set of core protections,
 > however, everything is subject to negotiated solutions that Gray insists
 > are "usually perceived to be more legitimate than legal
-> > procedures which end in the promulgation of unconditional rights."
-
-> [k2375] is growing even in business
-> FIXME
+> procedures which end in the promulgation of unconditional rights."
+> The major advantage of political solutions is that they are never
+> final; they can change to reflect changing sentiments and shifting
+> local realities.
 
 > [k2391] Advocates of the indigenous "we own our culture" perspective find
 > themselves in the odd position of criticizing corporate capitalism while
