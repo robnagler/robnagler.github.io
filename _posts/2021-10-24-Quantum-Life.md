@@ -14,7 +14,8 @@ I read this on the recommendation of
 Dan is a physicist at RadiaSoft, and we are in a social justice group
 sponsored by the company.
 [RadiaSoft takes Social Justice very seriously](https://www.radiasoft.net/about/social-justice/).
-I must say I have my doubts, but the books that have been recommended
+I must say I have my doubts about our ability to change society,
+but the books that have been recommended
 to me have been very eye opening. A Quantum Life is an excellent book.
 
 I simultaneously enjoyed and struggled with the book, because Oluseyi
