@@ -646,7 +646,7 @@ clearly.
 > every year, but the years from 2012 through 2018 seem like the closest
 > we've come to the intensity of the stretch from 1968 to 1972. And if you
 > are not convinced that the last few years are extraordinary by objective
-> measures, then just add in the amplifying power of social media. Not
+zz> measures, then just add in the amplifying power of social media. Not
 > since the Vietnam War and the civil rights struggles of the 1960s have so
 > many Americans been exposed to a seemingly endless stream of videos
 > showing innocent people--mostly people of color--being beaten, killed, or
@@ -857,4 +857,4 @@ clearly.
 > die.")
 
 > [k4661] Many universities are adopting the Chicago Statement and are
-v> beginning to push back against the creep of safetyism.
+> beginning to push back against the creep of safetyism.
