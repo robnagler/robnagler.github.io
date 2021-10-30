@@ -1,4 +1,4 @@
-n---
+---
 layout: post
 title: "BookNotes: The Coddling of the American Mind"
 date: 2020-09-27T20:00:00Z
