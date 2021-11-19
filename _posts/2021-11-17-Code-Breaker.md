@@ -5,6 +5,39 @@ date: 2021-11-17T22:00:00Z
 ---
 By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
+Walter Isaacson is brilliant writer. The Code Breaker is filled with
+an amazing amount of detail, and weighs in at 500 pages, but I
+finished it in five days. Normally, it would take me a month. I just
+couldn't put the book down at times.
+
+Jennifer Doudna is the star of the book, but she's a (competitive)
+team player. If you're on her team, awesome. If not, well, things
+might get ugly. I'm not personally like that, but I appreciate her
+drive to win. And that she did.
+
+The book taught me a great deal about CRISPR. It's not a textbook, but
+it's close. It piqued my (on-and-off-again) interest in
+biochemistry. If you don't know anything about biochemistry, you
+should read this book. It'll teach you why it's important, and how it
+works, to some degree.
+
+The part that most amazes me about Isaacson is that he is able to
+synthesize a thesis about the need for us to understand biochemstry
+and why. His philosophical analysis is spot on imho. He ends the book
+with very astute thoughts that you might be able to read standalone,
+but really should be read in the context of understanding gene
+editing.
+
+The book is topical: COVID-19 is featured. RNA is the protagonist, in
+a way. It's necessary to understand why RNA is so important in order
+to understand how the vaccines and cures have been rapidly
+achieved. CRISPR, too, is key, because it wasn't invented but
+discovered. Evolution honed during the last billion years on
+earth. We're just repurposing it to chop up bad genes (virii) or
+replace them in the human genome to fix problems, such as sickle cell
+anemia, with somatic cell edits, or someday, permanently with germline
+(inheritable) edits.
+
 > [k691] Szostak had a guiding principle:
 > __Never do something that a thousand other people are doing__.
 > That appealed to Doudna.
