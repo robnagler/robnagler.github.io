@@ -103,7 +103,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > lower her voice a bit, look you right in the eye, lean in, and say, 'What
 > if you tried...?' " Then she would describe a new approach, a new
 > experiment, or even a big new idea, usually involving some new way of
-> deploying RNA. One day, for example, Wilson came to her office to show
+> deploying RNA.
+>
+> One day, for example, Wilson came to her office to show
 > some results about how two molecules that he had crystallized interacted.
 > "If you can disrupt this interaction based on knowing how it works," she
 > said, "maybe we can make that same disruption inside the cell and see how
@@ -140,11 +142,15 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > [k1588] None of the venture capitalists they met with was a woman, and
 > this was in 2012. So instead of continuing to seek venture money, they
 > decided to raise what they could from friends and family. Both Doudna and
-> Haurwitz put in their own money. The triangle Its bootstrap success may,
+> Haurwitz put in their own money.
+>
+> __The triangle__
+>
+> Its bootstrap success may,
 > on the surface, make Caribou Biosciences seem like a poster child for
 > pure free-market capitalism.
 
-> [k1596] Bush's recommendation was that government should not build big
+> [k1596] [Vannevar] Bush's recommendation was that government should not build big
 > research labs of its own, as it had done with the atomic bomb project,
 > but instead should fund research at universities and corporate labs.
 
@@ -203,20 +209,20 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > [k1898] By February 2012, he had produced a paper, with Barrangou and
 > Horvath as secondary authors, that described how, in a CRISPR system, a
 > Cas9 enzyme was guided by a crRNA to cut up an invading virus. He sent it
-> off to the journal Cell, which summarily rejected it. In fact, the
+> off to the journal __Cell__, which summarily rejected it. In fact, the
 > journal did not deem the paper interesting enough to send out for peer
-> review. "Even more frustrating, we sent it to Cell Reports, which is kind
-> of a sister journal to Cell," Siksnys says. "They
+> review. "Even more frustrating, we sent it to __Cell Reports__, which is kind
+> of a sister journal to __Cell__," Siksnys says. "They
 > rejected it too."
 
 > [k1909] The fact that Doudna subsequently hurried to push her own team's
 > paper into print would cause a small controversy, or at least a few
 > raised eyebrows, among some members of the CRISPR crowd. "You should look
 > at the timing of Jennifer's patent filing and the submission of her paper
-> to Science," Barrangou told me. At first glance, it can look suspicious.
+> to __Science__," Barrangou told me. At first glance, it can look suspicious.
 > Doudna got Siksnys's abstract on May 21, and she and
 > her colleagues filed a patent application on May 25 and submitted their
-> paper to Science on June 8.
+> paper to __Science__ on June 8.
 
 > [k1978] Barrangou, the Danisco researcher who had been a collaborator on
 > Siksnys's paper, later said that, as soon as he heard
@@ -242,7 +248,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > a drug. There was no attempt to change the DNA of the patient; it was not
 > gene __editing__. Instead, gene therapy involved delivering into the
 > patient's cells some DNA that had been engineered to counteract the
-> faulty gene that caused the disease. The first trial came in 1990 on a
+> faulty gene that caused the disease.
+>
+> The first trial came in 1990 on a
 > four-year-old girl with a genetic mutation that crippled her immune
 > system and left her at risk for infection. Doctors found a way to get
 > functioning copies of the missing gene into the T cells of her blood
@@ -311,9 +319,8 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > [k2165] Zhang was at Harvard at the same time as Mark Zuckerberg, and
 > it's interesting to speculate on which of them will end up having the
 > most impact on the world.
->
-> FIXME
-> > [k2167] Majoring in both chemistry and physics, Zhang initially did
+
+> [k2167] Majoring in both chemistry and physics, Zhang initially did
 > research with Don Wiley, a crystallographer who was a master at
 > determining the structure of complex molecules.
 
@@ -322,8 +329,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > Children's Hospital in Memphis, leaving his rental car on a bridge. His
 > body was later found in the river.
 >
-> FIXME
-> > [k2171] That year Zhang also had to help a close friend in his class
+> That year Zhang also had to help a close friend in his class
 > who was spiraling into major depression.
 
 > [k2175] The experience caused Zhang to turn his attention to researching
@@ -381,12 +387,13 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > rather than battling in court? In retrospect, Doudna's business partner
 > Andy May thinks so. "We would have saved a lot of time and money around
 > all of the legal arguments if we had managed to come together," he says.
+>
 > To an unnecessary extent, the prolonged fight was driven by emotions and
-> resentments. Instead,
+>  resentments.
 
 > [k3201] Unlike the CRISPR contestants, Noyce and Kilby obeyed an
-> all-important business maxim: Don't fight over divvying up the proceeds
-> until you finish robbing the stagecoach.
+> all-important business maxim: __Don't fight over divvying up the proceeds
+> until you finish robbing the stagecoach__.
 
 > [k3273] Even though the genetic cause of sickle-cell disease has been
 > understood for longer than any similar disorder, new treatments have
@@ -417,17 +424,22 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > anyone to make unique and usable organisms at home or in a lab." Among
 > its products, in addition to the frog-muscle kit, are a "DIY bacterial
 > gene engineering CRISPR kit" ($169) and a "genetic engineering home lab
-> kit" ($1,999). Soon after Zayner started his business in 2016, he got an
-> email from Harvard's George Church.
+> kit" ($1,999).
+>
+> Soon after Zayner started his business in 2016, he got an
+> email from Harvard's George Church. "I like the stuff you're doing,"
+> Church wrote.
 
 > [k3376] "We now all have this ability to program life," he says. "If
 > millions of people took it up, that would immediately change medicine and
 > agriculture, contributing so much to the world. By demonstrating how easy
-> CRISPR is, I want to inspire people to do that." Isn't it dangerous, I
+> CRISPR is, I want to inspire people to do that."
+>
+> Isn't it dangerous, I
 > ask, for everyone to have access to this technology? "No, it's fucking
 > exciting," he counters. "No great technology has flourished until people
 > had complete access to it." He has a point. What truly caused the digital
-> age to blossom was when computers became personal.
+> age to blossom was when computers became __personal__.
 
 > [k3523] The discussions led Berg to convene a group of biologists in
 > January 1973 at the Asilomar conference center on the California coast
@@ -437,11 +449,10 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k3533] "Their discussions suggest both the vitality of small boys with
 > new chemistry sets and the electricity of back yard gossip," Michael
-> Rogers of Rolling Stone wrote in a piece aptly titled "The Pandora's Box
+> Rogers of __Rolling Stone__ wrote in a piece aptly titled "The Pandora's Box
 > Conference."
 >
-> FIXME
-> > [k3535] One of the primary organizers was a soft-spoken but gently
+> One of the primary organizers was a soft-spoken but gently
 > commanding MIT biology professor named David Baltimore, who that year
 > would win the Nobel Prize for his work showing that viruses containing
 > RNA, such as coronaviruses, can insert their genetic material into the
@@ -470,7 +481,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > silliness." His schizophrenic son, Rufus, was a daily reminder that the
 > genetic lottery could be, as he put it, damn cruel. "The biggest ethical
 > problem we have is not using our knowledge and not having the guts to go
-> ahead and try to help someone," he insisted. For the most part, Watson
+> ahead and try to help someone," he insisted.
+>
+> For the most part, Watson
 > was preaching to the choir. The opinions at the UCLA conference ranged
 > from enthusiasm to unbridled enthusiasm for gene editing.
 
@@ -492,19 +505,21 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > John Rawls in defining the concept of justice. At the time, he was
 > writing an essay titled "The Case Against Perfection: What's Wrong with
 > Designer Children, Bionic Athletes, and Genetic Engineering," which he
-> published in The Atlantic in 2004.27 The other key thinker was Francis
-> Fukuyama, who in 2000 published Our Posthuman Future: Consequences of the
-> Biotechnology Revolution, which was a forceful call for governments to
-> regulate biotechnology. Not surprisingly, their final 310-page report,
-> Beyond Therapy, was thoughtful, vibrantly written, and filled with qualms
+> published in __The Atlantic__ in 2004. The other key thinker was Francis
+> Fukuyama, who in 2000 published
+> __Our Posthuman Future: Consequences of the Biotechnology Revolution__,
+> which was a forceful call for governments to
+> regulate biotechnology.
+>
+> Not surprisingly, their final 310-page report,
+> __Beyond Therapy__, was thoughtful, vibrantly written, and filled with qualms
 > about genetic engineering. It warned of the dangers of using technology
 > to go beyond merely treating diseases to using it to enhance human
 > capabilities. "There are reasons to wonder whether life will really be
 > better if we turn to biotechnology to fulfill our deepest human desires,"
 > the report declared.
->
-> FIXME
-> > [k3728] It argued the case, or more accurately it preached the case,
+
+> [k3728] It argued the case, or more accurately it preached the case,
 > that going too far to alter what is "natural" was hubristic and
 > endangered our individual essence.
 
@@ -520,19 +535,21 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k3829] "We need to create a political safe space by going slow on
 > germline editing so that we can continue working on somatic cell edits,"
-> one participant said. In the end, they decided to call for a temporary
+> one participant said.
+>
+> In the end, they decided to call for a temporary
 > halt on germline editing in humans, at least until the safety and social
 > issues could be further understood.
 
 > [k3881] Church's bio-enthusiasm was given a boost in the popular press by
 > one of his Harvard colleagues, the well-known psychology professor Steven
 > Pinker. "The primary moral goal for today's bioethics can be summarized
-> in a single sentence," he wrote in an op-ed for the Boston Globe. "Get
+> in a single sentence," he wrote in an op-ed for the __Boston Globe__. "Get
 > out of the way." He took a brutal swipe at the entire profession of
 > bioethicists. "A truly ethical bioethics should not bog down research in
 > red tape, moratoria, or threats of prosecution based on nebulous but
-> sweeping principles such as 'dignity,' 'sacredness,' or 'social justice,'
-> " he argued. "The last thing we need is a lobby of so-called ethicists."
+> sweeping principles such as 'dignity,' 'sacredness,' or 'social justice,'"
+> he argued. "The last thing we need is a lobby of so-called ethicists."
 
 > [k3929] In Russia, there were no laws to prevent the use of gene editing
 > in humans, and President Vladimir Putin in 2017 touted the potential of
@@ -608,7 +625,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > with the proper approvals. "I will take your suggestion that we will get
 > a local ethic approval before we move on to the first genetic edited
 > human baby," Jiankui told Quake in an email, which was later reported by
-> New York Times health writer Pam Belluck. "Please keep it in
+> __New York Times__ health writer Pam Belluck. "Please keep it in
 > confidential."
 
 > [k4132] Instead of following guidelines such as those established by the
@@ -625,7 +642,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > frameshift mutations on both alleles and Lulu's was heterozygous," he
 > admitted. In other words, Lulu had different gene versions on her two
 > chromosomes, which meant that her system would still produce some of the
-> CCR5 protein. In addition, there was evidence that some unwanted
+> CCR5 protein.
+>
+> In addition, there was evidence that some unwanted
 > off-target edits had been made and also that both embryos had been
 > mosaics, meaning there had been enough cell division before the CRISPR
 > editing was done that some of the resulting cells in the babies were
@@ -649,29 +668,29 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > so. "To put your head in the sand or say we need a moratorium is just not
 > realistic," she argues. "Instead we should say, 'If you want to move into
 > the clinic with gene editing, these are the specific steps that need to
-> be taken.'
+> be taken.'"
 
 > [k4377] Josiah Zayner, the biohacker who had injected himself with a
 > CRISPR-edited gene a year earlier, was so excited that he stayed up all
 > night watching a livestream of He Jiankui's announcement in Hong Kong.
 
-> [k4392] One reason it would be hard to prevent future CRISPR babies,
-> Zayner later explained in an essay for Stat, was that the technology
-> would soon be within the reach of accomplished misfits.
-
 > [k4387] "For days I was so excited I couldn't sleep, because it affirmed
 > to me why I do what I do, which is to try to make sure that people can
-> push humanity forward." Push humanity forward? Yes, sometimes it's the
+> push humanity forward."
+>
+> Push humanity forward? Yes, sometimes it's the
 > rebels who do so. As Zayner speaks, his flat tones and crazy excitement
 > remind me of a day when Steve Jobs sat in his backyard and recited from
 > memory the lines he had helped craft for Apple's "Think Different"
 > commercial about the misfits and rebels and troublemakers who are not
 > fond of rules and have no respect for the status quo. "They push the
 > human race forward," Jobs said. "Because the people who are crazy enough
-> to think they can change the world, are the ones who do." One reason it
+> to think they can change the world, are the ones who do."
+>
+> One reason it
 > would be hard to prevent future CRISPR babies, Zayner later explained in
-> an essay for Stat, was that the technology would soon be within the reach
-> of accomplished misfits. "
+> an essay for __Stat__, was that the technology would soon be within the reach
+> of accomplished misfits."
 
 > [k4408] As I start to push back, Zayner stops me cold by citing a
 > personal example of the type of genetic disposition he would like to
@@ -689,9 +708,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > whether future generations will see this as such a big deal," she says.
 > "Maybe they'll see it like IVF, which was very controversial when it
 > first arose." Her parents, she recalls, were shocked when the first
-> test-tube baby was born in 1978. She was fourteen, had just read The
-> Double Helix, and remembers discussing with them why they thought
-> creating babies by in vitro fertilization was unnatural and felt wrong.
+> test-tube baby was born in 1978. She was fourteen, had just read
+> __The Double Helix__, and remembers discussing with them why they thought
+> creating babies by __in vitro__ fertilization was unnatural and felt wrong.
 
 > [k4485] As for Doudna, her opposition to a moratorium became stronger the
 > more that Lander pushed it.
@@ -745,8 +764,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k4610] Sickle-cell anemia is an interesting next case to consider
 > because it raises two complexities, one medical and the other moral. Like
-> Huntington's, sickle cell is caused by a simple mutation
-> FIXME
+> Huntington's, sickle cell is caused by a simple mutation.
 
 > [k4619] Well, as with many such genes, there's a complexity. People who
 > get a copy of the gene from only one parent do not develop the disease,
@@ -755,7 +773,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > [k4651] Challenges and so-called disabilities often build character,
 > teach acceptance, and instill resilience.
 
-> [k4664] In his 2021 memoir, How to Be Human, he reflects on whether gene
+> [k4664] In [Jory Fleming's] 2021 memoir, __How to Be Human__, he reflects on whether gene
 > editing should be used, if it becomes feasible, to eliminate some of the
 > causes of autism. "You'd be removing an aspect of the human experience,"
 > he writes, "but for what benefit exactly?" Autism, he argues, is a
@@ -769,9 +787,8 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > unforged.
 
 > [k4683] What if the embryo was typical, but they edited it to be
-> deaf?
-
-> [k4683] What if they asked a doctor to punch out the child's eardrums
+> deaf? Woult that be okay?
+> What if they asked a doctor to punch out the child's eardrums
 > after birth?
 
 > [k4688] How do we distinguish between traits that are true disabilities
@@ -802,8 +819,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > it helps to be born with the genes for good muscles, blood, coordination,
 > and other innate advantages.
 >
-> FIXME
-> > [k4718] For example, almost every champion runner has what is known as
+> For example, almost every champion runner has what is known as
 > the R allele of the ACTN3 gene. It produces a protein that builds
 > fast-twitch muscle fibers, and it is also associated with improving
 > strength and recovery from muscle injury. Someday it may be possible to
@@ -811,8 +827,8 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > that be unfair? Is it unfair that some kids are born with it naturally?
 > Why is one more unfair than the other?
 
-> [k4744] So enhanced height is a positional good, while enhanced
-> resistance to viruses is an absolute good.
+> [k4744] So enhanced height is a __positional__ good, while enhanced
+> resistance to viruses is an __absolute__ good.
 
 > [k4753] DARPA already has a project going, in conjunction with Doudna's
 > lab, to study how to create genetically enhanced soldiers.
@@ -835,13 +851,14 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > even (in the case of bioengineering and climate policy) the species.
 
 > [k4925] Diversity is good not only for society but for our species.
->
-> FIXME
-> > [k4926] The problem is that the value of diversity, as our thought
+
+> [k4926] The problem is that the value of diversity, as our thought
 > experiments showed, can conflict with the value of individual choice.
 
 > [k4933] But the fact that inequality already exists is not an argument to
-> increase or permanently enshrine it. Permitting parents to buy the best
+> increase or permanently enshrine it.
+>
+> Permitting parents to buy the best
 > genes for their kids would represent a true quantum leap in inequality.
 
 > [k4945] There are practices we cannot fully control, from shoplifting to
@@ -874,11 +891,13 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > [k4981] When we create chemotherapies to fight cancer or vaccines to
 > fight coronaviruses or gene-editing tools to fight birth defects, we are,
 > quite properly, exercising mastery over nature rather than accepting the
-> unbidden as a gift. But Sandel's argument should nudge us, I think,
+> unbidden as a gift.
+>
+> But Sandel's argument should nudge us, I think,
 > toward some humility, especially when it comes to trying to design
 > enhancements and perfections for our children.
 
-> [k4998] "I am not sure how to make a sharp distinction in medicine
+> [k4998] [Doudna says,] "I am not sure how to make a sharp distinction in medicine
 > between what is natural and what is unnatural, and I think it's dangerous
 > to use that dichotomy to block something that could alleviate suffering
 > and disability."
@@ -913,7 +932,7 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k5112] "Look at what parents are willing to do to get kids in college,"
 > Zhang says. "Some people will surely pay for genetic enhancement. In a
-> world in which there are people who don't get access to eyeglasses, it's
+ > world in which there are people who don't get access to eyeglasses, it's
 > hard to imagine how we will find a way to have equal access to gene
 > enhancements. Imagine what that will do to our species."
 
@@ -928,7 +947,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > a printed copy along with a copy burned onto a compact disc (remember
 > what those were?) to FDA headquarters in Maryland. In an email he wrote
 > to a friend that day describing the FDA's bizarre approach, Greninger
-> vented, "Repeat after me, emergency." A few days later, the FDA responded
+> vented, "Repeat after me, emergency."
+>
+> A few days later, the FDA responded
 > by requiring him to do more trials to see if the test he was using
 > inadvertently detected the MERS and SARS viruses, even though they had
 > been dormant for years and he had no samples of those viruses to test.
@@ -943,7 +964,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k5794] "We could create a STOP-flu or a STOP-HIV or have many detection
 > targets on the same platform. The device is agnostic about what virus
-> it's looking for." Mammoth has the same vision of making it easy to
+> it's looking for."
+>
+> Mammoth has the same vision of making it easy to
 > reprogram its own tool to detect any new virus that comes along. "The
 > beauty of CRISPR is that once you have the platform, then it's just a
 > matter of reconfiguring your chemistry to detect a different virus," Chen
@@ -970,10 +993,10 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > don't worry about it." It took Moderna only two days to create the
 > desired RNA sequences that would produce the spike protein, and
 > thirty-eight days later it shipped the first box of vials to the NIH to
-> begin early-stage trials. Afeyan
+> begin early-stage trials. Afeyan keeps a picture of that box on his
+> cell phone.
 >
-> FIXME
-> > [k5939] As with CRISPR therapies, a difficult part of the vaccine
+> As with CRISPR therapies, a difficult part of the vaccine
 > development was creating the delivery mechanism into the cell. Moderna
 > had been working for ten years to perfect lipid nanoparticles, the tiny
 > synthetic capsules that can carry molecules into a human cell. This gave
@@ -981,12 +1004,14 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > did not have to be stored at extremely low temperatures. Moderna is also
 > using this technology to deliver CRISPR into human cells.
 
-> [k5949] Specifically, he decided to make and test a potential vaccine
-> that had been described that May in a Science paper by researchers at
+> [k5949] Specifically, [Zayner] decided to make and test a potential vaccine
+> that had been described that May in a __Science__ paper by researchers at
 > Harvard.
 
 > [k5952] With the recipe in hand, Zayner ordered the ingredients and went
-> to work. From his garage lab in Oakland, just seven miles south of
+> to work.
+>
+> From his garage lab in Oakland, just seven miles south of
 > Doudna's at Berkeley, Zayner launched a YouTube streaming course--named
 > Project McAfee, after the anti-virus software--so that others could
 > follow along and perform the experiments on themselves. "Biohackers can
@@ -1018,14 +1043,13 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > between what human technology can do and what viruses can do. We may
 > never have a pandemic again."
 >
-> FIXME
-> > [k6023] The invention of easily reprogrammable RNA vaccines was a
+> The invention of easily reprogrammable RNA vaccines was a
 > lightning-fast triumph of human ingenuity, but it was based on decades of
 > curiosity-driven research into one of the most fundamental aspects of
 > life on planet earth: how genes encoded by DNA are transcribed into
 > snippets of RNA that tell cells what proteins to assemble.
 
-> [k6254] COVID doesn't kill us, Zoom will.
+> [k6254] If COVID doesn't kill us, Zoom will.
 
 > [k6332] Until 2020, only five women, beginning with Marie Curie in 1911,
 > had won a Nobel for chemistry, out of 184 honorees.
@@ -1048,7 +1072,9 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 
 > [k6436] People of my generation became fascinated by personal computers
 > and the web. We made sure our kids learned how to code. Now we will have
-> to make sure they understand the code of life. One way to do that is for
+> to make sure they understand the code of life.
+>
+> One way to do that is for
 > all of us older kids to realize, as the interwoven tales of CRISPR and
 > COVID show, how useful it is to understand the way life works. It's good
 > that some people have strong opinions about the use of GMOs in food, but
@@ -1061,11 +1087,12 @@ By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115866
 > and "playing God," let's put it another way: Nature and nature's God, in
 > their infinite wisdom, have evolved a species that is able to modify its
 > own genome, and that species happens to be ours.
->
-> FIXME
-> > [k6483] It could be one of those evolutionary traits that, as sometimes
+
+> [k6483] It could be one of those evolutionary traits that, as sometimes
 > happens, leads a species down a path that endangers its survival.
-> Evolution is fickle that way. That's why it works best as a slow process.
+> Evolution is fickle that way.
+>
+> That's why it works best as a slow process.
 > Every now and then, a rogue or rebel--He Jiankui, Josiah Zayner--will
 > prod us to go faster. But if we are wise, we can pause and decide to
 > proceed with more caution. Slopes are less slippery that way.
