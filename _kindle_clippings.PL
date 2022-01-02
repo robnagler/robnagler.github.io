@@ -85,8 +85,10 @@ foreach my $line (<>) {
             $rec->{text} .= "\n";
         }
     }
-    elsif ($line =~ /^_?(.+)\((.+)\)$/) {
+    # Second form was for The Shadow of the Sun, which isn't in usual form
+    elsif ($line =~ /^_?(.+)\((.+)\)$/ || $line =~ /^([A-Z][a-z]+(?:[A-Za-z\s]+)[A-Z][a-z]+)$/) {
         my($title, $author) = ($1, $2);
+        $author ||= 'No Author';
         $title =~ s/^\s+|\s+$//g;
         $author =~ s/^\s+|\s+$//g;
         $author = join(' ', reverse(split(/\s*,\s*/, $author)));
