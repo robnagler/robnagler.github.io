@@ -154,15 +154,17 @@ foreach $book (values(%$books)) {
 		$t =~ s/^[\s\n]+|[\n\s]+$//sg;
 		if ($_->{is_highlight}) {
 		    foreach my $qr (
-			qr{([a-z0-9\s]+)$}is,
+                        # something like: "white middle-class neighborhoods"
+                        # should not be trimmed.
+			qr{(?<!$punct)([A-Z0-9][a-z0-9\s]*)$}is,
 			qr{^([a-z].*?$punct\)?\s+)}s,
 		    ) {
                         my($x) = $t;
                         # Single character is "don't" or something.
-                        # Check ratio, because sometimes clippings miss
-                        # period, and the data strips too much.
+                        # Check length of trimmed text, because sometimes
+                        # clippings miss period, and the data strips too much.
                         if ($x =~ s/$qr//) {
-                            if (length($1) > 1 && length($x) / length($t) > 0.8) {
+                            if (length($1) > 1 && length($1) < 15) {
                                 print(STDERR "TITLE: $book->{title}\nTRIMMED: $_->{label} $1\nFROM: $t\n\n");
                                 $t = $x;
                             }
