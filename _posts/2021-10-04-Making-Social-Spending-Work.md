@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BookNotes: Making Social Spending Work"
-date: 2022-01-15T14:00:00Z
+date: 2021-10-04T14:00:00Z
 ---
 By Peter H. Lindert, Cambridge University Press, April 8, 2021, 1108478166
 
