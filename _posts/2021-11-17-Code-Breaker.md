@@ -688,7 +688,7 @@ anemia, with somatic cell edits, or someday, permanently with germline
 > hack job."
 
 > [k4264] One reason Jiankui was defiant was that he had thought he would
-> be hailed as a Chinese hero, perhaps even a global one. Indeed,
+> be hailed as a Chinese hero, perhaps even a global one.
 
 > [k4358] So they decided, once again, to steer a middle course. There was
 > a need for more specific guidelines on when germline gene editing should
@@ -701,7 +701,7 @@ anemia, with somatic cell edits, or someday, permanently with germline
 > so. "To put your head in the sand or say we need a moratorium is just not
 > realistic," she argues. "Instead we should say, 'If you want to move into
 > the clinic with gene editing, these are the specific steps that need to
-> be taken.'"
+> be taken.'
 
 > [k4377] Josiah Zayner, the biohacker who had injected himself with a
 > CRISPR-edited gene a year earlier, was so excited that he stayed up all
@@ -723,7 +723,7 @@ anemia, with somatic cell edits, or someday, permanently with germline
 > One reason it
 > would be hard to prevent future CRISPR babies, Zayner later explained in
 > an essay for __Stat__, was that the technology would soon be within the reach
-> of accomplished misfits."
+> of accomplished misfits.
 
 > [k4408] As I start to push back, Zayner stops me cold by citing a
 > personal example of the type of genetic disposition he would like to
@@ -965,7 +965,7 @@ anemia, with somatic cell edits, or someday, permanently with germline
 
 > [k5112] "Look at what parents are willing to do to get kids in college,"
 > Zhang says. "Some people will surely pay for genetic enhancement. In a
- > world in which there are people who don't get access to eyeglasses, it's
+> world in which there are people who don't get access to eyeglasses, it's
 > hard to imagine how we will find a way to have equal access to gene
 > enhancements. Imagine what that will do to our species."
 
