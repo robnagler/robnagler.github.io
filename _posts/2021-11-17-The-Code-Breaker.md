@@ -5,6 +5,20 @@ date: 2022-01-16T14:00:00Z
 ---
 By Walter Isaacson, Simon & Schuster, March 9, 2021, 1982115858
 
+Walter Isaacson has written an excellent book, which is an
+understatement. (He seems to _always_ write excellent books.)
+
+I really enjoyed the last few chapters about bioethics. Isaacson
+challenges us to think hard about this very difficult subject. "Who
+should decide?" That's the question, and he gives us his opinion as
+well as the opinions of many of the leaders in the field of gene
+editing and bioethics.
+
+Jennifer Doudna is a great heroine. Isaacson shows her flaws as well
+as her gifts to society. She helped create CRISPR, which is an amazing
+technology. The way it works and what it does is explained. You'll
+learn something.
+
 > [k691] Szostak had a guiding principle:
 > __Never do something that a thousand other people are doing__.
 > That appealed to Doudna.
