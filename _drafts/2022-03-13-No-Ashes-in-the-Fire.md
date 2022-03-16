@@ -84,6 +84,11 @@ they help, and I think he was helped. He thinks Whites are just as
 ahppy to not see the problems. We are just as powerless as anybody is to
 change the world.
 
+the gas incidident was never fully explained. i didn't like that.
+why did ob do what he did? why was that seen as "normal" in a way?
+just forgiving ob doens't solve the problem of such incredible
+violence?
+
 > [k55] I once knew this black boy in the photos, but at some point between
 > growing up and breaking down I had forgotten.
 
