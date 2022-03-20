@@ -6,7 +6,36 @@ date: 2022-02-20T21:00:00Z
 By Malcolm X, Ballantine, January 15, 1992, 0345376714
 
 Alex Haley spent two years meeting with Malcolm X to produce The
-Autobiography of Malcolm X.
+Autobiography of Malcolm X, a brilliant work about a brilliant man. If
+you don't know anything about Malcom X other than he was a "radical",
+you should read this book. He was not a radical.
+
+He had a horrible history (like the vast majority of blacks at the
+time) which taught him many things: hate Whites and be strong. For
+him, it was "enough is enough". He overcame years of debauchery and
+prison to become a leading light in the civil rights movement.
+
+His flaws are evident, e.g. views of women. He was an
+anti-integrationist, which on the one hand, makes sense, but it was
+counter-productive and unrealistic. He complains about the
+vainglorious white man, but he sounds vainglorious at times in the
+book. Yet, he let us see his flaws in his autobiography. That's
+awesome.
+
+I'm mixed on his views of Jews. I could argue he was angry that Jews
+controlled the businesses frequented by Blacks (wouldn't be the
+first). I could also argue that he was singling out the Jews, just
+because of what he saw. They didn't own all (or even most) of the
+businesses patronized by Blacks. He said he was antiexploitation,
+which is fine, but he could have just pointed out (his conclusion)
+that Blacks should have owned businesses. Fundamentally, Jews and
+Blacks have a lot in common, down to the early history of Jews being
+an enslaved people, which Malcom X knew well with his deep religious
+studies.
+
+All that aside, I enjoyed the book immensely. It's critical to read
+to get a good understanding of the civil rights movement in the 1960s
+as well as another difficult personal story of an African American.
 
 > [k153] When my mother was pregnant with me, she told me later, a party of
 > hooded Ku Klux Klan riders galloped up to our home in Omaha, Nebraska,
@@ -25,10 +54,9 @@ Autobiography of Malcolm X.
 > Jim, would die in bed, of natural causes.
 
 > [k178] Louise Little, my mother, who was born in Grenada, in the British
-> West Indies, looked like a white woman. Her father was white.
->
-> FIXME
-> > [k179] Of this white father of hers, I know nothing except her shame
+> West Indies, looked like a white woman. Her father __was__ white.
+
+> [k179] Of this white father of hers, I know nothing except her shame
 > about it.
 
 > [k185] The teaching of Marcus Garvey stressed becoming independent of the
@@ -38,9 +66,8 @@ Autobiography of Malcolm X.
 > reviling him as an "uppity nigger" for wanting to own a store, for living
 > outside the Lansing Negro district, for spreading unrest and dissention
 > among "the good niggers."
->
-> FIXME
-> > [k192] Shortly after Yvonne was born came the nightmare night in 1929,
+
+> [k192] Shortly after Yvonne was born came the nightmare night in 1929,
 > my earliest vivid memory. I remember being suddenly snatched awake into a
 > frightening confusion of pistol shots and shouting and smoke and flames.
 
@@ -61,24 +88,7 @@ Autobiography of Malcolm X.
 > lived parasitically off the poorest ones, who were the masses. No Negroes
 > were hired then by Lansing's big Oldsmobile plant, or the Reo plant.
 
-> [k275] I learned early that crying out in protest could accomplish
-> things.
->
-> FIXME
-> > [k277] I remember well how my mother asked me why I couldn't be a nice
-> boy like Wilfred; but I would think to myself that Wilfred, for being so
-> nice and quiet, often stayed hungry. So early in life, I had learned that
-> if you want something, you had better make some noise.
->
-> FIXME
-> > [k277] wanted. I remember well how my mother asked me why I couldn't be
-> a nice boy like Wilfred; but I would think to myself that Wilfred, for
-> being so nice and quiet, often stayed hungry. So early in life, I had
-> learned that if you want something, you had better make some noise. Not
-> only did we have our big garden, but we raised chickens.
->
-> FIXME
-> > [k277] I remember well how my mother asked me why I couldn't be a nice
+> [k277] I remember well how my mother asked me why I couldn't be a nice
 > boy like Wilfred; but I would think to myself that Wilfred, for being so
 > nice and quiet, often stayed hungry. So early in life, I had learned that
 > if you want something, you had better make some noise. Not only did we
@@ -101,8 +111,7 @@ Autobiography of Malcolm X.
 > Negro. A lot of white people around there didn't want Negroes in their
 > houses.
 >
-> FIXME
-> > [k345] She would do fine until in some way or other it got to people
+> She would do fine until in some way or other it got to people
 > who she was, whose widow she was. And then she would be let go.
 
 > [k372] But there were times when there wasn't even a nickel and we would
@@ -125,9 +134,8 @@ Autobiography of Malcolm X.
 > [k500] Eventually my mother suffered a complete breakdown, and the court
 > orders were finally signed. They took her to the State Mental Hospital at
 > Kalamazoo.
->
-> FIXME
-> > [k502] We were "state children," court wards; he had the full say-so
+
+> [k502] We were "state children," court wards; he had the full say-so
 > over us. A white man in charge of a black man's children! Nothing but
 > legal, modern slavery--however kindly intentioned.
 
@@ -156,9 +164,11 @@ Autobiography of Malcolm X.
 > understanding that they would have been ready and willing to recognize in
 > a white boy in my position. But it has historically been the case with
 > white people, in their regard for black people, that even though we might
-> be with them, we weren't considered of them. Even though they appeared to
+> be __with__ them, we weren't considered of them. Even though they appeared to
 > have opened the door, it was still closed. Thus they never did really see
-> me. This is the sort of kindly condescension which I try to clarify
+> __me__.
+>
+> This is the sort of kindly condescension which I try to clarify
 > today, to these integration-hungry Negroes, about their "liberal" white
 > friends, these so-called "good white people"--most of them anyway.
 
@@ -185,7 +195,7 @@ Autobiography of Malcolm X.
 > said, "Malcolm, one of life's first needs is for us to be realistic.
 > Don't misunderstand me, now. We all here like you, you know that. But
 > you've got to be realistic about being a nigger. A lawyer--that's no
-> realistic goal for a nigger. You need to think about something you can
+> realistic goal for a nigger. You need to think about something you __can__
 > be. You're good with your hands--making things. Everybody admires your
 > carpentry shop work. Why don't you plan on carpentry? People like you as
 > a person--you'd get all kinds of work." The more I thought afterwards
@@ -193,22 +203,27 @@ Autobiography of Malcolm X.
 > around in my mind.
 
 > [k781] They all reported that Mr. Ostrowski had encouraged what they had
-> wanted. Yet nearly none of them had earned marks equal to mine. It was a
+> wanted. Yet nearly none of them had earned marks equal to mine.
+>
+> It was a
 > surprising thing that I had never thought of it that way before, but I
-> realized that whatever I wasn't, I was smarter than nearly all of those
+> realized that whatever I wasn't, I __was__ smarter than nearly all of those
 > white kids. But apparently I was still not intelligent enough, in their
-> eyes, to become whatever I wanted to be. It was then that I began to
+> eyes, to become whatever __I__ wanted to be.
+>
+> It was then that I began to
 > change--inside.
 
 > [k800] I went every Saturday to see my brothers and sisters in Lansing,
 > and almost every other day I wrote to Ella in Boston. Not saying why, I
-> told Ella that I wanted to come there and live. I don't know how she did
+> told Ella that I wanted to come there and live.
+>
+> I don't know how she did
 > it, but she arranged for official custody of me to be transferred from
 > Michigan to Massachusetts, and the very week I finished the eighth grade,
 > I again boarded the Greyhound bus for Boston.
->
-> FIXME
-> > [k803] No physical move in my life has been more pivotal or profound in
+
+> [k803] No physical move in my life has been more pivotal or profound in
 > its repercussions.
 
 > [k807] Whatever I have done since then, I have driven myself to become a
@@ -218,7 +233,9 @@ Autobiography of Malcolm X.
 > as a community spokesman for and leader of the suffering black masses,
 > while my primary concern would be to grab a few more crumbs from the
 > groaning board of the two-faced whites with whom they're begging to
-> "integrate." All praise is due to Allah that I went to Boston when I did.
+> "integrate."
+>
+> All praise is due to Allah that I went to Boston when I did.
 > If I hadn't, I'd probably still be a brainwashed black Christian.
 
 > [k822] Ella still seemed to be as big, black, outspoken and impressive a
@@ -266,11 +283,9 @@ Autobiography of Malcolm X.
 > generally known that the numbers bankers paid off at higher levels of the
 > police department.
 
-> [k1692] few days running in Small's, we would begin inquiring for him.
-
 > [k1705] This shouldn't reflect too badly on that particular building,
 > because almost everyone in Harlem needed some kind of hustle to survive,
-> and needed to stay high in some way to forget what they had to do to
+> and needed to stay high in some way to forget what they had to __do__ to
 > survive.
 
 > [k1713] I got my first schooling about the cesspool morals of the white
@@ -284,13 +299,12 @@ Autobiography of Malcolm X.
 > men had gotten up early and come to a prostitute.
 
 > [k1729] More wives could keep their husbands if they realized their
-> greatest urge is to be men.
+> greatest urge is __to be men__
 
 > [k1737] All women, by their nature, are fragile and weak: they are
 > attracted to the male in whom they see strength.
 >
-> FIXME
-> > [k1739] From time to time, Sophia would come over to see me from
+> From time to time, Sophia would come over to see me from
 > Boston. Even among Harlem Negroes, her looks gave me status.
 
 > [k1787] The white woman wanted to be comfortable, she wanted to be looked
@@ -316,23 +330,28 @@ Autobiography of Malcolm X.
 
 > [k2711] Before the judge entered, I said to one lawyer, "We seem to be
 > getting sentenced because of those girls." He got red from the neck up
-> and shuffled his papers: "You had no business with white girls!" Later,
+> and shuffled his papers: "You had no business with white girls!"
+>
+> Later,
 > when I had learned the full truth about the white man, I reflected many
 > times that the average burglary sentence for a first offender, as we all
 > were, was about two years. But we weren't going to get the average--not
-> for our crime.
+> for __our__ crime.
 
 > [k2717] But people are always speculating--why am I as I am? To
 > understand that of any person, his whole life, from birth, must be
 > reviewed. All of our experiences fuse into our personality. Everything
 > that ever happened to us is an ingredient.
 
-> [k2735] I got ten years. The girls got one to five years, in the Women's
+> [k2735] I got ten years.
+>
+> The girls got one to five years, in the Women's
 > Reformatory at Framingham, Massachusetts.
 >
-> FIXME
-> > [k2737] This was in February, 1946. I wasn't quite twenty-one. I had
-> not even started shaving. They took Shorty and me, handcuffed together,
+> This was in February, 1946. I wasn't quite twenty-one. I had
+> not even started shaving.
+>
+> They took Shorty and me, handcuffed together,
 > to the Charlestown State Prison.
 
 > [k2758] With some money sent by Ella, I was finally able to buy stuff for
@@ -349,11 +368,15 @@ Autobiography of Malcolm X.
 > the black man" of which Philbert had written to me. They all prayed for
 > me to become converted while I was in prison.
 
-> [k2865] "The devil is also a man," Reginald said. "What do you mean?"
+> [k2865] "The devil is also a man," Reginald said.
+>
+> "What do you mean?"
 
 > [k2867] "Them," he said. "The white man is the devil."
 
-> [k2871] said, "Without any exception?" "Without any exception."
+> [k2871] I said, "Without any exception?"
+>
+> "Without any exception."
 
 > [k2874] The white people I had known marched before my mind's eye.
 
@@ -379,7 +402,9 @@ Autobiography of Malcolm X.
 > [k3034] The hardest test I ever faced in my life was praying.
 
 > [k3038] I had to force myself to bend my knees. And waves of shame and
-> embarrassment would force me back up. For evil to bend its knees,
+> embarrassment would force me back up.
+>
+> For evil to bend its knees,
 > admitting its guilt, to implore the forgiveness of God, is the hardest
 > thing in the world.
 
@@ -433,14 +458,14 @@ Autobiography of Malcolm X.
 > brother of Temple Seven. They didn't scatter and run the way the white
 > cops wanted. Brother Hinton was attacked with nightsticks. His scalp was
 > split open, and a police car came and he was taken to a nearby precinct.
+>
 > The second brother telephoned our restaurant. And with some telephone
 > calls, in less than half an hour about fifty of Temple Seven's men of the
 > Fruit of Islam were standing in ranks-formation outside the police
 > precinct house.
 
 > [k4169] Harlem's black people were long since sick and tired of police
-> brutality
-> FIXME
+> brutality.
 
 > [k4175] We wouldn't learn until later that a steel plate would have to be
 > put into Brother Hinton's skull. (After that operation, the Nation of
@@ -453,7 +478,9 @@ Autobiography of Malcolm X.
 > speaking...strong-looking, set-faced black men, our Fruit of
 > Islam...white-scarved, white-gowned Muslim sisters of all ages...Muslims
 > in our restaurants, and other businesses...Muslims and other black people
-> entering and leaving our mosques.... Every phrase was edited to increase
+> entering and leaving our mosques....
+>
+> Every phrase was edited to increase
 > the shock mood.
 
 > [k4231] Here was one of the white man's most characteristic behavior
@@ -461,21 +488,21 @@ Autobiography of Malcolm X.
 > is startled if he discovers that his victims don't share his vainglorious
 > self-opinion.
 
-> [k4271] "The guilty, two-faced white man can't decide what he wants. Our
+> [k4271] "The guilty, two-faced white man can't decide __what__ he wants. Our
 > slave foreparents would have been put to death for advocating so-called
 > 'integration' with the white man. Now when Mr. Muhammad speaks of
-> 'separation,' the white man calls us 'hate-teachers' and 'fascists'!
+> 'separation,' the white man calls us 'hate-teachers' and 'fascists'!["]
 
 > [k4280] "Mr. Malcolm X," those devils would ask, "why is your Fruit of
 > Islam being trained in judo and karate?"
 
 > [k4308] The reporters would try their utmost to raise some "good" white
 > man whom I couldn't refute as such. I'll never forget how one practically
-> lost his voice. He asked me did I feel any white men had ever done
+> lost his voice. He asked me did I feel __any__ white men had ever done
 > anything for the black man in America. I told him, "Yes, I can think of
 > two. Hitler, and Stalin. The black man in America couldn't get a decent
 > factory job until Hitler put so much pressure on the white man. And then
-> Stalin kept up the pressure--
+> Stalin kept up the pressure--"
 
 > [k4317] But instead of abating, the black puppets continued ripping and
 > tearing at Mr. Muhammad and the Nation of Islam--until it began to appear
@@ -484,7 +511,7 @@ Autobiography of Malcolm X.
 > returning their fire.
 
 > [k4901] The American black man should be focusing his every effort toward
-> building his own businesses, and decent homes for himself. As other
+> building his __own__ businesses, and decent homes for himself. As other
 > ethnic groups have done, let the black people, wherever possible, however
 > possible, patronize their own kind, hire their own kind, and start in
 > those ways to build up the black race's ability to do for itself. That's
@@ -494,7 +521,10 @@ Autobiography of Malcolm X.
 > instructions: to leave early. With all of those thousands upon thousands
 > of "angry revolutionists," so few stayed over that the next morning the
 > Washington hotel association reported a costly loss in empty rooms.
-> Hollywood couldn't have topped it. In a subsequent press poll, not one
+>
+> Hollywood couldn't have topped it.
+>
+> In a subsequent press poll, not one
 > Congressman or Senator with a previous record of opposition to civil
 > rights said he had changed his views. What did anyone expect? How was a
 > one-day "integrated" picnic going to counter-influence these
@@ -516,7 +546,9 @@ Autobiography of Malcolm X.
 > [k5038] Question-and-answer periods are another area where, by now, again
 > blindfolded, I can often tell you the ethnic source of a question. The
 > most easily recognizable of these to me are a Jew in any audience
-> situation, and a bourgeois Negro in "integrated" audiences. My clue to
+> situation, and a bourgeois Negro in "integrated" audiences.
+>
+> My clue to
 > the Jew's question and challenges is that among all other ethnic groups,
 > his expressed thinking, his expressed concerns, are the most subjective.
 > And the Jew is usually hypersensitive. I mean, you can't even say "Jew"
@@ -528,7 +560,9 @@ Autobiography of Malcolm X.
 > million of them are concentrated in New York) look at it very
 > practically, whether they know it or not: that all of the bigotry and
 > hatred focused upon the black man keeps off the Jew a lot of heat that
-> would be on him otherwise. For an example of what I am talking about--in
+> would be on him otherwise.
+>
+> For an example of what I am talking about--in
 > every black ghetto, Jews own the major businesses. Every night the owners
 > of those businesses go home with that black community's money, which
 > helps the ghetto to stay poor. But I doubt that I have ever uttered this
@@ -582,7 +616,7 @@ Autobiography of Malcolm X.
 > to whatever I believe in--these are ingredients which make it just about
 > impossible for me to die of old age.
 
-> [k6768] When I am dead--I say it that way because from the things I know,
+> [k6768] When I __am__ dead--I say it that way because from the things I __know__,
 > I do not expect to live long enough to read this book in its finished
 > form--I want you to just watch and see if I'm not right in what I say:
 > that the white man, in his press, is going to identify me with "hate."
@@ -595,10 +629,16 @@ Autobiography of Malcolm X.
 > [k6780] And if I can die having brought any light, having exposed any
 > meaningful truth that will help to destroy the racist cancer that is
 > malignant in the body of America--then, all of the credit is due to
-> Allah. Only the mistakes have been mine. ALEX HALEY EPILOGUE
+> Allah. Only the mistakes have been mine.
+
+> ALEX HALEY
 >
-> FIXME
-> > [k6784] EPILOGUE During nineteen fifty-nine,
+> EPILOGUE
+
+> [k6784] During nineteen fifty-nine, when the public was becoming
+> aware of the Muslims after the New York telecast "The Hate That Hate
+> Produced," I was in San Francisco, about to retire after twenty
+> years in the U.S. Coast Guard.
 
 > [k6793] "You're another one of the white man's tools sent to spy!" he
 > accused me sharply. I said I had a legitimate writing assignment and
@@ -614,9 +654,8 @@ Autobiography of Malcolm X.
 
 > [k6802] He said that I should talk about an article with Mr. Muhammad
 > personally.
->
-> FIXME
-> > [k6803] The slightly built, shy-acting, soft-voiced Mr. Muhammad
+
+> [k6803] The slightly built, shy-acting, soft-voiced Mr. Muhammad
 > invited me to dinner with his immediate family in his mansion.
 
 > [k6809] My article entitled "Mr. Muhammad Speaks" appeared in early 1960,
@@ -626,7 +665,7 @@ Autobiography of Malcolm X.
 > book. Malcolm X was still stiffly addressing me as "Sir!" and my notebook
 > contained almost nothing but Black Muslim philosophy, praise of Mr.
 > Muhammad, and the "evils" of "the white devil." He would bristle when I
-> tried to urge him that the proposed book was his life.
+> tried to urge him that the proposed book was __his__ life.
 
 > [k6971] I've just become aware how closed my mind was now that I've
 > opened it up again. That's one of the characteristics I don't like about
@@ -646,4 +685,6 @@ Autobiography of Malcolm X.
 > [k8065] I tried to be a dispassionate chronicler. But he was the most
 > electric personality I have ever met, and I still can't quite conceive
 > him dead. It still feels to me as if he has just gone into some next
-> chapter, to be written by historians. New York,
+> chapter, to be written by historians.
+>
+> __New York__, 1965
