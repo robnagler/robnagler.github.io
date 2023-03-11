@@ -18,7 +18,7 @@ urban legend about coffee trade -- see below), which was easily
 invalidated, but it demonstrates his over the top belief in the
 studies he presents.
 
-If you don't know much about sleep, this is very readable book.
+If you don't know much about sleep, this is a very readable book.
 
 > [k316] Sadly, society treats night owls rather unfairly on two
 > counts. First is the label of being lazy, based on a night owl's
