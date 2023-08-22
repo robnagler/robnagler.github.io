@@ -3,6 +3,8 @@ layout: post
 title: "Lazy Investing"
 date: 2014-11-27T12:00:00Z
 ---
+Update: [Back in the S&P 500]({{ site.baseurl }}{% post_url 2023-08-21-Back-in-the-SP500 %})
+
 Are you lazy? I am, especially when I invest.
 
 I bought pie dough for Thanksgiving dinner today instead of making it from scratch. I like baking and cooking, but today I just didn't feel doing everything. Today is the biggest day at Boston Market, where my son works. He'll be serving hundreds of lazy people their Thanksgiving meals.
@@ -46,5 +48,3 @@ Warren lets me do all that and more. I don't get a 1099 or K1 at the end of the 
 You can be as lazy as me and hire Warren, too. It's really easy: Just buy BRK-B. I wouldn't bother with BRK-A, since it is a much less liquid investment. All my money is in BRK-B, and I sleep very well at night. I know that Warren is looking out for me.
 
 Whew! That was more work I've spent on investing than I have in the last decade. Time to bake those pies.
-
-
