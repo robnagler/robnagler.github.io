@@ -3,6 +3,8 @@ layout: post
 title: "Betting on Amazon"
 date: 2020-07-21T15:30:00Z
 ---
+Update: [Back in the S&P 500]({{ site.baseurl }}{% post_url 2023-08-21-Back-in-the-SP500 %})
+
 In February, I dropped some Berkshire Hathaway and bought
 some Amazon. When the market crashed in March due to the initial
 COVID-19 panic, I moved most of my money into cash. Then as I gained
