@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Coroutines"
+title: "Why I don't like Python Coroutines"
 date: 2023-12-25T12:00:00Z
 ---
 
+Structure:
 
 - debugging just as many bugs
 - Backfitting (aiohttp, aiofiles not out of the box)
@@ -37,6 +38,7 @@ date: 2023-12-25T12:00:00Z
   with contorlled switching, the other is natural, evolutionary.
   evolution is more robust than ivory tower in real world apps
 
+### NOTES
 
 [`asyncio`](https://docs.python.org/3/library/asyncio.html)
 https://www.tornadoweb.org/en/stable/guide/coroutines.html
