@@ -69,25 +69,28 @@ with the job manager. Many are the natural outcome of emergent design,
 and others are intrinsic to coroutines in combination with Python's
 [easier to ask forgiveness than permission](https://docs.python.org/3/glossary.html#term-EAFP)
 approach to cancellation, timeouts, errors, and other exceptional
-conditions.
+conditions. Cooperative multitasking has not been easier than
+multi-threading in our experience.
 
-We have expanded our use of coroutines to other projects.
-[Tornado](https://www.tornadoweb.org) serves as the central
+Despite that, we have expanded our use of coroutines to other
+projects.  [Tornado](https://www.tornadoweb.org) serves as the central
 dispatcher. We finally
 [replaced Flask with Tornado](https://github.com/radiasoft/sirepo/commit/6bfd0696fb09ef33b9af938f987c5c38a1c4e9c5)
-for the API server so all services are based on Tornado.
+for the API server so all services are based on Tornado. Coroutines
+work well. We have not encountered many bugs with Tornado or
+asyncio. We think at this point we also know how to write reliable
+services based on coroutines.
 
-###
+
+### Work Less I/O, etc.?
+
+The Job Supervisor
 
 
 
 
 At that point, I had not much experience with Go, which
 solves the cancellation and timeout problem differently.
-
-
-
-
 
 History:
 - build job supervisor without db, as single thread, coroutines.
@@ -102,7 +105,7 @@ Advice:
 - use go-routine style errors, avoiding exceptions so no jumps in
   control flow, catch exceptions and pass results.
 - yield to event loop or async for is important
-- tornado specific: async messages on websockets
+- tornado specific: async messages on websockets and I/O
 - avoid any real work, farm that off to other processes
 - good for "pub-sub" style service
 - global locking a problem when multiple processes (use an acid db, we
