@@ -1,8 +1,118 @@
 ---
 layout: post
-title: "Why I don't like Python Coroutines"
+title: "Python Coroutines: Words of Advice"
 date: 2023-12-25T12:00:00Z
 ---
+
+### The Initial Project
+
+Around 2018 [Sirepo](https://sirepo.com) had outgrown
+[Celery](https://docs.celeryq.dev) as a job management system. We
+decided to implement a tailored solution to our problem, which
+involves jobs running for a few seconds seconds to a few days. We also
+had a requirement to integrate with job managers on 3rd party
+supercomputers with independent authentication.
+
+Python supports many mechanisms for managing asynchrony: coroutines,
+threads, and multiprocessing. Our
+[experience with threads](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+flask+NOT+release)
+was not great with [Flask](https://flask.palletsprojects.com). We
+reasoned that multi-threading is hard to implement correctly. With
+Python, the global interpreter lock always looms large in threading
+discussions, anyway. We thought fully separate memory spaces
+(processes) or cooperative multi-tasking (coroutines) would be more
+reliable.
+
+We had had good experience in
+[BOP](https://github.com/biviosoftware/perl-Bivio) relying on
+[PostgreSQL](https://www.postgresql.org) for locking and inter-process
+communication for jobs. However, Sirepo is different. It's all about
+the jobs whereas BOP applications are mostly about the database.
+
+We considered a publish-subscribe database like Redis to solve the
+queuing/locking problem with multiple processes. Even with pub-sub, we
+realized we would need some process managing the queueing so that jobs
+could be started, awaited on, cancelled, and timed out. An important
+part of this change was being able to
+[charge](https://www.sirepo.com/plans) for different levels of CPU
+resources.
+
+Cancellation and timeouts led me to Nathaniel J Smith's
+[Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/). It's
+well-written and worth a read. Nathaniel and I struck up a
+conversation about coroutines. This further convinced me that
+coroutines were the way to go, especially because they were
+cancellable. I did not have experience with modern day coroutines so
+we hired Nathaniel helped us get started on the project. This was a
+good call. I am very grateful for Nathaniel for helping me (in
+particular) understand the insides and out of
+[Python's asyncio](https://docs.python.org/3/library/asyncio.html).
+
+Fast forward six years, the
+[Sirepo job system](https://github.com/radiasoft/sirepo/wiki/Job-system-architecture-overview)
+has been in production for several years. Suffice it to say, we
+have learned a thing or two about job management, coroutines,
+cancellations, timeouts, locking, etc. This article collects our
+experience.
+
+### xxx
+
+Sirepo Jobs run on our cluster and on [NERSC](https://nersc.gov). CPU
+utilization is monitored, and we have paying customers with few
+complaints about the job system. The "one-click" 3rd party
+supercomputer integration is a godsend to many of our users. It is
+very nice to have happy customers.
+
+And, we have had
+[many issues](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+label%3Asupervisor)
+with the job manager. Many are the natural outcome of emergent design,
+and others are intrinsic to coroutines in combination with Python's
+[easier to ask forgiveness than permission](https://docs.python.org/3/glossary.html#term-EAFP)
+approach to cancellation, timeouts, errors, and other exceptional
+conditions.
+
+We have expanded our use of coroutines to other projects.
+[Tornado](https://www.tornadoweb.org) serves as the central
+dispatcher. We finally
+[replaced Flask with Tornado](https://github.com/radiasoft/sirepo/commit/6bfd0696fb09ef33b9af938f987c5c38a1c4e9c5)
+for the API server so all services are based on Tornado.
+
+###
+
+
+
+
+At that point, I had not much experience with Go, which
+solves the cancellation and timeout problem differently.
+
+
+
+
+
+History:
+- build job supervisor without db, as single thread, coroutines.
+- redis added complexity, and we didn't need performance
+- simple mechanism to manage resources and locking around them
+
+Advice:
+- Catch task exceptions always and log
+- Collect locks in a single object and log "situation"
+- Log, log, log
+- No cancel task
+- use go-routine style errors, avoiding exceptions so no jumps in
+  control flow, catch exceptions and pass results.
+- yield to event loop or async for is important
+- tornado specific: async messages on websockets
+- avoid any real work, farm that off to other processes
+- good for "pub-sub" style service
+- global locking a problem when multiple processes (use an acid db, we
+  use file lock)
+- async with isn't all that useful for our problem (long lived locks).
+  transfer state to object, not lock, and then lock the object only
+  when accessing (just like threads) so can avoid locking.
+  check state before entering and then inside lock
+- for short lived resources may be better to hold lock, but typically
+  async only needed for complexity. avoid coros if possible
 
 Structure:
 
