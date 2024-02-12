@@ -55,7 +55,7 @@ have learned a thing or two about job management, coroutines,
 cancellations, timeouts, locking, etc. This article collects our
 experience.
 
-### xxx
+### xx
 
 Sirepo Jobs run on our cluster and on [NERSC](https://nersc.gov). CPU
 utilization is monitored, and we have paying customers with few
@@ -78,16 +78,83 @@ dispatcher. We finally
 [replaced Flask with Tornado](https://github.com/radiasoft/sirepo/commit/6bfd0696fb09ef33b9af938f987c5c38a1c4e9c5)
 for the API server so all services are based on Tornado. Coroutines
 work well. We have not encountered many bugs with Tornado or
-asyncio. We think at this point we also know how to write reliable
-services based on coroutines.
+asyncio. We think at this point we also know a bit better how to write
+reliable services based on coroutines.
+
+### Preemptable vs Cooperative Multitasking
+
+In order to understand many of the issues with coroutines, we need to
+compare them to threads.
+
+Multitasking is managed by the operating system kernel (usually). In
+preemptive multitasking, the kernel decides which task (process,
+thread) gets to run on which core. In cooperative multitasking, the
+program itself manages which task (callback, coroutine) gets to run on
+a single core.
+
+Kernels support many tasks running simultaneously in the same memory
+space (program). A task (thread, process), then, can be described
+(simply) as a instruction pointer (IP) in a memory space.  With
+coroutines, IPs are programmer determined. In Javascript, IPs are
+callbacks, which are also determinstically specified. With threads,
+IPs are non-determinstic from the programmer's perspective.
+
+All three types of multitasking share a single memory space. With
+threads, objects within the memory space need to be protected from a
+non-deterministic change in the thread in
+control. [Mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)
+(mutex) is the generic term, which can be implemented by semaphores,
+locks, messaging, or queues.
+
+With callbacks, mutexes are not required, because there are no
+[critical sections](https://en.wikipedia.org/wiki/Critical_section). Callbacks
+always return control by exiting back to the event loop, that is, a
+callback runs until completion. This
+[inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
+can be confusing, which is why Javascript and other languages added
+[async/await](https://en.wikipedia.org/wiki/Async/await), which are
+the same thing as coroutines.
+
+Technically, mutexes are not required for coroutines, because Python
+and Javascript coroutines are
+never run concurrently concurrency or
+[race conditions](https://en.wikipedia.org/wiki/Race_condition) -- unlike
+[Go's goroutines](https://go.dev/tour/concurrency/1). The
+programmer has complete control over all memory access, since all task
+switching occurs in the program itself. In practice, any program
+complex enough to require coroutines will need a way
+to organize access to shared objects. Python's asyncio
+[has many ways](https://docs.python.org/3/library/asyncio-sync.html),
+and Tornado
+[has more](https://www.tornadoweb.org/en/stable/coroutine.html).
+
+[ not sure what's next ]
+
+### The Cathedral and the Bazaar
+
+The theory behind coroutines is that they are easier to reason about
+than threads, since the programmer has "complete control". This
+reminds me of the
+[cathedral builder](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html#catbmain)
+approach to developing software. Threads are like the bazaar, because
+the programmer is no longer in control. Bazaars are
+non-deterministic, just like threads.
 
 
-### Work Less I/O, etc.?
+
+### END
+
+
+computer.
+in operating systems are two
+things: memory and
+
+There are many differences between coroutines and threads. There are
+also many similarities.
+
+Threads are preemptable
 
 The Job Supervisor
-
-
-
 
 At that point, I had not much experience with Go, which
 solves the cancellation and timeout problem differently.
