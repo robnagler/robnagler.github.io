@@ -222,9 +222,76 @@ user. The request that cancels the job is not the same running in the
 same coroutine as the coroutine which is monitoring the job.
 
 In Sirepo asynchronous code, object that cross coroutines are
-destroyed explicitly.
+destroyed explicitly. Coroutines check object's `is_destroyed` flag to
+determine the object's validity after an `await`. This also means
+coroutines need to cascade the state on completion.
 
-### Cancel
+This can get complicated especially on inter-coroutine communication,
+e.g. queues. If an object gets destroyed, it's queues are no longer
+valid so we have a proxy object for queues that handles the management
+of the queue values when an object is
+[destroyed during allocation](https://github.com/radiasoft/sirepo/blob/ff2def11788e757ec5c6a89057debe50d9069648/sirepo/job_supervisor.py#L112):
+
+```py
+class SlotProxy(PKDict):
+    async def alloc(self, situation):
+        if self._value is not None:
+            return SlotAllocStatus.DID_NOT_AWAIT
+        try:
+            self._value = self._q.get_nowait()
+            return SlotAllocStatus.DID_NOT_AWAIT
+        except tornado.queues.QueueEmpty:
+            pkdlog("{} situation={}", self._op, situation)
+            async with self._op.set_job_situation(situatioen):
+                if not self._op.is_destroyed:
+                    self._value = await self._q.get()
+                    if not self._op.is_destroyed:
+                        return SlotAllocStatus.HAD_TO_AWAIT
+                self.free()
+                return SlotAllocStatus.OP_IS_DESTROYED
+```
+
+A `SlotProxy` is used to access shared resources via a queue
+(`self._q`). When `SlotProxy` owner (`self._op`) is destroyed, the
+coroutine needs to check `is_destroyed` after every `await` and free
+the slot. Otherwise, the `SlotProxy` value would get lost. Finally,
+`alloc` returns a state that is used by higher levels of code.
+
+### asyncio.CancelledError
+
+Why not just use
+[CancelledError](https://docs.python.org/3/library/asyncio-exceptions.html#asyncio.CancelledError)?
+[The Python documentation states](https://docs.python.org/3/library/asyncio-task.html#task-cancellation),
+"Tasks can easily and safely be cancelled.".
+[We](https://github.com/radiasoft/sirepo/issues/2346)
+[did](https://github.com/radiasoft/sirepo/issues/2570)
+[not](https://github.com/radiasoft/sirepo/issues/3753)
+[find](https://github.com/radiasoft/sirepo/issues/2712)
+[this](https://github.com/radiasoft/sirepo/issues/2664)
+[to](https://github.com/radiasoft/sirepo/issues/2375)
+be the case.
+It is very hard to write correct cancellation code. (Let
+alone
+[decide whether its canceled or cancelled](https://www.merriam-webster.com/grammar/canceled-or-cancelled). :-)
+We found
+[one defect](https://github.com/radiasoft/sirepo/issues/2375) related
+to cancel in Tornado itself.
+
+When we started the job system, `CancelledError` was a subclass of
+`Exception`, and that changed in Python 3.8, to be a subclass of
+`BaseException`. This
+[required complicated code changes](https://github.com/radiasoft/sirepo/issues/2447).
+
+, of the following in the
+[Python 3 tutorial](https://docs.python.org/3/tutorial/errors.html#exceptions):
+
+> Exceptions which are not subclasses of Exception are not typically
+> handled, because they are used to indicate that the program should
+> terminate. They include SystemExit which is raised by sys.exit() and
+> KeyboardInterrupt which is raised when a user wishes to interrupt the program.
+
+
+
 
 ### END
 
