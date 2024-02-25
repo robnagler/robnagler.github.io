@@ -104,7 +104,7 @@ threads, objects within the memory space need to be protected from a
 non-deterministic change in the thread in
 control. [Mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)
 (mutex) is the generic term, which can be implemented by semaphores,
-locks, messaging, or queues.
+locks, messages, or queues.
 
 With callbacks, mutexes are not required, because there are no
 [critical sections](https://en.wikipedia.org/wiki/Critical_section). Callbacks
@@ -117,9 +117,10 @@ the same thing as coroutines.
 
 Technically, mutexes are not required for coroutines, because Python
 and Javascript coroutines are
-never run concurrently concurrency or
+never run concurrently.
+There are no
 [race conditions](https://en.wikipedia.org/wiki/Race_condition) -- unlike
-[Go's goroutines](https://go.dev/tour/concurrency/1). The
+with [Go's goroutines](https://go.dev/tour/concurrency/1). The
 programmer has complete control over all memory access, since all task
 switching occurs in the program itself. In practice, any program
 complex enough to require coroutines will need a way
@@ -127,6 +128,9 @@ to organize access to shared objects. Python's asyncio
 [has many ways](https://docs.python.org/3/library/asyncio-sync.html),
 and Tornado
 [has more](https://www.tornadoweb.org/en/stable/coroutine.html).
+
+
+
 
 [ not sure what's next ]
 
@@ -137,8 +141,31 @@ than threads, since the programmer has "complete control". This
 reminds me of the
 [cathedral builder](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html#catbmain)
 approach to developing software. Threads are like the bazaar, because
-the programmer is no longer in control. Bazaars are
-non-deterministic, just like threads.
+the programmer has little control over scheduling. Bazaars are
+non-deterministic, just like threads. The motto for threads is "be
+prepared". With coroutines, a more relaxed approach can be taken. For
+simple programs, this is fine. For complex programs, you need to be
+prepared.
+
+### Logging
+
+Debugging asynchronous code is hard, and in a distributed system, it's
+even harder. We have had numerous failures, most of which are easily
+explainable in hindsight. Debugging consists of staring at logs for
+hours on end, because the difficult to find defects only occur in
+prodution, in real-time. They are difficult to reproduce.
+
+[Over](https://github.com/radiasoft/sirepo/issues/6779)
+[the](https://github.com/radiasoft/sirepo/issues/6572)
+[years](https://github.com/radiasoft/sirepo/issues/6250),
+[we](https://github.com/radiasoft/sirepo/issues/3658)
+[have](https://github.com/radiasoft/sirepo/issues/2169)
+[had](https://github.com/radiasoft/sirepo/issues/2135)
+[to](https://github.com/radiasoft/sirepo/issues/2055)
+improve logging.
+
+
+
 
 
 
@@ -153,6 +180,8 @@ There are many differences between coroutines and threads. There are
 also many similarities.
 
 Threads are preemptable
+
+section on coroutines & concurrency threadexecutor
 
 The Job Supervisor
 
