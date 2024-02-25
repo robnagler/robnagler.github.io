@@ -162,12 +162,69 @@ prodution, in real-time. They are difficult to reproduce.
 [have](https://github.com/radiasoft/sirepo/issues/2169)
 [had](https://github.com/radiasoft/sirepo/issues/2135)
 [to](https://github.com/radiasoft/sirepo/issues/2055)
-improve logging.
+improve logging in the job system. I think we have come up with some
+guidelines:
 
+- Always catch and log exceptions in coroutines with sufficient
+  context. Sufficient will become apparent over time.
+- Use something like
+  [pkdebug_str](https://github.com/radiasoft/pykern/blob/f5da92a963ef5e58f896eff236bcaf5762bef806/pykern/pkdebug.py#L125)
+  to create consistent context for logs.
+- Include detailed logs with timestamps in issues. In public repos, like Sirepo, use a
+  [log trimmer](https://github.com/biviosoftware/home-env/blob/55605e8dad11f5a949a9724bb79059e8498cfda8/bin/journal_trim)
+  to ensure issues avoid exposing [personally identifiable
+  information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
+- Documenting flow can be helpful. In the supervisor, we have a
+  context manager called
+  [set_job_situation](https://github.com/radiasoft/sirepo/blob/c12aedc0d2d6b60186015dc88091baafb2698503/sirepo/job_supervisor.py#L1154)
+  to make it easy to document important state transitions.
 
+[Example](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1200):
+```py
+@contextlib.asynccontextmanager
+async def set_job_situation(self, situation):
+    await self._supervisor.set_situation(self, situation)
+    try:
+        yield
+        await self._supervisor.set_situation(self, None)
+    except Exception as e:
+        pkdlog("{} situation={} stack={}", self, situation, pkdexc())
+        await self._supervisor.set_situation(self, None, exception=e)
+        raise
+```
 
+`self` is logged [with this context](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1137):
 
+```py
+def pkdebug_str(self):
+    def _internal_error():
+        if not self.get("internal_error"):
+            return ""
+        return ", internal_error={self.internal_error}"
 
+    return pkdformat(
+        "_Op({}{}, {:.4}{})",
+        "DESTROYED, " if self.get("is_destroyed") else "",
+        self.get("op_name"),
+        self.get("op_id"),
+        _internal_error(),
+    )
+```
+
+### Track Object Life Cycle
+
+In the previous code snippet, note the `is_destroyed` flag. In
+shared-memory, asynchronous code, an object can be destroyed by one
+coroutine while it still is being used by another. This is the
+cause of numerous failures: using state when it is no longer
+valid. For example, in the supervisor, a job might be canceled by the
+user. The request that cancels the job is not the same running in the
+same coroutine as the coroutine which is monitoring the job.
+
+In Sirepo asynchronous code, object that cross coroutines are
+destroyed explicitly.
+
+### Cancel
 
 ### END
 
