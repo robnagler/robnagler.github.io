@@ -179,9 +179,11 @@ guidelines:
   [set_job_situation](https://github.com/radiasoft/sirepo/blob/c12aedc0d2d6b60186015dc88091baafb2698503/sirepo/job_supervisor.py#L1154)
   to make it easy to document important state transitions.
 
+**FIXME**: restore link and changed code
 [Example](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1200):
 ```py
 @contextlib.asynccontextmanager
+**FIXME** not async
 async def set_job_situation(self, situation):
     await self._supervisor.set_situation(self, situation)
     try:
@@ -193,6 +195,7 @@ async def set_job_situation(self, situation):
         raise
 ```
 
+**FIXME** change to master commit
 `self` is logged [with this context](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1137):
 
 ```py
@@ -230,6 +233,7 @@ This can get complicated especially on inter-coroutine communication,
 e.g. queues. If an object gets destroyed, it's queues are no longer
 valid so we have a proxy object for queues that handles the management
 of the queue values when an object is
+**FIXME** change to master commit
 [destroyed during allocation](https://github.com/radiasoft/sirepo/blob/ff2def11788e757ec5c6a89057debe50d9069648/sirepo/job_supervisor.py#L112):
 
 ```py
@@ -242,6 +246,7 @@ class SlotProxy(PKDict):
             return SlotAllocStatus.DID_NOT_AWAIT
         except tornado.queues.QueueEmpty:
             pkdlog("{} situation={}", self._op, situation)
+**FIXME** not async
             async with self._op.set_job_situation(situatioen):
                 if not self._op.is_destroyed:
                     self._value = await self._q.get()
