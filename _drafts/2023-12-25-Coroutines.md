@@ -302,8 +302,7 @@ When we started the job system, `CancelledError` was a subclass of
 
 ### END
 
-- when you yield in a context manager, state may not be the same either
-so need to check that.
+- "async with" is a coroutine so be aware of state changes
 
 
 computer.
