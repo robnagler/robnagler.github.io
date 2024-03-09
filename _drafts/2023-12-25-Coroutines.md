@@ -9,7 +9,7 @@ date: 2023-12-25T12:00:00Z
 Around 2018 [Sirepo](https://sirepo.com) had outgrown
 [Celery](https://docs.celeryq.dev) as a job management system. We
 decided to implement a tailored solution to our problem, which
-involves jobs running for a few seconds seconds to a few days. We also
+involves jobs running from a few seconds seconds to a few days. We also
 had a requirement to integrate with job managers on 3rd party
 supercomputers with independent authentication.
 
@@ -18,12 +18,14 @@ threads, and multiprocessing. Our
 [experience with threads](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+flask+NOT+release)
 was not great with [Flask](https://flask.palletsprojects.com). We
 reasoned that multi-threading is hard to implement correctly. With
-Python, the global interpreter lock always looms large in threading
+Python, the
+[global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
+always looms large in threading
 discussions, anyway. We thought fully separate memory spaces
 (processes) or cooperative multi-tasking (coroutines) would be more
 reliable.
 
-We had had good experience in
+We had good experience in
 [BOP](https://github.com/biviosoftware/perl-Bivio) relying on
 [PostgreSQL](https://www.postgresql.org) for locking and inter-process
 communication for jobs. However, Sirepo is different. It's all about
@@ -38,14 +40,15 @@ part of this change was being able to
 resources.
 
 Cancellation and timeouts led me to Nathaniel J Smith's
-[Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/). It's
+[Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/).
+It's
 well-written and worth a read. Nathaniel and I struck up a
 conversation about coroutines. This further convinced me that
 coroutines were the way to go, especially because they were
 cancellable. I did not have experience with modern day coroutines so
 we hired Nathaniel helped us get started on the project. This was a
 good call. I am very grateful for Nathaniel for helping me (in
-particular) understand the insides and out of
+particular) understand the ins and outs of
 [Python's asyncio](https://docs.python.org/3/library/asyncio.html).
 
 Fast forward six years, the
@@ -58,10 +61,10 @@ experience.
 ### xx
 
 Sirepo Jobs run on our cluster and on [NERSC](https://nersc.gov). CPU
-utilization is monitored, and we have paying customers with few
-complaints about the job system. The "one-click" 3rd party
-supercomputer integration is a godsend to many of our users. It is
-very nice to have happy customers.
+utilization is monitored and controlled (in containers), and we have
+paying customers with few complaints about the job system. The
+"one-click" 3rd party supercomputer integration is a godsend to many
+of our users. It is very nice to have happy customers.
 
 And, we have had
 [many issues](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+label%3Asupervisor)
@@ -69,8 +72,12 @@ with the job manager. Many are the natural outcome of emergent design,
 and others are intrinsic to coroutines in combination with Python's
 [easier to ask forgiveness than permission](https://docs.python.org/3/glossary.html#term-EAFP)
 approach to cancellation, timeouts, errors, and other exceptional
-conditions. Cooperative multitasking has not been easier than
-multi-threading in our experience.
+conditions.
+[Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
+(coroutines)
+has not been easier than
+[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking)
+(threads) in our experience.
 
 Despite that, we have expanded our use of coroutines to other
 projects.  [Tornado](https://www.tornadoweb.org) serves as the central
@@ -84,55 +91,88 @@ reliable services based on coroutines.
 ### Preemptable vs Cooperative Multitasking
 
 In order to understand many of the issues with coroutines, we need to
-compare them to threads.
+compare them to threads, briefly.
 
-Multitasking is managed by the operating system kernel (usually). In
-preemptive multitasking, the kernel decides which task (process,
-thread) gets to run on which core. In cooperative multitasking, the
-program itself manages which task (callback, coroutine) gets to run on
-a single core.
+For most programmers,
+[Concurrent programming](https://en.wikipedia.org/wiki/Concurrent_computing)
+implies preemptive multitasking. In modern programming, we confuse
+concurrency with parallelism. Rob Pike's talk
+[Concurrency is not parallelism](https://go.dev/blog/waza-talk)
+is worth a watch.
 
-Kernels support many tasks running simultaneously in the same memory
-space (program). A task (thread, process), then, can be described
-(simply) as a instruction pointer (IP) in a memory space.  With
-coroutines, IPs are programmer determined. In Javascript, IPs are
-callbacks, which are also determinstically specified. With threads,
-IPs are non-determinstic from the programmer's perspective.
+Concurrency in Python is confusing. Consider Python's
+[Concurrent Execution documentation](https://docs.python.org/3/library/concurrency.html),
+which fails to discuss
+[generators](https://wiki.python.org/moin/Generators) or
+callbacks, which are both forms of concurrent execution.
+Even MIT's course 6.005 Software Construction states:
+"[*Concurrency* means multiple computations are happening at the same time](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/)."
 
-All three types of multitasking share a single memory space. With
-threads, objects within the memory space need to be protected from a
-non-deterministic change in the thread in
-control. [Mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)
-(mutex) is the generic term, which can be implemented by semaphores,
-locks, messages, or queues.
+This is more than semantics. People confuse cooperative and preemptive
+multitasking. Consider
+[this stackoverflow post](https://stackoverflow.com/a/37345564):
 
-With callbacks, mutexes are not required, because there are no
-[critical sections](https://en.wikipedia.org/wiki/Critical_section). Callbacks
-always return control by exiting back to the event loop, that is, a
-callback runs until completion. This
-[inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
-can be confusing, which is why Javascript and other languages added
-[async/await](https://en.wikipedia.org/wiki/Async/await), which are
-the same thing as coroutines.
+> According to python docs for
+> [asyncio.Task](https://docs.python.org/3/library/asyncio-task.html#asyncio.Task)
+> it is possible to start some coroutine to
+> **execute "in the background"**. The task created by
+> [asyncio.ensure_future](https://docs.python.org/3/library/asyncio-future.html#asyncio.ensure_future)
+> won't block the execution (therefore the function will return immediately!). This
+> looks like a way to "fire and forget" as you requested.
 
-Technically, mutexes are not required for coroutines, because Python
-and Javascript coroutines are
-never run concurrently.
-There are no
-[race conditions](https://en.wikipedia.org/wiki/Race_condition) -- unlike
-with [Go's goroutines](https://go.dev/tour/concurrency/1). The
-programmer has complete control over all memory access, since all task
-switching occurs in the program itself. In practice, any program
-complex enough to require coroutines will need a way
-to organize access to shared objects. Python's asyncio
-[has many ways](https://docs.python.org/3/library/asyncio-sync.html),
-and Tornado
-[has more](https://www.tornadoweb.org/en/stable/coroutine.html).
+The emphasis in the original creates the confusion. The quotes are
+"correct" and also imply something that's not true: Coroutines and futures do not
+[execute in the background](https://en.wikipedia.org/wiki/Background_process).
+They simply hand off control -- just like passing a callback does --
+to another part of the same thread.
 
+When you write some asyncio code that reads from a file in an
+asyncio-based web server such as Tornado, no other coroutine can
+preempt the read loop unless there is a call to `await`. This may seem
+obvious in one sense, but the language of preemption is implied in the
+[asyncio documentation](https://docs.python.org/3/library/asyncio-sync.html):
 
+> asyncio synchronization primitives are designed to be similar to those
+> of the threading module with two important caveats:
+>
+> - asyncio primitives are not thread-safe, therefore they should not be
+>   used for OS thread synchronization (use threading for that);
+> - methods of these synchronization primitives do not accept the timeout
+>   argument; use the asyncio.wait_for() function to perform operations
+>   with timeouts.
+>
+> asyncio has the following basic synchronization primitives:
+>
+> - Lock
+> - Event
+> - Condition
+> - Semaphore
+> - BoundedSemaphore
+> - Barrier
 
+All of this smells like parallism, and therein lies the problem
 
-[ not sure what's next ]
+### Too Many Primitives
+
+The list of synchronization primitives is confusing due to their
+variety. Add to that
+[Tornado's coroutine primitives](https://www.tornadoweb.org/en/stable/coroutine.html),
+and you might thing all these different primitives are necessary.
+Also, [the stack overflow post (above)](https://stackoverflow.com/a/37345564),
+gives the advice "**Kill tasks instead of awaiting them**", which is
+yet another coroutine primitive, not listed above.
+
+In my experience, fewer coroutines primitives are better. This is also
+Rob Pike's experience, and why
+[Go channels](https://go.dev/doc/effective_go#channels) are the
+primary way to communicate between goroutines. There is no way for one
+goroutine to cancel another goroutine. Also, Go eschews exceptions in
+farvor of explicit returns, because exceptions are confusing to
+manage in concurrent execution.
+
+When we started writing the supervisor, there were many locks and
+queues. We relied on cancel. However, we found ther
+
 
 ### The Cathedral and the Bazaar
 
@@ -302,7 +342,10 @@ When we started the job system, `CancelledError` was a subclass of
 
 ### END
 
-- "async with" is a coroutine so be aware of state changes
+- thread executors for expensive operations (aiohttp)
+- running multiple event loops didn't seem like a good idea
+
+- "with" is a coroutine so be aware of state changes
 
 
 computer.
