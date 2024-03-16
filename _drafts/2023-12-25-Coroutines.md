@@ -9,15 +9,24 @@ date: 2023-12-25T12:00:00Z
 Around 2018 [Sirepo](https://sirepo.com) had outgrown
 [Celery](https://docs.celeryq.dev) as a job management system. We
 decided to implement a tailored solution to our problem, which
-involves jobs running from a few seconds seconds to a few days. We also
+involves jobs running from a few seconds to a few days. We also
 had a requirement to integrate with job managers on 3rd party
 supercomputers with independent authentication.
 
-Python supports many mechanisms for managing asynchrony: coroutines,
-threads, and multiprocessing. Our
-[experience with threads](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+flask+NOT+release)
-was not great with [Flask](https://flask.palletsprojects.com). We
-reasoned that multi-threading is hard to implement correctly. With
+To manage the events in a job manager, we would need to manage
+asynchrony.
+Python supports several mechanisms for asynchrony: coroutines,
+threads, and multiprocessing. We had used
+[Flask](https://flask.palletsprojects.com), which relies
+on threads (and multiple processes) for asynchrony. Our
+[experience with Flask](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+flask+NOT+release)
+was not great. My experience in general was to avoid threads
+with interpreted languages due to the lack of low-level control.
+
+
+We reasoned that multi-threading is hard to implement
+correctly.
+With
 Python, the
 [global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
 always looms large in threading
@@ -58,17 +67,18 @@ have learned a thing or two about job management, coroutines,
 cancellations, timeouts, locking, etc. This article collects our
 experience.
 
-### xx
+### Job Supervisor and Coroutines
 
-Sirepo Jobs run on our cluster and on [NERSC](https://nersc.gov). CPU
-utilization is monitored and controlled (in containers), and we have
-paying customers with few complaints about the job system. The
+Sirepo jobs run on our cluster and at [NERSC](https://nersc.gov),
+which uses [Slurm](https://slurm.schedmd.com) for job management. On
+our own cluster, we monitor CPU utlization with Docker containers.
+We have paying customers with few complaints about the job system. The
 "one-click" 3rd party supercomputer integration is a godsend to many
 of our users. It is very nice to have happy customers.
 
 And, we have had
 [many issues](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+label%3Asupervisor)
-with the job manager. Many are the natural outcome of emergent design,
+with the job supervisor. Many are the natural outcome of emergent design,
 and others are intrinsic to coroutines in combination with Python's
 [easier to ask forgiveness than permission](https://docs.python.org/3/glossary.html#term-EAFP)
 approach to cancellation, timeouts, errors, and other exceptional
@@ -79,34 +89,58 @@ has not been easier than
 [preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking)
 (threads) in our experience.
 
-Despite that, we have expanded our use of coroutines to other
-projects.  [Tornado](https://www.tornadoweb.org) serves as the central
-dispatcher. We finally
+We have expanded our use of coroutines to other
+projects.  All new projects, which require asynchrony, use [Tornado](https://www.tornadoweb.org). We
 [replaced Flask with Tornado](https://github.com/radiasoft/sirepo/commit/6bfd0696fb09ef33b9af938f987c5c38a1c4e9c5)
-for the API server so all services are based on Tornado. Coroutines
+for the API server so now all services rely on Tornado. Coroutines
 work well. We have not encountered many bugs with Tornado or
 asyncio. We think at this point we also know a bit better how to write
 reliable services based on coroutines.
 
 ### Preemptable vs Cooperative Multitasking
 
-In order to understand many of the issues with coroutines, we need to
+In order to understand how we think about coroutines, let's
 compare them to threads, briefly.
 
 For most programmers,
-[Concurrent programming](https://en.wikipedia.org/wiki/Concurrent_computing)
-implies preemptive multitasking. In modern programming, we confuse
-concurrency with parallelism. Rob Pike's talk
-[Concurrency is not parallelism](https://go.dev/blog/waza-talk)
-is worth a watch.
+concurrency implies preemptive multitasking. Coroutines while being an
+old invention in programming, only recently started to become popular in
+modern programming.
+The first tricky area is that it is easy to confuse concurrency with parallelism.
 
-Concurrency in Python is confusing. Consider Python's
-[Concurrent Execution documentation](https://docs.python.org/3/library/concurrency.html),
+In Python, there are many ways to handle concurrency, and the
+explanations are not always clear.
+Consider the [Concurrent Execution documentation](https://docs.python.org/3/library/concurrency.html),
 which fails to discuss
 [generators](https://wiki.python.org/moin/Generators) or
 callbacks, which are both forms of concurrent execution.
-Even MIT's course 6.005 Software Construction states:
+The MIT course 6.005 Software Construction states:
 "[*Concurrency* means multiple computations are happening at the same time](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/)."
+And, the
+[Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
+page on Wikipedia states:
+
+> Concurrent computing is a form of computing in which several
+> computations are executed [*concurrently*](https://en.wikipedia.org/wiki/Concurrency_(computer_science))*—during overlapping time
+> periods—instead of sequentially—with one completing before the next
+> starts.
+
+The "overlapping" is incorrect, because the word concurrently
+(emphasis in the original) links to the
+[Concurrency page](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
+which states:
+
+> In computer science, concurrency is the ability of different parts or
+> units of a program, algorithm, or problem to be executed out-of-order
+> or in partial order, without affecting the outcome. This allows for
+> parallel execution of the concurrent units.
+
+The word *allow* is key here. Concurrency is about out of order
+execution, and parallelism is about overlapping. Coroutines operate
+
+Rob Pike's talk
+[Concurrency is not parallelism](https://go.dev/blog/waza-talk)
+is worth a watch.
 
 This is more than semantics. People confuse cooperative and preemptive
 multitasking. Consider
