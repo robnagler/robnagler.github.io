@@ -164,7 +164,138 @@ coroutines, because they are *allowed* to execute in parallel.
 Still, the talk explains concurrency and parallelism clearly and with
 some good examples.
 
-### Coroutines in Practice
+### Concurrency Requires Logging
+
+Let's move on to something practical: Debugging concurrent code is
+hard, precisely because execution is out of order.  Good logging is
+essential in order to make it easy to debug, especially in production.
+
+We have had numerous failures due to concurrency, most of which are
+easily explainable in hindsight. Debugging consists of staring at logs
+for hours on end, because the difficult to find defects only occur in
+prodution, in real-time. They are difficult to reproduce.
+
+[Over](https://github.com/radiasoft/sirepo/issues/6779)
+[the](https://github.com/radiasoft/sirepo/issues/6572)
+[years](https://github.com/radiasoft/sirepo/issues/6250),
+[we](https://github.com/radiasoft/sirepo/issues/3658)
+[have](https://github.com/radiasoft/sirepo/issues/2169)
+[had](https://github.com/radiasoft/sirepo/issues/2135)
+[to](https://github.com/radiasoft/sirepo/issues/2055)
+improve logging in the job system. Here are some
+guidelines we use:
+
+- Always catch and log exceptions in coroutines with sufficient
+  context. Sufficient will become apparent over time.
+- Use something like
+  [pkdebug_str](https://github.com/radiasoft/pykern/blob/f5da92a963ef5e58f896eff236bcaf5762bef806/pykern/pkdebug.py#L125)
+  to create consistent context of objects for logs.
+- Include detailed logs with timestamps in issues. In public repos, like Sirepo, use a
+  [log trimmer](https://github.com/biviosoftware/home-env/blob/55605e8dad11f5a949a9724bb79059e8498cfda8/bin/journal_trim)
+  to ensure issues avoid exposing [personally identifiable
+  information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
+- Audit trails can be helpful. In the supervisor, we have a
+  context manager called
+  [set_job_situation](https://github.com/radiasoft/sirepo/blob/c12aedc0d2d6b60186015dc88091baafb2698503/sirepo/job_supervisor.py#L1154)
+  to make it easy to log important state transitions.
+
+**FIXME** main commit
+[Example](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1200):
+```py
+@contextlib.asynccontextmanager
+**FIXME** not async
+@contextlib.contextmanager
+def set_job_situation(self, situation):
+    self._supervisor.set_situation(self, situation)
+    try:
+        yield
+        if self.is_destroyed:
+            return
+        self._supervisor.set_situation(self, None)
+    except Exception as e:
+        pkdlog("{} situation={} stack={}", self, situation, pkdexc())
+        self._supervisor.set_situation(self, None, exception=e)
+        raise
+
+```
+
+**FIXME** main commit
+`self` is logged [with this context](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1137):
+
+```py
+def pkdebug_str(self):
+    def _internal_error():
+        if not self.get("internal_error"):
+            return ""
+        return ", internal_error={self.internal_error}"
+
+    return pkdformat(
+        "_Op({}{}, {:.4}{})",
+        "DESTROYED, " if self.get("is_destroyed") else "",
+        self.get("op_name"),
+        self.get("op_id"),
+        _internal_error(),
+    )
+```
+
+### Track Object Life Cycle
+
+Note the `is_destroyed` flag in the previous code snippet. In
+shared-memory, asynchronous code, an object can be destroyed by one
+coroutine while it still is being used by another. This is the
+cause of numerous failures: using state when it is no longer
+valid.
+
+For example, in the supervisor, a job might be canceled by the
+user. The coroutine handling the request that cancels the job is not the
+coroutine which is monitoring the job. The coroutine monitoring the
+job holds a copy of the job object, which is destroyed by the
+coroutine canceling the job.
+
+That's why in Sirepo asynchronous code, objects that are referenced
+concurrently by two coroutines are destroyed explicitly. Coroutines
+are obligated to check object's `is_destroyed` flag to determine the
+object's validity after an `await`. This means state management can
+get complicated.
+
+Let's consider the state of inter-coroutine communication,
+e.g. queues.  If an object gets destroyed, its queues are no longer
+valid and any coroutine waiting on an invalid queue has to be notified.
+[asyncio.Queue](https://docs.python.org/3/library/asyncio-queue.html#queue)
+cannot be invalidated or destroyed (unlike coroutines, which we'll get
+to in a moment). They are garbage collected like most objects in
+Python.
+
+To manage the queue life cycle, the job supervisor uses a proxy object
+to handle canceled (or timed out) operations. Here's
+**FIXME** master commit
+[`alloc` which uses a queue](https://github.com/radiasoft/sirepo/blob/ff2def11788e757ec5c6a89057debe50d9069648/sirepo/job_supervisor.py#L112):
+
+
+```py
+async def alloc(self, situation):
+    if self._value is not None:
+        return SlotAllocStatus.DID_NOT_AWAIT
+    try:
+        self._value = self._q.get_nowait()
+        return SlotAllocStatus.DID_NOT_AWAIT
+    except tornado.queues.QueueEmpty:
+        pkdlog("{} situation={}", self._op, situation)
+        with self._op.set_job_situation(situation):
+            self._value = await self._q.get()
+            if self._op.is_destroyed:
+                self.free()
+                return SlotAllocStatus.OP_IS_DESTROYED
+            return SlotAllocStatus.HAD_TO_AWAIT
+```
+
+`SlotProxy.alloc` controls access to shared resources via a queue
+(`self._q`). When `SlotProxy`'s owner (`self._op`) is destroyed, the
+coroutine needs to check `is_destroyed` after every `await` and free
+the slot. Otherwise, the `SlotProxy` value would get lost. Finally,
+`alloc` returns a state that is used by higher levels of code.
+
+### Programmers Infer Parallelism
 
 The way coroutines work is more than semantics. It directly affects
 what is going on in programs that use them.
@@ -194,9 +325,7 @@ obvious in one sense, but the language of preemption is implied in the
 > - Barrier
 
 All of this smells like parallism, and therein lies the problem:
-parallelism is not implied with Python coroutines.
-
-parallism with Python coroutines is not free. need to consider parallelism when using asyncio in
+programmers infer parallelism with coroutines, but it is not implied.
 
 ### Too Many Primitives
 
@@ -216,10 +345,6 @@ goroutine to cancel another goroutine. Also, Go eschews exceptions in
 farvor of explicit returns, because exceptions are confusing to
 manage in concurrent execution.
 
-When we started writing the supervisor, there were many locks and
-queues. We relied on cancel. However, we found ther
-
-
 ### The Cathedral and the Bazaar
 
 The theory behind coroutines is that they are easier to reason about
@@ -232,121 +357,6 @@ non-deterministic, just like threads. The motto for threads is "be
 prepared". With coroutines, a more relaxed approach can be taken. For
 simple programs, this is fine. For complex programs, you need to be
 prepared.
-
-### Logging
-
-Debugging asynchronous code is hard, and in a distributed system, it's
-even harder. We have had numerous failures, most of which are easily
-explainable in hindsight. Debugging consists of staring at logs for
-hours on end, because the difficult to find defects only occur in
-prodution, in real-time. They are difficult to reproduce.
-
-[Over](https://github.com/radiasoft/sirepo/issues/6779)
-[the](https://github.com/radiasoft/sirepo/issues/6572)
-[years](https://github.com/radiasoft/sirepo/issues/6250),
-[we](https://github.com/radiasoft/sirepo/issues/3658)
-[have](https://github.com/radiasoft/sirepo/issues/2169)
-[had](https://github.com/radiasoft/sirepo/issues/2135)
-[to](https://github.com/radiasoft/sirepo/issues/2055)
-improve logging in the job system. I think we have come up with some
-guidelines:
-
-- Always catch and log exceptions in coroutines with sufficient
-  context. Sufficient will become apparent over time.
-- Use something like
-  [pkdebug_str](https://github.com/radiasoft/pykern/blob/f5da92a963ef5e58f896eff236bcaf5762bef806/pykern/pkdebug.py#L125)
-  to create consistent context for logs.
-- Include detailed logs with timestamps in issues. In public repos, like Sirepo, use a
-  [log trimmer](https://github.com/biviosoftware/home-env/blob/55605e8dad11f5a949a9724bb79059e8498cfda8/bin/journal_trim)
-  to ensure issues avoid exposing [personally identifiable
-  information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
-- Documenting flow can be helpful. In the supervisor, we have a
-  context manager called
-  [set_job_situation](https://github.com/radiasoft/sirepo/blob/c12aedc0d2d6b60186015dc88091baafb2698503/sirepo/job_supervisor.py#L1154)
-  to make it easy to document important state transitions.
-
-**FIXME**: restore link and changed code
-[Example](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1200):
-```py
-@contextlib.asynccontextmanager
-**FIXME** not async
-async def set_job_situation(self, situation):
-    await self._supervisor.set_situation(self, situation)
-    try:
-        yield
-        await self._supervisor.set_situation(self, None)
-    except Exception as e:
-        pkdlog("{} situation={} stack={}", self, situation, pkdexc())
-        await self._supervisor.set_situation(self, None, exception=e)
-        raise
-```
-
-**FIXME** change to master commit
-`self` is logged [with this context](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1137):
-
-```py
-def pkdebug_str(self):
-    def _internal_error():
-        if not self.get("internal_error"):
-            return ""
-        return ", internal_error={self.internal_error}"
-
-    return pkdformat(
-        "_Op({}{}, {:.4}{})",
-        "DESTROYED, " if self.get("is_destroyed") else "",
-        self.get("op_name"),
-        self.get("op_id"),
-        _internal_error(),
-    )
-```
-
-### Track Object Life Cycle
-
-In the previous code snippet, note the `is_destroyed` flag. In
-shared-memory, asynchronous code, an object can be destroyed by one
-coroutine while it still is being used by another. This is the
-cause of numerous failures: using state when it is no longer
-valid. For example, in the supervisor, a job might be canceled by the
-user. The request that cancels the job is not the same running in the
-same coroutine as the coroutine which is monitoring the job.
-
-In Sirepo asynchronous code, object that cross coroutines are
-destroyed explicitly. Coroutines check object's `is_destroyed` flag to
-determine the object's validity after an `await`. This also means
-coroutines need to cascade the state on completion.
-
-This can get complicated especially on inter-coroutine communication,
-e.g. queues. If an object gets destroyed, it's queues are no longer
-valid so we have a proxy object for queues that handles the management
-of the queue values when an object is
-**FIXME** change to master commit
-[destroyed during allocation](https://github.com/radiasoft/sirepo/blob/ff2def11788e757ec5c6a89057debe50d9069648/sirepo/job_supervisor.py#L112):
-
-```py
-class SlotProxy(PKDict):
-    async def alloc(self, situation):
-        if self._value is not None:
-            return SlotAllocStatus.DID_NOT_AWAIT
-        try:
-            self._value = self._q.get_nowait()
-            return SlotAllocStatus.DID_NOT_AWAIT
-        except tornado.queues.QueueEmpty:
-            pkdlog("{} situation={}", self._op, situation)
-**FIXME** not async
-            async with self._op.set_job_situation(situatioen):
-                if not self._op.is_destroyed:
-                    self._value = await self._q.get()
-                    if not self._op.is_destroyed:
-                        return SlotAllocStatus.HAD_TO_AWAIT
-                self.free()
-                return SlotAllocStatus.OP_IS_DESTROYED
-```
-
-A `SlotProxy` is used to access shared resources via a queue
-(`self._q`). When `SlotProxy` owner (`self._op`) is destroyed, the
-coroutine needs to check `is_destroyed` after every `await` and free
-the slot. Otherwise, the `SlotProxy` value would get lost. Finally,
-`alloc` returns a state that is used by higher levels of code.
 
 ### asyncio.CancelledError
 
