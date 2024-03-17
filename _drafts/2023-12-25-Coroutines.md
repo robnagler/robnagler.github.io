@@ -293,7 +293,64 @@ async def alloc(self, situation):
 (`self._q`). When `SlotProxy`'s owner (`self._op`) is destroyed, the
 coroutine needs to check `is_destroyed` after every `await` and free
 the slot. Otherwise, the `SlotProxy` value would get lost. Finally,
-`alloc` returns a state that is used by higher levels of code.
+`alloc` returns a state that is used by higher-level code.
+
+### asyncio.Task.cancel
+
+That's a lot of code and logic. Why not just use
+[Task.cancel](https://docs.python.org/3/library/asyncio-task.html#task-cancellation)?
+After all, "Tasks can easily and safely be cancelled."
+[We](https://github.com/radiasoft/sirepo/issues/2346)
+[did](https://github.com/radiasoft/sirepo/issues/2570)
+[not](https://github.com/radiasoft/sirepo/issues/3753)
+[find](https://github.com/radiasoft/sirepo/issues/2712)
+[this](https://github.com/radiasoft/sirepo/issues/2664)
+[to](https://github.com/radiasoft/sirepo/issues/2375)
+be the case.
+It is very hard to write correct cancellation code. (Let
+alone
+[decide whether its spelled canceled or cancelled](https://www.merriam-webster.com/grammar/canceled-or-cancelled). :-)
+We found
+[one defect](https://github.com/radiasoft/sirepo/issues/2375) related
+to cancel in Tornado itself. Admittedly, Tornado was written well
+before asyncio, and before tasks could be canceled.
+
+
+Cancelling is hard. For example,
+[concurrent.futures.Future](https://docs.python.org/3/library/concurrent.futures.html#future-objects)
+cancel only works on pending futures. Already executing futures cannot
+be canceled.
+
+Another example is
+[threading.Timer.cancel](https://docs.python.org/3/library/threading.html#threading.Timer.cancel),
+which "will only work if the timer is still in its waiting stage."
+
+And, you cannot stop a threading.Thread.
+
+And, you guessed it, you can't kill a Goroutine, a Rust thread, a Java
+thread, etc. Indeed, Java had `Thread.stop`,
+and it was removed for
+[good reasons](https://docs.oracle.com/javase/1.5.0/docs/guide/misc/threadPrimitiveDeprecation.html).
+
+That's why canceling a Python coroutine is problematic,
+too. Cancelling coroutines is hard. In Python 3.11,
+[Task.uncancel](https://docs.python.org/3/library/asyncio-task.html#asyncio.Task.uncancel)
+and
+[Task.cancelling](https://docs.python.org/3/library/asyncio-task.html#asyncio.Task.cancelling)
+were added, which to me is yet another clue that it is hard to implement
+cancelling. Piling on more methods, doesn't fix the fundamental issue.
+
+### Coroutines Block on I/O
+
+Calls to `open`, `read`, etc. are blocking, that is, they block *all*
+coroutines until the operating system fulfills the I/O
+operation(s). This creates numerous problems, especially when
+[sending a Tornado reply](https://www.tornadoweb.org/en/latest/web.html#tornado.web.RequestHandler.write)
+is not a coroutine. Sirepo sends back raw data to users, which can be
+a gigabyte or more. There's
+no way to do this in a nonblocking manner with standard Tornado http
+responss.
+
 
 ### Programmers Infer Parallelism
 
@@ -358,40 +415,7 @@ prepared". With coroutines, a more relaxed approach can be taken. For
 simple programs, this is fine. For complex programs, you need to be
 prepared.
 
-### asyncio.CancelledError
-
-Why not just use
-[CancelledError](https://docs.python.org/3/library/asyncio-exceptions.html#asyncio.CancelledError)?
-[The Python documentation states](https://docs.python.org/3/library/asyncio-task.html#task-cancellation),
-"Tasks can easily and safely be cancelled.".
-[We](https://github.com/radiasoft/sirepo/issues/2346)
-[did](https://github.com/radiasoft/sirepo/issues/2570)
-[not](https://github.com/radiasoft/sirepo/issues/3753)
-[find](https://github.com/radiasoft/sirepo/issues/2712)
-[this](https://github.com/radiasoft/sirepo/issues/2664)
-[to](https://github.com/radiasoft/sirepo/issues/2375)
-be the case.
-It is very hard to write correct cancellation code. (Let
-alone
-[decide whether its canceled or cancelled](https://www.merriam-webster.com/grammar/canceled-or-cancelled). :-)
-We found
-[one defect](https://github.com/radiasoft/sirepo/issues/2375) related
-to cancel in Tornado itself.
-
-When we started the job system, `CancelledError` was a subclass of
-`Exception`, and that changed in Python 3.8, to be a subclass of
-`BaseException`. This
-[required complicated code changes](https://github.com/radiasoft/sirepo/issues/2447).
-
-, of the following in the
-[Python 3 tutorial](https://docs.python.org/3/tutorial/errors.html#exceptions):
-
-> Exceptions which are not subclasses of Exception are not typically
-> handled, because they are used to indicate that the program should
-> terminate. They include SystemExit which is raised by sys.exit() and
-> KeyboardInterrupt which is raised when a user wishes to interrupt the program.
-
-
+CONSIDER https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
 
 
 
