@@ -344,12 +344,49 @@ cancelling. Piling on more methods, doesn't fix the fundamental issue.
 
 Calls to `open`, `read`, etc. are blocking, that is, they block *all*
 coroutines until the operating system fulfills the I/O
-operation(s). This creates numerous problems, especially when
-[sending a Tornado reply](https://www.tornadoweb.org/en/latest/web.html#tornado.web.RequestHandler.write)
-is not a coroutine. Sirepo sends back raw data to users, which can be
-a gigabyte or more. There's
-no way to do this in a nonblocking manner with standard Tornado http
-responss.
+operation(s).
+
+A Tornado specific problem is that reply functions are block and
+[are not thread safe](https://www.tornadoweb.org/en/stable/web.html#thread-safety-notes).
+This means a single response blocks the entire server.
+Sirepo has an
+[outstanding issue](https://github.com/radiasoft/sirepo/issues/5326)
+with sending data without blocking. With websockets, we can
+chunk messages.
+
+We use [`aiohttp`](https://github.com/aio-libs/aiohttp) and
+[`aiofiles`](https://github.com/Tinche/aiofiles) to avoid
+blocking on other types of I/O. The implementation uses
+[ThreadPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor)
+to parallelize the I/O operations.
+
+To achieve true parallelism in production, we run
+[Tornado in multiple processes](https://www.tornadoweb.org/en/stable/guide/running.html#processes-and-ports)
+behind a proxy. This is true for any `asyncio`-based web server,
+because concurrency is not parallelism.
+
+### Backfitting is Hard
+
+Why can't you just call `async os.read()`? This would be nice,
+certainly, but you can't. This would be a breaking change that would
+be worse the
+[print statement fiasco](https://news.ycombinator.com/item?id=13260563).
+
+Changing any existing primitives to be awaitable would require all
+Python programs and libraries to be fixed, everywhere.  This is a
+subtle complexity with asyncio even with new code. A function that
+begins with `async` is a coroutine, that is, it does not begin
+executing until it is awaited or passed to `asyncio.run`.
+
+When an existing function is converted into a coroutine, all the
+existing code is still valid. It's just that instead of the call doing
+something, it returns an
+[Awaitable](https://docs.python.org/3/library/asyncio-task.html#awaitables).
+Unless your test suite covers all calls to the converted coroutine,
+you will get the dreaded "coroutine 'changed_func' was never
+awaited".
+
+**STOP**
 
 
 ### Programmers Infer Parallelism
