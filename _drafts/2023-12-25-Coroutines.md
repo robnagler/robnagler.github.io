@@ -97,68 +97,77 @@ work well. We have not encountered many bugs with Tornado or
 asyncio. We think at this point we also know a bit better how to write
 reliable services based on coroutines.
 
-### Preemptable vs Cooperative Multitasking
+### Cooperative vs Preemptive Multitasking
 
-In order to understand how we think about coroutines, let's
-compare them to threads, briefly.
+In order to understand coroutines, we need to separate concurrency
+from parallelism, and cooperate from preemptive multitasking.
 
-For most programmers,
-concurrency implies preemptive multitasking. Coroutines while being an
-old invention in programming, only recently started to become popular in
-modern programming.
-The first tricky area is that it is easy to confuse concurrency with parallelism.
+For most programmers, concurrency implies preemptive
+multitasking. Threads and multiprocessing are the most common form of
+concurrent programming we encounter.  Coroutines while being an old
+invention in programming, only recently started to become
+popular. They weren't added (formally) to Python
+until 2015. Programming language courses do not emphasize them.  This
+is why they are tricksy, and whey we can easily concurrency with
+parallelism.
 
 In Python, there are many ways to handle concurrency, and the
 explanations are not always clear.
 Consider the [Concurrent Execution documentation](https://docs.python.org/3/library/concurrency.html),
 which fails to discuss
 [generators](https://wiki.python.org/moin/Generators) or
-callbacks, which are both forms of concurrent execution.
-The MIT course 6.005 Software Construction states:
+callbacks, which are both (extremely common) forms of concurrent execution.
+
+The confusion starts with the word concurrent, which
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/concurrent)
+defines as "operating or occurring at the same time."
+
+Another anecodote: MIT course 6.005 Software Construction states:
 "[*Concurrency* means multiple computations are happening at the same time](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/)."
-And, the
+This is incorrect.
+
+Even the
 [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-page on Wikipedia states:
+Wikipedia page states:
 
 > Concurrent computing is a form of computing in which several
 > computations are executed [*concurrently*](https://en.wikipedia.org/wiki/Concurrency_(computer_science))*—during overlapping time
 > periods—instead of sequentially—with one completing before the next
 > starts.
 
-The "overlapping" is incorrect, because the word concurrently
-(emphasis in the original) links to the
-[Concurrency page](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
-which states:
+The use of "overlapping" is incorrect.
+
+The word *concurrently* links to the
+[Concurrency page](https://en.wikipedia.org/wiki/Concurrency_(computer_science)),
+which correctly states:
 
 > In computer science, concurrency is the ability of different parts or
 > units of a program, algorithm, or problem to be executed out-of-order
 > or in partial order, without affecting the outcome. This allows for
 > parallel execution of the concurrent units.
 
-The word *allow* is key here. Concurrency is about out of order
-execution, and parallelism is about overlapping. Coroutines operate
+The word *allows* is key.
+
+Concurrency is about out of order
+execution, and parallelism is about overlapping execution. Coroutines
+*allow* execution to be reordered, and they are guaranteed to execute at
+the same time in the same
+[asyncio event loop](https://docs.python.org/3/library/asyncio-eventloop.html). Coroutines
+are cooperative, not preemptive multitasking.  That's their main
+attraction: there can be no
+[race conditions](https://en.wikipedia.org/wiki/Race_condition#In_software).
 
 Rob Pike's talk
 [Concurrency is not parallelism](https://go.dev/blog/waza-talk)
-is worth a watch.
+is worth a watch. The caveat here is that Goroutines are not
+coroutines, because they are *allowed* to execute in parallel.
+Still, the talk explains concurrency and parallelism clearly and with
+some good examples.
 
-This is more than semantics. People confuse cooperative and preemptive
-multitasking. Consider
-[this stackoverflow post](https://stackoverflow.com/a/37345564):
+### Coroutines in Practice
 
-> According to python docs for
-> [asyncio.Task](https://docs.python.org/3/library/asyncio-task.html#asyncio.Task)
-> it is possible to start some coroutine to
-> **execute "in the background"**. The task created by
-> [asyncio.ensure_future](https://docs.python.org/3/library/asyncio-future.html#asyncio.ensure_future)
-> won't block the execution (therefore the function will return immediately!). This
-> looks like a way to "fire and forget" as you requested.
-
-The emphasis in the original creates the confusion. The quotes are
-"correct" and also imply something that's not true: Coroutines and futures do not
-[execute in the background](https://en.wikipedia.org/wiki/Background_process).
-They simply hand off control -- just like passing a callback does --
-to another part of the same thread.
+The way coroutines work is more than semantics. It directly affects
+what is going on in programs that use them.
 
 When you write some asyncio code that reads from a file in an
 asyncio-based web server such as Tornado, no other coroutine can
@@ -184,7 +193,10 @@ obvious in one sense, but the language of preemption is implied in the
 > - BoundedSemaphore
 > - Barrier
 
-All of this smells like parallism, and therein lies the problem
+All of this smells like parallism, and therein lies the problem:
+parallelism is not implied with Python coroutines.
+
+parallism with Python coroutines is not free. need to consider parallelism when using asyncio in
 
 ### Too Many Primitives
 
