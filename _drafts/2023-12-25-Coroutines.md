@@ -340,6 +340,11 @@ and
 were added, which to me is yet another clue that it is hard to implement
 cancelling. Piling on more methods, doesn't fix the fundamental issue.
 
+**TODO** https://github.com/tornadoweb/tornado/issues/2532
+on message is synchronous
+
+
+
 ### Coroutines Block on I/O
 
 Calls to `open`, `read`, etc. are blocking, that is, they block *all*
@@ -387,6 +392,14 @@ you will get the dreaded "coroutine 'changed_func' was never
 awaited".
 
 **STOP**
+
+Blocking IO is a problem, because of journal bug; no tools to say what
+going on. With threads the kernel let's you know. Example of all
+threads on one ore recently I'm parallel rsiviz
+
+
+doc with name: yield to event loop or async for is important
+
 
 
 ### Programmers Infer Parallelism
@@ -452,8 +465,7 @@ prepared". With coroutines, a more relaxed approach can be taken. For
 simple programs, this is fine. For complex programs, you need to be
 prepared.
 
-CONSIDER https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
-
+CONSIDER ending with this thought?. https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
 
 
 
