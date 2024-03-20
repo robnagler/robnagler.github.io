@@ -471,6 +471,11 @@ CONSIDER ending with this thought?. https://www.bitecode.dev/p/asyncio-twisted-t
 
 ### END
 
+- how to write a succesful coroutine:
+  - check global state and do non-awaited ops first
+  - on entry, verify global state
+  - after an await, check any global state
+
 - thread executors for expensive operations (aiohttp)
 - running multiple event loops didn't seem like a good idea
 
