@@ -1,0 +1,111 @@
+import unittest
+from workout_parser import WorkoutParser
+
+class TestWorkoutParser(unittest.TestCase):
+    def test_parse_workout(self):
+        # Simulating a workout log text
+        workout_log_text = """
+        Rob Nagler
+        MONDAY 3.23.20
+          GENERAL WARM UP
+        HISTORY
+        Perform the following exercises:
+        -3' movement on treadmill, bike or fast-paced walking
+        -Squat @BW x10 reps
+        -RDL @BW x10 reps
+        -Forward-backward lunge @BW x5ea side
+        -Push ups x8-10 reps
+        -TRX Rows x8-10 reps
+
+        COMPLETED
+          STRENGTH/POWER
+        4 SETS
+        1
+        2
+        3
+        4
+        KB LATERAL LUNGE
+        TIPS HISTORY
+        Use dumbbells;
+        Reps for each side per set
+
+        REPS
+        WEIGHT
+        8
+        30
+        8
+        30
+        8
+        30
+        8
+        30
+        FULL SIT UP
+        TIPS HISTORY
+        REPS
+        12
+        12
+        12
+        12
+        DB PUSH UP-ROW
+        TIPS HISTORY
+        REPS
+        WEIGHT
+        10
+        40
+        10
+        40
+        10
+        40
+        10
+        40
+        SPEED SKATERS
+        TIPS HISTORY
+        SECONDS
+        WEIGHT
+        25
+        25
+        25
+        25
+        LEG LIFT
+        TIPS HISTORY
+        REPS
+        12
+        12
+        12
+        12
+        COMPLETED
+          GENERAL COOL DOWN
+        HISTORY
+        Static Stretching:
+        Hamstrings
+        Quads
+        Glutes
+        Calves
+        Chest
+        Back
+        Shoulders
+
+        COMPLETED
+        """
+
+        # Create a parser object and parse the workout log
+        parser = WorkoutParser(workout_log_text)
+        workouts = parser.parse()
+
+        # Ensure that the parser returns a list of workouts
+        self.assertIsInstance(workouts, list, "Parser should return a list of workouts")
+
+        # Ensure that the parsed workout contains expected keys
+        for workout in workouts:
+            self.assertIn('date', workout, "Workout should contain 'date' key")
+            self.assertIn('warmup', workout, "Workout should contain 'warmup' key")
+            self.assertIn('strength_power', workout, "Workout should contain 'strength_power' key")
+            self.assertIn('cool_down', workout, "Workout should contain 'cool_down' key")
+
+            # Ensure that each section (warm-up, strength/power, cool-down) contains exercises
+            self.assertIsInstance(workout['warmup'], list, "Warm-up section should be a list of exercises")
+            self.assertIsInstance(workout['strength_power'], list, "Strength/Power section should be a list of exercises")
+            self.assertIsInstance(workout['cool_down'], list, "Cool-down section should be a list of exercises")
+
+if __name__ == '__main__':
+    unittest.main()

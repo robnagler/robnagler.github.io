@@ -1,0 +1,15 @@
+* 2024-04-05 (2.16.24)
+| desc                                | rep | weight/sec |
+|-------------------------------------|-----|------------|
+| DB Reverse Lunge-Step Up           |   8 |         40 |
+| DB Bench Press                     |  12 |         70 |
+| PVC Passthrough                    |  10 |            |
+|-------------------------------------|-----|------------|
+| DB RDL                             |  12 |         50 |
+| DB Single Arm Row - On Bench       |  12 |         45 |
+| Kneeling Dowel Lat Stretch On Bench|   6 |          3 |
+|-------------------------------------|-----|------------|
+| DB Curl + Shoulder Press           |  12 |         30 |
+| DB Tricep Kickback                 |  12 |         15 |
+| MB Double Crunch                   |  15 |         10 |
+|-------------------------------------|-----|------------|

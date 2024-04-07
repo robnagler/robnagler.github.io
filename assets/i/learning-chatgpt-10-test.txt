@@ -1,0 +1,128 @@
+import pytest
+from workout_parser import WorkoutParser
+
+@pytest.fixture
+def workout_log_text():
+    return """
+    Rob Nagler
+    MONDAY 3.23.20
+      GENERAL WARM UP
+    HISTORY
+    Perform the following exercises:
+    -3' movement on treadmill, bike or fast-paced walking
+    -Squat @BW x10 reps
+    -RDL @BW x10 reps
+    -Forward-backward lunge @BW x5ea side
+    -Push ups x8-10 reps
+    -TRX Rows x8-10 reps
+
+    COMPLETED
+      STRENGTH/POWER
+    4 SETS
+    1
+    2
+    3
+    4
+    KB LATERAL LUNGE
+    TIPS HISTORY
+    Use dumbbells;
+    Reps for each side per set
+
+    REPS
+    WEIGHT
+    8
+    30
+    8
+    30
+    8
+    30
+    8
+    30
+    FULL SIT UP
+    TIPS HISTORY
+    REPS
+    12
+    12
+    12
+    12
+    DB PUSH UP-ROW
+    TIPS HISTORY
+    REPS
+    WEIGHT
+    10
+    40
+    10
+    40
+    10
+    40
+    10
+    40
+    SPEED SKATERS
+    TIPS HISTORY
+    SECONDS
+    WEIGHT
+    25
+    25
+    25
+    25
+    LEG LIFT
+    TIPS HISTORY
+    REPS
+    12
+    12
+    12
+    12
+    COMPLETED
+      GENERAL COOL DOWN
+    HISTORY
+    Static Stretching:
+    Hamstrings
+    Quads
+    Glutes
+    Calves
+    Chest
+    Back
+    Shoulders
+
+    COMPLETED
+    """
+
+def test_parse_workout(workout_log_text):
+    # Define expected values
+    expected_date = "MONDAY 3.23.20"
+    expected_warmup = [
+        "-3' movement on treadmill, bike or fast-paced walking",
+        "-Squat @BW x10 reps",
+        "-RDL @BW x10 reps",
+        "-Forward-backward lunge @BW x5ea side",
+        "-Push ups x8-10 reps",
+        "-TRX Rows x8-10 reps"
+    ]
+    expected_strength_power = [
+        {"KB LATERAL LUNGE": {"TIPS HISTORY": "Use dumbbells;", "Reps for each side per set": None}},
+        {"REPS": {"WEIGHT": None, "8": "30", "FULL SIT UP": "12", "DB PUSH UP-ROW": "10", "SPEED SKATERS": "25", "LEG LIFT": "12"}},
+        {"REPS": {"WEIGHT": None, "8": "30", "FULL SIT UP": "12", "DB PUSH UP-ROW": "10", "SPEED SKATERS": "25", "LEG LIFT": "12"}},
+        {"REPS": {"WEIGHT": None, "8": "30", "FULL SIT UP": "12", "DB PUSH UP-ROW": "10", "SPEED SKATERS": "25", "LEG LIFT": "12"}}
+    ]
+    expected_cool_down = [
+        "Static Stretching:",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Calves",
+        "Chest",
+        "Back",
+        "Shoulders"
+    ]
+
+    # Create a parser object and parse the workout log
+    parser = WorkoutParser(workout_log_text)
+    workouts = parser.parse()
+
+    # Ensure that the parsed workout matches the expected values
+    assert len(workouts) == 1
+    workout = workouts[0]
+    assert workout['date'] == expected_date
+    assert workout['warmup'] == expected_warmup
+    assert workout['strength_power'] == expected_strength_power
+    assert workout['cool_down'] == expected_cool_down
