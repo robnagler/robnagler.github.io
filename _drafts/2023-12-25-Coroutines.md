@@ -343,6 +343,22 @@ cancelling. Piling on more methods, doesn't fix the fundamental issue.
 **TODO** https://github.com/tornadoweb/tornado/issues/2532
 on message is synchronous
 
+- every async is a coroutine so you have to know
+  that not only on entry is global state modified, but
+  also when it returns. You have to write everything with
+  locks so it becomes very complex code without any of the
+  parallelism. Locks are costly.
+- how to write a succesful coroutine:
+  - check global state and do non-awaited ops first
+  - on entry, verify global state
+  - after an await, check any global state
+
+- thread executors for expensive operations (aiohttp)
+- running multiple event loops didn't seem like a good idea
+
+- "with" is a coroutine so be aware of state changes
+
+- narrow scope of exceptions (supervisor commit for key error)
 
 
 ### Coroutines Block on I/O
@@ -358,6 +374,8 @@ Sirepo has an
 [outstanding issue](https://github.com/radiasoft/sirepo/issues/5326)
 with sending data without blocking. With websockets, we can
 chunk messages.
+
+**TODO** you have to be careful about global state especially with writing
 
 We use [`aiohttp`](https://github.com/aio-libs/aiohttp) and
 [`aiofiles`](https://github.com/Tinche/aiofiles) to avoid
@@ -467,10 +485,14 @@ prepared.
 
 CONSIDER ending with this thought?. https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
 
-
-
 ### END
 
+- asyncio is misnamed, you can't do i/o
+- every async is a coroutine so you have to know
+  that not only on entry is global state modified, but
+  also when it returns. You have to write everything with
+  locks so it becomes very complex code without any of the
+  parallelism. Locks are costly.
 - how to write a succesful coroutine:
   - check global state and do non-awaited ops first
   - on entry, verify global state
