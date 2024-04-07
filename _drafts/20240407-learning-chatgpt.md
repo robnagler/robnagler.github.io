@@ -416,3 +416,73 @@ drop the extra sets
 drop the colons
 
 [30-fmt]
+
+(ok, then failure)
+
+drop colons
+
+drop the extra sets
+
+drop the colons
+
+remove the colons
+
+remove the colons before the reps
+
+[31-fmt] -- correct
+
+(input and incorrect)
+
+> * 2024-03-27 (3.27.24)
+> - [ ] KB Lateral Lunge: 8x8, 8x8, 8x8, 8x8
+> - [ ] Full Sit Up: 12x, 12x, 12x, 12x
+> - [ ] DB Push Up-Row: 10x10, 10x10, 10x10, 10x10
+> - [ ] Speed Skaters: 25", 25", 25", 25"
+> - [ ] Leg Lift: 12x, 12x, 12x, 12x
+
+drop the extra sets
+
+
+remove the colons before reps
+
+remove the colons
+
+(correct)
+
+(input)
+
+> * 2024-01-12 (1.12.24)
+> - [ ] KB Deficit Sumo Deadlift: 12x12
+> - [ ] DB Incline Chest Fly: 12x12
+> - [ ] Quadruped Thoracic Reach Through: 6x, 6x, 6x
+>
+> - [ ] DB Split Squat: 12x12
+> - [ ] Cable Seated Wide Grip Lat Pulldown: 12x12
+> - [ ] Reach & Rocks: 6x, 6x, 6x
+>
+> - [ ] DB Lateral Curl: 12x12
+> - [ ] DB Alternating Lying Tricep Extension: 12x12
+> - [ ] DB Butterfly Raise: 6x, 6x, 6x
+> - [ ] MB Catch & Toss - F/L/R: 6x, 6x, 6x
+
+drop the extra sets
+
+drop the colons
+
+these are off from what was before. how to fix that
+
+this is the correct format:
+* 2024-03-18 (3.18.24)
+- [ ] DB Lateral Box Step Up 10x40
+- [ ] BB Wide Grip Flat Bench Press 15x75
+- [ ] Pigeon Lifts 10x10
+
+but with this data:
+
+* 2024-01-12 (1.12.24)
+- [ ] KB Deficit Sumo Deadlift: 12x12
+- [ ] DB Incline Chest Fly: 12x12
+
+(gave up)
+
+(bought chatgpt4 next day)
