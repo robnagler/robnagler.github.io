@@ -32,11 +32,11 @@ to see how it works. Very cool. He even provides an
 {: #finished-bandbox}
 Here's what mine looks like from the top:
 
-![Finished BandBox Top](/assets/i/20240428/finished-bandbox-top.jpg){: height="250"}
+[![Finished BandBox Top](assets/i/20240428/finished-bandbox-top.jpg){: width="600"}](assets/i/20240428/finished-bandbox-top.jpg)
 
 And, the bottom:
 
-![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: height="250"}
+![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: height="600"}
 
 You should some flaws. There are many others. It makes me sad to look
 at it, because I worked very hard to get here. The important thing I
@@ -79,7 +79,7 @@ phase was over.
 The rollers arrived. They were solid and work well. I started my first
 sketch:
 
-![First BandBox Sketch](/assets/i/20240428/sketch-1.jpg){: height="250"}
+![First BandBox Sketch](/assets/i/20240428/sketch-1.jpg){: height="400"}
 
 The initial depth (height in the sketch) was going to be 19 inches
 which was large. The rollers are very long, and this meant the whole
@@ -117,9 +117,9 @@ the warehouse (thanks Google Maps!). They said the store was actually
 5 miles away. There were others nearby, but I decided to call
 first. Nobody had clean 2x4 pine in stock. Everybody in Denver
 recommends [Austin Hardwoods](https://www.austinhardwoods.com), which
-I almost went to.
+I decided was too out of the way.
 
-TO cut my wood fixation short, I was in Boulder and went to
+o  cut my wood fixation short, I was in Boulder and went to
 [Sterling Lumber](https://sterlinglbr.com) (locals know this as
 Boulder Lumber). They had very nice maple 1x4s so I bought 9 feet had
 them cut it in half to fit in my car, and went home.
@@ -151,7 +151,7 @@ I ended up with 1.25 inch oak dowels. The PVC tubing is labeled as 1
 1/4, which is actually 1.375 inch so a 1.25 inch dowel fits perfectly
 for smooth rolling. It was time for a second sketch:
 
-![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="250"}
+![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="400"}
 
 {: #pascals-sketch}
 I was feeling quite good about the wood and dimensions. Things were
@@ -193,9 +193,9 @@ hand.
 
 The anti-slip plywood was next. I needed to figure out how to get the
 right pieces out of the plyo box, which comes in six pieces with lots
-of logos and holes in the wrong places. Here's
-[the picture](https://www.amazon.com/dp/B07ZRCCNM9) (included without
-permission):
+of logos and holes in the wrong places. Here's a picture of the
+[assembled plyo box](https://www.amazon.com/dp/B07ZRCCNM9) (included
+without permission):
 
 ![Yes4All 20x18x16 Plyobox](/assets/i/20240428/plyobox.jpg){: height="250"}
 
@@ -264,7 +264,7 @@ The best plan was to include to have two holes underneat the foot
 plates instead of three. Here's the quick sketch I did for thinking
 this through:
 
-![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: height="250"}
+![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: width="600"}
 
 More compromises due to the randomness of the process. While it seemed
 like I was planning thoroughly, I simply didn't have the experience to
@@ -439,7 +439,7 @@ I matched up the pieces of wood carefully. Then I did the math, and I
 said 20 minus 4 is 16, which is the length of the foot plate I
 needed. I cut 4 inches off one side. When I went to cut the other
 side, I realized that I had cut too much. Here's what it ended up
-looking like in the {finished product](#finished-bandbox):
+looking like in the [finished product](#finished-bandbox):
 
 ![Incorrectly Cut Plyobox](/assets/i/20240428/incorrect-cut.jpg)
 
