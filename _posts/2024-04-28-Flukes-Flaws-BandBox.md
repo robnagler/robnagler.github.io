@@ -9,8 +9,8 @@ This was going to be a simple article about how to build
 clever of exercise equipment created by
 [Pascal Dornier](https://www.instagram.com/goblinsgym/). The dice of
 life didn't roll as I had hoped. What follows includes the
-instructions and my quixotic quest for perfection. It even involves a
-car chase.
+instructions and my quixotic quest for perfection. It
+even involves a car chase.
 
 ### Goblin's BandBox
 
@@ -147,8 +147,9 @@ measure.
 
 ### Second Sketch
 
-I ended up with 1.25 inch oak dowels which worked well with 1.75 inch
-(inner diameter) PVC tubing. It was time for a second sketch:
+I ended up with 1.25 inch oak dowels. The PVC tubing is labeled as 1
+1/4, which is actually 1.375 inch so a 1.25 inch dowel fits perfectly
+for smooth rolling. It was time for a second sketch:
 
 ![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="250"}
 
@@ -307,7 +308,7 @@ face to face to make the first set of holes. Once the two end holes
 were cut, I could put in some leftover dowel pieces to ensure all the
 dowel holes would align. Here's what the drilling looks like:
 
-![Drilling Support Pieces](/assets/i/20240428/drilling-side-parts.jpg){: height="250"}
+![Drilling Support Pieces](/assets/i/20240428/drilling-side-pieces.jpg){: height="250"}
 
 ### Assembly!
 
@@ -449,44 +450,49 @@ flaw.
 
 ### Screwing Around
 
-Did I mention I was rushing at this point? Definitely should have
-taken a breather, but I didn't instead. I broke off several screw
-heads before I realized I was trying to go too deep into the
-maple. It was not necessary. Here are the last mistakes (afaik):
+Did I mention I was rushing at this point? A big storm was coming in,
+and I wanted to be done with the messy cutting parts that I wanted to
+do outside. Definitely should have taken a breather, but I didn't.
+Instead, I broke off several screw heads before I realized I was
+trying to go too deep into the maple. It was not necessary. Here are
+the last mistakes (afaik):
 
 ![Incorrectly Cut Plyobox](/assets/i/20240428/broken-screws.jpg)
 
-
 Once I switched to shorter screws and drilled out the wood a couple of
 times (till the smoke stopped pouring) that I ended up able to put in
-the shorter (1.625 inch) deck screws
+the shorter (1.625 inch) deck screws without breaking
+heads. Unfortunately, the broken heads mean that removing the oddly
+cut foot plate is not going to be easy.
 
+Good thing that the BandBox works as intended. Time to let quit
+working wood and start working out!
 
-### Dimensions
+### New Dimensions
 
+I hope this story was entertaining. I rushed through it mostly to get
+all the text written. I hope to get some edits from you, dear
+reader. Unlike woodwooking, writing and software are much more
+editable.
 
+Parts List (measurements in inches):
 
+- (4) 1x4 board 25W (supports)
+- (2) 5/8 anti-slip phenolic resin plywood 16L x 8W (foot plates)
+- (4) 1 1/4 PVC 12.75L
+- (4) 1 1/4 dowel 14.5L (support PVC)
+- (2) 1 1/4 dowel 18L (removable pins)
+- (8) 1 5/8 deck screws
+- (10) 1 1/4 flathead wood screws
 
+For those of you who want to attempt this, here are some dimensions on
+the side pieces:
 
+![Inner Side Piece](/assets/i/20240428/inner-side-piece.jpg)
 
-  Fixations hand cramp how to cut the wood fixation how to get the right
-  roller
-  Even fixation on this article
-  flukes: happened to go outside, look at the car, within a given
-  time, that one piece was still on the car, that the piece fell off
-  in a large shoulder (not many shoulders on residential roads), etc.
-  i was worried about the screw as being the main defect
-  agonizing over screws
-  that i saw the pvc recommendation in a reddit thread
-  https://www.reddit.com/r/ResistanceBand/comments/xna9bd/comment/ipwrygj/
-  decided to drop the rollers
-  happened to see the brass screws; happened to go to ace
-  happened to be in boulder so went to boulder lumber, board was bent
-  and uneven width
-  Do over smaller dowels for removable
-  Mention buying rollers. Spent too much time on that
-  Include pics of face to face black board
-  Mention drill speed of bug holes
-  Forstner bits in the picture with saws drills and drill press
-  Sand then take pics
-  Order of assembly
+The outside side pieces only have holes for the removable pins:
+
+![Outer Side Piece](/assets/i/20240428/outer-side-piece.jpg)
+
+BTW, there were even more incorrect cuts, but I've already bored you
+enough.
