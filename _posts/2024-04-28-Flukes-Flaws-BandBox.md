@@ -36,7 +36,7 @@ Here's what mine looks like from the top:
 
 And, the bottom:
 
-[![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: height="600"}](/assets/i/20240428/finished-bandbox-under.jpg)
+[![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: width="600"}](/assets/i/20240428/finished-bandbox-under.jpg)
 
 You should some flaws. There are many others. It makes me sad to look
 at it, because I worked very hard to get here. The important thing I
