@@ -29,6 +29,7 @@ Then I discovered Goblin's BandBox.  You can watch
 to see how it works. Very cool. He even provides an
 [instruction manual](https://www.goblinsgym.com/bandbox.pdf).
 
+{: #finished-bandbox}
 Here's what mine looks like from the top:
 
 ![Finished BandBox Top](/assets/i/20240428/finished-bandbox-top.jpg){: height="250"}
@@ -151,11 +152,12 @@ I ended up with 1.25 inch oak dowels which worked well with 1.75 inch
 
 ![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="250"}
 
+{: #pascals-sketch}
 I was feeling quite good about the wood and dimensions. Things were
 coming together. Take note of the quick three sets of parallel lines
 where the three extra holes would go. I was following
 [Pascal's diagram](https://www.goblinsgym.com/bandbox.pdf)
-(included here without permission):
+(included without permission):
 
 ![Second BandBox Sketch](/assets/i/20240428/pascal-sketch.jpg){: height="250"}
 
@@ -190,15 +192,278 @@ hand.
 
 The anti-slip plywood was next. I needed to figure out how to get the
 right pieces out of the plyo box, which comes in six pieces with lots
-of logos and holes in the wrong places. The
+of logos and holes in the wrong places. Here's
+[the picture](https://www.amazon.com/dp/B07ZRCCNM9) (included without
+permission):
 
-### Dowel size
+![Yes4All 20x18x16 Plyobox](/assets/i/20240428/plyobox.jpg){: height="250"}
+
+What I had failed to think about was the length of each piece was not
+20 inches or 18 inches. I needed two pieces that were 8 x 16
+inches. That meant the 16 inch piece was right out, and the 18x16
+piece was the best choice.
+
+I screwed the two faces together, checking carefully that I would
+get minimal writing on the foot plate. After screwing together the
+resin coated faces to avoid messing up the resin, I ended up with
+this:
+
+![First foot plate](/assets/i/20240428/first-foot-plate.jpg){: height="250"}
+
+This made me happy despite a few imperfections in the resin. I was
+annoyed, but I wasn't going to fuss over it.
+
+### Sanding and Hands
+
+The crooked maple pieces needed to be sanded to make them even. This
+turned out to be quite a job. Maple is dense, and it takes a long time
+to sand it down. I was using a vibrating sander which makes a mess,
+and well, vibrates.
+
+I had done all this in one day, because I wanted to be done with the
+messy cutting and sanding. It was getting on 4 or 5 hours, which, back
+in the day, would have been no problem for me. Given my age and lack
+of recent woodworking, I should have not been surprised when my hands
+cramped, like big time.
+
+A month or so before I had the same thing happen after doing some
+demolition work and using an angle grinder. After about 5 hours, my
+hands completely seized up. I am somewhat ambidextrous with tools so I
+switched off hands.
+
+In the end, I had to accept the limits of my aging body, and stop for
+the day. This was very frustrating, because there was plenty of
+light and I wasn't ready to stop.
+
+This fluke in my process really hit me hard. I don't like feeling my
+age. I am generally fine with it, and I accept many limits. My hands
+are the one thing that I worry about. I have an acquaintance who has
+permanent
+[trigger finger](https://en.wikipedia.org/wiki/Trigger_finger). That's
+not something I want to live with.
+
+### Dowelry
+
+With all pieces finally sanded, the next step was assembly. While I was happy
+with the wood dowels, what I failed to think about was that the 1.25
+inch dowels were quite wide. Remember holes 4A through 4F in [Pascal's
+sketch](#pascals-sketch)? Well, it was going to be really hard to
+achieve that.
+
+In hindsight, I should have used two different sized dowels. A
+BandBox's rollers need to be wide so the bands aren't pinched when
+looping over the roller. However, the in between dowels are fixed, and
+the bands aren't intended to move over them. I probably could have
+gotten away with 1 inch dowels all around, or even .75 inch dowels for
+the removable pins which help when doing one sided exercises.
+
+### Third Sketch
+
+The best plan was to include to have two holes underneat the foot
+plates instead of three. Here's the quick sketch I did for thinking
+this through:
+
+![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: height="250"}
+
+More compromises due to the randomness of the process. While it seemed
+like I was planning thoroughly, I simply didn't have the experience to
+know to plan this part out fully. I didn't want to sit in sketchup for
+hours, and as it turns out, I'm glad I didn't. I was in for more
+chaos.
+
+### Hard Wood Drilling
+
+Luckily my son has a drill press so I was able to cut precise holes in
+the maple support pieces. I just needed to mark things out when I
+realized that I had a 1 inch forstner drill bit and one that was 1.375
+inches. The latter was what I was going to use for the holes for the
+removable pins. That's why I bought 1.25 inch dowels in the first
+place.
+
+Off to the hardware store to buy a 1.25 inch forstner drill bit. That
+was an ouch of about $20 that I hadn't planned for.
+
+The drilling itself went quite well. I got the shopvac
+out. Drilling large holes creates a lot of wood shavings. Drilling
+into maple even more. The drill bit got hot. I would stop to vacuum up
+the shavings. It was only after the third hole that I realized I could
+hold the vacuum hose right next to the drill bit. I had done this in
+the past, but being out of practice, I forgot. That made the mess
+cleaner, but then I had to allow time for the bit to cool down.
+
+It took about 5 minutes to drill one large hole. I had picked maple,
+because I wanted it to look nice. It would have been much better to
+use pine. Strong enough, and it would have looked as good as it needed
+to. Drilling would have been faster and better.
+
+The small holes for the screws were the worst. I should have regeared
+the drill press, but I was too lazy. It went too fast and the wood
+smoked. Going slowly didn't seem to help. The smaller bit got much
+hotter, faster than the forstner bits, which have much more mass and
+better contact with the drill chuck which also dissipates the heat.
+
+I should mention that I clamped the two inner support pieces of wood
+face to face to make the first set of holes. Once the two end holes
+were cut, I could put in some leftover dowel pieces to ensure all the
+dowel holes would align. Here's what the drilling looks like:
+
+![Drilling Support Pieces](/assets/i/20240428/drilling-side-parts.jpg){: height="250"}
+
+### Assembly!
+
+With all the pieces cut, sanded, drilled, and sanded (again), it was time to
+assemble everything. This was an evening activity, because assembly is
+always simple after the hard work above. Here are all the parts
+beautifully arranged:
+
+![Unassembled Parts](/assets/i/20240428/tool-mess.jpg){: height="250"}
+
+Be sure to go back and look at the
+[finished BandBox](#finished-bandbox) and compare the parts to see if
+you can see a key difference between these parts and what finally got
+assembled.
+
+### Cluttered Work Area, Cluttered Mind
+
+I was at this point getting annoyed with how long this project was
+taking. I wanted to be done. Part of my frustration was that I don't
+have a dedicated work bench any more, because we needed space in the
+garage to protect both cars from hail storms. Now with only one car,
+at least I have some space. Still, my work area was a mess:
+
+![Tools All Over the Place](/assets/i/20240428/tool-mess.jpg){: height="250"}
+
+Never the less, I decided to get started assembling.
+
+I screwed the side pieces together, and I quickly realized that I
+wasn't going to flatten the bent side pieces with screws. A couple of
+screws broke so I was going to have to glue the pieces together. No
+tragedy, and the end product would be stronger.
+
+### Screw You Glue
+
+Since the screws broke in the first attempts at assembly, I went to
+the hardware store one more time to get better screws. Unlike the
+selection of the wood, I rushed the process. I also didn't think
+clearly. I bought some brass screws which looked better but were
+actually *weaker* than the steel screws I was using. They were also
+longer, which was good, but that made them even more likely to break
+off.
+
+When I was screwing the wood together after gluing and clamping, I
+broke off a head in the side piece. This got me pretty flustered. I
+should have known brass screws were weaker. I started beating myself
+up pretty badly.
+
+If you have read
+[Zen and the Art of Motorcycle Maintenance]({{site.baseurl }}{% post_url 1991-12-31-Zen-and-The-Art-of-Motorcycle-Maintenance %}),
+you will know that I was in a
+[gumption trap](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance#Gumption_traps),
+and more mistakes were going to be made. (Wait for it.)
+
+Finally, the first side piece was glued, and I was ready to call it a
+night.
+
+### Devastation
+
+As I mentioned, my garage was a mess. I needed a good place to put my
+perfectly cut, drilled, and sanded pieces of wood that had yet to be
+assembled while I was putting the one side piece together. What better
+place than on top of the car? Not.
+
+Yes, I forgot to move that off the car when I stopped in for the
+night. That was my intention. And, yes, someone drove off with the
+parts on top of the car the next day.
+
+I just happened to go into the garage midday (the glue was still
+curing), and I just happened to see a piece of wood on the car after
+the car *was back*. Unbelievably, one of the two side pieces were on top
+of the car after having been driven over five miles with two
+stops. Don't ask me how.
+
+If I hadn't seen that piece of wood at that time, I probably would
+have completely chucked it in. As it was, I was completely devastated
+by having to start over again. The one piece that was lost had 9 very
+difficult to drill holes in it. I couldn't imagine matching it up to
+the other side piece that was being glued.
+
+### Car Chase
+
+After much encouragement by Janis, I went outside to look for the
+wood piece thing it had to have fallen off right next to the
+house. What are the chances that it would be 2 miles away? Probably
+pretty slim to none.
+
+I came back in the house, and said I told Janis I couldn't find
+it. Janis said, maybe it fell off nearby? I was distraught and angry
+with myself. A great time to get into a car, I always say. Maybe I
+should have grabbed a beer for the road.
+
+No accidents, and yes, I found the other piece. It wasn't too beat up
+either. Just some minor dings on the corners:
+
+![Damaged Side Piece](/assets/i/20240428/damaged-side-piece.jpg){: height="250"}
+
+I still cannot fathom how it stayed on the car for over 3 miles. It
+fell off in a very safe place (for a piece of wood) on an overpass
+crossing I70 where there was a bit of shoulder, which no cars would
+likely drive on. If you have done the math, it was on the way back
+when it fell off, too.
+
+The only word for this is a fluke, which also happens to be the name
+of a
+[book I recommend]({{site.baseurl }}{% post_url 2019-02-15-Fluke %}).
+This is simply the law or large numbers at work.
+
+### The Missing Piece
+
+After gluing the other piece together, I was ready for to put it all
+together. I just had to drill some holds in the edges to match up the
+predrilled holes in the foot plates that were -- yes, you guessed it
+-- were lost a few days before.
+
+For some reason, it didn't occur to me that there were four pieces of
+wood on top of the car: the two side pieces and the two foot
+plates. The foot plates were gone, gone, gone. I was going out anyway,
+and half-heartedly looked for them. Maybe they'll show up on my front
+door (fluke!) some day.
+
+However, I had to accept them as missing. This meant I had to use the
+20x18 sides of the plyo box that I was holding in reserve. These are
+the ones with the big Yes4All written across them.
+
+### The Last Flaw, Not!
+
+I matched up the pieces of wood carefully. Then I did the math, and I
+said 20 minus 4 is 16, which is the length of the foot plate I
+needed. I cut 4 inches off one side. When I went to cut the other
+side, I realized that I had cut too much. Here's what it ended up
+looking like in the {finished product](#finished-bandbox):
+
+![Incorrectly Cut Plyobox](/assets/i/20240428/incorrect-cut.jpg)
+
+I thought about buying a new plyo box, but that would have been $90. I
+also thought I could replace the piece if someday I happened upon some
+anti-slip phenolic resin plywood. However, there would be one more
+flaw.
+
+### Screwing Around
+
+Did I mention I was rushing at this point? Definitely should have
+taken a breather, but I didn't instead. I broke off several screw
+heads before I realized I was trying to go too deep into the
+maple. It was not necessary. Here are the last mistakes (afaik):
+
+![Incorrectly Cut Plyobox](/assets/i/20240428/broken-screws.jpg)
 
 
+Once I switched to shorter screws and drilled out the wood a couple of
+times (till the smoke stopped pouring) that I ended up able to put in
+the shorter (1.625 inch) deck screws
 
 
-It works great, and it allowed me to size the depth of the BandBox
-more reasonably.
+### Dimensions
+
 
 
 
@@ -225,17 +490,3 @@ more reasonably.
   Forstner bits in the picture with saws drills and drill press
   Sand then take pics
   Order of assembly
-
-
-
-
-
-[I bet it all on Amazon]({{ site.baseurl }}{% post_url 2020-07-21-Betting-on-Amazon %})
-starting in July 2020. By February 2022, I realized I just didn't have
-the stomach for it. It was a big bet. During that period, I lost 3.0%
-[AIRR](https://www.bivio.com/site-help/bp/Investment_Performance_Report_Help),
-and the S&P 500 gained 20.6% (AIRR), or a cummulative 40.6% loss in
-comparison to the S&P 500.
-
-I wrote in 2020:
-> I wonder what I'll be saying about this article in 10 years.
