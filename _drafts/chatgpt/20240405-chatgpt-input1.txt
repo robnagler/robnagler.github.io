@@ -1,0 +1,135 @@
+Can you convert this:
+
+FRIDAY 2.16.24
+  STRENGTH/POWER
+3 SETS
+1
+2
+3
+DB REVERSE LUNGE-STEP UP
+TIPS HISTORY
+Reps for each side per set
+
+REPS
+WEIGHT
+8
+40
+8
+40
+8
+40
+BB FLAT BENCH PRESS
+TIPS HISTORY
+Rep range of 8-12 for each side per set
+
+REPS
+WEIGHT
+12
+75
+12
+95
+12
+95
+PVC PASSTHROUGH
+HISTORY
+REPS
+10
+10
+10
+COMPLETED
+  STRENGTH/POWER
+3 SETS
+1
+2
+3
+BB RDL
+TIPS HISTORY
+Rep range of 8-12 for each side per set
+
+REPS
+WEIGHT
+12
+75
+12
+75
+12
+75
+DB SINGLE ARM ROW - ON BENCH
+TIPS HISTORY
+Rep range of 8-12 for each side per set
+
+REPS
+WEIGHT
+12
+45
+12
+45
+12
+45
+KNEELING DOWEL LAT STRETCH ON BENCH
+TIPS HISTORY
+hold for 3 seconds
+
+REPS
+6
+6
+6
+COMPLETED
+  STRENGTH/POWER
+3 SETS
+1
+2
+3
+DB CURL + SHOULDER PRESS
+HISTORY
+REPS
+WEIGHT
+12
+30
+12
+30
+12
+30
+DB TRICEP KICKBACK
+TIPS HISTORY
+Reps for each side per set
+
+REPS
+WEIGHT
+12
+15
+12
+15
+12
+15
+MB DOUBLE CRUNCH
+TIPS HISTORY
+REPS
+WEIGHT
+12
+10
+12
+10
+12
+10
+COMPLETED
+Write notes about your workout...
+REVIEW WORKOUT (3/3 DONE)Rob Nagler
+
+to this:
+
+* 2024-04-05 (2.16.24)
+| desc                                | rep | weight/sec |
+|-------------------------------------+-----+------------|
+| DB Reverse Lunge-Step Up            |   8 |         40 |
+| DB Bench Press                      |  12 |         70 |
+| PVC Passthrough                     |  10 |            |
+|-------------------------------------+-----+------------|
+| DB RDL                              |  12 |         50 |
+| DB Single Arm Row - On Bench        |  12 |         45 |
+| Kneeling Dowel Lat Stretch On Bench |   6 |          3 |
+|-------------------------------------+-----+------------|
+| DB Curl + Shoulder Press            |  12 |         30 |
+| DB Tricep Kickback                  |  12 |         15 |
+| MB Double Crunch                    |  15 |         10 |
+|-------------------------------------+-----+------------|

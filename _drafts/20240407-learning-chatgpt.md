@@ -486,3 +486,84 @@ but with this data:
 (gave up)
 
 (bought chatgpt4 next day)
+
+### chatgpt4
+
+> * 2024-03-25 Mon 3 sets
+> - Plate Overhead Squat 12x25
+> - DB Flat Bench Neutral Grip Chest Press+Fly 12x40
+> - Sumo Squat and Hamstring Stretch 6x3
+>
+> - Cable Rope Pull Through 12x55
+> - TRX Row+Fly 10x
+> - 90/90 Hip Openers 10x
+>
+> - EZ Bar Wide Grip Bicep Curl 12x50
+> - Cable Rope Overhead Tricep Extension 12x44
+> - DB Alternating Front Shoulder Raise 12x30
+> - Cable Oblique Rotation 10x33
+
+perfect. can you remember that
+
+> I can't remember specific details from one interaction to the next,
+> but you can always refer back to this format in our chat history or
+> save it in your own records. If you need this format again in the
+> future, just let me know and I can help you recreate or modify it as needed!
+
+(did a bunch of conversions perfectly)
+
+write a program to convert workouts like these
+
+program was just a literal conversion with:
+> workout = Workout("2024-03-22 Fri", "3 sets")
+> workout.add_exercise("KB Deficit Sumo Deadlift", "12x50")
+> workout.add_exercise("DB Incline Chest Fly", "12x40")
+> workout.add_exercise("Quadruped Thoracic Reach Through", "6x", per_side=True)
+> workout.add_exercise("Cable Seated Wide Grip Lat Pulldown", "12x121/143", weight="changes in sets 2 and 3")
+> workout.add_exercise("Reach & Rocks", "6x", per_side=True)
+
+no write a parser that reads the input format i gave and outputs the
+format i like
+
+> To create a Python parser that reads the workout information in the
+> detailed format you provided and outputs it in the concise format you
+> like, we'll use Python with simple string manipulation techniques. The
+> script will process multiline input, extract relevant data for each
+> exercise, and then format it into a clean summary.
+
+> Here's an example of how you could implement such a parser:
+
+(20240414-parser1.py was terrible)
+
+finish the program correctly
+
+(20240414-parser2.py more complicated)
+
+KeyError: 'weights'
+
+Interestingly, it always has COMPLETED in the input data sample but
+the actual value is COMPLETE. The REPS and WEIGHT are together as in:
+
+```txt
+REPS
+WEIGHT
+12
+70
+12
+70
+```
+
+but it assumes the REPS and WEIGHT are titles of sections and then
+collects them. The conversions are correct, because there is no
+program.
+
+switched back to trying conversions. i just dumped the list of
+exercises as before, and then it created a program (after modifying
+the input format so the program was simpler).
+
+you.com in smart mode was worse on conversions. The program was just
+as bad.
+
+20240414py-you-com1.py
+
+ValueError: not enough values to unpack (expected 2, got 1)
