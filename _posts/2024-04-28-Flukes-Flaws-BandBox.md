@@ -32,11 +32,11 @@ to see how it works. Very cool. He even provides an
 {: #finished-bandbox}
 Here's what mine looks like from the top:
 
-[![Finished BandBox Top](assets/i/20240428/finished-bandbox-top.jpg){: width="600"}](assets/i/20240428/finished-bandbox-top.jpg)
+[![Finished BandBox Top](/assets/i/20240428/finished-bandbox-top.jpg){: width="600"}](/assets/i/20240428/finished-bandbox-top.jpg)
 
 And, the bottom:
 
-![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: height="600"}
+[![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: height="600"}](/assets/i/20240428/finished-bandbox-under.jpg)
 
 You should some flaws. There are many others. It makes me sad to look
 at it, because I worked very hard to get here. The important thing I
@@ -79,7 +79,7 @@ phase was over.
 The rollers arrived. They were solid and work well. I started my first
 sketch:
 
-![First BandBox Sketch](/assets/i/20240428/sketch-1.jpg){: height="400"}
+[![First BandBox Sketch](/assets/i/20240428/sketch-1.jpg){: height="400"}](/assets/i/20240428/sketch-1.jpg)
 
 The initial depth (height in the sketch) was going to be 19 inches
 which was large. The rollers are very long, and this meant the whole
@@ -151,7 +151,7 @@ I ended up with 1.25 inch oak dowels. The PVC tubing is labeled as 1
 1/4, which is actually 1.375 inch so a 1.25 inch dowel fits perfectly
 for smooth rolling. It was time for a second sketch:
 
-![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="400"}
+[![Second BandBox Sketch](/assets/i/20240428/sketch-2.jpg){: height="400"}](/assets/i/20240428/sketch-2.jpg)
 
 {: #pascals-sketch}
 I was feeling quite good about the wood and dimensions. Things were
@@ -160,7 +160,7 @@ where the three extra holes would go. I was following
 [Pascal's diagram](https://www.goblinsgym.com/bandbox.pdf)
 (included without permission):
 
-![Second BandBox Sketch](/assets/i/20240428/pascal-sketch.jpg){: height="250"}
+[![Second BandBox Sketch](/assets/i/20240428/pascal-sketch.jpg){: height="250"}](/assets/i/20240428/pascal-sketch.jpg)
 
 I'm referring here to holes 4A through 4F.
 
@@ -197,7 +197,7 @@ of logos and holes in the wrong places. Here's a picture of the
 [assembled plyo box](https://www.amazon.com/dp/B07ZRCCNM9) (included
 without permission):
 
-![Yes4All 20x18x16 Plyobox](/assets/i/20240428/plyobox.jpg){: height="250"}
+[![Yes4All 20x18x16 Plyobox](/assets/i/20240428/plyobox.jpg){: height="250"}](/assets/i/20240428/plyobox.jpg)
 
 What I had failed to think about was the length of each piece was not
 20 inches or 18 inches. I needed two pieces that were 8 x 16
@@ -209,7 +209,7 @@ get minimal writing on the foot plate. After screwing together the
 resin coated faces to avoid messing up the resin, I ended up with
 this:
 
-![First foot plate](/assets/i/20240428/first-foot-plate.jpg){: height="250"}
+[![First foot plate](/assets/i/20240428/first-foot-plate.jpg){: height="250"}](/assets/i/20240428/first-foot-plate.jpg)
 
 This made me happy despite a few imperfections in the resin. I was
 annoyed, but I wasn't going to fuss over it.
@@ -264,7 +264,7 @@ The best plan was to include to have two holes underneat the foot
 plates instead of three. Here's the quick sketch I did for thinking
 this through:
 
-![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: width="600"}
+[![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: width="600"}](/assets/i/20240428/sketch-3.jpg)
 
 More compromises due to the randomness of the process. While it seemed
 like I was planning thoroughly, I simply didn't have the experience to
@@ -308,7 +308,7 @@ face to face to make the first set of holes. Once the two end holes
 were cut, I could put in some leftover dowel pieces to ensure all the
 dowel holes would align. Here's what the drilling looks like:
 
-![Drilling Support Pieces](/assets/i/20240428/drilling-side-pieces.jpg){: height="250"}
+[![Drilling Support Pieces](/assets/i/20240428/drilling-side-pieces.jpg){: height="250"}](/assets/i/20240428/drilling-side-pieces.jpg)
 
 ### Assembly!
 
@@ -317,7 +317,7 @@ assemble everything. This was an evening activity, because assembly is
 always simple after the hard work above. Here are all the parts
 beautifully arranged:
 
-![Unassembled Parts](/assets/i/20240428/tool-mess.jpg){: height="250"}
+[![Unassembled Parts](/assets/i/20240428/tool-mess.jpg){: height="250"}](/assets/i/20240428/tool-mess.jpg)
 
 Be sure to go back and look at the
 [finished BandBox](#finished-bandbox) and compare the parts to see if
@@ -332,7 +332,7 @@ have a dedicated work bench any more, because we needed space in the
 garage to protect both cars from hail storms. Now with only one car,
 at least I have some space. Still, my work area was a mess:
 
-![Tools All Over the Place](/assets/i/20240428/tool-mess.jpg){: height="250"}
+[![Tools All Over the Place](/assets/i/20240428/tool-mess.jpg){: height="250"}](/assets/i/20240428/tool-mess.jpg)
 
 Never the less, I decided to get started assembling.
 
@@ -403,7 +403,7 @@ should have grabbed a beer for the road.
 No accidents, and yes, I found the other piece. It wasn't too beat up
 either. Just some minor dings on the corners:
 
-![Damaged Side Piece](/assets/i/20240428/damaged-side-piece.jpg){: height="250"}
+[![Damaged Side Piece](/assets/i/20240428/damaged-side-piece.jpg){: height="250"}](/assets/i/20240428/damaged-side-piece.jpg)
 
 I still cannot fathom how it stayed on the car for over 3 miles. It
 fell off in a very safe place (for a piece of wood) on an overpass
@@ -441,7 +441,7 @@ needed. I cut 4 inches off one side. When I went to cut the other
 side, I realized that I had cut too much. Here's what it ended up
 looking like in the [finished product](#finished-bandbox):
 
-![Incorrectly Cut Plyobox](/assets/i/20240428/incorrect-cut.jpg)
+[![Incorrectly Cut Plyobox](/assets/i/20240428/incorrect-cut.jpg)](/assets/i/20240428/incorrect-cut.jpg)
 
 I thought about buying a new plyo box, but that would have been $90. I
 also thought I could replace the piece if someday I happened upon some
@@ -457,7 +457,7 @@ Instead, I broke off several screw heads before I realized I was
 trying to go too deep into the maple. It was not necessary. Here are
 the last mistakes (afaik):
 
-![Incorrectly Cut Plyobox](/assets/i/20240428/broken-screws.jpg)
+[![Incorrectly Cut Plyobox](/assets/i/20240428/broken-screws.jpg)](/assets/i/20240428/broken-screws.jpg)
 
 Once I switched to shorter screws and drilled out the wood a couple of
 times (till the smoke stopped pouring) that I ended up able to put in
@@ -475,6 +475,15 @@ all the text written. I hope to get some edits from you, dear
 reader. Unlike woodwooking, writing and software are much more
 editable.
 
+For those of you who want to attempt this, here are some dimensions on
+the side pieces:
+
+[![Inner Side Piece](/assets/i/20240428/inner-side-piece.jpg)](/assets/i/20240428/inner-side-piece.jpg)
+
+The outside side pieces only have holes for the removable pins:
+
+[![Outer Side Piece](/assets/i/20240428/outer-side-piece.jpg)](/assets/i/20240428/outer-side-piece.jpg)
+
 Parts List (measurements in inches):
 
 - (4) 1x4 board 25W (supports)
@@ -485,14 +494,4 @@ Parts List (measurements in inches):
 - (8) 1 5/8 deck screws
 - (10) 1 1/4 flathead wood screws
 
-For those of you who want to attempt this, here are some dimensions on
-the side pieces:
-
-![Inner Side Piece](/assets/i/20240428/inner-side-piece.jpg)
-
-The outside side pieces only have holes for the removable pins:
-
-![Outer Side Piece](/assets/i/20240428/outer-side-piece.jpg)
-
-BTW, there were even more incorrect cuts, but I've already bored you
-enough.
+P.S. there were even more incorrect cuts, but I've already bored you enough.
