@@ -77,7 +77,7 @@ phase was over.
 
 ### First Sketch
 
-The rollers arrived. They were solid and work well. I started my first
+The rollers arrived. They are solid and worked well. I started my first
 sketch:
 
 [![First BandBox Sketch](/assets/i/20240428/sketch-1.jpg){: height="400"}](/assets/i/20240428/sketch-1.jpg)
@@ -93,7 +93,7 @@ way more time than I needed to. A
 [Reddit post](https://www.reddit.com/r/ResistanceBand/comments/xna9bd/comment/ipwrygj/)
 mentioned PVC and dowels instead of rollers. This is what I ended up
 using. I'm happy with the solution, because it's not as deep (16
-inches) or as heavy (no weight, sorry).
+inches) or as heavy (2 pounds each).
 
 ### Wood Fixation
 
@@ -112,15 +112,16 @@ piece of stair tread in the first picture. My cuts without a table
 saw or guide rail were too uneven to work well. And anyway, 1 inch
 was a little narrow for dowel/PVC holes.
 
-There are many lumber places near where I live so I out driving near
-one and stoped by.  pretty quiet outside, and of course, it was just
-the warehouse (thanks Google Maps!). They said the store was actually
-5 miles away. There were others nearby, but I decided to call
+There are many lumber places near where I live. I was out driving near
+one and stoped by.  It was pretty quiet outside. Of course, it turned
+out to be just the warehouse even though Google Maps said it was a
+retail store. An employee said the store was actually 5 miles farther
+away. There were others nearby, but I decided to call them
 first. Nobody had clean 2x4 pine in stock. Everybody in Denver
 recommends [Austin Hardwoods](https://www.austinhardwoods.com), which
-I decided was too out of the way.
+I decided was too far out of the way.
 
-o  cut my wood fixation short, I was in Boulder and went to
+To cut my wood fixation short, I was in Boulder and went to
 [Sterling Lumber](https://sterlinglbr.com) (locals know this as
 Boulder Lumber). They had very nice maple 1x4s so I bought 9 feet had
 them cut it in half to fit in my car, and went home.
@@ -254,9 +255,9 @@ achieve that.
 
 In hindsight, I should have used two different sized dowels. A
 BandBox's rollers need to be wide so the bands aren't pinched when
-looping over the roller. However, the in between dowels are fixed, and
+looping over the roller. However, the in-between dowels are fixed, and
 the bands aren't intended to move over them. I probably could have
-gotten away with 1 inch dowels all around, or even .75 inch dowels for
+gotten away with 1 inch dowels all around, or even 0.75 inch dowels for
 the removable pins which help when doing one sided exercises.
 
 ### Third Sketch
@@ -318,7 +319,7 @@ assemble everything. This was an evening activity, because assembly is
 always simple after the hard work above. Here are all the parts
 beautifully arranged:
 
-[![Unassembled Parts](/assets/i/20240428/tool-mess.jpg){: height="250"}](/assets/i/20240428/tool-mess.jpg)
+[![Unassembled Parts](/assets/i/20240428/unassembled-parts.jpg){: height="250"}](/assets/i/20240428/unassembled-parts.jpg)
 
 Be sure to go back and look at the
 [finished BandBox](#finished-bandbox) and compare the parts to see if
@@ -408,9 +409,9 @@ either. Just some minor dings on the corners:
 
 I still cannot fathom how it stayed on the car for over 3 miles. It
 fell off in a very safe place (for a piece of wood) on an overpass
-crossing I70 where there was a bit of shoulder, which no cars would
+crossing I-70 where there was a bit of shoulder, which no cars would
 likely drive on. If you have done the math, it was on the way back
-when it fell off, too.
+when it fell off.
 
 The only word for this is a fluke, which also happens to be the name
 of a
