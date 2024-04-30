@@ -18,7 +18,7 @@ I have been expanding my home gym. I want to do trap bar deadlifts,
 but I don't want a big trap bar and weights just for deadlifts. One
 way to do this is resistance bands.
 
-My friend Devon whom I recently visited likes to travel light and uses
+My friend Devon, whom I recently visited, likes to travel light and uses
 resistance bands exclusively for working out. He's in great shape so I
 thought I'd try them, too.  I tried deadlifting with just my feet and
 then a board under my feet to hold down the resistance bands, but it
@@ -113,7 +113,7 @@ saw or guide rail were too uneven to work well. And anyway, 1 inch
 was a little narrow for dowel/PVC holes.
 
 There are many lumber places near where I live. I was out driving near
-one and stoped by.  It was pretty quiet outside. Of course, it turned
+one and stopped by.  It was pretty quiet outside. Of course, it turned
 out to be just the warehouse even though Google Maps said it was a
 retail store. An employee said the store was actually 5 miles farther
 away. There were others nearby, but I decided to call them
