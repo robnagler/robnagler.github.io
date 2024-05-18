@@ -6,7 +6,7 @@ date: 2024-04-28T12:00:00Z
 
 This was going to be a simple article about how to build
 [Goblin's BandBox](https://www.goblinsgym.com/bandbox.pdf), which is a
-clever of exercise equipment created by
+clever piece of exercise equipment created by
 [Pascal Dornier](https://www.instagram.com/goblinsgym/). The dice of
 life didn't roll as I had hoped. What follows includes the
 instructions and my quixotic quest for perfection. It
@@ -14,15 +14,15 @@ even involves a car chase.
 
 ### Goblin's BandBox
 
-I have been expanding my home gym. I want to do trap bar deadlifts,
-but I don't want a big trap bar and weights just for deadlifts. One
-way to do this is resistance bands.
+I have been expanding my home gym. I wanted to do trap bar deadlifts,
+but I didn't want a big trap bar and weights just for deadlifts. One
+way to do this is with resistance bands.
 
-My friend Devon, whom I recently visited, likes to travel light and uses
-resistance bands exclusively for working out. He's in great shape so I
-thought I'd try them, too.  I tried deadlifting with just my feet and
-then a board under my feet to hold down the resistance bands, but it
-was awkard.
+My friend Devon, whom I recently visited, likes to travel light and
+uses resistance bands exclusively for working out. He's in great shape
+so I thought I'd try them, too.  I tried deadlifting with them under
+my feet. Then I tried with a board under my feet to hold down the
+resistance bands, but it was awkward.
 
 Then I discovered Goblin's BandBox.  You can watch
 [Pascal in an instructional video](https://youtu.be/iMhuDaR_hwU?si=KNiFkt-9So77Klh7)
@@ -38,17 +38,18 @@ And, the bottom:
 
 [![Finished BandBox Underneath](/assets/i/20240428/finished-bandbox-under.jpg){: width="600"}](/assets/i/20240428/finished-bandbox-under.jpg)
 
-You might see some flaws. There are many others. It makes me sad to
-look at it, because I worked very hard to get here. The important
-thing I have to remember is that it works well, and I don't have to
-have a trap bar and plates.
+You might see some flaws, e.g. the notches on the top are a
+mistake. There are many others. It makes me sad to look at it, because
+I worked very hard to get here. The important thing I have to remember
+is that it works well, and I don't have to have a trap bar and plates.
 
 ### BandBox Fixation
 
-One alternative to the BandBox is to use a board with feet, which you
-[can buy for $300](https://wittersmanufacturing.com/shop/ols/products/the-masterplate).
-Some people use a
-[cutting board and hockey pucks](https://youtu.be/tmEIG3b0-8Q?t=173s). However,
+One alternative to the BandBox is to use a board with feet so the
+bands can slide underneath. You
+[can buy one for $300](https://wittersmanufacturing.com/shop/ols/products/the-masterplate).
+Some people built the same thing using a
+[plastic cutting board with hockey pucks for the feet](https://youtu.be/tmEIG3b0-8Q?t=173s). However,
 Goblin's BandBox is better and allows for other activies like side
 pulls.
 
@@ -61,15 +62,15 @@ and ordered those. Pascal
 [said](https://www.reddit.com/r/ResistanceBand/comments/xna9bd/comment/iptedso/)
 it is hard to find those, but that wasn't the hard part for me.
 
-The most difficult piece to source was the anti-slip phenolic resin
+The most difficult piece to get was the anti-slip phenolic resin
 plywood, which I could only find in 4x8 sheets and nothing
 local. (While finding links for this article, I ran into
 [this on Etsy](https://www.etsy.com/listing/563485077/anti-slip-mesh-phenolic-birch-plywood),
 which would have been a good option. Buffalo board is not a name I had
-seen before, and that's a good one to search for in the US.) I have a
+seen before, and that's a good term to search for in the US.) I have a
 [plyo box](https://www.amazon.com/dp/B07ZRCCNM9) which is made out of
 the same anti-slip plywood. I figured this was going to be my
-cheapest and easiest option so I ordered one.
+cheapest and easiest option so I ordered one to use for this part.
 
 All of this researching took quite a bit of time. I was quite fixated
 on making the best possible BandBox, of course. I'm glad the research
@@ -92,25 +93,26 @@ solution. I get kind of lost in these research activities so I spent
 way more time than I needed to. A
 [Reddit post](https://www.reddit.com/r/ResistanceBand/comments/xna9bd/comment/ipwrygj/)
 mentioned PVC and dowels instead of rollers. This is what I ended up
-using. I'm happy with the solution, because it's not as deep (16
-inches) or as heavy (2 pounds each).
+using. I'm happy with the solution, because it's not as deep or as
+heavy.
 
 ### Wood Fixation
 
 The box hardware stores have crappy 2x4s. They are quite uneven or
-damaged on one side. I spent too long go through stacks of 2x4s trying
-to find the "right one". I ended up buying a stair tread, something
-I've used before. They have to be straight and clean or people are
-going to trip. They are typically 1 inch thick, which was *almost*
-perfect. I had to compromise.
+damaged on one side. I spent too long going through stacks of 2x4s
+trying to find the "right one". I ended up buying a stair tread,
+something I've used before for nice pine. They have to be straight and
+clean or people are going to trip going up the stairs. They are
+typically 1 inch thick, which was *almost* perfect. I had to
+compromise.
 
 This meant cutting a 1 inch piece of wood straight. These are the side
 pieces of the BandBox and they have to be level so the box sits flat
 and so the cross piece (where you place your feet) is level. I figured
-the first cutting experiment was in order. You can see the left over
-piece of stair tread in the first picture. My cuts without a table
-saw or guide rail were too uneven to work well. And anyway, 1 inch
-was a little narrow for dowel/PVC holes.
+a cutting experiment was in order. You can see the left over piece of
+stair tread in the first picture. My cuts (without a table saw or
+guide rail) were too uneven to work well. And anyway, 1 inch was a
+little narrow for the dowel/PVC holes.
 
 There are many lumber places near where I live. I was out driving near
 one and stopped by.  It was pretty quiet outside. Of course, it turned
@@ -123,7 +125,7 @@ I decided was too far out of the way.
 
 To cut my wood fixation short, I was in Boulder and went to
 [Sterling Lumber](https://sterlinglbr.com) (locals know this as
-Boulder Lumber). They had very nice maple 1x4s so I bought 9 feet had
+Boulder Lumber). They had very nice maple 1x4s so I bought 9 feet, had
 them cut it in half to fit in my car, and went home.
 
 ### Crooked Wood
@@ -144,8 +146,7 @@ are building something, but it was off enough that I was also going to
 have a sanding job to even out the pieces for solid support.
 
 I figured that it wouldn't be too bad to screw and glue the wood
-together so end wood fixation. All wood was good. Time to cut, I mean,
-measure.
+together so end wood fixation. Time to cut, I mean, measure.
 
 ### Second Sketch
 
@@ -172,7 +173,7 @@ This project was taking quite a bit of time, and I was starting to get
 annoyed with my perfectionism. That's always a bad sign for me. I
 needed to take some breaths. Thankfully Janis helped me see that the
 product wasn't as important as the process. I actually like building
-things, and well, I get upset at myself for taking so long doing
+things, but I still get upset at myself for taking so long doing
 it. This is a common loop I get into. By writing this article, I hope
 to help myself process this process.
 
@@ -187,7 +188,7 @@ about the PVC I got my thumb between the back of the shoe and the
 chassis. Ouch!
 
 The maple boards were next, and they went smoothly. I was careful to
-clamp them together so that the tow pieces would be the same length. A
+clamp them together so that the two pieces would be the same length. A
 little crooked on the end, since I was using a circular saw, free
 hand.
 
@@ -229,29 +230,21 @@ in the day, would have been no problem for me. Given my age and lack
 of recent woodworking, I should have not been surprised when my hands
 cramped, like big time.
 
-A month or so before I had the same thing happen after doing some
-demolition work and using an angle grinder. After about 5 hours, my
-hands completely seized up. I am somewhat ambidextrous with tools so I
-switched off hands.
-
 In the end, I had to accept the limits of my aging body, and stop for
 the day. This was very frustrating, because there was plenty of
 light and I wasn't ready to stop.
 
 This fluke in my process really hit me hard. I don't like feeling my
 age. I am generally fine with it, and I accept many limits. My hands
-are the one thing that I worry about. I have an acquaintance who has
-permanent
-[trigger finger](https://en.wikipedia.org/wiki/Trigger_finger). That's
-not something I want to live with.
+are the one thing that I worry about.
 
 ### Dowelry
 
-With all pieces finally sanded, the next step was assembly. While I was happy
-with the wood dowels, what I failed to think about was that the 1.25
-inch dowels were quite wide. Remember holes 4A through 4F in [Pascal's
-sketch](#pascals-sketch)? Well, it was going to be really hard to
-achieve that.
+With all pieces finally sanded, the next step was assembly. While I
+was happy with the wood dowels, what I failed to think about was that
+the 1.25 inch dowels were quite wide. Remember holes 4A through 4F in
+[Pascal's sketch](#pascals-sketch)? Well, it was going to be really
+hard to achieve that.
 
 In hindsight, I should have used two different sized dowels. A
 BandBox's rollers need to be wide so the bands aren't pinched when
@@ -262,9 +255,8 @@ the removable pins which help when doing one sided exercises.
 
 ### Third Sketch
 
-The best plan was to include to have two holes underneat the foot
-plates instead of three. Here's the quick sketch I did for thinking
-this through:
+The best plan was to have two holes underneat the foot plates instead
+of three. Here's the quick sketch I did:
 
 [![Third BandBox Sketch](/assets/i/20240428/sketch-3.jpg){: width="600"}](/assets/i/20240428/sketch-3.jpg)
 
@@ -296,8 +288,8 @@ cleaner, but then I had to allow time for the bit to cool down.
 
 It took about 5 minutes to drill one large hole. I had picked maple,
 because I wanted it to look nice. It would have been much better to
-use pine. Strong enough, and it would have looked as good as it needed
-to. Drilling would have been faster and better.
+use pine. Strong enough, and it would have looked good
+enough. Drilling would have been faster and better.
 
 The small holes for the screws were the worst. I should have regeared
 the drill press, but I was too lazy. It went too fast and the wood
@@ -328,15 +320,14 @@ assembled.
 
 ### Cluttered Work Area, Cluttered Mind
 
-I was at this point getting annoyed with how long this project was
-taking. I wanted to be done. Part of my frustration was that I don't
-have a dedicated work bench any more, because we needed space in the
-garage to protect both cars from hail storms. Now with only one car,
-at least I have some space. Still, my work area was a mess:
+Again, I was getting annoyed with how long this project was
+taking. Part of my frustration was that I don't have a dedicated work
+bench any more, because we needed space in the garage for both
+cars. My work area was a mess:
 
 [![Tools All Over the Place](/assets/i/20240428/tool-mess.jpg){: height="250"}](/assets/i/20240428/tool-mess.jpg)
 
-Never the less, I decided to get started assembling.
+I started assembling.
 
 I screwed the side pieces together, and I quickly realized that I
 wasn't going to flatten the bent side pieces with screws. A couple of
@@ -348,7 +339,7 @@ tragedy, and the end product would be stronger.
 Since the screws broke in the first attempts at assembly, I went to
 the hardware store one more time to get better screws. Unlike the
 selection of the wood, I rushed the process. I also didn't think
-clearly. I bought some brass screws which looked better but were
+clearly. I bought some brass screws which looked better, but were
 actually *weaker* than the steel screws I was using. They were also
 longer, which was good, but that made them even more likely to break
 off.
@@ -362,7 +353,7 @@ If you have read
 [Zen and the Art of Motorcycle Maintenance]({{site.baseurl }}{% post_url 1991-12-31-Zen-and-The-Art-of-Motorcycle-Maintenance %}),
 you will know that I was in a
 [gumption trap](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance#Gumption_traps),
-and more mistakes were going to be made. (Wait for it.)
+and more mistakes were going to be made.
 
 Finally, the first side piece was glued, and I was ready to call it a
 night.
@@ -374,15 +365,15 @@ perfectly cut, drilled, and sanded pieces of wood that had yet to be
 assembled while I was putting the one side piece together. What better
 place than on top of the car? Not.
 
-Yes, I forgot to move that off the car when I stopped in for the
-night. That was my intention. And, yes, someone drove off with the
-parts on top of the car the next day.
+Yes, I forgot to move that off the car when I stopped for the
+night. And, yes, someone drove off with the parts on top of the car
+the next day.
 
 I just happened to go into the garage midday (the glue was still
 curing), and I just happened to see a piece of wood on the car after
 the car *was back*. Unbelievably, one of the two side pieces were on top
 of the car after having been driven over five miles with two
-stops. Don't ask me how.
+stops.
 
 If I hadn't seen that piece of wood at that time, I probably would
 have completely chucked it in. As it was, I was completely devastated
@@ -393,14 +384,13 @@ the other side piece that was being glued.
 ### Car Chase
 
 After much encouragement by Janis, I went outside to look for the
-wood piece thing it had to have fallen off right next to the
-house. What are the chances that it would be 2 miles away? Probably
-pretty slim to none.
+wood piece thinking it had to have fallen off right next to the
+house.
 
-I came back in the house, and said I told Janis I couldn't find
-it. Janis said, maybe it fell off nearby? I was distraught and angry
-with myself. A great time to get into a car, I always say. Maybe I
-should have grabbed a beer for the road.
+I came back in the house, and I told Janis I couldn't find it. Janis
+said, maybe it fell off nearby? I was distraught and angry with
+myself. A great time to get into a car, I always say. Maybe I should
+have grabbed a beer for the road.
 
 No accidents, and yes, I found the other piece. It wasn't too beat up
 either. Just some minor dings on the corners:
@@ -410,8 +400,7 @@ either. Just some minor dings on the corners:
 I still cannot fathom how it stayed on the car for over 3 miles. It
 fell off in a very safe place (for a piece of wood) on an overpass
 crossing I-70 where there was a bit of shoulder, which no cars would
-likely drive on. If you have done the math, it was on the way back
-when it fell off.
+likely drive on.
 
 The only word for this is a fluke, which also happens to be the name
 of a
@@ -420,8 +409,8 @@ This is simply the law or large numbers at work.
 
 ### The Missing Piece
 
-After gluing the other piece together, I was ready for to put it all
-together. I just had to drill some holds in the edges to match up the
+After gluing the other piece together, I was ready to put it all
+together. I just had to drill some holes in the edges to match up the
 predrilled holes in the foot plates that were -- yes, you guessed it
 -- were lost a few days before.
 
@@ -452,30 +441,28 @@ flaw.
 
 ### Screwing Around
 
-Did I mention I was rushing at this point? A big storm was coming in,
-and I wanted to be done with the messy cutting parts that I wanted to
-do outside. Definitely should have taken a breather, but I didn't.
-Instead, I broke off several screw heads before I realized I was
-trying to go too deep into the maple. It was not necessary. Here are
-the last mistakes (afaik):
+A big storm was coming in, and I wanted to be done with the messy
+cutting parts that I wanted to do outside. Definitely should have
+taken a breather, but I didn't.  Instead, I broke off several screw
+heads before I realized I was trying to go too deep into the maple. It
+was not necessary. More mistakes:
 
 [![Incorrectly Cut Plyobox](/assets/i/20240428/broken-screws.jpg)](/assets/i/20240428/broken-screws.jpg)
 
 Once I switched to shorter screws and drilled out the wood a couple of
-times (till the smoke stopped pouring) that I ended up able to put in
-the shorter (1.625 inch) deck screws without breaking
-heads. Unfortunately, the broken heads mean that removing the oddly
-cut foot plate is not going to be easy.
+times (till the smoke stopped pouring out) that I was able to use
+shorter (1.625 inch) deck screws without breaking
+heads.
 
-Good thing that the BandBox works as intended. Time to let quit
-working wood and start working out!
+Good thing that the BandBox works as intended. Time to quit working
+wood and start working out!
 
 ### New Dimensions
 
-I hope this story was entertaining. I rushed through it mostly to get
-all the text written. I hope to get some edits from you, dear
-reader. Unlike woodwooking, writing and software are much more
-editable.
+I hope this story was entertaining and/or informative. I rushed
+through it mostly to get all the text written. I hope to get some
+edits from you, dear reader. Unlike woodwooking, writing and software
+are much more editable.
 
 For those of you who want to attempt this, here are some dimensions on
 the side pieces:
