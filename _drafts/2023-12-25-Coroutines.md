@@ -4,6 +4,10 @@ title: "Python Coroutines: Words of Advice"
 date: 2023-12-25T12:00:00Z
 ---
 
+TODO: https://stackoverflow.com/questions/59586879/does-await-in-python-yield-to-the-event-loop
+good reference on how await works
+
+
 ### The Initial Project
 
 Around 2018 [Sirepo](https://sirepo.com) had outgrown
