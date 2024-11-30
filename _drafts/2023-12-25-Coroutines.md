@@ -7,6 +7,18 @@ date: 2023-12-25T12:00:00Z
 TODO: https://stackoverflow.com/questions/59586879/does-await-in-python-yield-to-the-event-loop
 good reference on how await works
 
+Working #6916 after a bit of a break. I realized that the `_run` task
+is unnecessary, and overcomplicates the
+process. [`_run`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a80fada4bab19b437a06a/sirepo/job_supervisor.py#L951)
+sends the op, and then loops on
+[`reply_get`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a80fada4bab19b437a06a/sirepo/job_supervisor.py#L1210). This
+is how you would write a normal threaded application: receive a
+message and then pass it off to a worker thread. However, that's now
+how you should write an asyncio application: callbacks should handle
+the operation immediately, because all other tasks block anyway. There
+is not priority scheduling or multi-processing going on. This is very
+hard to get your head around.
+
 
 ### The Initial Project
 
