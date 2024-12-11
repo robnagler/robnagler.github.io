@@ -4,6 +4,59 @@ title: "Python Coroutines: Words of Advice"
 date: 2023-12-25T12:00:00Z
 ---
 
+# Example from email 12/11/2024 about sbatch_id
+https://github.com/radiasoft/sirepo/issues/7385
+
+
+I am starting to really hate asyncio. Here's a simple example:
+
+        # Reply case yields, but does not modify global state
+        if r := await _valid_or_reply(req.content.data.get("forceRun")):
+            return r
+        _update_db()
+
+In normal threaded code, you don't have to write anything, because you don't prefix preemptable calls with "await". The same is true with callbacks. The "await" is actually a false sign. You need it, because inside the code it *may* call await. However, the whole method isn't async. This is a huge distinction between Java's "sync" prefix, which does perform a mutex on the entire call. I think this is a very subtle distinction which creates really hard to read code.
+
+The routine does this:
+
+        async def _valid_or_reply(force_run):
+            if self._is_running_pending():
+                if force_run or not self._req_is_valid(req):
+                    return PKDict(
+                        state=job.ERROR,
+                        error="another browser is running the simulation",
+                    )
+                # Not _receive_api_runStatus, because runStatus should have been
+                # called before this function is called.
+                return self._status_reply(req)
+            if (
+                not force_run
+                and self._req_is_valid(req)
+                and self.db.status == job.COMPLETED
+            ):
+                # TODO(robnagler) simplify after https://github.com/radiasoft/sirepo/issues/7386
+
+                # Valid, completed, sequential simulation
+                # Read this first https://github.com/radiasoft/sirepo/issues/2007
+                r = await self._receive_api_runStatus(req)
+                if r.state == job.MISSING:
+                    # happens when the run dir is deleted (ex purge_non_premium)
+                    if recursing:
+                        raise AssertionError(f"already called from self req={req}")
+                    # Rerun the simulation, since there's no "button" in the UI for
+                    # this case.
+                    return await self._receive_api_runSimulation(req, recursing=True)
+                return r
+            return None
+
+It is validating the args/state and takes actions based on the invalid paths. Those actions are tightly coupled with the invalidation. _status_reply is not async, because it just returns local state. The runStatus is async because it has to hit the agent to get the sequential result. The runSimulation is a bit goofy, but it is necessary. It doesn't matter, because those cases are explicitly coupled in the correct place in the code. I could return a status result from _validate and then call _reply with that result. It would decouple the logic and all the comments that are very difficult to explain, but are correct in the context of the validation.
+
+So the "await" doesn't actually await. It is *really* confusing to read the await conditional in the main body, because _valid_or_reply() is not asynchronous in both cases. In the threaded case, you'd put a lock around the update_db, or better, you'd simply send a message to another thread to update the db. That's how you'd handle it in Go, I believe -- certainly in V, where there were no locks, only messages. The server would validate your request and reply failure if you were trying to update state based on invalid inputs.
+
+I think this is a major thing for me why asyncio code is so hard to read and write. You need a completely different approach, and I'm not sure what that is. For most of this stuff, callbacks would be better, because you logically release when the function returns.
+
+I think I need to see some real problems solved, like the supervisor/agent, with asyncio. I have only seen trivial problems or over-engineered solutions.
+
 TODO: https://stackoverflow.com/questions/59586879/does-await-in-python-yield-to-the-event-loop
 good reference on how await works
 
