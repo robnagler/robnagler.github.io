@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katakana Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #character {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        #feedback {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="character"></div>
+    <br>
+    <form id="practice-form">
+        <input type="text" id="answer" placeholder="Enter romaji">
+    </form>
+    <br>
+    <p id="feedback"></p>
+
+    <script>
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        const katakanaMap = [
+            { katakana: "ア", romaji: "a" }, { katakana: "イ", romaji: "i" }, { katakana: "ウ", romaji: "u" }, { katakana: "エ", romaji: "e" }, { katakana: "オ", romaji: "o" },
+            { katakana: "カ", romaji: "ka" }, { katakana: "キ", romaji: "ki" }, { katakana: "ク", romaji: "ku" }, { katakana: "ケ", romaji: "ke" }, { katakana: "コ", romaji: "ko" },
+            { katakana: "ガ", romaji: "ga" }, { katakana: "ギ", romaji: "gi" }, { katakana: "グ", romaji: "gu" }, { katakana: "ゲ", romaji: "ge" }, { katakana: "ゴ", romaji: "go" },
+            { katakana: "サ", romaji: "sa" }, { katakana: "シ", romaji: "shi" }, { katakana: "ス", romaji: "su" }, { katakana: "セ", romaji: "se" }, { katakana: "ソ", romaji: "so" },
+            { katakana: "ザ", romaji: "za" }, { katakana: "ジ", romaji: "ji" }, { katakana: "ズ", romaji: "zu" }, { katakana: "ゼ", romaji: "ze" }, { katakana: "ゾ", romaji: "zo" },
+            { katakana: "タ", romaji: "ta" }, { katakana: "チ", romaji: "chi" }, { katakana: "ツ", romaji: "tsu" }, { katakana: "テ", romaji: "te" }, { katakana: "ト", romaji: "to" },
+            { katakana: "ダ", romaji: "da" }, { katakana: "ヂ", romaji: "ji" }, { katakana: "ヅ", romaji: "zu" }, { katakana: "デ", romaji: "de" }, { katakana: "ド", romaji: "do" },
+            { katakana: "ナ", romaji: "na" }, { katakana: "ニ", romaji: "ni" }, { katakana: "ヌ", romaji: "nu" }, { katakana: "ネ", romaji: "ne" }, { katakana: "ノ", romaji: "no" },
+            { katakana: "ハ", romaji: "ha" }, { katakana: "ヒ", romaji: "hi" }, { katakana: "フ", romaji: "fu" }, { katakana: "ヘ", romaji: "he" }, { katakana: "ホ", romaji: "ho" },
+            { katakana: "バ", romaji: "ba" }, { katakana: "ビ", romaji: "bi" }, { katakana: "ブ", romaji: "bu" }, { katakana: "ベ", romaji: "be" }, { katakana: "ボ", romaji: "bo" },
+            { katakana: "パ", romaji: "pa" }, { katakana: "ピ", romaji: "pi" }, { katakana: "プ", romaji: "pu" }, { katakana: "ペ", romaji: "pe" }, { katakana: "ポ", romaji: "po" },
+            { katakana: "キャ", romaji: "kya" }, { katakana: "キュ", romaji: "kyu" }, { katakana: "キョ", romaji: "kyo" },
+            { katakana: "シャ", romaji: "sha" }, { katakana: "シュ", romaji: "shu" }, { katakana: "ショ", romaji: "sho" },
+            { katakana: "チャ", romaji: "cha" }, { katakana: "チュ", romaji: "chu" }, { katakana: "チョ", romaji: "cho" },
+            { katakana: "ニャ", romaji: "nya" }, { katakana: "ニュ", romaji: "nyu" }, { katakana: "ニョ", romaji: "nyo" }
+        ];
+
+        let shuffledCharacters = [...katakanaMap];
+        shuffleArray(shuffledCharacters);
+        let currentIndex = 0;
+
+        function updateCharacter() {
+            if (currentIndex >= shuffledCharacters.length) {
+                document.getElementById("feedback").innerText = "You have completed the set! Restarting...";
+                shuffleArray(shuffledCharacters);
+                currentIndex = 0;
+            }
+            document.getElementById("character").innerText = shuffledCharacters[currentIndex].katakana;
+        }
+
+        function checkAnswer() {
+            let answer = document.getElementById("answer").value.toLowerCase();
+            let feedback = document.getElementById("feedback");
+            if (answer === shuffledCharacters[currentIndex].romaji) {
+                currentIndex++;
+                updateCharacter();
+                feedback.innerText = "Correct!";
+                setTimeout(() => {
+                    document.getElementById("answer").value = "";
+                    feedback.innerText = "";
+                }, 500);
+            } else {
+                feedback.innerText = `Incorrect. Try again.`;
+            }
+        }
+
+        document.getElementById("practice-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            checkAnswer();
+        });
+
+        updateCharacter();
+    </script>
+</body>
+</html>
