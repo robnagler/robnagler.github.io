@@ -27,6 +27,9 @@
         #feedback {
             font-size: 18px;
             margin-top: 10px;
+            width: 200px;
+            word-wrap: break-word;
+            margin: auto;
         }
     </style>
 </head>
@@ -40,52 +43,40 @@
     <p id="feedback"></p>
 
     <script>
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-        }
-
-        const katakanaMap = [
-            { katakana: "ア", romaji: "a" }, { katakana: "イ", romaji: "i" }, { katakana: "ウ", romaji: "u" }, { katakana: "エ", romaji: "e" }, { katakana: "オ", romaji: "o" },
-            { katakana: "カ", romaji: "ka" }, { katakana: "キ", romaji: "ki" }, { katakana: "ク", romaji: "ku" }, { katakana: "ケ", romaji: "ke" }, { katakana: "コ", romaji: "ko" },
-            { katakana: "ガ", romaji: "ga" }, { katakana: "ギ", romaji: "gi" }, { katakana: "グ", romaji: "gu" }, { katakana: "ゲ", romaji: "ge" }, { katakana: "ゴ", romaji: "go" },
-            { katakana: "サ", romaji: "sa" }, { katakana: "シ", romaji: "shi" }, { katakana: "ス", romaji: "su" }, { katakana: "セ", romaji: "se" }, { katakana: "ソ", romaji: "so" },
-            { katakana: "ザ", romaji: "za" }, { katakana: "ジ", romaji: "ji" }, { katakana: "ズ", romaji: "zu" }, { katakana: "ゼ", romaji: "ze" }, { katakana: "ゾ", romaji: "zo" },
-            { katakana: "タ", romaji: "ta" }, { katakana: "チ", romaji: "chi" }, { katakana: "ツ", romaji: "tsu" }, { katakana: "テ", romaji: "te" }, { katakana: "ト", romaji: "to" },
-            { katakana: "ダ", romaji: "da" }, { katakana: "ヂ", romaji: "ji" }, { katakana: "ヅ", romaji: "zu" }, { katakana: "デ", romaji: "de" }, { katakana: "ド", romaji: "do" },
-            { katakana: "ナ", romaji: "na" }, { katakana: "ニ", romaji: "ni" }, { katakana: "ヌ", romaji: "nu" }, { katakana: "ネ", romaji: "ne" }, { katakana: "ノ", romaji: "no" },
-            { katakana: "ハ", romaji: "ha" }, { katakana: "ヒ", romaji: "hi" }, { katakana: "フ", romaji: "fu" }, { katakana: "ヘ", romaji: "he" }, { katakana: "ホ", romaji: "ho" },
-            { katakana: "バ", romaji: "ba" }, { katakana: "ビ", romaji: "bi" }, { katakana: "ブ", romaji: "bu" }, { katakana: "ベ", romaji: "be" }, { katakana: "ボ", romaji: "bo" },
-            { katakana: "パ", romaji: "pa" }, { katakana: "ピ", romaji: "pi" }, { katakana: "プ", romaji: "pu" }, { katakana: "ペ", romaji: "pe" }, { katakana: "ポ", romaji: "po" },
-            { katakana: "ワ", romaji: "wa" }, { katakana: "ヲ", romaji: "wo" }, { katakana: "ン", romaji: "n" },
-            { katakana: "キャ", romaji: "kya" }, { katakana: "キュ", romaji: "kyu" }, { katakana: "キョ", romaji: "kyo" },
-            { katakana: "シャ", romaji: "sha" }, { katakana: "シュ", romaji: "shu" }, { katakana: "ショ", romaji: "sho" },
-            { katakana: "チャ", romaji: "cha" }, { katakana: "チュ", romaji: "chu" }, { katakana: "チョ", romaji: "cho" },
-            { katakana: "ニャ", romaji: "nya" }, { katakana: "ニュ", romaji: "nyu" }, { katakana: "ニョ", romaji: "nyo" },
-            { katakana: "ヒャ", romaji: "hya" }, { katakana: "ヒュ", romaji: "hyu" }, { katakana: "ヒョ", romaji: "hyo" },
-            { katakana: "ミャ", romaji: "mya" }, { katakana: "ミュ", romaji: "myu" }, { katakana: "ミョ", romaji: "myo" },
-            { katakana: "リャ", romaji: "rya" }, { katakana: "リュ", romaji: "ryu" }, { katakana: "リョ", romaji: "ryo" }
+        const charMap = [
+            { question: "ア", answer: "a" }, { question: "イ", answer: "i" }, { question: "ウ", answer: "u" }, { question: "エ", answer: "e" }, { question: "オ", answer: "o" },
+            { question: "カ", answer: "ka" }, { question: "キ", answer: "ki" }, { question: "ク", answer: "ku" }, { question: "ケ", answer: "ke" }, { question: "コ", answer: "ko" },
+            { question: "ガ", answer: "ga" }, { question: "ギ", answer: "gi" }, { question: "グ", answer: "gu" }, { question: "ゲ", answer: "ge" }, { question: "ゴ", answer: "go" },
+            { question: "サ", answer: "sa" }, { question: "シ", answer: "shi" }, { question: "ス", answer: "su" }, { question: "セ", answer: "se" }, { question: "ソ", answer: "so" },
+            { question: "ザ", answer: "za" }, { question: "ジ", answer: "ji" }, { question: "ズ", answer: "zu" }, { question: "ゼ", answer: "ze" }, { question: "ゾ", answer: "zo" },
+            { question: "タ", answer: "ta" }, { question: "チ", answer: "chi" }, { question: "ツ", answer: "tsu" }, { question: "テ", answer: "te" }, { question: "ト", answer: "to" },
+            { question: "ダ", answer: "da" }, { question: "ヂ", answer: "ji" }, { question: "ヅ", answer: "zu" }, { question: "デ", answer: "de" }, { question: "ド", answer: "do" },
+            { question: "ナ", answer: "na" }, { question: "ニ", answer: "ni" }, { question: "ヌ", answer: "nu" }, { question: "ネ", answer: "ne" }, { question: "ノ", answer: "no" },
+            { question: "ハ", answer: "ha" }, { question: "ヒ", answer: "hi" }, { question: "フ", answer: "fu" }, { question: "ヘ", answer: "he" }, { question: "ホ", answer: "ho" },
+            { question: "バ", answer: "ba" }, { question: "ビ", answer: "bi" }, { question: "ブ", answer: "bu" }, { question: "ベ", answer: "be" }, { question: "ボ", answer: "bo" },
+            { question: "パ", answer: "pa" }, { question: "ピ", answer: "pi" }, { question: "プ", answer: "pu" }, { question: "ペ", answer: "pe" }, { question: "ポ", answer: "po" },
+            { question: "ワ", answer: "wa" }, { question: "ヲ", answer: "wo" }, { question: "ン", answer: "n" },
+            { question: "キャ", answer: "kya" }, { question: "キュ", answer: "kyu" }, { question: "キョ", answer: "kyo" },
+            { question: "シャ", answer: "sha" }, { question: "シュ", answer: "shu" }, { question: "ショ", answer: "sho" },
+            { question: "チャ", answer: "cha" }, { question: "チュ", answer: "chu" }, { question: "チョ", answer: "cho" },
+            { question: "ニャ", answer: "nya" }, { question: "ニュ", answer: "nyu" }, { question: "ニョ", answer: "nyo" },
+            { question: "ヒャ", answer: "hya" }, { question: "ヒュ", answer: "hyu" }, { question: "ヒョ", answer: "hyo" },
+            { question: "ミャ", answer: "mya" }, { question: "ミュ", answer: "myu" }, { question: "ミョ", answer: "myo" },
+            { question: "リャ", answer: "rya" }, { question: "リュ", answer: "ryu" }, { question: "リョ", answer: "ryo" }
         ];
 
-        let shuffledCharacters = [...katakanaMap];
+        let shuffledCharacters = [...charMap];
         shuffleArray(shuffledCharacters);
         let currentIndex = 0;
 
-        function updateCharacter() {
-            if (currentIndex >= shuffledCharacters.length) {
-                document.getElementById("feedback").innerText = "You have completed the set! Restarting...";
-                shuffleArray(shuffledCharacters);
-                currentIndex = 0;
-            }
-            document.getElementById("character").innerText = shuffledCharacters[currentIndex].katakana;
-        }
-
-        function checkAnswer() {
+        function checkAnswer(isEnter) {
             let answer = document.getElementById("answer").value.toLowerCase();
             let feedback = document.getElementById("feedback");
-            if (answer === shuffledCharacters[currentIndex].romaji) {
+            if (answer === "?") {
+                feedback.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
+                return;
+            }
+            if (answer === shuffledCharacters[currentIndex].answer) {
                 currentIndex++;
                 updateCharacter();
                 feedback.innerText = "Correct!";
@@ -93,17 +84,41 @@
                     document.getElementById("answer").value = "";
                     feedback.innerText = "";
                 }, 500);
-            } else {
+            } else if (isEnter) {
                 feedback.innerText = `Incorrect. Try again.`;
             }
         }
 
-        document.getElementById("practice-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-            checkAnswer();
-        });
+        function firstTime() {
+            document.getElementById("practice-form").addEventListener("submit", function(event) {
+                event.preventDefault();
+                checkAnswer(true);
+            });
 
-        updateCharacter();
+            document.getElementById("answer").addEventListener("input", function (event) {
+                checkAnswer(false)
+            });
+            updateCharacter();
+            document.getElementById("feedback").innerText = "Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.";
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function updateCharacter() {
+            if (currentIndex >= shuffledCharacters.length) {
+                document.getElementById("feedback").innerText = "You have completed the set! Restarting...";
+                shuffleArray(shuffledCharacters);
+                currentIndex = 0;
+            }
+            document.getElementById("character").innerText = shuffledCharacters[currentIndex].question;
+        }
+
+        firstTime();
     </script>
 </body>
 </html>
