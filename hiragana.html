@@ -68,24 +68,26 @@
         let shuffledCharacters = [...charMap];
         shuffleArray(shuffledCharacters);
         let currentIndex = 0;
+        const answerEl = document.getElementById("answer");
+        const feedbackEl = document.getElementById("feedback");
+        const characterEl = document.getElementById("character");
+        let timeout = null;
 
         function checkAnswer(isEnter) {
-            let answer = document.getElementById("answer").value.toLowerCase();
-            let feedback = document.getElementById("feedback");
+            let answer = answerEl.value.toLowerCase();
             if (answer === "?") {
-                feedback.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
+                feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
                 return;
             }
             if (answer === shuffledCharacters[currentIndex].answer) {
-                currentIndex++;
-                updateCharacter();
-                feedback.innerText = "Correct!";
-                setTimeout(() => {
-                    document.getElementById("answer").value = "";
-                    feedback.innerText = "";
-                }, 500);
+                const t = updateCharacter(false);
+                answerEl.value = "";
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+                timeout = setTimeout(() => {feedbackEl.innerText = "";}, t);
             } else if (isEnter) {
-                feedback.innerText = `Incorrect. Try again.`;
+                feedbackEl.innerText = `Incorrect. Try again.`;
             }
         }
 
@@ -94,12 +96,10 @@
                 event.preventDefault();
                 checkAnswer(true);
             });
-
-            document.getElementById("answer").addEventListener("input", function (event) {
+            answerEl.addEventListener("input", function (event) {
                 checkAnswer(false)
             });
-            updateCharacter();
-            document.getElementById("feedback").innerText = "Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.";
+            updateCharacter(true);
         }
 
         function shuffleArray(array) {
@@ -109,13 +109,22 @@
             }
         }
 
-        function updateCharacter() {
-            if (currentIndex >= shuffledCharacters.length) {
-                document.getElementById("feedback").innerText = "You have completed the set! Restarting...";
+        function updateCharacter(isFirstTime) {
+            let rv = 500;
+            if (isFirstTime) {
+                feedbackEl.innerText = "Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.";
+            }
+            else if (++currentIndex >= shuffledCharacters.length) {
                 shuffleArray(shuffledCharacters);
                 currentIndex = 0;
+                feedbackEl.innerText = "You have completed the set! Restarting...";
+                rv *= 2;
             }
-            document.getElementById("character").innerText = shuffledCharacters[currentIndex].question;
+            else {
+                feedbackEl.innerText = "Correct!";
+            }
+            characterEl.innerText = shuffledCharacters[currentIndex].question;
+            return rv;
         }
 
         firstTime();
