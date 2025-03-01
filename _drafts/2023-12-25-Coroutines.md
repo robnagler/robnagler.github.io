@@ -176,13 +176,6 @@ reliable services based on coroutines.
 
 ### Cooperative vs Preemptive Multitasking
 
-TL;DR
-(coroutines)
-has not been easier than
-
-(threads) in our experience.
-
-
 In order to understand coroutines, we need to separate
 [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 [from parallelism](https://en.wikipedia.org/wiki/Parallel_computing),
@@ -199,58 +192,39 @@ until 2015. Programming language courses do not emphasize them.  This
 is why they are tricksy, and whey we can easily confuse concurrency with
 parallelism.
 
-In Python, there are many ways to handle concurrency, and the
-explanations are not always clear.
-Consider the [Concurrent Execution documentation](https://docs.python.org/3/library/concurrency.html),
-which fails to discuss
-[generators](https://wiki.python.org/moin/Generators) or
-callbacks, which are both (extremely common) forms of concurrent execution.
-
-The confusion starts with the word concurrent, which
+I think the confusion starts with the word concurrent, which
 [Merriam-Webster](https://www.merriam-webster.com/dictionary/concurrent)
-defines as "operating or occurring at the same time."
+defines as "operating or occurring at the same time." Python
+coroutines execute concurrently, but they do not execute "at the same
+time".
 
-Another anecodote: MIT course 6.005 Software Construction states:
-"[*Concurrency* means multiple computations are happening at the same time](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/)."
-This is incorrect.
-
-Even the
-[Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-Wikipedia page states:
-
-> Concurrent computing is a form of computing in which several
-> computations are executed [*concurrently*](https://en.wikipedia.org/wiki/Concurrency_(computer_science))*—during overlapping time
-> periods—instead of sequentially—with one completing before the next
-> starts.
-
-The use of "overlapping" is incorrect.
-
-The word *concurrently* links to the
-[Concurrency page](https://en.wikipedia.org/wiki/Concurrency_(computer_science)),
-which correctly states:
+A better definition is found on the
+[Wikipedia Concurrency page](https://en.wikipedia.org/wiki/Concurrency_(computer_science)):
 
 > In computer science, concurrency is the ability of different parts or
 > units of a program, algorithm, or problem to be executed out-of-order
 > or in partial order, without affecting the outcome. This allows for
 > parallel execution of the concurrent units.
 
-The word *allows* is key.
+The word *allows* is key. Concurrency allows for out of order
+execution. Coroutines can execute out of order, but their execution
+does not happen *simultaneously* as with (preemptable) threads.
 
-Concurrency is about out of order
-execution, and parallelism is about overlapping execution. Coroutines
-*allow* execution to be reordered, and they are guaranteed to execute at
-the same time in the same
-[asyncio event loop](https://docs.python.org/3/library/asyncio-eventloop.html). Coroutines
-are cooperative, not preemptive multitasking.  That's their main
-attraction: there can be no
+Parallelism is overlapping execution. Coroutines do not run in
+parallel. They execute in a single Python thread.
+
+Coroutine execution order is controlled by the
+[asyncio event loop](https://docs.python.org/3/library/asyncio-eventloop.html)
+Coroutines are cooperative, not preemptive multitasking.  That's their
+main attraction: there can be no
 [race conditions](https://en.wikipedia.org/wiki/Race_condition#In_software).
 
 Rob Pike's talk
-[Concurrency is not parallelism](https://go.dev/blog/waza-talk)
-is worth a watch. The caveat here is that Goroutines are not
-coroutines, because they are *allowed* to execute in parallel.
-Still, the talk explains concurrency and parallelism clearly and with
-some good examples.
+[Concurrency is not parallelism](https://go.dev/blog/waza-talk) is
+worth a watch. The caveat here is that Goroutines are not coroutines,
+because they are *allowed* to execute in parallel, which Python
+coroutines cannot. Still, the talk explains concurrency and
+parallelism clearly and with some good examples.
 
 ### Concurrency Requires Logging
 
@@ -276,39 +250,16 @@ guidelines we use:
 - Always catch and log exceptions in coroutines with sufficient
   context. Sufficient will become apparent over time.
 - Use something like
-  [pkdebug_str](https://github.com/radiasoft/pykern/blob/f5da92a963ef5e58f896eff236bcaf5762bef806/pykern/pkdebug.py#L125)
-  to create consistent context of objects for logs.
-- Include detailed logs with timestamps in issues. In public repos, like Sirepo, use a
+  [`__repr__`](https://docs.python.org/3/reference/datamodel.html#object.__repr__)
+  or the more robust [pkdebug_str](https://github.com/radiasoft/pykern/blob/f5da92a963ef5e58f896eff236bcaf5762bef806/pykern/pkdebug.py#L125)
+  to create consistent context for objects in log message.
+- Include detailed logs with timestamps in issues (bug reports). In
+  public repos, like Sirepo, use a
   [log trimmer](https://github.com/biviosoftware/home-env/blob/55605e8dad11f5a949a9724bb79059e8498cfda8/bin/journal_trim)
-  to ensure issues avoid exposing [personally identifiable
-  information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
-- Audit trails can be helpful. In the supervisor, we have a
-  context manager called
-  [set_job_situation](https://github.com/radiasoft/sirepo/blob/c12aedc0d2d6b60186015dc88091baafb2698503/sirepo/job_supervisor.py#L1154)
-  to make it easy to log important state transitions.
+  to avoid exposing
+  [personally identifiable information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
 
-**FIXME** main commit
-[Example](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1200):
-```py
-@contextlib.asynccontextmanager
-**FIXME** not async
-@contextlib.contextmanager
-def set_job_situation(self, situation):
-    self._supervisor.set_situation(self, situation)
-    try:
-        yield
-        if self.is_destroyed:
-            return
-        self._supervisor.set_situation(self, None)
-    except Exception as e:
-        pkdlog("{} situation={} stack={}", self, situation, pkdexc())
-        self._supervisor.set_situation(self, None, exception=e)
-        raise
-
-```
-
-**FIXME** main commit
-`self` is logged [with this context](https://github.com/radiasoft/sirepo/blob/734b7195c3b0032ba32dd4451885f32da60e162f/sirepo/job_supervisor.py#L1137):
+Here's how `job_supervisor._Op` [logs its context](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/job_supervisor.py#L1306):
 
 ```py
 def pkdebug_str(self):
@@ -334,8 +285,9 @@ coroutine while it still is being used by another. This is the
 cause of numerous failures: using state when it is no longer
 valid.
 
-For example, in the supervisor, a job might be canceled by the
-user. The coroutine handling the request that cancels the job is not the
+For example, in the supervisor, a job might be canceled asynchronously
+by an API call triggered by a user pressing a cancel button. The
+coroutine handling the request that cancels the job is not the
 coroutine which is monitoring the job. The coroutine monitoring the
 job holds a copy of the job object, which is destroyed by the
 coroutine canceling the job.
@@ -346,74 +298,57 @@ are obligated to check object's `is_destroyed` flag to determine the
 object's validity after an `await`. This means state management can
 get complicated.
 
-Let's consider the state of inter-coroutine communication,
-e.g. queues.  If an object gets destroyed, its queues are no longer
-valid and any coroutine waiting on an invalid queue has to be notified.
-[asyncio.Queue](https://docs.python.org/3/library/asyncio-queue.html#queue)
-cannot be invalidated or destroyed (unlike coroutines, which we'll get
-to in a moment). They are garbage collected like most objects in
-Python.
 
-To manage the queue life cycle, the job supervisor uses a proxy object
-to handle canceled (or timed out) operations. Here's
-**FIXME** master commit
-[`alloc` which uses a queue](https://github.com/radiasoft/sirepo/blob/ff2def11788e757ec5c6a89057debe50d9069648/sirepo/job_supervisor.py#L112):
-
+In `_send`,
+[`is_destroyed` is checked](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/job_supervisor.py#L1103):
 
 ```py
-async def alloc(self, situation):
-    if self._value is not None:
-        return SlotAllocStatus.DID_NOT_AWAIT
-    try:
-        self._value = self._q.get_nowait()
-        return SlotAllocStatus.DID_NOT_AWAIT
-    except tornado.queues.QueueEmpty:
-        pkdlog("{} situation={}", self._op, situation)
-        with self._op.set_job_situation(situation):
-            self._value = await self._q.get()
-            if self._op.is_destroyed:
-                self.free()
-                return SlotAllocStatus.OP_IS_DESTROYED
-            return SlotAllocStatus.HAD_TO_AWAIT
+async def _send(op):
+    if not await op.prepare_send() or op.is_destroyed:
+        return None, False
+    if not op.send():
+        return None, False
+    if (r := await op.reply_get()) is None:
+        return None, False
+
 ```
 
-`SlotProxy.alloc` controls access to shared resources via a queue
-(`self._q`). When `SlotProxy`'s owner (`self._op`) is destroyed, the
-coroutine needs to check `is_destroyed` after every `await` and free
-the slot. Otherwise, the `SlotProxy` value would get lost. Finally,
-`alloc` returns a state that is used by higher-level code.
+This check ensures that `op` has not been canceled. Once checked, we
+know that `op` can't be destroyed until after the `await
+op.reply_get`.
 
 ### asyncio.Task.cancel
 
-That's a lot of code and logic. Why not just use
-[Task.cancel](https://docs.python.org/3/library/asyncio-task.html#task-cancellation)?
-After all, "Tasks can easily and safely be cancelled."
+That's a lot of code and logic just to send and get a reply. Why not
+just
+[Task.cancel](https://docs.python.org/3/library/asyncio-task.html#task-cancellation)
+the `_send` coroutine?
+After all, as the documentation says, "Tasks can easily and safely be cancelled."
 [We](https://github.com/radiasoft/sirepo/issues/2346)
 [did](https://github.com/radiasoft/sirepo/issues/2570)
 [not](https://github.com/radiasoft/sirepo/issues/3753)
 [find](https://github.com/radiasoft/sirepo/issues/2712)
-[this](https://github.com/radiasoft/sirepo/issues/2664)
+[Task.cancel](https://github.com/radiasoft/sirepo/issues/2664)
 [to](https://github.com/radiasoft/sirepo/issues/2375)
-be the case.
-It is very hard to write correct cancellation code. (Let
-alone
-[decide whether its spelled canceled or cancelled](https://www.merriam-webster.com/grammar/canceled-or-cancelled). :-)
-We found
-[one defect](https://github.com/radiasoft/sirepo/issues/2375) related
-to cancel in Tornado itself. Admittedly, Tornado was written well
-before asyncio, and before tasks could be canceled.
-
+be easy to manage.  It
+is very hard to write correct cancellation code.
+We found [one defect](https://github.com/radiasoft/sirepo/issues/2375)
+related to cancel in Tornado itself. Admittedly, Tornado was written
+well before asyncio, and before tasks could be canceled.
 
 Cancelling is hard. For example,
+you can only cancel a
 [concurrent.futures.Future](https://docs.python.org/3/library/concurrent.futures.html#future-objects)
-cancel only works on pending futures. Already executing futures cannot
-be canceled.
+when it is pending. Already executing futures cannot be canceled,
+even when they are waiting on another coroutine.
 
 Another example is
 [threading.Timer.cancel](https://docs.python.org/3/library/threading.html#threading.Timer.cancel),
 which "will only work if the timer is still in its waiting stage."
 
-And, you cannot stop a threading.Thread.
+You cannot cancel a
+[`threading.Thread`](https://docs.python.org/3/library/threading.html):
+"threads cannot be destroyed, stopped, suspended, resumed, or interrupted."
 
 And, you guessed it, you can't kill a Goroutine, a Rust thread, a Java
 thread, etc. Indeed, Java had `Thread.stop`,
