@@ -1,114 +1,8 @@
 ---
 layout: post
 title: "Python Coroutines: Words of Advice"
-date: 2023-12-25T12:00:00Z
+date: 2025-03-01T23:00:00Z
 ---
-
-### make sure you wrap the coroutine to print a stack trace when
-    an exception occurs in production
-### python coroutine env var
-
-
-**TODO** https://github.com/tornadoweb/tornado/issues/2532
-on message is synchronous
-
-- every async is a coroutine so you have to know
-  that not only on entry is global state modified, but
-  also when it returns. You have to write everything with
-  locks so it becomes very complex code without any of the
-  parallelism. Locks are costly.
-- how to write a succesful coroutine:
-  - check global state and do non-awaited ops first
-  - on entry, verify global state
-  - after an await, check any global state
-
-- thread executors for expensive operations (aiohttp)
-- running multiple event loops didn't seem like a good idea
-
-- "with" is a coroutine so be aware of state changes
-
-- narrow scope of exceptions (supervisor commit for key error)
-
-
-
-# Example from email 12/11/2024 about sbatch_id
-https://github.com/radiasoft/sirepo/issues/7385
-
-
-I am starting to really hate asyncio. Here's a simple example:
-
-        # Reply case yields, but does not modify global state
-        if r := await _valid_or_reply(req.content.data.get("forceRun")):
-            return r
-        _update_db()
-
-In normal threaded code, you don't have to write anything, because you don't prefix preemptable calls with "await". The same is true with callbacks. The "await" is actually a false sign. You need it, because inside the code it *may* call await. However, the whole method isn't async. This is a huge distinction between Java's "sync" prefix, which does perform a mutex on the entire call. I think this is a very subtle distinction which creates really hard to read code.
-
-The routine does this:
-
-        async def _valid_or_reply(force_run):
-            if self._is_running_pending():
-                if force_run or not self._req_is_valid(req):
-                    return PKDict(
-                        state=job.ERROR,
-                        error="another browser is running the simulation",
-                    )
-                # Not _receive_api_runStatus, because runStatus should have been
-                # called before this function is called.
-                return self._status_reply(req)
-            if (
-                not force_run
-                and self._req_is_valid(req)
-                and self.db.status == job.COMPLETED
-            ):
-                # TODO(robnagler) simplify after https://github.com/radiasoft/sirepo/issues/7386
-
-                # Valid, completed, sequential simulation
-                # Read this first https://github.com/radiasoft/sirepo/issues/2007
-                r = await self._receive_api_runStatus(req)
-                if r.state == job.MISSING:
-                    # happens when the run dir is deleted (ex purge_non_premium)
-                    if recursing:
-                        raise AssertionError(f"already called from self req={req}")
-                    # Rerun the simulation, since there's no "button" in the UI for
-                    # this case.
-                    return await self._receive_api_runSimulation(req, recursing=True)
-                return r
-            return None
-
-It is validating the args/state and takes actions based on the invalid paths. Those actions are tightly coupled with the invalidation. _status_reply is not async, because it just returns local state. The runStatus is async because it has to hit the agent to get the sequential result. The runSimulation is a bit goofy, but it is necessary. It doesn't matter, because those cases are explicitly coupled in the correct place in the code. I could return a status result from _validate and then call _reply with that result. It would decouple the logic and all the comments that are very difficult to explain, but are correct in the context of the validation.
-
-So the "await" doesn't actually await. It is *really* confusing to read the await conditional in the main body, because _valid_or_reply() is not asynchronous in both cases. In the threaded case, you'd put a lock around the update_db, or better, you'd simply send a message to another thread to update the db. That's how you'd handle it in Go, I believe -- certainly in V, where there were no locks, only messages. The server would validate your request and reply failure if you were trying to update state based on invalid inputs.
-
-I think this is a major thing for me why asyncio code is so hard to read and write. You need a completely different approach, and I'm not sure what that is. For most of this stuff, callbacks would be better, because you logically release when the function returns.
-
-I think I need to see some real problems solved, like the supervisor/agent, with asyncio. I have only seen trivial problems or over-engineered solutions.
-
-TODO: https://stackoverflow.com/questions/59586879/does-await-in-python-yield-to-the-event-loop
-good reference on how await works
-
-Working #6916 after a bit of a break. I realized that the `_run` task
-is unnecessary, and overcomplicates the
-process. [`_run`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a80fada4bab19b437a06a/sirepo/job_supervisor.py#L951)
-sends the op, and then loops on
-[`reply_get`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a80fada4bab19b437a06a/sirepo/job_supervisor.py#L1210). This
-is how you would write a normal threaded application: receive a
-message and then pass it off to a worker thread. However, that's not
-how you should write an asyncio application: callbacks should handle
-the operation immediately, because all other tasks block anyway. There
-is not priority scheduling or multi-processing going on. This is very
-hard to get your head around.
-
-
-### TL;DR
-
-TL;DR [Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
-(coroutines)
-has not been easier than
-[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking)
-(threads) in our experience.
-
-TODO: give the hints at the top
 
 ### The Initial Project
 
@@ -512,236 +406,151 @@ parallel. The language implies an equivalence to threads, which are
 totally unrelated. All asyncio operations are not thread safe except
 [call_soon_threadsafe](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.call_soon_threadsafe).
 
-### Too Many Primitives
+### Yield to the Event Loop
 
-Furthermore, the list of synchronization primitives is confusing due
-to their variety. And, throwing
-[Tornado's coroutine primitives](https://www.tornadoweb.org/en/stable/coroutine.html),
-into the mix, and you might think all these different primitives are
-necessary.
+You have to pay attention when coding coroutines. Cooperative
+multitasking requires yielding to the event loop whenever real work is
+being done. By real work, this could be blocking I/O or
+computation. Blocking I/O is solved by `aiofiles` (discussed
+above).
 
-In my experience, fewer coroutines primitives are better. This is also
-Rob Pike's experience, and why
-[Go channels](https://go.dev/doc/effective_go#channels) are the
-primary way to communicate between goroutines. There is no way for one
-goroutine to cancel another goroutine. Also, Go eschews exceptions in
-favor of explicit returns, because exceptions are confusing with
-concurrent execution.
+If a coroutine has a loop, it needs yield to the event loop in its
+loop unless the loop is "fast" or calls `await` in the loop. The
+meaning of "fast" is obviously in the eye of the beholder.
 
-As noted earlier, we are trying to limit all communication to
-`asyncio.Queue`.
+In the `job_supervisor` we yield to the event loop [when garbage
+collecting old jobs](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/job_supervisor.py#L595):
 
-### The Cathedral and the Bazaar
+```py
+for u, jids in (await _uids_to_jids(too_old, qcall)).items():
+    with qcall.auth.logged_in_user_set(u):
+        for j in jids:
+            _purge_job(jid=j, too_old=too_old, qcall=qcall)
+    await sirepo.util.yield_to_event_loop()
+```
 
-The theory behind coroutines is that they are easier to reason about
-than threads, since the programmer has "complete control". This
-reminds me of the
-[cathedral builder](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html#catbmain)
-approach to developing software. Threads are like the bazaar, because
-the programmer has little control over scheduling. Bazaars are
-non-deterministic, just like threads. The motto for threads is "be
-prepared". With coroutines, a more relaxed approach can be taken. For
-simple programs, this is fine. For complex programs, you need to be
-prepared.
+[`sirepo.util.yield_to_event_loop`](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/util.py#L511)
+is wrapper, which allows us to document this magic:
 
-CONSIDER ending with this thought?. https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
+```py
+async def yield_to_event_loop():
+    await asyncio.sleep(0)
+```
 
-### END
+[`asyncio.sleep(0)` has special semantics](https://docs.python.org/3/library/asyncio-task.html#asyncio.sleep):
 
-- asyncio is misnamed, you can't do i/o
-- every async is a coroutine so you have to know
-  that not only on entry is global state modified, but
-  also when it returns. You have to write everything with
-  locks so it becomes very complex code without any of the
-  parallelism. Locks are costly.
-- how to write a succesful coroutine:
-  - check global state and do non-awaited ops first
-  - on entry, verify global state
-  - after an await, check any global state
+> Setting the delay to 0 provides an optimized path to allow other
+> tasks to run. This can be used by long-running functions to avoid
+> blocking the event loop for the full duration of the function call.
 
-- thread executors for expensive operations (aiohttp)
-- running multiple event loops didn't seem like a good idea
+(Nit: I hate tricks like this. They should just have provided
+`asyncio.yield_to_event_loop`.)
 
-- "with" is a coroutine so be aware of state changes
+### `await` does not Always Yield
 
+The use of `await` does mean "yield to the event loop". In the
+following code `await some_func()` executes completely synchronously:
 
-computer.
-in operating systems are two
-things: memory and
+```py
+async def some_func():
+    for i in range(1000):
+        await sync_func()
 
-There are many differences between coroutines and threads. There are
-also many similarities.
+async def sync_func():
+    pass
+```
 
-Threads are preemptable
+This code would execute the same in the event loop if we removed
+`async` and `await` keywords. This may seem obvious in this simple
+example, it's not obvious in any non-trival coroutine.
 
-section on coroutines & concurrency threadexecutor
+This is important, because unless you know exactly what the coroutine
+being awaited on does, there's no guarantee that a loop which contains
+an `await` actually releases the processor. This means you have to
+break the abstraction of any coroutines you call, or you have to
+always call `yield_to_event_loop`. This would be annoying, and it's a
+real problem in asyncio-based code. This is a Python specific issue,
+and is a design flaw in my opinion.
 
-The Job Supervisor
+### Tornado.on_message
 
-At that point, I had not much experience with Go, which
-solves the cancellation and timeout problem differently.
+When we first wrote the supervisor, we assumed that
+[`WebSocketHandler.on_message`](https://www.tornadoweb.org/en/stable/websocket.html#tornado.websocket.WebSocketHandler.on_message)
+is a coroutine, because it can be defined that way. This is another
+example of inferring something the behavior of coroutines, which I
+believe would true for thread-based web server.
+There's an
+[open issue](https://github.com/tornadoweb/tornado/issues/2941) about
+this in Tornado so we aren't the only ones who made this assumption.
 
-History:
-- build job supervisor without db, as single thread, coroutines.
-- redis added complexity, and we didn't need performance
-- simple mechanism to manage resources and locking around them
+The fix is to simply create a task in `on_message` as is
+[done in `pykern.api.server`](https://github.com/radiasoft/pykern/blob/79511e45c374c25d6971cef834a316769bd29427/pykern/api/server.py#L239):
 
-Advice:
-- Catch task exceptions always and log
-- Collect locks in a single object and log "situation"
-- Log, log, log
-- No cancel task
-- use go-routine style errors, avoiding exceptions so no jumps in
-  control flow, catch exceptions and pass results.
-- yield to event loop or async for is important
-- tornado specific: async messages on websockets and I/O
-- avoid any real work, farm that off to other processes
-- good for "pub-sub" style service
-- global locking a problem when multiple processes (use an acid db, we
-  use file lock)
-- async with isn't all that useful for our problem (long lived locks).
-  transfer state to object, not lock, and then lock the object only
-  when accessing (just like threads) so can avoid locking.
-  check state before entering and then inside lock
-- for short lived resources may be better to hold lock, but typically
-  async only needed for complexity. avoid coros if possible
+```py
+async def on_message(self, msg):
+    try:
+        # WebSocketHandler only allows one on_message at a time
+        pykern.pkasyncio.create_task(
+            self.pykern_api_connection.handle_on_message(msg)
+        )
+    except Exception as e:
+        pkdlog("exception={} stack={}", e, pkdexc())
+```
 
-Structure:
+I want to emphasize again the importance of logging at this level. If
+there is an exception in `handle_on_message`, a stack trace will be
+logged. The exception is not raised, because there's no value in
+having Tornado process the exception. WebSocket messages are
+simple. There are no replies so there's nothing for Tornado to do, and
+it has no useful context for this problem (in our code).
 
-- debugging just as many bugs
-- Backfitting (aiohttp, aiofiles not out of the box)
-- Two task switching methods: os kernel and event loop; more complicated
-  than threads (vs processes) that use the same task switch method.
-  python gilock adds another complexity to threads and coroutines.
-  but with threads, at least, it's clear.
-- If you want it to be fire-and-forget without blocking anything, you
-  can just handle this today by spawning an async callback from your
-  synchronous on_finish. [link](https://github.com/tornadoweb/tornado/issues/3038#issuecomment-885001031)
-- the process world was designed already, coroutines are an add on.
-  sending files is synchronous in tornado, because there's no
-  asynchrony with coroutines. it blocks the process from running any
-  other coroutines. same with databases unless adapted. threads do not
-  have this problem. relates to the backfitting problem with aiohttp
-- locking is more complex due to the need for concurrency in realworld
-  apps.(https://www.tornadoweb.org/en/stable/guide/running.html#processes-and-ports)
-  this means you need another sync method between these processes that
-  is orthoginal to coroutine locking.
-  nginx load balancer introduces another schduler that has no insight
-  into the busyness of the process. with threads, the busyness is
-  visible to the scheduler. coroutines, nobody knows. could be
-  yielding to event loop
-- tornado websocket handling: [ping timeouts](https://github.com/tornadoweb/tornado/issues/2941)
-  without true concurrency, problems like this are insidious.
-  accurate timing requires preemption
-- need to yield to event loop - more complex programming when
-  "work" needs to be done.
-- time.sleep does the wrong thing. need to retrain all primitives
-- catherdral and the bazzar: one is a carefully crafted process
-  with contorlled switching, the other is natural, evolutionary.
-  evolution is more robust than ivory tower in real world apps
+### Debugging
 
-### NOTES
+In our experience, debugging coroutines is just as hard as threads,
+and possibly harder. A coroutine is not visible to the operating
+system. If a thread is an infinite loop, for example, you can easily
+see that with a operating system thread monitoring tool like
+[`top`](https://man7.org/linux/man-pages/man1/top.1.html). Coroutines
+can't be monitored externally. All you see is the whole process is
+busy computing.
 
-[`asyncio`](https://docs.python.org/3/library/asyncio.html)
-https://www.tornadoweb.org/en/stable/guide/coroutines.html
+Coroutines do not have race conditions, which eliminates one very
+difficult class of defect. However, they can deadlock.  When two or
+more coroutines are deadlocked, there's no insight with normal
+operating system tools. There are tools to see threads which are
+blocked, which greatly helps debugging.
 
-  - https://bhch.github.io/posts/2017/12/serving-large-files-with-tornado-safely-without-blocking/
-  sending large files in tornado
-  does not discuss upload problem
+The way we debug is to have very good logging. Every new hard to debug
+defect usually results in improved log messages either to include more
+context or messages in places that were missing.
 
-  - https://github.com/tornadoweb/tornado/issues/2532
-  on message is synchronous
+Sirepo uses
+[`pykern.pkdebug`](https://github.com/radiasoft/pykern/blob/79511e45c374c25d6971cef834a316769bd29427/pykern/pkdebug.py)
+which allows (real-time) control of logging on a per line, function,
+or module basis. A regular expression controls the output. If the
+controlling regular expression is not set (normal case), the log
+function does nothing, which is efficient. This type of logging can be
+useful in particularly difficult defects, where you don't want to
+flood the production logs when the system is running normally.
 
-  - https://dev.to/martinhaeusler/why-i-stopped-using-coroutines-in-kotlin-kg0
-    this is a long post with a lot of complexity, but basically:
-    - debugging is hard (specific to kotlin?)
-    - request context can't be global (this is a good thing)
-    - synchronized keyword isn't the same
-    - Throughput vs. Horizontal Scaling: "A big advantage of
-      coroutines for the server-side is that a single thread can
-      handle a lot more requests; while one request waits for a
-      database response, the same thread can happily serve another
-      request. In particular for I/O bound tasks, this can increase
-      the throughput."
-  - https://forum.unity.com/threads/why-do-people-hate-coroutines.260160/page-3#post-1722915
-    Coroutines are all the bad things about working with threads, with
-        none of the good points.
+`asyncio` has a static environment variable
+[`PYTHONASYNCIODEBUG`](https://docs.python.org/3/library/asyncio-dev.html),
+which logs interesting information about coroutines, e.g. long running
+coroutines, not awaited coroutines (common problem), and exceptions
+raised when calling asyncio APIs from the wrong thread.
 
-    It's just a way to add danger and uncertainty into your coding life
-    when you didn't have any before, all without improving flow, execution
-    speed, or concurrency.
+### Summary
 
-    Yes I'm being flippant, but the point is simply that it's easy to do
-    really nasty things to the stack (and heap) with a coroutine unless
-    you know what you're doing.
+`asyncio` is part of Python now, and more and more code will use
+it. Hopefully this article helps you write more effective
+coroutines. It's not as easy as it looks, but as you develop your own
+coroutine coding patterns, it becomes manageable.
 
-    So
+Other people have written extensively about coroutines. Here are some
+useful references in alphabetical order:
 
-    Pros :
-    - Allows you to pause execution of a function at any point and
-      relinquish control to the caller.
-    - Reduces visual branching in the code leaving it relatively compact
-    - Unlike threads read/write is in series rather than concurrent
-      parallel reads (safer)
-    - Is easy and simple to understand and implement in C#
-    - Allows you to easily place invocation/continuation on a timer or
-      event e.g. continue executing this in 2 seconds (if nothing else is
-      executing at this time)...
-    - ...this also requires less overhead than most alternatives like
-      checking on update against the difference in time before executing
-      code.
-
-    Cons :
-    - Can cause stack memory issues if a coroutine is killed externally or
-      never fully executed/closed
-    - Makes program flow less obvious to read
-    -Makes debugging more complex
-    - Adds branching (which is slow, stack allocation and duplication etc
-      if done too frequently)
-    - While individual access is safe, code itself can still be vulnerable
-      to state changes in the heap in the meantime, same as threads.
-    - Doesn't operate concurrently, so event recall/timer usage is still
-      dependent on light main thread execution.
-    - Requires strict adherence to the design model once implemented.
-    - New developers must be aware of what's required of their code to
-      work in this environment, increasing the complexity and potential
-      for error substantially on larger projects.
-
-    To be fair to them, they're not an inherently awful thing, it's a
-    single thread scheduler. The problems arise from poor memory
-    management and when people make assumptions about the capabilities of
-    the scheduler and the execution order that can arise from their
-    use. i.e. it's really just PEBKAC. If it's easy to F*** up then people
-    will (especially as you add more of them to a project), so why take
-    the risk? Make your life easier, make your debugging life easier.
-
-  - Randomness intereseting. like ML, stochastic processes are more
-    robust. preemption is stochastic. ivory tower control (coroutines)
-    doesn't win out. Bazarr and the cathedral.
-  - Explicit await requires backfitting which does not scale.
-    either everything preempts or nothing. you have to insert
-    async await everywhere.
-  - Two preemption methods like callbacks so very difficult to
-    understand flow
-  - kernel is the ultimate arbiter of processes, coroutines are
-    are two schedulers so you have to navigate between them. python
-    gil lock adds another scheduler/lock
-  - mod_perl knows when the request is finished so a true process
-    manager. tornado doesn't have that. you can't tell the proxy
-    termination in nginx that a tornado process is busy with a request
-  - coroutines have all the problems of asynchrony without the
-    benefits of preemption. you still have async bugs that are hard to find
-  - coroutine have implicit locks fool you so await needs as care or
-    more care than anything else. every await can cause deadlock. with
-    threads, ever line can cause deadlock so you have to think about
-    it more clearly. the thread scheduler helps with this in that
-    you switch out randomly.
-  - the process world was designed already, coroutines are an add on.
-    sending files is synchronous in tornado, because there's no
-    asynchrony with coroutines. it blocks the process from running any
-    other coroutines. same with databases. threads do not have this
-    problem.
-  - threads only have one problem: thread lock on shared memory and
-    global lock (with db) on global resources. coroutines do not have
-    good global locking. our file lock is a global lock that blocks
-    all coroutines. this means it is hard to get a resource overview.
+- [Asyncio, twisted, tornado, gevent walk into a bar...](https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk)
+- [Serving large files with Tornado safely without blocking](https://bhch.github.io/posts/2017/12/serving-large-files-with-tornado-safely-without-blocking/)
+- [Stack Overflow: Does `await` in Python yield to the event loop?](https://stackoverflow.com/a/59780868)
+- [Unity Forum: Why do people hate Coroutines?](https://forum.unity.com/threads/why-do-people-hate-coroutines.260160/page-3#post-1722915)
+- [Why I stopped using Coroutines in Kotlin](https://dev.to/martinhaeusler/why-i-stopped-using-coroutines-in-kotlin-kg0)
