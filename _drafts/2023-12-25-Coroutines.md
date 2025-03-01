@@ -4,6 +4,11 @@ title: "Python Coroutines: Words of Advice"
 date: 2023-12-25T12:00:00Z
 ---
 
+### make sure you wrap the coroutine to print a stack trace when
+    an exception occurs in production
+### python coroutine env var
+
+
 # Example from email 12/11/2024 about sbatch_id
 https://github.com/radiasoft/sirepo/issues/7385
 
@@ -66,12 +71,22 @@ process. [`_run`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a8
 sends the op, and then loops on
 [`reply_get`](https://github.com/radiasoft/sirepo/blob/60310d60eb862116bf4a80fada4bab19b437a06a/sirepo/job_supervisor.py#L1210). This
 is how you would write a normal threaded application: receive a
-message and then pass it off to a worker thread. However, that's now
+message and then pass it off to a worker thread. However, that's not
 how you should write an asyncio application: callbacks should handle
 the operation immediately, because all other tasks block anyway. There
 is not priority scheduling or multi-processing going on. This is very
 hard to get your head around.
 
+
+### TL;DR
+
+TL;DR [Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
+(coroutines)
+has not been easier than
+[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking)
+(threads) in our experience.
+
+TODO: give the hints at the top
 
 ### The Initial Project
 
@@ -89,11 +104,9 @@ threads, and multiprocessing. We had used
 [Flask](https://flask.palletsprojects.com), which relies
 on threads (and multiple processes) for asynchrony. Our
 [experience with Flask](https://github.com/radiasoft/sirepo/issues?q=is%3Aissue+flask+NOT+release)
-was not great. My experience in general was to avoid threads
-with interpreted languages due to the lack of low-level control.
+was not great.
 
-
-We reasoned that multi-threading is hard to implement
+We also reasoned that multi-threading is hard to implement
 correctly.
 With
 Python, the
@@ -111,7 +124,7 @@ the jobs whereas BOP applications are mostly about the database.
 
 We considered a publish-subscribe database like Redis to solve the
 queuing/locking problem with multiple processes. Even with pub-sub, we
-realized we would need some process managing the queueing so that jobs
+realized we would need a process manager so that jobs
 could be started, awaited on, cancelled, and timed out. An important
 part of this change was being able to
 [charge](https://www.sirepo.com/plans) for different levels of CPU
@@ -124,7 +137,7 @@ well-written and worth a read. Nathaniel and I struck up a
 conversation about coroutines. This further convinced me that
 coroutines were the way to go, especially because they were
 cancellable. I did not have experience with modern day coroutines so
-we hired Nathaniel helped us get started on the project. This was a
+we hired Nathaniel who helped us get started on the project. This was a
 good call. I am very grateful for Nathaniel for helping me (in
 particular) understand the ins and outs of
 [Python's asyncio](https://docs.python.org/3/library/asyncio.html).
@@ -140,7 +153,7 @@ experience.
 
 Sirepo jobs run on our cluster and at [NERSC](https://nersc.gov),
 which uses [Slurm](https://slurm.schedmd.com) for job management. On
-our own cluster, we monitor CPU utlization with Docker containers.
+our cluster, we control CPU and memory utlization with containers.
 We have paying customers with few complaints about the job system. The
 "one-click" 3rd party supercomputer integration is a godsend to many
 of our users. It is very nice to have happy customers.
@@ -152,11 +165,6 @@ and others are intrinsic to coroutines in combination with Python's
 [easier to ask forgiveness than permission](https://docs.python.org/3/glossary.html#term-EAFP)
 approach to cancellation, timeouts, errors, and other exceptional
 conditions.
-[Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
-(coroutines)
-has not been easier than
-[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking)
-(threads) in our experience.
 
 We have expanded our use of coroutines to other
 projects.  All new projects, which require asynchrony, use [Tornado](https://www.tornadoweb.org). We
@@ -168,8 +176,19 @@ reliable services based on coroutines.
 
 ### Cooperative vs Preemptive Multitasking
 
-In order to understand coroutines, we need to separate concurrency
-from parallelism, and cooperate from preemptive multitasking.
+TL;DR
+(coroutines)
+has not been easier than
+
+(threads) in our experience.
+
+
+In order to understand coroutines, we need to separate
+[concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
+[from parallelism](https://en.wikipedia.org/wiki/Parallel_computing),
+and
+[cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
+[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking).
 
 For most programmers, concurrency implies preemptive
 multitasking. Threads and multiprocessing are the most common form of
@@ -177,7 +196,7 @@ concurrent programming we encounter.  Coroutines while being an old
 invention in programming, only recently started to become
 popular. They weren't added (formally) to Python
 until 2015. Programming language courses do not emphasize them.  This
-is why they are tricksy, and whey we can easily concurrency with
+is why they are tricksy, and whey we can easily confuse concurrency with
 parallelism.
 
 In Python, there are many ways to handle concurrency, and the
