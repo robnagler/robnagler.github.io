@@ -9,6 +9,28 @@ date: 2023-12-25T12:00:00Z
 ### python coroutine env var
 
 
+**TODO** https://github.com/tornadoweb/tornado/issues/2532
+on message is synchronous
+
+- every async is a coroutine so you have to know
+  that not only on entry is global state modified, but
+  also when it returns. You have to write everything with
+  locks so it becomes very complex code without any of the
+  parallelism. Locks are costly.
+- how to write a succesful coroutine:
+  - check global state and do non-awaited ops first
+  - on entry, verify global state
+  - after an await, check any global state
+
+- thread executors for expensive operations (aiohttp)
+- running multiple event loops didn't seem like a good idea
+
+- "with" is a coroutine so be aware of state changes
+
+- narrow scope of exceptions (supervisor commit for key error)
+
+
+
 # Example from email 12/11/2024 about sbatch_id
 https://github.com/radiasoft/sirepo/issues/7385
 
@@ -363,42 +385,68 @@ and
 were added, which to me is yet another clue that it is hard to implement
 cancelling. Piling on more methods, doesn't fix the fundamental issue.
 
-**TODO** https://github.com/tornadoweb/tornado/issues/2532
-on message is synchronous
+### Use asyncio.Queue
 
-- every async is a coroutine so you have to know
-  that not only on entry is global state modified, but
-  also when it returns. You have to write everything with
-  locks so it becomes very complex code without any of the
-  parallelism. Locks are costly.
-- how to write a succesful coroutine:
-  - check global state and do non-awaited ops first
-  - on entry, verify global state
-  - after an await, check any global state
+We have settled on
+[`asyncio.Queue`](https://docs.python.org/3/library/asyncio-queue.html)
+as the sole means of communication and synchronization in
+coroutines. The advantage of Queues over
+[Locks](https://docs.python.org/3/library/asyncio-sync.html#asyncio.Lock)
+and
+[Events](https://docs.python.org/3/library/asyncio-sync.html#asyncio.Event)
+is that a Queue allows you to pass values. As you saw in the example
+above,
+[`reply_get` returns None](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/job_supervisor.py#L1343)
+when there is no reply, and that only happens when the send was
+canceled. This is a clean way to communicate out-of-band state. With
+Events and Locks, there's no value -- just one state change. This
+means you have to have some other value to release a Lock or Event in
+a way that clearly communicates this alternative state.
 
-- thread executors for expensive operations (aiohttp)
-- running multiple event loops didn't seem like a good idea
+Python 3.13 added
+[Queue.shutdown](https://docs.python.org/3/library/asyncio-queue.html#asyncio.Queue.shutdown),
+which makes this communication even clearer. Here's the code in
+[pykern.api.client](https://github.com/radiasoft/pykern/blob/79511e45c374c25d6971cef834a316769bd29427/pykern/api/client.py#L254),
+to destroy and API call:
 
-- "with" is a coroutine so be aware of state changes
+```py
+if x := getattr(self._reply_q, "shutdown", None):
+    x.shutdown(immediate=True)
+else:
+    # Inferior to shutdown, but necessary pre-Python 3.13
+   self._reply_q.put_nowait(None)
+```
 
-- narrow scope of exceptions (supervisor commit for key error)
+And, the corresponding code in:
+[result_get](https://github.com/radiasoft/pykern/blob/79511e45c374c25d6971cef834a316769bd29427/pykern/api/client.py#L267):
 
+```py
+try:
+    rv = await self._reply_q.get()
+except Exception as e:
+    if (x := getattr(asyncio, "QueueShutDown", None)) and isinstance(e, x):
+        raise util.APIDisconnected()
+    raise
+```
+
+This code allows for clean communication that the
+`APIDisconnected`, and the API call did not complete.
 
 ### Coroutines Block on I/O
 
 Calls to `open`, `read`, etc. are blocking, that is, they block *all*
 coroutines until the operating system fulfills the I/O
-operation(s).
+operation(s). You need parallelism in order to implement asynchronous
+I/O in Python. (I have no idea why they call the coroutine module
+`asyncio`, since it does not support I/O.)
 
-A Tornado specific problem is that reply functions are block and
+A Tornado specific problem is that reply functions block and
 [are not thread safe](https://www.tornadoweb.org/en/stable/web.html#thread-safety-notes).
 This means a single response blocks the entire server.
 Sirepo has an
 [outstanding issue](https://github.com/radiasoft/sirepo/issues/5326)
-with sending data without blocking. With websockets, we can
-chunk messages.
-
-**TODO** you have to be careful about global state especially with writing
+with sending data without blocking. With websockets, we will
+eventually chunk messages to avoid this issue.
 
 We use [`aiohttp`](https://github.com/aio-libs/aiohttp) and
 [`aiofiles`](https://github.com/Tinche/aiofiles) to avoid
@@ -408,50 +456,46 @@ to parallelize the I/O operations.
 
 To achieve true parallelism in production, we run
 [Tornado in multiple processes](https://www.tornadoweb.org/en/stable/guide/running.html#processes-and-ports)
-behind a proxy. This is true for any `asyncio`-based web server,
-because concurrency is not parallelism.
+behind a proxy. This is true for any `asyncio`-based web server.
 
 ### Backfitting is Hard
 
-Why can't you just call `async os.read()`? This would be nice,
-certainly, but you can't. This would be a breaking change that would
-be worse the
-[print statement fiasco](https://news.ycombinator.com/item?id=13260563).
+When an existing function is converted into a coroutine, all callers
+have to be modified. This makes updating exiting code very
+difficult. This is by design. It also is annoying, let's face it.
 
-Changing any existing primitives to be awaitable would require all
-Python programs and libraries to be fixed, everywhere.  This is a
-subtle complexity with asyncio even with new code. A function that
-begins with `async` is a coroutine, that is, it does not begin
-executing until it is awaited or passed to `asyncio.run`.
+One way to fix this problem is to create a new function that calls the
+async function with
+[asyncio.run](https://docs.python.org/3/library/asyncio-runner.html#asyncio.run),
+which allows non-async functions to call coroutines. This allows you
+to deprecate the usage and migrate your code slowly. Here's a simple
+example
+[from Sirepo](https://github.com/radiasoft/sirepo/blob/06ae456eca538aaa577e6cf9abe83e17518aefa1/sirepo/quest.py#L94):
 
-When an existing function is converted into a coroutine, all the
-existing code is still valid. It's just that instead of the call doing
-something, it returns an
-[Awaitable](https://docs.python.org/3/library/asyncio-task.html#awaitables).
-Unless your test suite covers all calls to the converted coroutine,
-you will get the dreaded "coroutine 'changed_func' was never
-awaited".
+```py
+def call_api_sync(self, *args, **kwargs):
+    import asyncio
 
-**STOP**
+    return asyncio.run(self.call_api(*args, **kwargs))
+```
 
-Blocking IO is a problem, because of journal bug; no tools to say what
-going on. With threads the kernel let's you know. Example of all
-threads on one ore recently I'm parallel rsiviz
-
-
-doc with name: yield to event loop or async for is important
-
-
+This allows non-async code to use `call_api`, which is async.
 
 ### Programmers Infer Parallelism
 
 The way coroutines work is more than semantics. It directly affects
-what is going on in programs that use them.
+what is going on in programs that use them. I think programmers infer
+parallelism from the asyncio objects, e.g. Lock and Semaphore. These
+are words we learn in operating system courses. Coroutines execute
+in a single thread.
 
 When you write some asyncio code that reads from a file in an
 asyncio-based web server such as Tornado, no other coroutine can
-preempt the read loop unless there is a call to `await`. This may seem
-obvious in one sense, but the language of preemption is implied in the
+preempt the read loop unless there is a call to `await`.
+
+This may seem
+obvious in the context of this article, but the language of preemption
+is implied in the
 [asyncio documentation](https://docs.python.org/3/library/asyncio-sync.html):
 
 > asyncio synchronization primitives are designed to be similar to those
@@ -462,36 +506,30 @@ obvious in one sense, but the language of preemption is implied in the
 > - methods of these synchronization primitives do not accept the timeout
 >   argument; use the asyncio.wait_for() function to perform operations
 >   with timeouts.
->
-> asyncio has the following basic synchronization primitives:
->
-> - Lock
-> - Event
-> - Condition
-> - Semaphore
-> - BoundedSemaphore
-> - Barrier
 
-All of this smells like parallism, and therein lies the problem:
-programmers infer parallelism with coroutines, but it is not implied.
+To me, the most important caveat is that coroutines are not
+parallel. The language implies an equivalence to threads, which are
+totally unrelated. All asyncio operations are not thread safe except
+[call_soon_threadsafe](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.call_soon_threadsafe).
 
 ### Too Many Primitives
 
-The list of synchronization primitives is confusing due to their
-variety. Add to that
+Furthermore, the list of synchronization primitives is confusing due
+to their variety. And, throwing
 [Tornado's coroutine primitives](https://www.tornadoweb.org/en/stable/coroutine.html),
-and you might thing all these different primitives are necessary.
-Also, [the stack overflow post (above)](https://stackoverflow.com/a/37345564),
-gives the advice "**Kill tasks instead of awaiting them**", which is
-yet another coroutine primitive, not listed above.
+into the mix, and you might think all these different primitives are
+necessary.
 
 In my experience, fewer coroutines primitives are better. This is also
 Rob Pike's experience, and why
 [Go channels](https://go.dev/doc/effective_go#channels) are the
 primary way to communicate between goroutines. There is no way for one
 goroutine to cancel another goroutine. Also, Go eschews exceptions in
-farvor of explicit returns, because exceptions are confusing to
-manage in concurrent execution.
+favor of explicit returns, because exceptions are confusing with
+concurrent execution.
+
+As noted earlier, we are trying to limit all communication to
+`asyncio.Queue`.
 
 ### The Cathedral and the Bazaar
 
