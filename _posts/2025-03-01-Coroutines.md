@@ -105,7 +105,7 @@ concurrent programming we encounter.  Coroutines while being an old
 invention in programming, only recently started to become
 popular. They weren't added (formally) to Python
 until 2015. Programming language courses do not emphasize them.  This
-is why they are tricksy, and whey we can easily confuse concurrency with
+is why they are tricksy, and why we can easily confuse concurrency with
 parallelism.
 
 I think the confusion starts with the word concurrent, which
@@ -124,7 +124,7 @@ A better definition is found on the
 
 The word *allows* is key. Concurrency allows for out of order
 execution. Coroutines can execute out of order, but their execution
-does not happen *simultaneously* as with (preemptable) threads.
+does not happen *simultaneously* as with (preemptible) threads.
 
 Parallelism is overlapping execution. Coroutines do not run in
 parallel. They execute in a single Python thread.
@@ -151,7 +151,7 @@ essential in order to make it easy to debug, especially in production.
 We have had numerous failures due to concurrency, most of which are
 easily explainable in hindsight. Debugging consists of staring at logs
 for hours on end, because the difficult to find defects only occur in
-prodution, in real-time. They are difficult to reproduce.
+production, in real-time. They are difficult to reproduce.
 
 [Over](https://github.com/radiasoft/sirepo/issues/6779)
 [the](https://github.com/radiasoft/sirepo/issues/6572)
@@ -462,7 +462,7 @@ async def sync_func():
 
 This code would execute the same in the event loop if we removed
 `async` and `await` keywords. This may seem obvious in this simple
-example, it's not obvious in any non-trival coroutine.
+example, it's not obvious in any non-trivial coroutine.
 
 This is important, because unless you know exactly what the coroutine
 being awaited on does, there's no guarantee that a loop which contains
