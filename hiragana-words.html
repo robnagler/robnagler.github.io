@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katakana Word Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #character {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        #feedback {
+            font-size: 18px;
+            margin-top: 10px;
+            width: 200px;
+            word-wrap: break-word;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="character"></div>
+    <br>
+    <form id="practice-form">
+        <input type="text" id="answer" placeholder="Enter romaji">
+    </form>
+    <br>
+    <p id="feedback"></p>
+
+    <script>
+        const charMap = [
+    { question: "といれはありますか？", answer: "is there bathroom" },
+    { question: "といれはどこですか？", answer: "where is bathroom" },
+    { question: "いいですか？", answer: "may i" },
+    { question: "だいじょうぶです。", answer: "no problem" },
+    { question: "だいじょうぶですか？", answer: "ask problem" },
+    { question: "いそいでください。", answer: "hurry" },
+    { question: "きをつけてください。", answer: "careful" },
+    { question: "すごいですね。", answer: "impressed" },
+    { question: "そうですか？", answer: "interest" },
+    { question: "まっすぐ", answer: "straight" },
+    { question: "みぎ", answer: "right" },
+    { question: "ひだり", answer: "left" },
+    { question: "しんごう", answer: "stoplight" },
+    { question: "おげんきですか？", answer: "are you well" },
+    { question: "はい、げんきです。", answer: "doing well" },
+    { question: "まあまあです。", answer: "doing ok" }
+];
+
+        let shuffledCharacters = [...charMap];
+        shuffleArray(shuffledCharacters);
+        let currentIndex = 0;
+        const answerEl = document.getElementById("answer");
+        const feedbackEl = document.getElementById("feedback");
+        const characterEl = document.getElementById("character");
+        let timeout = null;
+
+        function checkAnswer(isEnter) {
+            let answer = answerEl.value.toLowerCase();
+            if (answer === "?") {
+                feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
+                return;
+            }
+            if (answer === shuffledCharacters[currentIndex].answer.toLowerCase()) {
+                const t = updateCharacter(false);
+                answerEl.value = "";
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+                timeout = setTimeout(() => {feedbackEl.innerText = "";}, t);
+            } else if (isEnter) {
+                feedbackEl.innerText = `Incorrect. Try again.`;
+            }
+        }
+
+        function firstTime() {
+            document.getElementById("practice-form").addEventListener("submit", function(event) {
+                event.preventDefault();
+                checkAnswer(true);
+            });
+            answerEl.addEventListener("input", function (event) {
+                checkAnswer(false)
+            });
+            updateCharacter(true);
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function updateCharacter(isFirstTime) {
+            let rv = 500;
+            if (isFirstTime) {
+                feedbackEl.innerText = "Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.";
+            }
+            else if (++currentIndex >= shuffledCharacters.length) {
+                shuffleArray(shuffledCharacters);
+                currentIndex = 0;
+                feedbackEl.innerText = "You have completed the set! Restarting...";
+                rv *= 2;
+            }
+            else {
+                feedbackEl.innerText = "Correct!";
+            }
+            characterEl.innerText = shuffledCharacters[currentIndex].question;
+            return rv;
+        }
+
+        firstTime();
+    </script>
+</body>
+</html>
