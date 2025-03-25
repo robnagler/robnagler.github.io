@@ -79,7 +79,7 @@
                 feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
                 return;
             }
-            if (answer === shuffledCharacters[currentIndex].answer) {
+            if (answer === shuffledCharacters[currentIndex].answer.toLowerCase()) {
                 const t = updateCharacter(false);
                 answerEl.value = "";
                 if (timeout) {

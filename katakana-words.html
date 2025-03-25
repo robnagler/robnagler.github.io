@@ -57,9 +57,9 @@
     { question: "タイツ", answer: "tights" },
     { question: "チーター", answer: "cheetah" },
     { question: "カット", answer: "cut" },
-    { question: "キットカット", answer: "Kit Kat" },
+    { question: "キットカット", answer: "kit kat" },
     { question: "シーツ", answer: "bed sheets" },
-    { question: "ソテー", answer: "sauté" },
+    { question: "ソテー", answer: "saute" },
     { question: "サイト", answer: "website" },
     { question: "スイッチ", answer: "switch" },
     { question: "テスト", answer: "test" },
@@ -134,7 +134,7 @@
                 feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
                 return;
             }
-            if (answer === shuffledCharacters[currentIndex].answer) {
+            if (answer === shuffledCharacters[currentIndex].answer.toLowerCase()) {
                 const t = updateCharacter(false);
                 answerEl.value = "";
                 if (timeout) {
