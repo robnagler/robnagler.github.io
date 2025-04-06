@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Writing Practice</title>
+    <style>
+        /* Core styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            font-size: 16px; /* Base font size for rem calculations */
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            padding: 1rem;
+            max-width: 50rem; /* 800px / 16px = 50rem */
+            margin: 0 auto;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        h1 {
+            font-size: 1.5rem; /* 24px / 16px = 1.5rem */
+            margin-bottom: 1rem;
+        }
+        
+        /* Mode toggle */
+        .mode-toggle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1.25rem; /* 20px / 16px = 1.25rem */
+            width: 100%;
+            max-width: 100%;
+            overflow: visible;
+            position: relative;
+        }
+        
+        .toggle-labels {
+            display: flex;
+            justify-content: space-between;
+            width: 12.5rem; /* 200px / 16px = 12.5rem */
+            margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
+            max-width: 90%;
+        }
+        
+        .toggle-labels span {
+            padding: 0.3125rem 0.625rem; /* 5px 10px / 16px */
+            border-radius: 0.25rem; /* 4px / 16px = 0.25rem */
+            transition: all 0.3s ease;
+        }
+        
+        .toggle-labels span.active {
+            background-color: #e0e0ff;
+            font-weight: bold;
+        }
+        
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 3.75rem; /* 60px / 16px = 3.75rem */
+            height: 2.125rem; /* 34px / 16px = 2.125rem */
+        }
+        
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 1.625rem; /* 26px / 16px = 1.625rem */
+            width: 1.625rem; /* 26px / 16px = 1.625rem */
+            left: 0.25rem; /* 4px / 16px = 0.25rem */
+            bottom: 0.25rem; /* 4px / 16px = 0.25rem */
+            background-color: white;
+            transition: .4s;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(1.625rem); /* 26px / 16px = 1.625rem */
+        }
+        
+        .slider.round {
+            border-radius: 2.125rem; /* 34px / 16px = 2.125rem */
+        }
+        
+        .slider.round:before {
+            border-radius: 50%;
+        }
+        
+        /* Character and input */
+        #character {
+            font-size: 6.25rem; /* 100px / 16px = 6.25rem */
+            font-weight: bold;
+            margin: 1.25rem 0 0.625rem 0; /* 20px 0 10px 0 / 16px */
+            height: 7.5rem; /* 120px / 16px = 7.5rem */
+            line-height: 1.2;
+        }
+        
+        #feedback {
+            font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+            margin: 0.625rem 0; /* 10px / 16px = 0.625rem */
+            min-height: 1.875rem; /* 30px / 16px = 1.875rem */
+            padding: 0.3125rem; /* 5px / 16px = 0.3125rem */
+            line-height: 1.4;
+        }
+        
+        #answer-input {
+            padding: 0.9375rem 1.5625rem; /* 15px 25px / 16px */
+            font-size: 3.75rem; /* 60px / 16px = 3.75rem */
+            font-weight: 400;
+            width: 39%;
+            max-width: 18.375rem; /* 294px / 16px = 18.375rem */
+            border-radius: 0.9375rem; /* 15px / 16px = 0.9375rem */
+            border: 0.1875rem solid #4CAF50; /* 3px / 16px = 0.1875rem */
+            margin: 1.5625rem auto; /* 25px / 16px = 1.5625rem */
+            display: block;
+            text-align: center;
+            font-family: inherit;
+            box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px 8px / 16px */
+        }
+        
+        #answer-input:focus {
+            outline: none;
+            border-color: #2196F3;
+            box-shadow: 0 0.25rem 0.75rem rgba(33, 150, 243, 0.3); /* 4px 12px / 16px */
+        }
+        
+        /* Definition box */
+        .definition-box {
+            font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+            color: #555;
+            margin: 0.9375rem auto; /* 15px / 16px = 0.9375rem */
+            padding: 0.625rem; /* 10px / 16px = 0.625rem */
+            background-color: #f5f5f5;
+            border-radius: 0.3125rem; /* 5px / 16px = 0.3125rem */
+            max-width: 31.25rem; /* 500px / 16px = 31.25rem */
+            min-height: 1.875rem; /* 30px / 16px = 1.875rem */
+            display: none;
+        }
+        
+        /* Buttons */
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.625rem; /* 10px / 16px = 0.625rem */
+            margin: 0.625rem 0; /* 10px / 16px = 0.625rem */
+        }
+        
+        button {
+            padding: 0.75rem 1.25rem; /* 12px 20px / 16px */
+            font-size: 1rem; /* 16px / 16px = 1rem */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 0.375rem; /* 6px / 16px = 0.375rem */
+            cursor: pointer;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2); /* 2px 4px / 16px */
+            transition: all 0.3s ease;
+        }
+        
+        button:hover, button:focus {
+            background-color: #45a049;
+            transform: translateY(-0.125rem); /* -2px / 16px = -0.125rem */
+            box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); /* 4px 8px / 16px */
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .help-button {
+            background-color: #ff9800;
+        }
+        
+        .help-button:hover, .help-button:focus {
+            background-color: #e68a00;
+        }
+        
+        /* Progress bar */
+        .progress-container {
+            margin: 1.875rem auto; /* 30px / 16px = 1.875rem */
+            width: 100%;
+            max-width: 80%;
+            position: relative;
+        }
+        
+        .progress-label {
+            text-align: center;
+            margin-bottom: 0.625rem; /* 10px / 16px = 0.625rem */
+            font-weight: bold;
+        }
+        
+        .progress-bar {
+            height: 1.875rem; /* 30px / 16px = 1.875rem */
+            display: flex;
+            border-radius: 0.3125rem; /* 5px / 16px = 0.3125rem */
+            overflow: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .progress-segment {
+            height: 100%;
+            transition: all 0.5s ease;
+        }
+        
+        .progress-segment.correct {
+            background-color: #4CAF50;
+        }
+        
+        .progress-segment.incorrect {
+            background-color: #f44336;
+        }
+        
+        .progress-segment.hinted {
+            background-color: #ff9800;
+        }
+        
+        .progress-legend {
+            display: flex;
+            justify-content: center;
+            margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
+            flex-wrap: wrap;
+            gap: 0.9375rem; /* 15px / 16px = 0.9375rem */
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem; /* 14px / 16px = 0.875rem */
+        }
+        
+        .legend-color {
+            width: 0.9375rem; /* 15px / 16px = 0.9375rem */
+            height: 0.9375rem; /* 15px / 16px = 0.9375rem */
+            margin-right: 0.3125rem; /* 5px / 16px = 0.3125rem */
+            border-radius: 0.1875rem; /* 3px / 16px = 0.1875rem */
+            display: inline-block;
+        }
+        
+        .legend-color.correct {
+            background-color: #4CAF50;
+        }
+        
+        .legend-color.incorrect {
+            background-color: #f44336;
+        }
+        
+        .legend-color.hinted {
+            background-color: #ff9800;
+        }
+        
+        ::placeholder {
+            color: #aaa;
+            opacity: 0.7;
+            font-size: 0.7em; /* Make placeholder scale with input font size */
+        }
+        
+        /* Mobile optimizations */
+        @media (max-width: 37.5rem) { /* 600px / 16px = 37.5rem */
+            html {
+                font-size: 14px; /* Slightly smaller base font size for mobile */
+            }
+            
+            body {
+                padding: 0.625rem; /* 10px / 16px = 0.625rem */
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+            
+            h1 {
+                font-size: 1.25rem; /* 20px / 16px = 1.25rem */
+            }
+            
+            .mode-toggle {
+                padding: 0 0.625rem;
+            }
+            
+            .toggle-labels {
+                max-width: 80%;
+            }
+            
+            #character {
+                font-size: 5rem; /* 80px / 16px = 5rem */
+                height: 6.25rem; /* 100px / 16px = 6.25rem */
+            }
+            
+            #answer-input {
+                font-size: 3rem; /* 48px / 16px = 3rem */
+                padding: 0.75rem 0.9375rem; /* 12px 15px / 16px */
+                width: 60%; /* Wider on mobile */
+            }
+            
+            #feedback {
+                font-size: 1rem; /* 16px / 16px = 1rem */
+                min-height: 2.5rem; /* 40px / 16px = 2.5rem */
+            }
+            
+            button {
+                padding: 0.625rem 0.9375rem; /* 10px 15px / 16px */
+                font-size: 0.875rem; /* 14px / 16px = 0.875rem */
+            }
+            
+            .progress-container {
+                margin: 1.25rem auto; /* 20px / 16px = 1.25rem */
+            }
+            
+            .progress-bar {
+                height: 1.25rem; /* 20px / 16px = 1.25rem */
+            }
+            
+            .legend-item {
+                font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+            }
+        }
+        
+        /* Ensure touch targets are large enough */
+        @media (pointer: coarse) {
+            button {
+                min-height: 2.75rem; /* 44px / 16px = 2.75rem */
+                min-width: 2.75rem; /* 44px / 16px = 2.75rem */
+            }
+            
+            .slider {
+                height: 2.5rem; /* 40px / 16px = 2.5rem */
+            }
+            
+            .slider:before {
+                height: 2rem; /* 32px / 16px = 2rem */
+                width: 2rem; /* 32px / 16px = 2rem */
+            }
+            
+            .switch {
+                height: 2.5rem; /* 40px / 16px = 2.5rem */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Japanese Writing Practice</h1>
+    
+    <div class="mode-toggle">
+        <label class="switch">
+            <input type="checkbox" id="script-toggle" onchange="toggleMode()">
+            <span class="slider round"></span>
+        </label>
+        <div class="toggle-labels">
+            <span id="hiragana-label" class="active">Hiragana</span>
+            <span id="katakana-label">Katakana</span>
+        </div>
+    </div>
+    
+    <div class="options">
+        <button onclick="restartPractice()">Restart</button>
+        <button onclick="skipCharacter()">Skip</button>
+        <button onclick="getHelp()" class="help-button"><span class="question-mark">?</span> Get Help</button>
+    </div>
+    
+    <div id="character"></div>
+    <div id="feedback"></div>
+    <div id="definition" class="definition-box"></div>
+    
+    <form id="practice-form">
+        <input type="text" id="answer-input" placeholder="Enter romaji" autocomplete="off">
+    </form>
+    
+    <div class="progress-container">
+        <div class="progress-label">Accuracy:</div>
+        <div class="progress-bar">
+            <div id="incorrect-bar" class="progress-segment incorrect"></div>
+            <div id="hinted-bar" class="progress-segment hinted"></div>
+            <div id="correct-bar" class="progress-segment correct"></div>
+        </div>
+        <div class="progress-legend">
+            <div class="legend-item"><span class="legend-color correct"></span> Correct</div>
+            <div class="legend-item"><span class="legend-color incorrect"></span> Incorrect</div>
+            <div class="legend-item"><span class="legend-color hinted"></span> With Hint</div>
+        </div>
+    </div>
+
+    <script>
+        // Character data
+        const hiraganaMap = [
+            { question: "あ", answer: "a", definition: "A sound (vowel)" }, 
+            { question: "い", answer: "i", definition: "I sound (vowel)" }, 
+            { question: "う", answer: "u", definition: "U sound (vowel)" }, 
+            { question: "え", answer: "e", definition: "E sound (vowel)" }, 
+            { question: "お", answer: "o", definition: "O sound (vowel)" },
+            
+            { question: "か", answer: "ka", definition: "K + A sounds" }, 
+            { question: "き", answer: "ki", definition: "K + I sounds" }, 
+            { question: "く", answer: "ku", definition: "K + U sounds" }, 
+            { question: "け", answer: "ke", definition: "K + E sounds" }, 
+            { question: "こ", answer: "ko", definition: "K + O sounds" },
+            
+            { question: "が", answer: "ga", definition: "G + A sounds (voiced K)" }, 
+            { question: "ぎ", answer: "gi", definition: "G + I sounds (voiced K)" }, 
+            { question: "ぐ", answer: "gu", definition: "G + U sounds (voiced K)" }, 
+            { question: "げ", answer: "ge", definition: "G + E sounds (voiced K)" }, 
+            { question: "ご", answer: "go", definition: "G + O sounds (voiced K)" },
+            
+            { question: "さ", answer: "sa", definition: "S + A sounds" }, 
+            { question: "し", answer: "shi", definition: "SH + I sounds" }, 
+            { question: "す", answer: "su", definition: "S + U sounds" }, 
+            { question: "せ", answer: "se", definition: "S + E sounds" }, 
+            { question: "そ", answer: "so", definition: "S + O sounds" },
+            
+            { question: "た", answer: "ta", definition: "T + A sounds" }, 
+            { question: "ち", answer: "chi", definition: "CH + I sounds" }, 
+            { question: "つ", answer: "tsu", definition: "TS + U sounds" }, 
+            { question: "て", answer: "te", definition: "T + E sounds" }, 
+            { question: "と", answer: "to", definition: "T + O sounds" },
+            
+            { question: "な", answer: "na", definition: "N + A sounds" },
+            { question: "に", answer: "ni", definition: "N + I sounds" },
+            { question: "ぬ", answer: "nu", definition: "N + U sounds" },
+            { question: "ね", answer: "ne", definition: "N + E sounds" },
+            { question: "の", answer: "no", definition: "N + O sounds" },
+            
+            { question: "は", answer: "ha", definition: "H + A sounds" },
+            { question: "ひ", answer: "hi", definition: "H + I sounds" },
+            { question: "ふ", answer: "fu", definition: "F + U sounds" },
+            { question: "へ", answer: "he", definition: "H + E sounds" },
+            { question: "ほ", answer: "ho", definition: "H + O sounds" },
+            
+            { question: "ま", answer: "ma", definition: "M + A sounds" },
+            { question: "み", answer: "mi", definition: "M + I sounds" },
+            { question: "む", answer: "mu", definition: "M + U sounds" },
+            { question: "め", answer: "me", definition: "M + E sounds" },
+            { question: "も", answer: "mo", definition: "M + O sounds" },
+            
+            { question: "や", answer: "ya", definition: "Y + A sounds" },
+            { question: "ゆ", answer: "yu", definition: "Y + U sounds" },
+            { question: "よ", answer: "yo", definition: "Y + O sounds" },
+            
+            { question: "ら", answer: "ra", definition: "R + A sounds" },
+            { question: "り", answer: "ri", definition: "R + I sounds" },
+            { question: "る", answer: "ru", definition: "R + U sounds" },
+            { question: "れ", answer: "re", definition: "R + E sounds" },
+            { question: "ろ", answer: "ro", definition: "R + O sounds" },
+            
+            { question: "わ", answer: "wa", definition: "W + A sounds" },
+            { question: "を", answer: "wo", definition: "W + O sounds (object particle)" },
+            { question: "ん", answer: "n", definition: "N sound (consonant)" }
+        ];
+
+        const katakanaMap = [
+            { question: "ア", answer: "a", definition: "A sound (vowel)" }, 
+            { question: "イ", answer: "i", definition: "I sound (vowel)" }, 
+            { question: "ウ", answer: "u", definition: "U sound (vowel)" }, 
+            { question: "エ", answer: "e", definition: "E sound (vowel)" }, 
+            { question: "オ", answer: "o", definition: "O sound (vowel)" },
+            
+            { question: "カ", answer: "ka", definition: "K + A sounds" }, 
+            { question: "キ", answer: "ki", definition: "K + I sounds" }, 
+            { question: "ク", answer: "ku", definition: "K + U sounds" }, 
+            { question: "ケ", answer: "ke", definition: "K + E sounds" }, 
+            { question: "コ", answer: "ko", definition: "K + O sounds" },
+            
+            { question: "サ", answer: "sa", definition: "S + A sounds" }, 
+            { question: "シ", answer: "shi", definition: "SH + I sounds" }, 
+            { question: "ス", answer: "su", definition: "S + U sounds" }, 
+            { question: "セ", answer: "se", definition: "S + E sounds" }, 
+            { question: "ソ", answer: "so", definition: "S + O sounds" },
+            
+            { question: "タ", answer: "ta", definition: "T + A sounds" }, 
+            { question: "チ", answer: "chi", definition: "CH + I sounds" }, 
+            { question: "ツ", answer: "tsu", definition: "TS + U sounds" }, 
+            { question: "テ", answer: "te", definition: "T + E sounds" }, 
+            { question: "ト", answer: "to", definition: "T + O sounds" },
+            
+            { question: "ナ", answer: "na", definition: "N + A sounds" },
+            { question: "ニ", answer: "ni", definition: "N + I sounds" },
+            { question: "ヌ", answer: "nu", definition: "N + U sounds" },
+            { question: "ネ", answer: "ne", definition: "N + E sounds" },
+            { question: "ノ", answer: "no", definition: "N + O sounds" },
+            
+            { question: "ハ", answer: "ha", definition: "H + A sounds" },
+            { question: "ヒ", answer: "hi", definition: "H + I sounds" },
+            { question: "フ", answer: "fu", definition: "F + U sounds" },
+            { question: "ヘ", answer: "he", definition: "H + E sounds" },
+            { question: "ホ", answer: "ho", definition: "H + O sounds" },
+            
+            { question: "マ", answer: "ma", definition: "M + A sounds" },
+            { question: "ミ", answer: "mi", definition: "M + I sounds" },
+            { question: "ム", answer: "mu", definition: "M + U sounds" },
+            { question: "メ", answer: "me", definition: "M + E sounds" },
+            { question: "モ", answer: "mo", definition: "M + O sounds" },
+            
+            { question: "ヤ", answer: "ya", definition: "Y + A sounds" },
+            { question: "ユ", answer: "yu", definition: "Y + U sounds" },
+            { question: "ヨ", answer: "yo", definition: "Y + O sounds" },
+            
+            { question: "ラ", answer: "ra", definition: "R + A sounds" },
+            { question: "リ", answer: "ri", definition: "R + I sounds" },
+            { question: "ル", answer: "ru", definition: "R + U sounds" },
+            { question: "レ", answer: "re", definition: "R + E sounds" },
+            { question: "ロ", answer: "ro", definition: "R + O sounds" },
+            
+            { question: "ワ", answer: "wa", definition: "W + A sounds" },
+            { question: "ヲ", answer: "wo", definition: "W + O sounds (object particle)" },
+            { question: "ン", answer: "n", definition: "N sound (consonant)" }
+        ];
+
+        // App state
+        let currentMode = 'hiragana';
+        let shuffledCharacters = [...hiraganaMap];
+        let currentIndex = 0;
+        let correctCount = 0;
+        let incorrectCount = 0;
+        let hintedCount = 0;
+        let totalCount = 0;
+        let currentCharacterHinted = false;
+        
+        // DOM elements
+        const answerEl = document.getElementById("answer-input");
+        const feedbackEl = document.getElementById("feedback");
+        const characterEl = document.getElementById("character");
+        let timeout = null;
+
+        // Main functions
+        function checkAnswer(isEnter) {
+            let answer = answerEl.value.toLowerCase().trim();
+            if (answer === shuffledCharacters[currentIndex].answer.toLowerCase()) {
+                // If help was used for this character, count it as hinted, not correct
+                if (currentCharacterHinted) {
+                    hintedCount++;
+                } else {
+                    correctCount++;
+                }
+                
+                const t = updateCharacter(false);
+                updateStats();
+                answerEl.value = "";
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+                timeout = setTimeout(() => {feedbackEl.innerText = "";}, t);
+            } else if (isEnter && answer !== "") {
+                feedbackEl.innerText = `Incorrect. Try again.`;
+                
+                // Only count as incorrect if help wasn't used
+                if (!currentCharacterHinted) {
+                    // Increment incorrectCount when an answer is submitted and incorrect
+                    incorrectCount++;
+                    updateStats();
+                }
+            }
+        }
+        
+        function showDefinition() {
+            const definitionEl = document.getElementById("definition");
+            const current = shuffledCharacters[currentIndex];
+            definitionEl.innerHTML = `<strong>${current.question}</strong>: ${current.definition}`;
+            definitionEl.style.display = "block";
+        }
+        
+        function getHelp() {
+            const current = shuffledCharacters[currentIndex];
+            
+            feedbackEl.innerText = "Here's a hint about this character's pronunciation:";
+            // Show the definition when getting help, but without the answer
+            const definitionEl = document.getElementById("definition");
+            definitionEl.innerHTML = `<strong>${current.question}</strong>: ${current.definition}`;
+            definitionEl.style.display = "block";
+            
+            // Mark that we used a hint for this character
+            currentCharacterHinted = true;
+            
+            answerEl.focus();
+        }
+        
+        function skipCharacter() {
+            feedbackEl.innerText = `Skipped. The answer was '${shuffledCharacters[currentIndex].answer}'.`;
+            
+            // If help was used, count as hinted, otherwise as incorrect
+            if (currentCharacterHinted) {
+                hintedCount++;
+            } else {
+                incorrectCount++;
+            }
+            
+            updateCharacter(false);
+            updateStats();
+            answerEl.value = "";
+        }
+        
+        function restartPractice() {
+            shuffleArray(shuffledCharacters);
+            currentIndex = 0;
+            correctCount = 0;
+            incorrectCount = 0;
+            hintedCount = 0;
+            currentCharacterHinted = false;
+            updateStats();
+            updateCharacter(true);
+            feedbackEl.innerText = "Practice restarted. Good luck!";
+            answerEl.value = "";
+        }
+        
+        function toggleMode() {
+            const toggle = document.getElementById('script-toggle');
+            const hiraganaLabel = document.getElementById('hiragana-label');
+            const katakanaLabel = document.getElementById('katakana-label');
+            
+            if (toggle.checked) {
+                currentMode = 'katakana';
+                hiraganaLabel.classList.remove('active');
+                katakanaLabel.classList.add('active');
+            } else {
+                currentMode = 'hiragana';
+                katakanaLabel.classList.remove('active');
+                hiraganaLabel.classList.add('active');
+            }
+            
+            // Reset and start with the new character set
+            shuffledCharacters = currentMode === 'hiragana' ? [...hiraganaMap] : [...katakanaMap];
+            shuffleArray(shuffledCharacters);
+            currentIndex = 0;
+            correctCount = 0;
+            incorrectCount = 0;
+            hintedCount = 0;
+            currentCharacterHinted = false;
+            updateStats();
+            updateCharacter(true);
+        }
+        
+        function updateStats() {
+            // Calculate the total number of attempts
+            const totalAttempts = correctCount + incorrectCount + hintedCount;
+            
+            // If no attempts yet, just return
+            if (totalAttempts === 0) {
+                document.getElementById('correct-bar').style.width = '0%';
+                document.getElementById('incorrect-bar').style.width = '0%';
+                document.getElementById('hinted-bar').style.width = '0%';
+                return;
+            }
+            
+            // Calculate percentages
+            const correctPercentage = (correctCount / totalAttempts) * 100;
+            const incorrectPercentage = (incorrectCount / totalAttempts) * 100;
+            const hintedPercentage = (hintedCount / totalAttempts) * 100;
+            
+            // Calculate bar width based on total attempts
+            // Start with a narrow bar that grows as attempts increase
+            // Max out at 80% of viewport width (10% margin on each side)
+            const maxBarWidth = 80; // Percentage of viewport width
+            let barGrowthFactor;
+            
+            if (totalAttempts <= 10) {
+                // Bar grows until we reach 10 attempts
+                barGrowthFactor = totalAttempts / 10;
+            } else {
+                // After 10 attempts, the bar is at full width
+                barGrowthFactor = 1;
+            }
+            
+            // Update the overall progress bar container width
+            const progressBarWidth = (maxBarWidth * barGrowthFactor) + '%';
+            document.querySelector('.progress-container').style.maxWidth = progressBarWidth;
+            
+            // Update individual segments (incorrect on left, hint in middle, correct on right)
+            document.getElementById('correct-bar').style.width = correctPercentage + '%';
+            document.getElementById('incorrect-bar').style.width = incorrectPercentage + '%';
+            document.getElementById('hinted-bar').style.width = hintedPercentage + '%';
+        }
+        
+        function updateCharacter(isFirstTime) {
+            let rv = 500;
+            if (isFirstTime) {
+                feedbackEl.innerText = "Answers are checked as you type or when you press enter. Click 'Get Help' if you need assistance.";
+            }
+            else if (++currentIndex >= shuffledCharacters.length) {
+                shuffleArray(shuffledCharacters);
+                feedbackEl.innerText = `Congratulations! You've completed the set with ${correctCount} correct answers. Starting again...`;
+                currentIndex = 0;
+                correctCount = 0;
+                rv *= 2;
+            }
+            else {
+                feedbackEl.innerText = "Correct!";
+            }
+            characterEl.innerText = shuffledCharacters[currentIndex].question;
+            // Hide the definition when moving to a new character
+            document.getElementById("definition").style.display = "none";
+            
+            // Reset the hint flag for the new character
+            currentCharacterHinted = false;
+            
+            updateStats();
+            return rv;
+        }
+        
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+        
+        function initialize() {
+            document.getElementById("practice-form").addEventListener("submit", function(event) {
+                event.preventDefault();
+                checkAnswer(true);
+            });
+            
+            answerEl.addEventListener("input", function(event) {
+                checkAnswer(false);
+            });
+            
+            // Focus the input field when the page loads
+            answerEl.focus();
+            
+            // Handle virtual keyboard issues on mobile
+            window.addEventListener('resize', function() {
+                // Small delay to let virtual keyboard fully open/close
+                setTimeout(function() {
+                    window.scrollTo(0, 0);
+                    if (document.activeElement === answerEl) {
+                        scrollToVisible(answerEl);
+                    }
+                }, 100);
+            });
+            
+            // Set initial mode
+            document.getElementById('script-toggle').checked = false;
+            document.getElementById('hiragana-label').classList.add('active');
+            document.getElementById('katakana-label').classList.remove('active');
+            
+            shuffleArray(shuffledCharacters);
+            updateStats();
+            updateCharacter(true);
+            
+            // Make sure definition is hidden initially
+            document.getElementById("definition").style.display = "none";
+        }
+        
+        // Helper function to scroll element into view when virtual keyboard is open
+        function scrollToVisible(element) {
+            const elementRect = element.getBoundingClientRect();
+            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+            
+            if (elementRect.bottom > windowHeight) {
+                window.scrollBy(0, elementRect.bottom - windowHeight + 20);
+            }
+        }
+        
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', initialize);
+        
+        // If the page is already loaded, initialize now
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+            initialize();
+        }
+    </script>
+</body>
+</html>
