@@ -2,7 +2,7 @@
 layout: post
 title: "Is It Real or Is It Memex?"
 date: 2025-06-08T12:00:00Z
--------------------------------
+---
 
 Last night I was at
 [Dazzle Jazz Denver](https://www.dazzledenver.com/) to hear
