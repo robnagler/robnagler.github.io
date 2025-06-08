@@ -1,0 +1,16 @@
+prompt: https://www.robnagler.com/2025/03/01/Coroutines.html is my writing
+style that i would like to write the attached article in. it's written
+in markdown for jekyll. the source for the article is
+https://raw.githubusercontent.com/robnagler/robnagler.github.io/refs/heads/main/_posts/2025-03-01-Coroutines.md
+so you can know how i link things and such.
+
+turn these scattered notes into a cohesive article for my website
+
+prompt: the notes are not the article. i want a well written article with
+plinks and cohesive text that flows better than the notes. add context
+and other thoughts you might have
+
+prompt: that's not my style
+
+prompt: i would like a section realted to robert lucky's bozos on the bus
+article at the end
