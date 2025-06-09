@@ -114,7 +114,7 @@ all the links wrong except for the ones I provide. It rewrote some of
 the quotes, changed context (I didn't bump into Adam and Larry, just
 listened), and generally fluffed it up, but kind of in my style.  An
 interesting tidbit is that I never told ChatGPT Ed and I played horns
-as kids. The title it came up with was an improvement.
+as kids.
 
 The above paragraph was written entirely by yours truly. The entire
 process took about 1.5 hours.
