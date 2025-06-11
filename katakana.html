@@ -74,7 +74,7 @@
         let timeout = null;
 
         function checkAnswer(isEnter) {
-            let answer = answerEl.value.toLowerCase();
+            let answer = answerEl.value.toLowerCase().trim();
             if (answer === "?") {
                 feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
                 return;

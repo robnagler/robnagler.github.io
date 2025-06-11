@@ -53,7 +53,7 @@
     { question: "エコー", answer: "echo" },
     { question: "キウイ", answer: "kiwi" },
     { question: "ココア", answer: "cocoa" },
-    { question: "オーケー", answer: "O.K." },
+    { question: "オーケー", answer: "OK" },
     { question: "タイツ", answer: "tights" },
     { question: "チーター", answer: "cheetah" },
     { question: "カット", answer: "cut" },
@@ -68,7 +68,7 @@
     { question: "テキスト", answer: "text" },
     { question: "トースト", answer: "toast" },
     { question: "コート", answer: "coat" },
-    { question: "スケート", answer: "ice skate" },
+    { question: "スケート", answer: "skate" },
     { question: "タイト", answer: "tight" },
     { question: "スター", answer: "star" },
     { question: "サッカー", answer: "soccer" },
@@ -129,7 +129,7 @@
         let timeout = null;
 
         function checkAnswer(isEnter) {
-            let answer = answerEl.value.toLowerCase();
+            let answer = answerEl.value.toLowerCase().trim();
             if (answer === "?") {
                 feedbackEl.innerText = "Enter romaji '" + shuffledCharacters[currentIndex].answer + "' to continue";
                 return;
