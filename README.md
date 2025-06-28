@@ -12,6 +12,11 @@ bundle install
 bundle exec jekyll serve --drafts --watch --host=$(hostname -i)
 ```
 
+jp/words.html:
+
+```sh
+python -m http.server 3000
+```
 
 ## Notes
 

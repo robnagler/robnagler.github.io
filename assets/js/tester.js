@@ -3,7 +3,7 @@ export class Tester {
         this.shuffled = this.shuffle(
             questions.map(
                 (x) => {
-                    return {question: x[0], answer: x[1]};
+                    return {question: x[0], answer: x[1], cleaned: this.cleanAnswer(x[1])};
                 },
             ),
         );
@@ -12,11 +12,34 @@ export class Tester {
         document.addEventListener("DOMContentLoaded", () => this.init());
     }
 
+    checkAnswer(isEnter) {
+        let a = this.cleanAnswer(this.el.answer.value);
+        if (a.includes("?")) {
+            this.el.feedback.innerText = "Enter romaji '" + this.shuffled[this.current].answer + "' to continue";
+            return;
+        }
+        if (a === this.shuffled[this.current].cleaned) {
+            const t = this.updateCharacter(false);
+            this.el.answer.value = "";
+            if (this.timeout) {
+                clearTimeout(this.timeout);
+            }
+            this.timeout = setTimeout(() => {this.el.feedback.innerText = "";}, t);
+        } else if (isEnter) {
+            this.el.feedback.innerText = `Incorrect. Try again.`;
+        }
+    }
+
+    cleanAnswer(value) {
+        return value.toLowerCase().replace(/\s+/g, '');
+    }
+
     content() {
         let e = document.createElement("meta");
         e.setAttribute("name", "viewport");
         e.setAttribute("content", "width=device-width, initial-scale=1.0");
         document.head.appendChild(e);
+        document.title = window.location.pathname.match(/.*\/(.+)\.html/)[1] + " practice";
         e = document.createElement("style");
         e.textContent = `
             body {
@@ -57,24 +80,6 @@ export class Tester {
                 <p id="feedback"></p>
             </div>
         `;
-    }
-
-    checkAnswer(isEnter) {
-        let a = this.el.answer.value.toLowerCase().replace(/\s+/g, '');
-        if (a.includes("?")) {
-            this.el.feedback.innerText = "Enter romaji '" + this.shuffled[this.current].answer + "' to continue";
-            return;
-        }
-        if (a === this.shuffled[this.current].answer.toLowerCase()) {
-            const t = this.updateCharacter(false);
-            this.el.answer.value = "";
-            if (this.timeout) {
-                clearTimeout(this.timeout);
-            }
-            this.timeout = setTimeout(() => {this.el.feedback.innerText = "";}, t);
-        } else if (isEnter) {
-            this.el.feedback.innerText = `Incorrect. Try again.`;
-        }
     }
 
     init() {
