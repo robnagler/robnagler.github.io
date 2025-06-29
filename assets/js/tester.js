@@ -3,7 +3,7 @@ export class Tester {
         this.shuffled = this.shuffle(
             questions.map(
                 (x) => {
-                    return {question: x[0], answer: x[1], cleaned: this.cleanAnswer(x[1])};
+                    return {question: x[0], answer: x[1], cleaned: this.splitAnswer(x[1])};
                 },
             ),
         );
@@ -15,10 +15,10 @@ export class Tester {
     checkAnswer(isEnter) {
         let a = this.cleanAnswer(this.el.answer.value);
         if (a.includes("?")) {
-            this.el.feedback.innerText = "Enter romaji '" + this.shuffled[this.current].answer + "' to continue";
+            this.el.feedback.innerText = "Enter answer '" + this.shuffled[this.current].answer + "' to continue";
             return;
         }
-        if (a === this.shuffled[this.current].cleaned) {
+        if (this.shuffled[this.current].cleaned.includes(a)) {
             const t = this.updateCharacter(false);
             this.el.answer.value = "";
             if (this.timeout) {
@@ -31,7 +31,7 @@ export class Tester {
     }
 
     cleanAnswer(value) {
-        return value.toLowerCase().replace(/\s+|\/.+/g, '');
+        return value.toLowerCase().replace(/\s+/g, '');
     }
 
     content() {
@@ -74,7 +74,7 @@ export class Tester {
             <div id="character"></div>
                 <br />
                 <form id="practice-form">
-                    <input type="text" id="answer" placeholder="Enter romaji">
+                    <input type="text" id="answer" placeholder="Answer">
                 </form>
                 <br />
                 <p id="feedback"></p>
@@ -110,6 +110,10 @@ export class Tester {
         return rv;
     }
 
+    splitAnswer(answer) {
+        return this.cleanAnswer(answer).split("/");
+    }
+
     updateCharacter(isFirstTime) {
         let rv = 500;
         if (isFirstTime) {
@@ -119,7 +123,7 @@ export class Tester {
             this.shuffle();
             this.current = 0;
             this.el.feedback.innerText = "You have completed the set! Restarting...";
-            rv *= 2;
+            rv *= 4;
         }
         else {
             this.el.feedback.innerText = "Correct!";
