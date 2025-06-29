@@ -31,7 +31,7 @@ export class Tester {
     }
 
     cleanAnswer(value) {
-        return value.toLowerCase().replace(/\s+/g, '');
+        return value.toLowerCase().replace(/\s+|\/.+/g, '');
     }
 
     content() {
