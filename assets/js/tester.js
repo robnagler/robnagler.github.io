@@ -1,3 +1,5 @@
+// Copyright (c) 2025 Robert Nagler.  All Rights Reserved.
+// License: http://www.apache.org/licenses/LICENSE-2.0.html
 export class Tester {
     constructor(questions) {
         this.shuffled = this.shuffle(
@@ -16,29 +18,18 @@ export class Tester {
         this.currentIndex = 0;
         this.promptIndex = 0;
         this.currentQuestion = null;
+        this.MODE = Object.freeze({first: 1, correct: 2, skip: 3});
         document.addEventListener("DOMContentLoaded", () => this.init());
     }
 
     checkAnswer(isEnter) {
-        if (this.promptTimeout) {
-            clearTimeout(this.promptTimeout);
-            this.promptTimeout = null;
-        }
-        this.showFeedback("");
-        let a = this.el.answer.value;
-        if (a.includes("?")) {
-            this.showFeedback("Enter answer '" + this.currentQuestion.answer + "' to continue");
-            this.el.answer.value = a.replace("?", "");
-            return;
-        }
-        if (a.includes("/")) {
-            this.shiftPrompt();
-            this.el.answer.value = a.replace("/", "");
-            return;
+        const a = this.showHelp();
+        if (! a) {
+            return
         }
         a = this.cleanAnswer(a);
         if (this.currentQuestion.cleaned.includes(a)) {
-            this.shiftAnswer(false);
+            this.shiftAnswer(this.MODE.correct);
             return;
         }
         if (isEnter) {
@@ -116,17 +107,42 @@ export class Tester {
                 this.checkAnswer(false)
             },
         );
-        this.shiftAnswer(true);
+        this.shiftAnswer(this.MODE.first);
     }
 
     showFeedback(feedback) {
         this.el.feedback.innerText = feedback;
     }
 
-    shiftAnswer(isFirstTime) {
+    showHelp() {
+        if (this.promptTimeout) {
+            clearTimeout(this.promptTimeout);
+            this.promptTimeout = null;
+        }
+        const SKIP_PREFIX = "Enter answer '";
+        const skipped = this.el.feedback.innerText.includes(SKIP_PREFIX);
+        this.showFeedback("");
+        let a = this.el.answer.value;
+        if (! a.includes(".")) {
+            return a;
+        }
+        this.el.answer.value = a.replace(".", "");
+        if (this.shiftPrompt()) {
+            return;
+        }
+        if (skipped) {
+            this.shiftAnswer(this.MODE.skip);
+        }
+        else {
+            this.showFeedback(SKIP_PREFIX + this.currentQuestion.answer + "' to continue")
+        }
+        return null;
+    }
+
+    shiftAnswer(mode) {
         this.el.answer.value = "";
-        if (isFirstTime) {
-            this.showFeedback("Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.");
+        if (mode === this.MODE.first) {
+            this.showFeedback("Answers are checked as you enter them or when you press enter. Type '.' to get progressive hints.");
         }
         else if (++this.currentIndex >= this.shuffled.length) {
             this.shuffle();
@@ -134,7 +150,7 @@ export class Tester {
             this.showFeedback("You have completed the set! Restarting...");
         }
         else {
-            this.showFeedback("Correct!");
+            this.showFeedback(mode === this.MODE.correct ? "Correct!" : "skipped");
         }
         this.currentQuestion = this.shuffled[this.currentIndex];
         this.promptIndex = 0;
@@ -146,10 +162,13 @@ export class Tester {
             clearTimeout(this.promptTimeout);
             this.promptTimeout = null;
         }
-        if ( this.promptIndex < this.currentQuestion.prompt.length ) {
+        console.log(this.promptIndex);
+        if ( this.promptIndex < this.currentQuestion.splitPrompt.length ) {
             this.el.prompt.innerText = this.currentQuestion.splitPrompt.slice(0, ++this.promptIndex).join("/");
-            this.promptTimeout = setTimeout(() => {this.shiftPrompt()}, 3000);
+            // this.promptTimeout = setTimeout(() => {this.shiftPrompt()}, 3000);
+            return true;
         }
+        return false;
     }
 
     shuffle(questions) {
