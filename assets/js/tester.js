@@ -3,35 +3,56 @@ export class Tester {
         this.shuffled = this.shuffle(
             questions.map(
                 (x) => {
-                    return {question: x[0], answer: x[1], cleaned: this.splitAnswer(x[1])};
+                    return {
+                        prompt: x[0],
+                        splitPrompt: this.split(x[0]),
+                        answer: x[1],
+                        cleaned: this.cleanAnswers(this.split(x[1])),
+                    };
                 },
             ),
         );
-        this.timeout = null;
-        this.current = 0;
+        this.promptTimeout = null;
+        this.currentIndex = 0;
+        this.promptIndex = 0;
+        this.currentQuestion = null;
         document.addEventListener("DOMContentLoaded", () => this.init());
     }
 
     checkAnswer(isEnter) {
-        let a = this.cleanAnswer(this.el.answer.value);
+        if (this.promptTimeout) {
+            clearTimeout(this.promptTimeout);
+            this.promptTimeout = null;
+        }
+        this.showFeedback("");
+        let a = this.el.answer.value;
         if (a.includes("?")) {
-            this.el.feedback.innerText = "Enter answer '" + this.shuffled[this.current].answer + "' to continue";
+            this.showFeedback("Enter answer '" + this.currentQuestion.answer + "' to continue");
+            this.el.answer.value = a.replace("?", "");
             return;
         }
-        if (this.shuffled[this.current].cleaned.includes(a)) {
-            const t = this.updateCharacter(false);
-            this.el.answer.value = "";
-            if (this.timeout) {
-                clearTimeout(this.timeout);
-            }
-            this.timeout = setTimeout(() => {this.el.feedback.innerText = "";}, t);
-        } else if (isEnter) {
-            this.el.feedback.innerText = `Incorrect. Try again.`;
+        if (a.includes("/")) {
+            this.shiftPrompt();
+            this.el.answer.value = a.replace("/", "");
+            return;
+        }
+        a = this.cleanAnswer(a);
+        if (this.currentQuestion.cleaned.includes(a)) {
+            this.shiftAnswer(false);
+            return;
+        }
+        if (isEnter) {
+            this.showFeedback("Incorrect. Try again.");
+            return;
         }
     }
 
     cleanAnswer(value) {
-        return value.toLowerCase().replace(/\s+/g, '');
+        return value.toLowerCase().replace(/\W+/g, '');
+    }
+
+    cleanAnswers(value) {
+        return value.map((x) => this.cleanAnswer(x));
     }
 
     content() {
@@ -45,25 +66,23 @@ export class Tester {
             body {
                 font-family: Arial, sans-serif;
                 text-align: center;
-                padding: 20px;
+                padding: 0;
+                margin: 0;
             }
-            #character {
+            .content {
                 font-size: 40px;
                 font-weight: bold;
-                margin-bottom: 20px;
+                margin: auto;
             }
             input {
                 padding: 10px;
                 font-size: 16px;
-            }
-            button {
-                padding: 10px 20px;
-                font-size: 16px;
-                margin: 10px;
+                margin: 0;
             }
             #feedback {
+                padding-top: 10px;
                 font-size: 18px;
-                margin-top: 10px;
+                font-weight: normal;
                 width: 200px;
                 word-wrap: break-word;
                 margin: auto;
@@ -71,13 +90,12 @@ export class Tester {
         `;
         document.head.appendChild(e);
         document.body.innerHTML = `
-            <div id="character"></div>
-                <br />
-                <form id="practice-form">
+            <div class="content">
+                <div id="prompt"></div>
+                <form id="form">
                     <input type="text" id="answer" placeholder="Answer">
                 </form>
-                <br />
-                <p id="feedback"></p>
+                <div id="feedback"></div>
             </div>
         `;
     }
@@ -85,9 +103,9 @@ export class Tester {
     init() {
         this.content()
         this.el = Object.fromEntries(
-            ["answer", "feedback", "character"].map((x) => [x, document.getElementById(x)]),
+            ["answer", "feedback", "prompt"].map((x) => [x, document.getElementById(x)]),
         );
-        document.getElementById("practice-form").addEventListener(
+        document.getElementById("form").addEventListener(
             "submit", (event) => {
                 event.preventDefault();
                 this.checkAnswer(true);
@@ -98,7 +116,40 @@ export class Tester {
                 this.checkAnswer(false)
             },
         );
-        this.updateCharacter(true);
+        this.shiftAnswer(true);
+    }
+
+    showFeedback(feedback) {
+        this.el.feedback.innerText = feedback;
+    }
+
+    shiftAnswer(isFirstTime) {
+        this.el.answer.value = "";
+        if (isFirstTime) {
+            this.showFeedback("Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.");
+        }
+        else if (++this.currentIndex >= this.shuffled.length) {
+            this.shuffle();
+            this.currentIndex = 0;
+            this.showFeedback("You have completed the set! Restarting...");
+        }
+        else {
+            this.showFeedback("Correct!");
+        }
+        this.currentQuestion = this.shuffled[this.currentIndex];
+        this.promptIndex = 0;
+        this.shiftPrompt();
+    }
+
+    shiftPrompt() {
+        if ( this.promptTimeout ) {
+            clearTimeout(this.promptTimeout);
+            this.promptTimeout = null;
+        }
+        if ( this.promptIndex < this.currentQuestion.prompt.length ) {
+            this.el.prompt.innerText = this.currentQuestion.splitPrompt.slice(0, ++this.promptIndex).join("/");
+            this.promptTimeout = setTimeout(() => {this.shiftPrompt()}, 3000);
+        }
     }
 
     shuffle(questions) {
@@ -110,25 +161,8 @@ export class Tester {
         return rv;
     }
 
-    splitAnswer(answer) {
-        return this.cleanAnswer(answer).split("/");
+    split(value) {
+        return value.split(/\s*\/\s*/);
     }
 
-    updateCharacter(isFirstTime) {
-        let rv = 500;
-        if (isFirstTime) {
-            this.el.feedback.innerText = "Answers are checked as you enter them or when you press enter. Type '?' to get the correct answer.";
-        }
-        else if (++this.current >= this.shuffled.length) {
-            this.shuffle();
-            this.current = 0;
-            this.el.feedback.innerText = "You have completed the set! Restarting...";
-            rv *= 4;
-        }
-        else {
-            this.el.feedback.innerText = "Correct!";
-        }
-        this.el.character.innerText = this.shuffled[this.current].question;
-        return rv;
-    }
 }
