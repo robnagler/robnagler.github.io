@@ -23,7 +23,7 @@ export class Tester {
     }
 
     checkAnswer(isEnter) {
-        const a = this.showHelp();
+        let a = this.showHelp();
         if (! a) {
             return
         }
