@@ -1,9 +1,10 @@
 // Copyright (c) 2025 Robert Nagler.  All Rights Reserved.
 // License: http://www.apache.org/licenses/LICENSE-2.0.html
 export class Tester {
-    constructor(config) {
+    constructor(anchor, config) {
+        console.log(anchor);
         this.shuffled = this.shuffle(
-            this.parseConfig(config).map(
+            this.parseConfig(anchor, config).map(
                 (x) => {
                     return {
                         prompt: x[0],
@@ -92,6 +93,7 @@ export class Tester {
     }
 
     init() {
+        console.log(window.location.href);
         this.content()
         this.el = Object.fromEntries(
             ["answer", "feedback", "prompt"].map((x) => [x, document.getElementById(x)]),
@@ -110,15 +112,15 @@ export class Tester {
         this.shiftAnswer(this.MODE.first);
     }
 
-    parseConfig(config) {
+    parseConfig(anchor, config) {
         this.kind = null;
         if (Array.isArray(config)) {
             return config;
         }
-        if (! window.location.hash) {
+        if (! anchor) {
             return Object.entries(config).reduce((a, c) => a.concat(c[1]), []);
         }
-        this.kind = window.location.hash.slice(1);
+        this.kind = anchor.slice(1);
         for (const [k, v] of Object.entries(config)) {
             if (k.includes(this.kind)) {
                 return v;
