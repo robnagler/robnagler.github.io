@@ -1,9 +1,9 @@
 // Copyright (c) 2025 Robert Nagler.  All Rights Reserved.
 // License: http://www.apache.org/licenses/LICENSE-2.0.html
 export class Tester {
-    constructor(questions) {
+    constructor(config) {
         this.shuffled = this.shuffle(
-            questions.map(
+            this.parseConfig(config).map(
                 (x) => {
                     return {
                         prompt: x[0],
@@ -51,7 +51,7 @@ export class Tester {
         e.setAttribute("name", "viewport");
         e.setAttribute("content", "width=device-width, initial-scale=1.0");
         document.head.appendChild(e);
-        document.title = window.location.pathname.match(/.*\/(.+)\.html/)[1] + " practice";
+        document.title = (this.kind || window.location.pathname.match(/.*\/(.+)\.html/)[1]) + " practice";
         e = document.createElement("style");
         e.textContent = `
             body {
@@ -110,6 +110,23 @@ export class Tester {
         this.shiftAnswer(this.MODE.first);
     }
 
+    parseConfig(config) {
+        this.kind = null;
+        if (Array.isArray(config)) {
+            return config;
+        }
+        if (! window.location.search) {
+            return Object.entries(config).reduce((a, c) => a.concat(c[1]), []);
+        }
+        this.kind = (new URLSearchParams(window.location.search)).get("kind");
+        for (const [k, v] of Object.entries(config)) {
+            if (k.includes(this.kind)) {
+                return v;
+            }
+        }
+        return [[`unknown kind=${this.kind}`, 'error']];
+    }
+
     showFeedback(feedback) {
         this.el.feedback.innerText = feedback;
     }
@@ -162,7 +179,6 @@ export class Tester {
             clearTimeout(this.promptTimeout);
             this.promptTimeout = null;
         }
-        console.log(this.promptIndex);
         if ( this.promptIndex < this.currentQuestion.splitPrompt.length ) {
             this.el.prompt.innerText = this.currentQuestion.splitPrompt.slice(0, ++this.promptIndex).join("/");
             // this.promptTimeout = setTimeout(() => {this.shiftPrompt()}, 3000);
