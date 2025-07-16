@@ -115,10 +115,10 @@ export class Tester {
         if (Array.isArray(config)) {
             return config;
         }
-        if (! window.location.search) {
+        if (! window.location.hash) {
             return Object.entries(config).reduce((a, c) => a.concat(c[1]), []);
         }
-        this.kind = (new URLSearchParams(window.location.search)).get("kind");
+        this.kind = window.location.hash.slice(1);
         for (const [k, v] of Object.entries(config)) {
             if (k.includes(this.kind)) {
                 return v;
