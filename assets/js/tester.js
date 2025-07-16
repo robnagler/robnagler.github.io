@@ -2,7 +2,6 @@
 // License: http://www.apache.org/licenses/LICENSE-2.0.html
 export class Tester {
     constructor(anchor, config) {
-        console.log(anchor);
         this.shuffled = this.shuffle(
             this.parseConfig(anchor, config).map(
                 (x) => {
@@ -93,7 +92,6 @@ export class Tester {
     }
 
     init() {
-        console.log(window.location.href);
         this.content()
         this.el = Object.fromEntries(
             ["answer", "feedback", "prompt"].map((x) => [x, document.getElementById(x)]),
