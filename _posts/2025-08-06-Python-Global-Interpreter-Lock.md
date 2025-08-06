@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Global Interpreter Lock"
-date: 2025-03-01T23:00:00Z
+date: 2025-08-06T23:00:00Z
 ---
 
 ### GIL Confusion
