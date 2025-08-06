@@ -19,16 +19,14 @@ time.sleep(0)
 Calling `time.sleep` releases the CPU the thread is running on at the
 kernel level, but it does not release the GIL, per se.
 
-This is confusion
-[between parallelism and concurrency](https://www.robnagler.com/2025/03/01/Coroutines.html#cooperative-vs-preemptive-multitasking). The
-GIL *prevents parallelism*, which *allows concurrent* execution of
-threads in the same Python interpreter. A simple example will show the
-difference.
+That `time.sleep(0)` hands control back to the OS scheduler, but the
+GIL remains held by the interpreter. The confusion stems from
+[mixing up parallelism and concurrency](https://www.robnagler.com/2025/03/01/Coroutines.html#cooperative-vs-preemptive-multitasking):
+the GIL prevents true parallel execution of Python bytecode, yet
+allows threads to interleave execution cooperatively. A simple example
+illustrates this.
 
 ### CPU Intense Example
-
-Here's some code, which demonstrates *concurrent* execution of two CPU
-intensive Python threads:
 
 ```py
 import threading, time
@@ -38,7 +36,8 @@ def _cpu_intense_function():
         for i in range(2, int(n**0.5) + 1):
             if n % i == 0:
                 return False
-        return True
+            return True
+
     for n in range(3, 10000):
         _is_prime(n)
 
@@ -59,32 +58,43 @@ while shared_value < 500000000:
     print(shared_value)
 ```
 
-The output demonstrates that the `shared_value` increases by ones and
-millions simultaneously, and the program stops once `shared_value` is
-greater than 500,000,000:
+The following output demonstrates that the `shared_value` increases by
+`ones` and `millions` simultaneously:
 
 ```sh
 $ python cpu_intense.py
-74000077
-153000152
-232000233
-310000313
-386000391
-465000469
+117000121
+237000241
+355000358
+475000475
 500000500
 ```
 
-The GIL ensures that `shared_value` is updated atomically. If that
-weren't the case, the program might not stop. You can rerun this
-program many times, and it will always stop when the millions thread
-is finished. If there were contention for `shared_value`, the ones
-thread would sometimes overwrite the last update of the millions
-thread, and `shared_value` would never get past 500,000,000.
+The GIL allows the two threads to interleave so `shared_value` changes
+(almost) simultaneously in the ones and millions places. Neither
+thread "releases" the CPU explicitly. The GIL allows the two threads
+to run concurrently without corrupting the Python interpreter. The
+GIL does *not guarantee atomicity* of operations like `shared_value
++= inc` or any other single Python statement.
+
+Therefore, the program is not guaranteed to stop. There is a race
+condition at the interpreter level from the time `shared_value` is
+loaded to when it is stored after being incremented (three Python
+opcodes, see below). Since the window is about 200 nanoseconds on
+modern processors, the program terminates almost all of the time,
+especially since the majority of the time is spent in
+`_cpu_intense_function`.
+
+You would need to use a synchronization primitive like
+`threading.Lock` to update `shared_value` atomically and to guarantee
+the program will always stop. Again, the GIL does about atomic
+execution of Python statements.
 
 ### Parallel vs Concurrent
 
-To demonstrate that the code is executing on a single core, first time
-the program:
+The GIL does guarantee that only one Python thread is executing Python
+statements at any one time. To demonstrate this, we'll time the code
+as written:
 
 ```sh
 $ time python cpu_intense.py
@@ -92,32 +102,37 @@ $ time python cpu_intense.py
 real    0m4.418s
 ```
 
-Now, comment out the ones thread and time again:
+Then, with the `ones.start()` commented out:
 
 ```sh
-$ time python cpu_intense.py
+$ time python cpu_intense.py | grep real
+<snip>
 real    0m2.366s
 ```
 
-You see that it runs in half the time even though I have multiple
-cores on my computer.
+The program runs in half the time, which means the two threads do not
+run in parallel, even though they are running concurrently. On my
+multicore machine, a similar C program would run in about the same
+amount of time in both cases. In other words, the C program scales
+linearly and the Python program does not scale.
 
 ### Interpreter is Shared State
 
-In order to understand the GIL, you need to understand what the The
-Python interpreter is and what it is not. The interpreter is not a
-thread. It's just code and data. The code is the CPython program and
-all it's libraries, and at first, the Python program itself is its
-only data.
+In order to understand the GIL, we need to understand what the Python
+interpreter is. The interpreter is not a thread; it's just code and
+data. The code is the CPython program and all its libraries, and at
+first, the Python program it reads in is its only data. The
+interpreter compiles the Python program and its libraries into
+opcodes to be executed on a vir
 
 When you execute `python cpu_intense.py`, the kernel starts a process,
 which is the code, data, and a thread, known as the main thread in
 Python. In the example above, the main thread executes the Python code
 which starts the other two threads (ones and millions, in this
-example). In Linux, the code is read only and the data is, of course,
+example). In Linux, the code is read-only and the data is, of course,
 writable. The GIL is what keeps this data from getting corrupted.
 
-In other words, the GIL is an instance of a synchronism primitive,
+In other words, the GIL is an instance of a synchronization primitive,
 which is
 [rather complex](https://github.com/python/cpython/blob/main/Python/ceval_gil.c)
 for
@@ -190,9 +205,9 @@ implemented using
 [polling](https://en.wikipedia.org/wiki/Polling_(computer_science)).
 
 Much EPICS control code uses polling, even though EPICS is designed to
-be fully asynchronous. The
+be fully asynchronous.
 [PyEpics Advanced Topic with Python Channel Access](https://pyepics.github.io/pyepics/advanced.html)
-manually suggest code be written like this:
+suggests code be written like this:
 
 ```py
 pvnamelist = read_list_pvs()
@@ -202,7 +217,7 @@ for i in range(10):
 ```
 
 While this does work, it's inefficient from a CPU utilization
-perspective, and it creates unnecesary latency in device driver. In
+perspective, and it creates unnecessary latency in device driver. In
 this case, the code blocks for 100 milliseconds even when all the
 devices respond immediately to their "channel access" requests
 (`caget`). Moreover, it's likely that this code will make too many
@@ -215,7 +230,7 @@ is
 [event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming). At
 the kernel, this is handled via device interrupts. In EPICS, it's
 handled by registering for asynchronous messages for device
-updates. At the Python level, PyEpics allow Python code to
+updates. At the Python level, PyEpics allows Python code to
 [register for callbacks](https://pyepics.github.io/pyepics/pv.html#pv.add_callback)
 to receive these messages so no polling is necessary. When the
 callback occurs, new data is available from the device. This is why
@@ -226,7 +241,7 @@ callback occurs, new data is available from the device. This is why
 While polling can
 [reduce latency in certain situations](https://events.static.linuxfound.org/sites/events/files/slides/lemoal-nvme-polling-vault-2017-final_0.pdf),
 in Python code, it is an anti-pattern due to the GIL, and, as noted,
-to each Python opcode requiring many CPU instructions to execute. When
+each Python opcode requiring many CPU instructions to execute. When
 Python is waiting on events from the operating system, it is like any
 other program, even ones written in a compiled language. This is why
 writing device control code in Python is almost as efficient as
