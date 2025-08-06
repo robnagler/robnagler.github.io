@@ -164,9 +164,39 @@ decides. However, the GIL prevents two threads from accessing their
 Python interpreter at the same time, which means that any time. The
 GIL is designed to release itself very frequently, not on every
 [opcode](https://github.com/python/cpython/blob/main/Lib/opcode.py),
-but close enough for our purposes. So Python opcodes kind of behave
-the same as CPU level instructions,
+but close enough for our purposes.
 
+Python opcodes are to `threading` as CPU level instructions are to
+Python's `multiprocessing` module, that is, parallel execution of
+[forked instances](https://en.wikipedia.org/wiki/Fork_(system_call))
+of the Python interpreter. Just like the GIL, the kernel switch
+processes (threads) at the CPU instruction level. On single core
+computers (rare nowadays), this was just fine. Today, of course, we
+want to take advantage of all the cores on a processor when we need
+them. A Python opcode takes many CPU instructions to execute, which is
+why `multiprocessing` is used to achive CPU-level parallelism,
+allowing `multiprocessing` programs running faster than `threading`
+programs.
+
+### Asynchrony vs Polling
+
+Our example program would run faster if we used `multiprocessing`
+instead of `threading`. As noted above, I'm writing this article,
+because I'm writing device control code, which needs to be
+[asynchronous](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)),
+not necessarily parallel. For the most part, device control code ends
+up waiting for devices or control requests, that is, unless it is
+implemented using
+[polling](https://en.wikipedia.org/wiki/Polling_(computer_science)).
+
+Much EPICS control code uses polling, even though EPICS is designed to
+be fully asynchronous.
+
+That
+
+
+
+ One way to think of this is that the interepreter
 `multi
 
 
