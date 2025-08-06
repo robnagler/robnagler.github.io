@@ -190,49 +190,55 @@ implemented using
 [polling](https://en.wikipedia.org/wiki/Polling_(computer_science)).
 
 Much EPICS control code uses polling, even though EPICS is designed to
-be fully asynchronous.
+be fully asynchronous. The
+[PyEpics Advanced Topic with Python Channel Access](https://pyepics.github.io/pyepics/advanced.html)
+manually suggest code be written like this:
 
-That
+```py
+pvnamelist = read_list_pvs()
+for i in range(10):
+    values = epics.caget_many(pvlist)
+    time.sleep(0.01)
+```
 
+While this does work, it's inefficient from a CPU utilization
+perspective, and it creates unnecesary latency in device driver. In
+this case, the code blocks for 100 milliseconds even when all the
+devices respond immediately to their "channel access" requests
+(`caget`). Moreover, it's likely that this code will make too many
+`caget` requests, because the actual values have not changed from the
+last `caget`.
 
+The EPICS protocol is fully asynchronous, just like the vast majority
+of device drivers in operating system kernels. Another term for this
+is
+[event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming). At
+the kernel, this is handled via device interrupts. In EPICS, it's
+handled by registering for asynchronous messages for device
+updates. At the Python level, PyEpics allow Python code to
+[register for callbacks](https://pyepics.github.io/pyepics/pv.html#pv.add_callback)
+to receive these messages so no polling is necessary. When the
+callback occurs, new data is available from the device. This is why
+[polling is considered an anti-pattern](https://en.wikipedia.org/wiki/Busy_waiting).
 
- One way to think of this is that the interepreter
-`multi
+### GIL Aware
 
+While polling can
+[reduce latency in certain situations](https://events.static.linuxfound.org/sites/events/files/slides/lemoal-nvme-polling-vault-2017-final_0.pdf),
+in Python code, it is an anti-pattern due to the GIL, and, as noted,
+to each Python opcode requiring many CPU instructions to execute. When
+Python is waiting on events from the operating system, it is like any
+other program, even ones written in a compiled language. This is why
+writing device control code in Python is almost as efficient as
+programming C.
 
-`mult
-
-
-thread that executes the Python interpreter is started
-
-
-not a thread. This is important. Rather, it
-is just like `shared_value`, that is, a chunk of memory that is shared
-between threads.
-
-prevents Python from executing concurrently, but
-[unlike (asyncio) coroutines](https://www.robnagler.com/2025/03/01/Coroutines.html),
-Python threads do preempt one another *at any point*
-
-interpreter is a bunch of memory so it needs lock. you use locks to
-update the shared state in the python interpreter. it's not parallel,
-which compute intensive tasks need, it's fully asynchoronous which UI
-and device driver code needs.
-
-so any code that is compute intensive (aka high throughput or high
-performance computing) should run in a separate Python
-interpreter. Most applications are not compute intensive. Asynchronous
-applications, e.g. user interfaces or EPICS control systems, do
-require *preemptable* concurrency, which Python threading supports
-very well.
-
-c code
-
-### `in` consumes an iterable
-
-For user-defined classes which do not define `__contains__()` but do
-define `__iter__()`, `x in y` is True if some value z, for which the
-expression `x is z or x == z` is true, is produced while iterating
-over `y`.
-
-[private note](https://github.com/radiasoft/discuss/issues/14)
+The GIL prevents scientific code from executing in parallel, which is
+the space where EPICS (Experimental Physics and Industrial Control
+System) is mostly used. I think this may be the source of the
+confusion. Often, the reason to use EPICS is to perform intense
+computation with the results from EPICS requests. For HPC
+applications, it's important to use packages like `multiprocessing`,
+[dask](https://www.dask.org), and
+[MPI](https://www.mpi-forum.org/docs/) in Python to avoid issues with
+the GIL. For device control code, write Python with asynchronous
+libraries and ignore the GIL.
