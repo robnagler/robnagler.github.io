@@ -267,6 +267,5 @@ tool.  For HPC applications, it's important to use packages like
 [MPI](https://www.mpi-forum.org/docs/) in Python to avoid issues with
 the GIL.
 
-Device control code can be written in Python with `threading` and
-other asynchronous libraries. For asynchronout Python, you can
-generally ignore the GIL.
+Device control code can be written in Python with `threading`. For
+asynchronous Python, you can generally ignore the GIL.
