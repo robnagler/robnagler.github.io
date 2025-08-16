@@ -74,7 +74,7 @@ The GIL allows the two threads to interleave so `shared_value` changes
 (almost) simultaneously in the ones and millions places. Neither
 thread "releases" the CPU explicitly. The GIL allows the two threads
 to run concurrently without corrupting the Python
-interpreter. However, the GIL does *not guarantee atomicity* of
+interpreter. However, the GIL does **not guarantee atomicity** of
 operations like `shared_value += inc` or any other single Python
 statement.
 
@@ -111,7 +111,7 @@ real    0m2.366s
 ```
 
 The program runs in half the time, which means the two threads do not
-run in *parallel*, even though they are running *concurrently*. On my
+run in **parallel**, even though they are running **concurrently**. On my
 multicore laptop, a similar C program would run in about the same
 amount of time in both cases. In other words, the C program scales
 linearly and the Python program does not scale at all. This is why the
@@ -162,14 +162,14 @@ types of concurrency:
 [asyncio](https://docs.python.org/3/library/asyncio.html). Confusingly,
 the title of the `threading` library is "Thread-based parallelism",
 which is incorrect. The GIL as noted above, prevents parallelism in
-Python. Two Python threads *cannot* execute in parallel. More
+Python. Two Python threads **cannot** execute in parallel. More
 confusingly, `asyncio` does not support I/O in any sense --
 concurrently or otherwise. `asyncio` would have been better called
 `coroutines`, because that's all it supports.  `multiprocessing` is
 correctly described as "Process-based parallelism", which is one way
 to execute Python in parallel.
 
-`asyncio` supports *cooperative multitasking* using coroutines. When a
+`asyncio` supports **cooperative multitasking** using coroutines. When a
 coroutine calls `await`, `asyncio` can switch to another coroutine, if
 one is ready. Without `await`, the currently running coroutine would
 hog the CPU, especially when it makes calls to C libraries. To
@@ -178,8 +178,8 @@ and have one call `time.sleep(5)`. The other coroutine will not run
 for 5 seconds. However, change that to `await asyncio.sleep(5)`, and
 the other coroutine will run.
 
-`threading` supports kernel-level threads which are *preemptable
-multitasking*. The kernel controls when threads run, *not* the Python
+`threading` supports kernel-level threads which are **preemptable
+multitasking**. The kernel controls when threads run, **not** the Python
 interpreter. That's what the `cpu_intense.py` example
 demonstrates. The two threads run whenever the kernel
 decides. However, the GIL prevents two threads from accessing their
@@ -254,12 +254,32 @@ Python is waiting on events from the operating system, it is like any
 other program, compiled or interpreted. This is why writing device
 control code in Python can be as efficient as programming C. (Note:
 I'm not speaking about kernel device drivers, where C is a better
-choice.)
+choice.) Polling in Python is **self-inflicted contention**, which is why
+event-driven Python device programming is even more important than in
+C.
 
-The GIL prevents scientific code from executing in parallel. EPICS is
-the acronym for Experimental Physics and Industrial Control System so
-the folks who use it are scientists. I think this may be one source of
-the confusion about the GIL. Often, the reason to use EPICS is to
+EPICS uses the [ctypes](https://docs.python.org/3/library/ctypes.html)
+library to call the (multi-threaded) EPICS C library. Unlike other
+types of Python extensions, which must release the GIL manually,
+`ctypes`
+[does this implicitly](https://docs.python.org/3/library/ctypes.html#ctypes.WinDLL):
+*The Python global interpreter lock is released before calling any
+function exported by these libraries, and reacquired afterwards.* Note
+that properly written C extensions also release the GIL,
+e.g. [numpy](https://numpy.org/doc/stable/reference/thread_safety.html)
+and
+[scipy](https://docs.scipy.org/doc/scipy/tutorial/thread_safety.html). Finally,
+[disabling the GIL](https://peps.python.org/pep-0703/) is an
+expiremental option in
+[Python 3.13](https://www.python.org/downloads/release/python-3130/). This
+will shorten the life of this article, but the points made are still
+relevant, since the Python interpreter still needs to be locked.
+
+Scientists use Python extensively, and they know the GIL prevents
+Python code from executing in parallel. EPICS is the acronym for
+Experimental Physics and Industrial Control System so the folks who
+use it are (predominantly) scientists. I think this may be one source
+of the confusion about the GIL. Often, the reason to use EPICS is to
 perform intense computation with the results from EPICS requests. If
 the computations need to be parallel, Python threading is the wrong
 tool.  For HPC applications, it's important to use packages like
@@ -267,5 +287,6 @@ tool.  For HPC applications, it's important to use packages like
 [MPI](https://www.mpi-forum.org/docs/) in Python to avoid issues with
 the GIL.
 
-Device control code can be written in Python with `threading`. For
-asynchronous Python, you can generally ignore the GIL.
+The Device control code itself can be written in Python with
+`threading`. For asynchronous Python, you can generally ignore the
+GIL.
