@@ -134,7 +134,7 @@ foreach $book (values(%$books)) {
  	    and $prev->{end} == $curr->{start}
  	    || $prev->{end} + 1 == $curr->{start}
  	) {
- 	    $prev->{text} .= "\nFIXME\n" . $curr->{text};
+ 	    $prev->{text} .= "\n" . $curr->{text};
  	}
 	else {
 	    next;
