@@ -8,7 +8,7 @@ By Timothy Egan, Viking, April 4, 2023
 
 I finished this book at 4 a.m. That's the endorsement. Read this book
 if you think we live in a divisive and violent time. The KKK knew how
-to so real division. In the 1920's, the KKK saw huge growth by
+to sow real division. In the 1920's, the KKK saw huge growth by
 dividing people and constant violence.
 
 At times the book reads like a historical novel. That's why I couldn't
