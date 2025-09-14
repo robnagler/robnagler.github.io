@@ -9,7 +9,7 @@ export class Tester {
                         prompt: x[0],
                         splitPrompt: this.split(x[0]),
                         answer: x[1],
-                        cleaned: this.cleanAnswers(this.split(x[1])),
+                        cleaned: this.cleanAnswerInit(this.split(x[1])),
                     };
                 },
             ),
@@ -42,7 +42,7 @@ export class Tester {
         return value.toLowerCase().replace(/\W+/g, '');
     }
 
-    cleanAnswers(value) {
+    cleanAnswerInit(value) {
         return value.map((x) => this.cleanAnswer(x));
     }
 
