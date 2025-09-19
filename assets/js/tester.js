@@ -1,7 +1,7 @@
 // Copyright (c) 2025 Robert Nagler.  All Rights Reserved.
 // License: http://www.apache.org/licenses/LICENSE-2.0.html
 export class Tester {
-    constructor(anchor, config) {
+    constructor(anchor, config, wantNext) {
         this.shuffled = this.shuffle(
             this.parseConfig(anchor, config).map(
                 (x) => {
@@ -18,12 +18,14 @@ export class Tester {
         this.currentIndex = 0;
         this.promptIndex = 0;
         this.currentQuestion = null;
-        this.MODE = Object.freeze({first: 1, correct: 2, skip: 3});
+        this.MODE = Object.freeze({first: 1, correct: 2, skip: 3, next: 4});
+        this.wantNext = wantNext || 0;
+        this.nextWasClicked = false;
         document.addEventListener("DOMContentLoaded", () => this.init());
     }
 
     checkAnswer(isEnter) {
-        let a = this.showHelp();
+        let a = this.showHelp(false);
         if (! a) {
             return
         }
@@ -78,6 +80,25 @@ export class Tester {
                 word-wrap: break-word;
                 margin: auto;
             }
+            #answer {
+                display: none;
+            }
+            #next {
+                display: none;
+            }
+            #button {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            button {
+                padding: 10px 14px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                background: #f7f7f7;
+                cursor: pointer;
+            }
         `;
         document.head.appendChild(e);
         document.body.innerHTML = `
@@ -85,8 +106,11 @@ export class Tester {
                 <div id="prompt"></div>
                 <form id="form">
                     <input type="text" id="answer" placeholder="Answer">
-                </form>
+                </div>
                 <div id="feedback"></div>
+                <div id="button">
+                    <button type="button" id="next">Next</button>
+                </div>
             </div>
         `;
     }
@@ -94,19 +118,26 @@ export class Tester {
     init() {
         this.content()
         this.el = Object.fromEntries(
-            ["answer", "feedback", "prompt"].map((x) => [x, document.getElementById(x)]),
+            ["answer", "feedback", "prompt", "next"].map((x) => [x, document.getElementById(x)]),
         );
-        document.getElementById("form").addEventListener(
-            "submit", (event) => {
-                event.preventDefault();
-                this.checkAnswer(true);
-            },
-        );
-        this.el.answer.addEventListener(
-            "input", (event) => {
-                this.checkAnswer(false)
-            },
-        );
+        if (this.wantNext) {
+            this.el.next.addEventListener("click", () => this.nextClick());
+            this.el.next.style.display = "block";
+        }
+        else {
+            this.el.answer.addEventListener(
+                "input", (event) => {
+                    this.checkAnswer(false)
+                },
+            );
+            document.getElementById("form").addEventListener(
+                "submit", (event) => {
+                    event.preventDefault();
+                    this.checkAnswer(true);
+                },
+            );
+            this.el.answer.style.display = "block";
+        }
         this.shiftAnswer(this.MODE.first);
     }
 
@@ -156,6 +187,19 @@ export class Tester {
         return null;
     }
 
+    nextClick() {
+        this.showFeedback("");
+        if (this.nextWasClicked) {
+            if (! this.shiftPrompt()) {
+                this.shiftAnswer(this.MODE.next);
+            }
+        }
+        else {
+            this.showFeedback(this.currentQuestion.answer);
+        }
+        this.nextWasClicked = ! this.nextWasClicked;
+    }
+
     shiftAnswer(mode) {
         this.el.answer.value = "";
         if (mode === this.MODE.first) {
@@ -167,7 +211,7 @@ export class Tester {
             this.showFeedback("You have completed the set! Restarting...");
         }
         else {
-            this.showFeedback(mode === this.MODE.correct ? "Correct!" : "skipped");
+            this.showFeedback(mode == this.MODE.next ? "" : mode === this.MODE.correct ? "Correct!" : "skipped");
         }
         this.currentQuestion = this.shuffled[this.currentIndex];
         this.promptIndex = 0;
