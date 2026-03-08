@@ -94,10 +94,10 @@ reliable services based on coroutines.
 
 In order to understand coroutines, we need to separate
 [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
-[from parallelism](https://en.wikipedia.org/wiki/Parallel_computing),
+from [parallelism](https://en.wikipedia.org/wiki/Parallel_computing),
 and
 [cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
-[preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking).
+from [preemptive multitasking](https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking).
 
 For most programmers, concurrency implies preemptive
 multitasking. Threads and multiprocessing are the most common form of
