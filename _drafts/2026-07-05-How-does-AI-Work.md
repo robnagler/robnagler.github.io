@@ -18,7 +18,11 @@ months later out pops a baby. Really?!?
 
 How do ants (who all share the same exact DNA) build this?
 
-![Ant hill in a backyard](https://commons.wikimedia.org/wiki/Special:FilePath/Ant_hill_in_backyard.jpg)
+<div style="text-align: center;">
+  <img src="/assets/i/ant-hill-in-backyard.jpg" alt="Ant hill in a backyard">
+  <br>
+  <small><em>Photo: <a href="https://commons.wikimedia.org/wiki/File:Ant_hill_in_backyard.jpg">Ahmed Nisar</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></em></small>
+</div>
 
 Do the ants sit down with an architect first?
 
@@ -50,11 +54,12 @@ uses 330,000 cores (computing units) so it can actually process
 28,380,000,000,000,000,000 (10¹⁹) instructions per day.
 
 For comparison, human brains have about 80,000,000,000 (10¹¹)
-neurons, of which about a billion (10⁹) are active at any one
-time. Current research suggests neurons fire around 10 to 100 times
+[neurons](https://doi.org/10.3389/neuro.09.031.2009), of which about
+a billion (10⁹) are active at any one time. Current research suggests
+neurons fire around 10 to 100 times
 per second, putting total brain activity at roughly a maximum of
 100,000,000,000 (10¹¹) spikes (or "instructions") per second. For
-rhetorical (don't quote me) purposes, let's say an LLM processes about
+rhetorical ("don't quote me") purposes, let's say an LLM processes about
 10,000 times faster than a human brain.
 
 The point is that ants, cells, neurons, and modern computers leverage
@@ -90,13 +95,7 @@ hits a "good enough" threshold (determined by the programmers).
 The process is similar to Darwinian evolution where complex behavior
 (life) emerged from inanimate chemicals over a very long space-time
 period. DNA emerged, then simple cells, and more complex organisms,
-until finally, we have Spinal Tap.
-
-Intelligent behavior emerges from simple operations iterating over
-very long space-time periods. The individual parts make sense on their
-own, and the sum of these parts creates something utterly amazing that
-seems more complicated than it really is. Or as Thelonious Monk said,
-simple ain't easy.
+until finally, we have [Spinal Tap](https://en.wikipedia.org/wiki/This_Is_Spinal_Tap).
 
 ### Focus, Focus, Focus
 
@@ -112,11 +111,19 @@ a snack. Its only job is generating one token after another based on
 a (relatively) small amount of information with a powerful
 computer.
 
-This ability to "focus" on exactly one thing another "big number"
+This ability to "focus" on exactly one thing is another "big number"
 advantage. Our brains operate unconsciously 90% of the time. Our
 thoughts are many and simultaneous. What we say/do is just a tiny
-fraction of what we think. An LLM says exactly what it thinks and
-nothing more or less. That's how it works.
+fraction of what we think. An LLM uses massive compute power and a
+"google" of data to say exactly what it thinks and nothing more or
+less.
+
+Intelligent behavior emerges from simple operations iterating over
+very long space-time periods. The individual parts make sense on their
+own, and the sum of these parts creates something utterly amazing that
+seems more complicated than it really is. Or as [Thelonious
+Monk](https://en.wikipedia.org/wiki/Thelonious_Monk) said, simple
+ain't easy.
 
 ### AI Disclaimer
 
