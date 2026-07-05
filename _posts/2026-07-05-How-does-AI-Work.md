@@ -18,7 +18,7 @@ months later out pops a baby. Really?!?
 
 How do ants (who all share the same exact DNA) build this?
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 1rem;">
   <img src="/assets/i/ant-hill-in-backyard.jpg" alt="Ant hill in a backyard">
   <br>
   <small><em>Photo: <a href="https://commons.wikimedia.org/wiki/File:Ant_hill_in_backyard.jpg">Ahmed Nisar</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></em></small>
