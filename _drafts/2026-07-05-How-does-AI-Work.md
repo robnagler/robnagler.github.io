@@ -47,9 +47,9 @@ Cells are slow. Artificial neurons are **very** fast. A computer
 running an LLM can process a single instruction 86,000,000,000,000
 times faster than a cell can divide. Moreover, a leading-edge chatbot
 uses 330,000 cores (computing units) so it can actually process
-28,380,000,000,000,000,000 instructions per day or 10¹⁹ in a second.
+28,380,000,000,000,000,000 (10¹⁹) instructions per day.
 
-For comparison, human brains have about 80,000,000,000 (10¹⁰)
+For comparison, human brains have about 80,000,000,000 (10¹¹)
 neurons, of which about a billion (10⁹) are active at any one
 time. Current research suggests neurons fire around 10 to 100 times
 per second, putting total brain activity at roughly a maximum of
