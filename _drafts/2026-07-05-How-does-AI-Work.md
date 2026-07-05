@@ -61,10 +61,10 @@ The point is that ants, cells, neurons, and modern computers leverage
 both time and space -- in differing amounts -- to produce really big
 things. These numbers are so large that they are difficult for us to
 comprehend, and this leads to us not being able to understand how they
-work. We may know how a cell divides, but no one really knows when a
+work. We may know how a cell divides, but no one knows exactly when a
 trophectoderm cell will form. That happens randomly.
 
-### Randomness
+### Emergent Behavior
 
 How do jazz musicians solo? One note at a time. And, lots of listening
 and practice. Why can the same musician have a monumental solo followed
@@ -81,61 +81,49 @@ training, which is itself a stochastic generative process.
 
 An LLM is trained in the same way: a stochastic generative
 process. The numbers behind training an LLM are staggering (1,000s of
-computers over many months). I won't go into zeroes just that the
-creation of the LLM is an extremely complex process that would be
-impossible without randomness.
+computers over many months). An LLM uses an enormous amount of data
+as input, just like a musician listens to music to learn from, except
+that it learns by reading (not by practicing, subject for another
+article). The learning process is similar: it keeps trying until it
+hits a "good enough" threshold (determined by the programmers).
 
-We tend to think of computer programs as deterministic, like making a
-cake: first you add the flour, then the sugar, then the leavening
-agent, etc. Computers themselves do operate that way.  Determinism,
-unfortunately, is very expensive in both space and/or time.
+The process is similar to Darwinian evolution where complex behavior
+(life) emerged from inanimate chemicals over a very long space-time
+period. DNA emerged, then simple cells, and more complex organisms,
+until finally, we have Spinal Tap.
 
-### Here's the Problem
+Intelligent behavior emerges from simple operations iterating over
+very long space-time periods. The individual parts make sense on their
+own, and the sum of these parts creates something utterly amazing that
+seems more complicated than it really is. Or as Thelonious Monk said,
+simple ain't easy.
 
-Time for a math problem. Given 3, 7, 11, 15, 20, is there a subset
-that adds up to 31? Yes, there is. You could eyeball it (stochastic
-generative process) or you can write an algorithm:
+### Focus, Focus, Focus
 
-1. Divide up all the numbers into subsets: (3), (3, 7), (3, 7, 11),
-   etc.
+Busy brains make mistakes. Today I was thinking about this article
+when I hit the end of the pool. Ouch! That happens a lot to me. I try
+not to multitask, but focusing on exactly one thing is very hard for
+me. And, I'm guessing, for you.
 
-2. Add up each subset
+Once an LLM is trained (per above), it executes on exactly one thing:
+the text you give it. It doesn't worry about another article it might
+want to write, its posture when standing at a desk, or if it's time for
+a snack. Its only job is generating one token after another based on
+a (relatively) small amount of information with a powerful
+computer.
 
-3. Determine if a sum is 31
+This ability to "focus" on exactly one thing another "big number"
+advantage. Our brains operate unconsciously 90% of the time. Our
+thoughts are many and simultaneous. What we say/do is just a tiny
+fraction of what we think. An LLM says exactly what it thinks and
+nothing more or less. That's how it works.
 
-That's a deterministic algorithm. It always finds the correct answer,
-but in the worst case it examines an exponential number of subsets
-(2ⁿ). For example, for one million numbers, there are
-10³⁰¹⁰³⁰ subsets to check. That's a **humongous** number.
+### AI Disclaimer
 
-In computer-speak, we say there is no algorithm for a deterministic
-computer that completes in polynomial time (not exponential). This is
-known as a nondeterministic polynomial (NP) time problem. These types
-of problems could be solved in polynomial time by a theoretical
-nondeterministic (i.e., magical, non-existent) computer.
+I would like to thank ChatGPT and Claude for improving the quality of
+the reasoning, internal consistency, grammar, and breadth of this
+article. All hallucinations are my own.
 
-The subset problem is an example of a search problem. Another example
-search problem is: has someone explained NP time problems in
-non-theoretical language? That's the problem I had when I began this
-section. I used an LLM to help me write this section. I got a **good
-enough** answer in seconds from a deterministic computer.
-
-### Summing It Up
-
-LLMs are not algorithms. Rather, they use randomness with massive
-amounts of compute to produce very good answers most of the time. As
-you probably know, AIs hallucinate. This upsets people. One friend
-says "they lie".
-
-They don't lie or hallucinate. These are anthropomorphisms. Their
-training is suboptimal, because it has to stop in polynomial (real)
-time. They make mistakes, just like jazz musicians, ants, and cell
-divisions, because all these processes are stochastic.
-
-But, really, *how do they work*? By the behavior that emerges from a
-simple process (artificial neuron networks) operating on very large
-amounts of data over very long space-time periods. This is exactly how
-DNA works: a simple process (self-replicating molecule) operating on
-very large amounts of data (the world) over very long space-time
-periods. The individual parts make sense on their own, and the sum of
-these parts creates something utterly amazing, e.g. a baby.
+I was originally going to have an LLM write the article, since I have
+it write most of my code these days. The text just started flowing,
+and I wrote all of it myself, one character at a time.
