@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How does AI Work?"
+title: "How Does AI Work?"
 date: 2026-07-05T12:00:00Z
 ---
 
