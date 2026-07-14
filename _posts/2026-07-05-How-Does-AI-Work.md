@@ -16,7 +16,7 @@ I understand the sperm and the egg form a zygote, each donating a half
 strand with some copying errors. Then, lots more copying, and a few
 months later out pops a baby. Really?!?
 
-How do ants (who all share the same exact DNA) build this?
+How do ants build this?
 
 <div style="text-align: center; margin-bottom: 1rem;">
   <img src="/assets/i/ant-hill-in-backyard.jpg" alt="Ant hill in a backyard">
@@ -28,8 +28,8 @@ Do the ants sit down with an architect first?
 
 We can imagine how an ant builds something out of soil, because we
 know how to build sandcastles. Yet, that doesn't capture how an
-**ant** thinks, or how an entire colony of ants (clones) can produce
-something so varied and complex.
+**ant** thinks, or how an entire colony of tiny beings
+produces something so varied and complex.
 
 When I see an ant colony or a baby, it explains how AI works. Yes,
 really. After decades of working with computers, it seems self-evident
